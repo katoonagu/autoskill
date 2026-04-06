@@ -4,7 +4,7 @@ browser_profile:
   profile_no: "353"
 
 state:
-  state_file: C:\Users\User\OneDrive\Desktop\tesett\automation\state\genaipro_reference_state.json
+  state_file: automation/state/genaipro_reference_state.json
   persist_selected_account: true
   persist_project_context: true
   persist_current_reference: true
@@ -45,10 +45,10 @@ generation_settings:
   require_single_image: true
 
 assets:
-  prompt_file: C:\Users\User\OneDrive\Desktop\tesett\prompts_for_reference\promt_for_reference.md
-  reference_input_dir: C:\Users\User\OneDrive\Desktop\tesett\reference
-  reference_done_dir: C:\Users\User\OneDrive\Desktop\tesett\reference_done
-  download_output_dir: C:\Users\User\OneDrive\Desktop\tesett\output\genaipro_2k_verified
+  prompt_file: prompts_for_reference/promt_for_reference.md
+  reference_input_dir: reference
+  reference_done_dir: reference_done
+  download_output_dir: output/genaipro_2k_verified
 
 upload_flow:
   open_plus_button: true

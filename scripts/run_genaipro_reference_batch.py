@@ -25,6 +25,13 @@ def load_job_config() -> dict:
     return yaml.safe_load(job_path.read_text(encoding="utf-8"))
 
 
+def resolve_project_path(raw_path: str) -> Path:
+    path = Path(raw_path)
+    if path.is_absolute():
+        return path
+    return PROJECT_ROOT / path
+
+
 def choose_best_page(context) -> object:
     def score(page) -> tuple[int, int]:
         url = page.url or ""
@@ -46,25 +53,36 @@ async def main() -> None:
     settings = AdsPowerSettings.from_project_root(PROJECT_ROOT)
     client = AdsPowerClient(settings)
 
-    state_path = Path(job["state"]["state_file"])
+    state_path = resolve_project_path(job["state"]["state_file"])
     state = GenaiproState.load(state_path)
-    prompt_text = Path(job["assets"]["prompt_file"]).read_text(encoding="utf-8").strip()
-    reference_input_dir = Path(job["assets"]["reference_input_dir"])
-    reference_done_dir = Path(job["assets"]["reference_done_dir"])
-    output_dir = Path(job["assets"]["download_output_dir"])
+    prompt_text = resolve_project_path(job["assets"]["prompt_file"]).read_text(encoding="utf-8").strip()
+    reference_input_dir = resolve_project_path(job["assets"]["reference_input_dir"])
+    reference_done_dir = resolve_project_path(job["assets"]["reference_done_dir"])
+    output_dir = resolve_project_path(job["assets"]["download_output_dir"])
     proxy_fallback_cfg = job.get("proxy_fallback", {})
 
     logger.info("AdsPower status: %s", client.status())
-    started = client.start_profile(last_opened_tabs=job["state"].get("restore_last_context_on_startup", True))
-    logger.info("Started profile %s on debug port %s", settings.profile_no, started.debug_port)
 
     async with async_playwright() as playwright:
-        browser, context, page = await connect_profile(playwright, started.ws_puppeteer, logger)
-        page = await context.new_page()
-        await page.goto(ACCOUNT_SELECTION_URL, wait_until="domcontentloaded", timeout=60000)
+        async def reconnect_runtime(*, restore_tabs: bool) -> tuple[object, object, object, Humanizer]:
+            nonlocal browser, context, page, human
 
-        page.set_default_timeout(job["retry_policy"]["selector_timeout_sec"] * 1000)
-        human = Humanizer(page)
+            started = client.start_profile(
+                profile_no=settings.profile_no,
+                last_opened_tabs=restore_tabs,
+            )
+            logger.info("Started profile %s on debug port %s", settings.profile_no, started.debug_port)
+
+            browser, context, page = await connect_profile(playwright, started.ws_puppeteer, logger)
+            page = await context.new_page()
+            await page.goto(ACCOUNT_SELECTION_URL, wait_until="domcontentloaded", timeout=60000)
+            page.set_default_timeout(job["retry_policy"]["selector_timeout_sec"] * 1000)
+            human = Humanizer(page)
+            return browser, context, page, human
+
+        browser, context, page, human = await reconnect_runtime(
+            restore_tabs=job["state"].get("restore_last_context_on_startup", True)
+        )
 
         used_proxy_ids: set[str] = set()
 
@@ -124,13 +142,23 @@ async def main() -> None:
                 refreshed_profile.proxy_port,
             )
 
-            restarted = client.start_profile(profile_no=settings.profile_no, last_opened_tabs=False)
-            logger.info("Restarted profile %s on debug port %s after proxy rotation", settings.profile_no, restarted.debug_port)
-            browser, context, page = await connect_profile(playwright, restarted.ws_puppeteer, logger)
-            page = await context.new_page()
-            await page.goto(ACCOUNT_SELECTION_URL, wait_until="domcontentloaded", timeout=60000)
-            page.set_default_timeout(job["retry_policy"]["selector_timeout_sec"] * 1000)
-            human = Humanizer(page)
+            browser, context, page, human = await reconnect_runtime(restore_tabs=False)
+            return page, human
+
+        async def recover_runtime_after_disconnect(reference_path: Path, exc: Exception):
+            nonlocal browser, context, page, human
+
+            logger.warning(
+                "Reconnecting runtime for %s after disconnect: %s",
+                reference_path.name,
+                exc,
+            )
+            try:
+                await browser.close()
+            except Exception:
+                logger.info("Browser close raised during runtime reconnect; continuing")
+
+            browser, context, page, human = await reconnect_runtime(restore_tabs=True)
             return page, human
 
         outputs = await run_reference_batch(
@@ -153,6 +181,7 @@ async def main() -> None:
             create_fresh_project_per_reference=job["project_flow"].get("create_fresh_project_per_reference", False),
             screenshots_dir=artifacts.screenshots_dir,
             on_proxy_failure=rotate_proxy_and_reconnect if proxy_fallback_cfg.get("enabled", True) else None,
+            on_runtime_disconnect=recover_runtime_after_disconnect,
             max_proxy_rotations_per_reference=proxy_fallback_cfg.get("max_proxy_rotations_per_reference", 2),
         )
         logger.info("Batch complete. Generated %s files.", len(outputs))

@@ -6,9 +6,10 @@ __pycache__/
 *.pyd
 .pytest_cache/
 .mypy_cache/
-output/
-reference/
-reference_done/
+output/*
+!output/genaipro_2k_verified/
+!output/genaipro_2k_verified/**
+output/playwright/
 higgsfield_after_login_click.png
 higgsfield_login_prefill.png
 higgsfield_state.png

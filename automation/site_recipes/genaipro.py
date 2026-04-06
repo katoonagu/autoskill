@@ -75,10 +75,15 @@ def _button_text(text: str) -> str:
     return _compact(cleaned)
 
 
+def _is_target_closed_error(exc: Exception) -> bool:
+    text = str(exc).lower()
+    return "target page, context or browser has been closed" in text or "targetclosederror" in text
+
+
 def _parse_account_row(row_text: str, row_index: int) -> AccountCandidate | None:
     compact = _compact(row_text)
     match = re.search(
-        r"^\d+\s+[A-Z]\s+(\S+@\S+)\s+([\d\s]+)\s+(Ultra|Pro)\s+(\d+)\s+users\s+(Select|Access)$",
+        r"^\d+\s+[A-Z]\s+(\S+@\S+)\s+([\d.,\s]+)\s+(Ultra|Pro)\s+(\d+)\s+users\s+(Select|Access)$",
         compact,
         re.IGNORECASE,
     )
@@ -1254,6 +1259,7 @@ async def run_reference_batch(
     create_fresh_project_per_reference: bool = False,
     screenshots_dir: Path | None = None,
     on_proxy_failure: Callable[[Path, int, Exception], Awaitable[tuple[Page, Humanizer]]] | None = None,
+    on_runtime_disconnect: Callable[[Path, Exception], Awaitable[tuple[Page, Humanizer]]] | None = None,
     max_proxy_rotations_per_reference: int = 0,
 ) -> list[Path]:
     await ensure_project_context(
@@ -1300,10 +1306,16 @@ async def run_reference_batch(
             state.save(state_path)
             try:
                 if page.is_closed():
-                    logger.info("Current page is closed; opening a fresh page from account selection")
-                    page = await page.context.new_page()
-                    await page.goto(ACCOUNT_SELECTION_URL, wait_until="domcontentloaded", timeout=60000)
-                    human = Humanizer(page)
+                    if on_runtime_disconnect is not None:
+                        logger.warning("Current page is closed; reconnecting runtime before continuing")
+                        page, human = await on_runtime_disconnect(
+                            reference_path, RuntimeError("Current page is closed")
+                        )
+                    else:
+                        logger.info("Current page is closed; opening a fresh page from account selection")
+                        page = await page.context.new_page()
+                        await page.goto(ACCOUNT_SELECTION_URL, wait_until="domcontentloaded", timeout=60000)
+                        human = Humanizer(page)
                 if await is_broken_page(page):
                     await ensure_project_context(
                         page,
@@ -1376,7 +1388,14 @@ async def run_reference_batch(
                         logger.exception("Failed to capture failure screenshot")
                 logger.exception("Failed processing reference %s; continuing with the next file", reference_path.name)
                 break
-            except Exception:
+            except Exception as exc:
+                if _is_target_closed_error(exc) and on_runtime_disconnect is not None:
+                    logger.warning(
+                        "Runtime disconnected while processing %s; attempting reconnect",
+                        reference_path.name,
+                    )
+                    page, human = await on_runtime_disconnect(reference_path, exc)
+                    continue
                 if screenshots_dir is not None:
                     try:
                         safe_name = reference_path.stem.replace(" ", "_")
