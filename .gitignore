@@ -1,0 +1,16 @@
+.env
+.env.local
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+output/
+reference/
+reference_done/
+higgsfield_after_login_click.png
+higgsfield_login_prefill.png
+higgsfield_state.png
+brand_research_farida_shirinova/data/
+automation/state/*.json

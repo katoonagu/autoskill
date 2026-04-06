@@ -1,0 +1,85 @@
+job_name: genaipro_reference_batch
+browser_profile:
+  provider: adspower
+  profile_no: "353"
+
+state:
+  state_file: C:\Users\User\OneDrive\Desktop\tesett\automation\state\genaipro_reference_state.json
+  persist_selected_account: true
+  persist_project_context: true
+  persist_current_reference: true
+  restore_last_context_on_startup: true
+  reopen_saved_project_when_on_home: true
+  prefer_existing_project_over_creating_new: true
+  recreate_project_if_missing: true
+  clear_state_after_full_success: false
+
+site:
+  base_url: https://genaipro.vn/veo-account-selection
+  project_type: image
+
+account_selection:
+  preferred_tiers:
+    - ultra
+    - pro
+  reject_if:
+    - users_present
+  fallback_behavior:
+    if_loading_too_long: switch_account
+    if_access_fails: switch_account
+
+project_flow:
+  project_name_prefix: ref_batch
+  create_new_project: true
+  reuse_existing_project: true
+  create_fresh_project_per_reference: false
+  open_project_after_create: true
+  save_project_identity_after_create: true
+
+generation_settings:
+  model_preference:
+    - Nano Banana Pro
+    - Nano Banana 2
+  aspect_ratio: "9:16"
+  image_count: "x1"
+  require_single_image: true
+
+assets:
+  prompt_file: C:\Users\User\OneDrive\Desktop\tesett\prompts_for_reference\promt_for_reference.md
+  reference_input_dir: C:\Users\User\OneDrive\Desktop\tesett\reference
+  reference_done_dir: C:\Users\User\OneDrive\Desktop\tesett\reference_done
+  download_output_dir: C:\Users\User\OneDrive\Desktop\tesett\output\genaipro_2k_verified
+
+upload_flow:
+  open_plus_button: true
+  choose_upload_image: true
+  upload_each_reference_sequentially: true
+  upload_as_ingredient: true
+  select_uploaded_image_after_upload: true
+  process_in_image_detail_view: true
+
+prompt_flow:
+  source: prompt_file
+  send_after_opening_uploaded_image: true
+
+download_flow:
+  wait_for_generation_complete: true
+  preferred_download: download_2k
+  move_reference_after_success: true
+  preserve_original_filename: true
+  return_back_to_project_after_download: true
+
+retry_policy:
+  account_switch_max_attempts: 10
+  generation_wait_timeout_sec: 240
+  page_load_timeout_sec: 45
+  selector_timeout_sec: 20
+
+proxy_fallback:
+  enabled: true
+  max_proxy_rotations_per_reference: 2
+
+artifacts:
+  save_step_screenshots: true
+  save_failure_screenshot: true
+  save_run_log: true
