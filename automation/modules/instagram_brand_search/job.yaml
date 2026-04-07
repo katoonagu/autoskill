@@ -5,7 +5,7 @@ browser_profile:
   profile_no: "353"
 
 state:
-  state_file: C:\Users\User\OneDrive\Desktop\tesett\automation\state\instagram_brand_search_state.json
+  state_file: automation/state/instagram_brand_search_state.json
   restore_last_context_on_startup: true
   resume_from_last_post: true
   persist_candidate_history: true
@@ -14,13 +14,16 @@ site:
   base_url: https://www.instagram.com/
 
 inputs:
-  blogger_list_file: C:\Users\User\OneDrive\Desktop\tesett\inputs\instagram_brand_search\blogger_profiles.txt
+  blogger_list_file: inputs/instagram_brand_search/blogger_profiles.txt
+  max_seed_targets: 20
 
 outputs:
-  candidate_screenshots_dir: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\screenshots
-  extracted_candidates_md: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\brand_dossiers.md
-  discovered_brand_links_md: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\brand_links.md
-  blogger_summary_md: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\blogger_summary.md
+  candidate_screenshots_dir: output/instagram_brand_search/brands/screenshots
+  extracted_candidates_md: output/instagram_brand_search/brands/brand_dossiers.md
+  discovered_brand_links_md: output/instagram_brand_search/brands/brand_links.md
+  blogger_summary_md: output/instagram_brand_search/brands/blogger_summary.md
+  brands_by_blogger_dir: output/instagram_brand_search/brands/by_blogger
+  following_candidates_dir: output/instagram_brand_search/following
 
 scan_policy:
   include_posts: true
@@ -38,21 +41,32 @@ navigation_policy:
 
 humanization_policy:
   speed_profile: fast_human
-  min_pause_ms: 120
-  max_pause_ms: 900
+  min_pause_ms: 60
+  max_pause_ms: 450
   slower_on_sensitive_actions: true
   avoid_burst_navigation: true
 
 classification_policy:
   accept_niches:
-    - fashion
     - beauty
-    - flowers
-    - gifting
-    - supplements
-    - sports_nutrition
+    - fashion
+    - apps_services
+    - fmcg_everyday
+    - sports_wellness
+    - jewelry_accessories
+    - clinics_cosmetology_dentistry
+    - travel_leisure
+    - home_decor
   reject_non_brand_profiles: true
 
 retry_policy:
   selector_timeout_sec: 20
   max_navigation_retries: 3
+
+following_scan_policy:
+  enabled: true
+  follower_threshold: 300000
+  reject_brand_like_profiles: true
+  dialog_load_max_attempts: 6
+  max_profiles_to_review: 0
+  max_scroll_passes_without_new_handles: 6

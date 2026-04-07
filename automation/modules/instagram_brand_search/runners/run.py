@@ -24,6 +24,21 @@ def load_job_config() -> dict:
     return yaml.safe_load(job_path.read_text(encoding="utf-8"))
 
 
+def resolve_project_path(raw_path: str) -> Path:
+    path = Path(raw_path)
+    if path.is_absolute():
+        return path
+    return PROJECT_ROOT / path
+
+
+def normalize_job_paths(job: dict) -> dict:
+    job["state"]["state_file"] = str(resolve_project_path(job["state"]["state_file"]))
+    job["inputs"]["blogger_list_file"] = str(resolve_project_path(job["inputs"]["blogger_list_file"]))
+    for key, raw_path in list(job.get("outputs", {}).items()):
+        job["outputs"][key] = str(resolve_project_path(raw_path))
+    return job
+
+
 async def choose_instagram_page(context) -> object:
     best = None
     best_score = (-1, -1)
@@ -62,6 +77,7 @@ async def close_extra_tabs(context, main_page, logger) -> None:
 
 async def main() -> None:
     job = load_job_config()
+    job = normalize_job_paths(job)
     artifacts, logger = setup_run_artifacts(PROJECT_ROOT, "instagram_brand_search")
     settings = AdsPowerSettings.from_project_root(PROJECT_ROOT)
     settings = AdsPowerSettings(

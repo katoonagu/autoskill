@@ -10,6 +10,9 @@ class BloggerTarget:
     handle: str = ""
     niche_hint: str = ""
     notes: str = ""
+    source_kind: str = "seed"
+    source_blogger_handle: str = ""
+    source_blogger_url: str = ""
 
 
 @dataclass
@@ -79,3 +82,27 @@ class BloggerRunStats:
     candidate_mentions: int = 0
     accepted_brand_handles: list[str] = field(default_factory=list)
     stopped_due_to_date: bool = False
+
+
+@dataclass
+class FollowingCandidate:
+    source_blogger_handle: str
+    source_blogger_url: str
+    handle: str
+    profile_url: str
+    display_name: str = ""
+    bio: str = ""
+    category_label: str = ""
+    followers_text: str = ""
+    followers_count: int = 0
+    external_link: str = ""
+    screenshot_path: str = ""
+    is_female_candidate: bool = False
+    female_confidence: str = ""
+    female_reasoning: str = ""
+    is_brand_like: bool = False
+    brand_confidence: str = ""
+    brand_reasoning: str = ""
+    matched_priority_niche: str = ""
+    qualifies_followers_threshold: bool = False
+    is_selected_target: bool = False

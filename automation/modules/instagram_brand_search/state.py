@@ -13,9 +13,12 @@ class InstagramBrandSearchState:
     current_post_url: str = ""
     current_post_date_iso: str = ""
     completed_bloggers: list[str] = field(default_factory=list)
+    completed_following_expansions: list[str] = field(default_factory=list)
     checkpoints: dict[str, BloggerCheckpoint] = field(default_factory=dict)
     brand_records: dict[str, dict] = field(default_factory=dict)
     blogger_stats: dict[str, dict] = field(default_factory=dict)
+    following_candidates: dict[str, dict] = field(default_factory=dict)
+    following_progress: dict[str, dict] = field(default_factory=dict)
 
     @classmethod
     def load(cls, path: Path) -> "InstagramBrandSearchState":
@@ -50,3 +53,20 @@ class InstagramBrandSearchState:
         if self.current_post_url and self.checkpoints.get(blogger_url, BloggerCheckpoint(blogger_url)).current_post_url == self.current_post_url:
             self.current_post_url = ""
             self.current_post_date_iso = ""
+
+    def mark_following_expansion_completed(self, blogger_url: str) -> None:
+        if blogger_url not in self.completed_following_expansions:
+            self.completed_following_expansions.append(blogger_url)
+
+    def following_progress_for(self, blogger_url: str) -> dict:
+        progress = self.following_progress.get(blogger_url)
+        if progress is None:
+            progress = {
+                "discovered_handles": [],
+                "inspected_handles": [],
+                "last_processed_handle": "",
+                "last_visible_handle": "",
+                "list_exhausted": False,
+            }
+            self.following_progress[blogger_url] = progress
+        return progress
