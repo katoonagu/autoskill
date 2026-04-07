@@ -13,7 +13,8 @@ This project now includes a reusable Python runtime for:
 - `automation/adspower.py`
 - `automation/browser.py`
 - `automation/human.py`
-- `automation/site_recipes/higgsfield.py`
+- `automation/modules/genai/`
+- `automation/modules/instagram_brand_search/`
 - `scripts/run_higgsfield_login_fill.py`
 
 ## Design Rules
@@ -34,7 +35,7 @@ python C:\Users\User\OneDrive\Desktop\tesett\scripts\run_higgsfield_login_fill.p
 
 For a new site or workflow:
 
-1. Add a new recipe file in `automation/site_recipes/`.
+1. Add a new module or recipe file in the appropriate module folder.
 2. Reuse:
    - `AdsPowerSettings`
    - `AdsPowerClient`
@@ -51,5 +52,34 @@ For a new site or workflow:
 
 ## Existing Job Specs
 
-- [Genaipro reference workflow](C:\Users\User\OneDrive\Desktop\tesett\automation\site_recipes\genaipro_reference_workflow.md)
-- [Genaipro job config](C:\Users\User\OneDrive\Desktop\tesett\automation\jobs\genaipro_reference_job.yaml)
+- [Genaipro reference workflow](C:\Users\User\OneDrive\Desktop\tesett\automation\modules\genai\workflow.md)
+- [Genaipro job config](C:\Users\User\OneDrive\Desktop\tesett\automation\modules\genai\job.yaml)
+- [Agent architecture](C:\Users\User\OneDrive\Desktop\tesett\automation\agents\architecture.md)
+- [Instagram brand search plan](C:\Users\User\OneDrive\Desktop\tesett\automation\modules\instagram_brand_search\plan.md)
+- [Instagram brand search job config](C:\Users\User\OneDrive\Desktop\tesett\automation\modules\instagram_brand_search\job.yaml)
+
+## Multi-Agent Direction
+
+Planned runtime model:
+
+- one shared automation runtime
+- one module per workflow family
+- one runner per job type
+
+Current modules:
+
+- `genaipro_reference`
+- `instagram_brand_search` scaffold
+
+Recommended parallel execution:
+
+- one active agent per dedicated browser profile
+- separate profiles for `genaipro` and `instagram`
+
+Current Instagram assumptions:
+
+- profile `353`
+- scan last `365` days, fallback `112` latest posts/reels
+- only explicit `@mentions`
+- markdown outputs
+- fast humanized pacing

@@ -233,9 +233,9 @@ This workflow is a good fit for:
 Implementation should live as:
 
 - recipe:
-  `automation/site_recipes/genaipro.py`
+  `automation/modules/genai/recipe.py`
 - runner:
-  `scripts/run_genaipro_reference_batch.py`
+  `automation/modules/genai/runners/run_reference_batch.py`
 
 ## Recording Advice
 

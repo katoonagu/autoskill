@@ -1,0 +1,58 @@
+job_name: instagram_brand_search
+
+browser_profile:
+  provider: adspower
+  profile_no: "353"
+
+state:
+  state_file: C:\Users\User\OneDrive\Desktop\tesett\automation\state\instagram_brand_search_state.json
+  restore_last_context_on_startup: true
+  resume_from_last_post: true
+  persist_candidate_history: true
+
+site:
+  base_url: https://www.instagram.com/
+
+inputs:
+  blogger_list_file: C:\Users\User\OneDrive\Desktop\tesett\inputs\instagram_brand_search\blogger_profiles.txt
+
+outputs:
+  candidate_screenshots_dir: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\screenshots
+  extracted_candidates_md: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\brand_dossiers.md
+  discovered_brand_links_md: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\brand_links.md
+  blogger_summary_md: C:\Users\User\OneDrive\Desktop\tesett\output\instagram_brand_search\blogger_summary.md
+
+scan_policy:
+  include_posts: true
+  include_reels: true
+  include_comments: false
+  search_for_at_mentions_only: true
+  target_period_days: 365
+  fallback_max_posts_per_blogger: 112
+  max_candidates_per_post: 10
+
+navigation_policy:
+  open_candidate_in_new_tab: true
+  checkpoint_using_permalink: true
+  refind_post_after_return: true
+
+humanization_policy:
+  speed_profile: fast_human
+  min_pause_ms: 120
+  max_pause_ms: 900
+  slower_on_sensitive_actions: true
+  avoid_burst_navigation: true
+
+classification_policy:
+  accept_niches:
+    - fashion
+    - beauty
+    - flowers
+    - gifting
+    - supplements
+    - sports_nutrition
+  reject_non_brand_profiles: true
+
+retry_policy:
+  selector_timeout_sec: 20
+  max_navigation_retries: 3
