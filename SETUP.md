@@ -82,5 +82,4 @@ python scripts/run_higgsfield_login_fill.py
 
 - Put secrets in `.env.local` if you do not want them in `.env`.
 - `.env.local` overrides `.env`.
-- The Genaipro job config currently contains machine-specific absolute paths and should be adapted before production use.
-
+- The legacy `genaipro / genai` workflow is archived and is no longer part of the active runtime.

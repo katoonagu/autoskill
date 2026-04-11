@@ -1,0 +1,23 @@
+job_name: conversation
+
+browser_profile:
+  provider: adspower
+  profile_no: "337"
+
+state:
+  state_file: automation/state/conversation_state.json
+
+outputs:
+  base_dir: output/conversation
+  threads_md: output/conversation/threads.md
+
+memory:
+  wiki_root: knowledge/llm_wiki
+
+policy:
+  human_approval_required: true
+  rate_limit_per_day: 20
+  allowed_channels:
+    - telegram
+    - email
+    - instagram_dm

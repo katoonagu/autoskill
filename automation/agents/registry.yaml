@@ -1,0 +1,79 @@
+agents:
+  discovery_agent:
+    role: Discovery Agent
+    profile_no: "353"
+    module: instagram_brand_search
+    status: active
+    managed_by_runtime: python_module
+    purpose: Instagram discovery of brands in posts, mentions, reels and following with extraction of handles, bios, links, contacts and mention context
+    channels:
+      - instagram
+    writes_messages: false
+    human_approval_required: true
+    memory_workspace: knowledge/llm_wiki
+    notes: The current production crawler and source of discovery evidence.
+
+  brand_intelligence_agent:
+    role: Brand Intelligence Agent
+    profile_no: "345"
+    module: brand_intelligence
+    status: scaffolded
+    managed_by_runtime: browser_subagents
+    purpose: Web, review and social scan that scores reputation, mention frequency, tone, niche, geo, price segment and blogger fit
+    channels:
+      - web
+      - reviews
+      - social
+    writes_messages: false
+    human_approval_required: true
+    memory_workspace: knowledge/llm_wiki
+    notes: Research-only agent that builds dossier and score for each brand.
+
+  outreach_planning_agent:
+    role: Outreach Planning Agent
+    profile_no: "346"
+    module: outreach_planning
+    status: scaffolded
+    managed_by_runtime: browser_subagents
+    purpose: Decide whether to contact, choose channel, and build a personalized outreach angle for each brand-blogger pair
+    channels:
+      - telegram
+      - email
+      - instagram_dm
+    writes_messages: false
+    human_approval_required: true
+    memory_workspace: knowledge/llm_wiki
+    notes: Planning-only layer between intelligence and any active communication.
+
+  conversation_agent:
+    role: Conversation Agent
+    profile_no: "337"
+    module: conversation
+    status: scaffolded
+    managed_by_runtime: browser_subagents
+    purpose: Conduct approved dialogues with rate limits, guardrails and conversation memory
+    channels:
+      - telegram
+      - email
+      - instagram_dm
+    writes_messages: true
+    human_approval_required: true
+    memory_workspace: knowledge/llm_wiki
+    notes: Starts in human approval mode and can later move to partial automation.
+
+  feedback_validation_agent:
+    role: Feedback / Validation Agent
+    profile_no: "333"
+    module: feedback_validation
+    status: scaffolded
+    managed_by_runtime: browser_subagents
+    purpose: Validate claims via complaints, reviews and external mentions, and prepare deeper follow-up tasks when necessary
+    channels:
+      - web
+      - reviews
+      - forums
+      - social
+    writes_messages: false
+    human_approval_required: true
+    memory_workspace: knowledge/llm_wiki
+    notes: No automatic outreach to reviewers or commenters without explicit approval.

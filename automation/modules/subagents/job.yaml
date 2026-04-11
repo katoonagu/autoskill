@@ -1,0 +1,92 @@
+job_name: browser_subagents
+
+state:
+  state_dir: automation/state/subagents
+
+outputs:
+  base_dir: output/subagents
+
+agents:
+  discovery_agent:
+    enabled: false
+    profile_no: "353"
+    role: Discovery Agent
+    purpose: instagram search of brands in posts, mentions, reels and following with extraction of handles, bios, links, contacts and mention context
+    start_url: https://www.instagram.com/
+    keep_browser_open: true
+    writes_messages: false
+    human_approval_required: true
+    managed_by_module: instagram_brand_search
+    memory_workspace: knowledge/llm_wiki
+    allowed_channels:
+      - instagram
+    notes: Managed by the existing Python discovery pipeline on profile 353 and not launched by the probe runner.
+
+  brand_intelligence_agent:
+    enabled: true
+    profile_no: "345"
+    role: Brand Intelligence Agent
+    purpose: web/reviews/social scan; reputation, mention frequency, tone, niche, geo, price segment and blogger fit
+    start_url: https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Y
+    keep_browser_open: true
+    writes_messages: false
+    human_approval_required: true
+    managed_by_module: brand_intelligence
+    memory_workspace: knowledge/llm_wiki
+    allowed_channels:
+      - web
+      - reviews
+      - social
+    notes: Research-only agent. Produces brand dossier, fit score and risk flags.
+
+  outreach_planning_agent:
+    enabled: true
+    profile_no: "346"
+    role: Outreach Planning Agent
+    purpose: decide whether to contact, choose channel, and build a personalized outreach angle for a brand-blogger pair
+    start_url: https://github.com/
+    keep_browser_open: true
+    writes_messages: false
+    human_approval_required: true
+    managed_by_module: outreach_planning
+    memory_workspace: knowledge/llm_wiki
+    allowed_channels:
+      - telegram
+      - email
+      - instagram_dm
+    notes: Planning-only agent. Recommends if, where and how to contact.
+
+  conversation_agent:
+    enabled: false
+    profile_no: "337"
+    role: Conversation Agent
+    purpose: conduct controlled communication in approved channels with rate limits and memory of past threads
+    start_url: https://web.telegram.org/
+    keep_browser_open: true
+    writes_messages: true
+    human_approval_required: true
+    managed_by_module: conversation
+    memory_workspace: knowledge/llm_wiki
+    allowed_channels:
+      - telegram
+      - email
+      - instagram_dm
+    notes: Starts with human approval only. Can later move to partial automation.
+
+  feedback_validation_agent:
+    enabled: false
+    profile_no: "333"
+    role: Feedback / Validation Agent
+    purpose: go deeper into reviews and complaints, validate claims, and prepare deeper follow-up tasks when needed
+    start_url: https://www.google.com/search?q=brand+reviews
+    keep_browser_open: true
+    writes_messages: false
+    human_approval_required: true
+    managed_by_module: feedback_validation
+    memory_workspace: knowledge/llm_wiki
+    allowed_channels:
+      - web
+      - reviews
+      - forums
+      - social
+    notes: Should not contact commenters or reviewers automatically without explicit approval.

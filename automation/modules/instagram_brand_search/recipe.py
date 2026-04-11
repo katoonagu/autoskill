@@ -4,11 +4,14 @@ from dataclasses import asdict
 from datetime import datetime, timedelta, timezone
 from html import unescape
 from pathlib import Path
+import json
 import logging
 import os
 import re
 import shutil
+import zipfile
 from urllib.parse import urlparse
+from xml.sax.saxutils import escape as xml_escape
 
 from playwright.async_api import BrowserContext, Locator, Page, TimeoutError as PlaywrightTimeoutError
 
@@ -318,6 +321,378 @@ def relative_markdown_target(report_path: Path, target: str) -> str:
 
 def canonical_handle(handle: str) -> str:
     return re.sub(r"[._]+", "", (handle or "").strip().lower())
+
+
+EXPORT_BUSINESS_MARKERS = (
+    "brand",
+    "store",
+    "shop",
+    "official",
+    "boutique",
+    "collection",
+    "atelier",
+    "studio",
+    "showroom",
+    "salon",
+    "clinic",
+    "app",
+    "apps",
+    "marketplace",
+    "concierge",
+    "hotel",
+    "restaurant",
+    "cafe",
+    "club",
+    "agency",
+    "jewelry",
+    "jewellery",
+    "beauty",
+    "cosmetic",
+    "cosmetics",
+    "wear",
+    "lingerie",
+    "swimwear",
+    "furniture",
+    "decor",
+    "flowers",
+    "fashion",
+    "мaгaз",
+    "магаз",
+    "бренд",
+    "салон",
+    "студ",
+    "клиник",
+    "ателье",
+    "доставка",
+    "прилож",
+)
+
+EXPORT_HARD_BUSINESS_MARKERS = (
+    "store",
+    "shop",
+    "official",
+    "boutique",
+    "collection",
+    "atelier",
+    "studio",
+    "showroom",
+    "salon",
+    "clinic",
+    "app",
+    "apps",
+    "marketplace",
+    "concierge",
+    "hotel",
+    "restaurant",
+    "cafe",
+    "agency",
+    "wear",
+    "lingerie",
+    "swimwear",
+    "flowers",
+    "магаз",
+    "салон",
+    "клиник",
+    "ателье",
+    "прилож",
+)
+
+EXPORT_PERSON_ROLE_MARKERS = (
+    "pr",
+    "marketing",
+    "influence marketing",
+    "producer",
+    "stylist",
+    "hair",
+    "mua",
+    "makeup",
+    "photographer",
+    "videographer",
+    "videomaker",
+    "retoucher",
+    "artist",
+    "model",
+    "blogger",
+    "creator",
+    "актриса",
+    "модель",
+    "стилист",
+    "фотограф",
+    "видеограф",
+    "ретуш",
+    "продюсер",
+    "маркетинг",
+    "маркетолог",
+    "блогер",
+)
+
+
+def has_any_marker(text: str, markers: tuple[str, ...]) -> bool:
+    lowered = normalize_text(text).lower()
+    if not lowered:
+        return False
+    return any(marker in lowered for marker in markers)
+
+
+def looks_like_person_display_name(display_name: str) -> bool:
+    normalized = normalize_text(display_name)
+    if not normalized:
+        return False
+    candidate = normalized.split("|", 1)[0].strip()
+    if has_any_marker(candidate, EXPORT_BUSINESS_MARKERS):
+        return False
+    parts = [part for part in re.split(r"[\s/]+", candidate) if part]
+    if len(parts) < 2 or len(parts) > 4:
+        return False
+    if any(re.search(r"\d", part) for part in parts):
+        return False
+    word_like = [part for part in parts if re.fullmatch(r"[A-Za-zА-Яа-яЁё'_-]{2,}", part)]
+    return len(word_like) == len(parts)
+
+
+def is_probable_person_brand_false_positive(record: dict) -> bool:
+    handle = str(record.get("handle", ""))
+    display_name = str(record.get("display_name", ""))
+    bio = str(record.get("bio", ""))
+    category_label = str(record.get("category_label", ""))
+    external_link = str(record.get("external_link", ""))
+    account_kind = str(record.get("account_kind", ""))
+    reasoning = str(record.get("reasoning", "")) or str(record.get("brand_reasoning", ""))
+
+    strong_business_signal = any(
+        has_any_marker(value, EXPORT_HARD_BUSINESS_MARKERS)
+        for value in (handle, display_name, external_link)
+    )
+    person_role_signal = any(
+        has_any_marker(value, EXPORT_PERSON_ROLE_MARKERS)
+        for value in (display_name, bio, category_label, reasoning)
+    )
+    name_signal = looks_like_person_display_name(display_name)
+    handle_signal = bool(re.fullmatch(r"[a-zа-я0-9]+(?:[._][a-zа-я0-9]+)+", (handle or "").lower()))
+
+    if account_kind == "service_provider":
+        return True
+    if name_signal and not strong_business_signal:
+        return True
+    if person_role_signal and not strong_business_signal:
+        return True
+    if handle_signal and person_role_signal and not strong_business_signal:
+        return True
+    return False
+
+
+def is_exportable_brand_record(record: dict) -> bool:
+    if not record:
+        return False
+    if not (record.get("is_brand") or record.get("is_brand_like")):
+        return False
+    if is_probable_person_brand_false_positive(record):
+        return False
+    account_kind = str(record.get("account_kind", ""))
+    outreach_fit = str(record.get("outreach_fit", "low"))
+    return outreach_fit != "low" or account_kind in {"brand_store", "service_provider"} or bool(record.get("is_brand_like"))
+
+
+def dedupe_records_by_handle(records: list[dict]) -> list[dict]:
+    deduped: dict[str, dict] = {}
+    for record in records:
+        key = canonical_handle(str(record.get("handle", "")))
+        if not key:
+            continue
+        current = deduped.get(key)
+        if current is None:
+            deduped[key] = record
+            continue
+        current_score = (
+            int(current.get("followers_count", 0) or 0),
+            len(current.get("sources", []) or []),
+        )
+        incoming_score = (
+            int(record.get("followers_count", 0) or 0),
+            len(record.get("sources", []) or []),
+        )
+        if incoming_score > current_score:
+            deduped[key] = record
+    return list(deduped.values())
+
+
+def dedupe_brand_sources(sources: list[dict]) -> list[dict]:
+    deduped: dict[tuple[str, str, str], dict] = {}
+    for source in sources or []:
+        blogger_handle = canonical_handle(str(source.get("blogger_handle", "")))
+        post_url = str(source.get("post_url", "")).strip()
+        post_date_iso = str(source.get("post_date_iso", "")).strip()
+        key = (blogger_handle, post_url, post_date_iso)
+        current = deduped.get(key)
+        if current is None:
+            deduped[key] = dict(source)
+            continue
+
+        for field in ("ad_likelihood", "ad_reasoning", "caption_excerpt"):
+            current_value = str(current.get(field, "") or "")
+            incoming_value = str(source.get(field, "") or "")
+            if len(incoming_value) > len(current_value):
+                current[field] = incoming_value
+
+    return sorted(
+        deduped.values(),
+        key=lambda item: (
+            str(item.get("post_date_iso", "") or ""),
+            str(item.get("blogger_handle", "") or ""),
+            str(item.get("post_url", "") or ""),
+        ),
+    )
+
+
+def collect_exportable_brand_records(state: InstagramBrandSearchState) -> list[tuple[str, dict]]:
+    merged: dict[str, dict] = {}
+    for record in state.brand_records.values():
+        if not is_exportable_brand_record(record):
+            continue
+        canonical = canonical_handle(str(record.get("handle", "")))
+        if not canonical:
+            continue
+        display_handle = str(record.get("handle", "")).strip().lstrip("@")
+        if not display_handle:
+            display_handle = extract_handle_from_url(str(record.get("profile_url", ""))) or canonical
+
+        current = merged.get(canonical)
+        if current is None:
+            item = dict(record)
+            item["handle"] = display_handle
+            item["_canonical_handle"] = canonical
+            item["sources"] = dedupe_brand_sources(record.get("sources", []))
+            merged[canonical] = item
+            continue
+
+        current_sources = current.get("sources", []) or []
+        incoming_sources = record.get("sources", []) or []
+        current["sources"] = dedupe_brand_sources(current_sources + incoming_sources)
+        if not str(current.get("handle", "") or "").strip() and display_handle:
+            current["handle"] = display_handle
+
+        for field in (
+            "profile_url",
+            "display_name",
+            "bio",
+            "category_label",
+            "external_link",
+            "niche",
+            "reasoning",
+            "account_kind",
+            "outreach_fit",
+            "brand_likelihood",
+            "ad_likelihood",
+            "screenshot_path",
+        ):
+            current_value = str(current.get(field, "") or "")
+            incoming_value = str(record.get(field, "") or "")
+            if not current_value and incoming_value:
+                current[field] = incoming_value
+
+        if int(record.get("followers_count", 0) or 0) > int(current.get("followers_count", 0) or 0):
+            current["followers_count"] = int(record.get("followers_count", 0) or 0)
+            if record.get("followers_text"):
+                current["followers_text"] = record.get("followers_text", "")
+
+        current["is_brand"] = bool(current.get("is_brand")) or bool(record.get("is_brand"))
+        current["is_brand_like"] = bool(current.get("is_brand_like")) or bool(record.get("is_brand_like"))
+
+    return sorted(
+        [
+            (str(record.get("handle", "")).strip().lstrip("@") or canonical, record)
+            for canonical, record in merged.items()
+        ],
+        key=lambda item: item[0].lower(),
+    )
+
+
+def merge_following_records_by_handle(records: list[dict]) -> list[dict]:
+    merged: dict[str, dict] = {}
+    for record in records:
+        key = canonical_handle(str(record.get("handle", "")))
+        if not key:
+            continue
+        current = merged.get(key)
+        if current is None:
+            item = dict(record)
+            source_handle = str(record.get("source_blogger_handle", "")).strip()
+            source_url = str(record.get("source_blogger_url", "")).strip()
+            item["_source_handles"] = {source_handle} if source_handle else set()
+            item["_source_urls"] = {source_url} if source_url else set()
+            item["_occurrences"] = 1
+            merged[key] = item
+            continue
+
+        source_handle = str(record.get("source_blogger_handle", "")).strip()
+        source_url = str(record.get("source_blogger_url", "")).strip()
+        if source_handle:
+            current["_source_handles"].add(source_handle)
+        if source_url:
+            current["_source_urls"].add(source_url)
+        current["_occurrences"] += 1
+
+        current_score = (
+            int(current.get("is_selected_target", False)),
+            int(current.get("followers_count", 0) or 0),
+            int(current.get("is_brand_like", False)),
+        )
+        incoming_score = (
+            int(record.get("is_selected_target", False)),
+            int(record.get("followers_count", 0) or 0),
+            int(record.get("is_brand_like", False)),
+        )
+        if incoming_score > current_score:
+            carry_handles = current["_source_handles"]
+            carry_urls = current["_source_urls"]
+            carry_occurrences = current["_occurrences"]
+            current.clear()
+            current.update(record)
+            current["_source_handles"] = carry_handles
+            current["_source_urls"] = carry_urls
+            current["_occurrences"] = carry_occurrences
+
+    result = list(merged.values())
+    for item in result:
+        item["_source_handles"] = sorted(item.get("_source_handles", set()))
+        item["_source_urls"] = sorted(item.get("_source_urls", set()))
+    return result
+
+
+def get_following_selected_follower_bounds(job: dict) -> tuple[int, int]:
+    policy = job.get("following_scan_policy", {})
+    min_followers = int(policy.get("follower_threshold", 300000) or 0)
+    max_followers = int(policy.get("max_selected_followers", 0) or 0)
+    return min_followers, max_followers
+
+
+def followers_within_selected_range(followers_count: int, job: dict) -> bool:
+    min_followers, max_followers = get_following_selected_follower_bounds(job)
+    if followers_count < min_followers:
+        return False
+    if max_followers and followers_count > max_followers:
+        return False
+    return True
+
+
+def is_selected_following_target_record(record: dict, job: dict) -> bool:
+    followers_count = int(record.get("followers_count", 0) or 0)
+    reject_brand_like = bool(job.get("following_scan_policy", {}).get("reject_brand_like_profiles", True))
+    is_female_candidate = bool(record.get("is_female_candidate"))
+    is_brand_like = bool(record.get("is_brand_like"))
+    return (
+        followers_within_selected_range(followers_count, job)
+        and is_female_candidate
+        and (not reject_brand_like or not is_brand_like)
+    )
+
+
+def build_phase1_shortlist_paths(job: dict) -> tuple[Path, Path]:
+    base_dir = Path(job["outputs"]["following_candidates_dir"])
+    return (
+        base_dir / "shortlisted_bloggers_for_phase1.md",
+        base_dir / "shortlisted_bloggers_for_phase1.txt",
+    )
 
 
 def normalize_instagram_url(raw_url: str) -> str:
@@ -1214,9 +1589,442 @@ def build_following_brand_report_path(job: dict, source_blogger_handle: str) -> 
     return source_dir / "brands.md"
 
 
+def build_following_global_report_path(job: dict) -> Path:
+    base_dir = Path(job["outputs"]["following_candidates_dir"])
+    return base_dir / "following_global.md"
+
+
 def build_blogger_brand_report_path(job: dict, blogger_handle: str) -> Path:
     base_dir = Path(job["outputs"].get("brands_by_blogger_dir", "output/instagram_brand_search/brands/by_blogger"))
     return base_dir / safe_handle_slug(blogger_handle) / "collabs.md"
+
+
+def build_brand_links_excel_path(job: dict) -> Path:
+    brand_links_path = Path(job["outputs"]["discovered_brand_links_md"])
+    return brand_links_path.with_suffix(".xlsx")
+
+
+def build_run_exports_dir(job: dict) -> Path | None:
+    run_dir = job.get("_run_dir")
+    if not run_dir:
+        return None
+    return Path(str(run_dir)) / "exports"
+
+
+def build_progress_output_paths(job: dict) -> tuple[Path, Path]:
+    base_dir = Path(job["outputs"]["discovered_brand_links_md"]).parent.parent
+    return base_dir / "run_status.md", base_dir / "run_status.json"
+
+
+def _xlsx_column_name(index: int) -> str:
+    result = ""
+    current = index
+    while current > 0:
+        current, remainder = divmod(current - 1, 26)
+        result = chr(65 + remainder) + result
+    return result
+
+
+def _xlsx_inline_cell(ref: str, value: object) -> str:
+    if value is None:
+        text = ""
+    else:
+        text = str(value)
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return f'<c r="{ref}"><v>{value}</v></c>'
+    return f'<c r="{ref}" t="inlineStr"><is><t xml:space="preserve">{xml_escape(text)}</t></is></c>'
+
+
+def _xlsx_clean_text(value: object) -> str:
+    if value is None:
+        return ""
+    text = str(value)
+    return re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F]", "", text)
+
+
+def write_simple_xlsx(workbook_path: Path, sheets: list[tuple[str, list[list[object]]]]) -> None:
+    workbook_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        from openpyxl import Workbook
+        from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+        from openpyxl.utils import get_column_letter
+
+        workbook = Workbook()
+        default_sheet = workbook.active
+        workbook.remove(default_sheet)
+        header_fill = PatternFill(fill_type="solid", fgColor="1F4E78")
+        header_font = Font(color="FFFFFF", bold=True)
+        zebra_fill = PatternFill(fill_type="solid", fgColor="F7FBFF")
+        thin_border = Border(bottom=Side(style="thin", color="D9E2F3"))
+        link_font = Font(color="0563C1", underline="single")
+
+        for sheet_name, rows in sheets:
+            worksheet = workbook.create_sheet(title=sheet_name[:31] or "Sheet1")
+            for row in rows:
+                worksheet.append(
+                    [
+                        value
+                        if isinstance(value, (int, float, bool)) or value is None
+                        else _xlsx_clean_text(value)
+                        for value in row
+                    ]
+                )
+            if not rows:
+                continue
+
+            max_cols = max(len(row) for row in rows)
+            max_rows = len(rows)
+            worksheet.freeze_panes = "A2"
+            worksheet.sheet_view.zoomScale = 90
+            worksheet.row_dimensions[1].height = 24
+
+            for cell in worksheet[1]:
+                cell.fill = header_fill
+                cell.font = header_font
+                cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+                cell.border = thin_border
+
+            if max_rows >= 2 and max_cols >= 1:
+                end_ref = f"{get_column_letter(max_cols)}{max_rows}"
+                worksheet.auto_filter.ref = f"A1:{end_ref}"
+
+            wrap_headers = {
+                "Source Bloggers",
+                "Run Labels",
+                "Ad Reasoning",
+                "Caption Excerpt",
+                "Reasoning",
+                "Bio",
+                "External Link",
+                "Latest Source Post",
+                "Profile URL",
+                "Post URL",
+                "Source Workbook",
+                "Structured Folder",
+            }
+
+            for col_idx in range(1, max_cols + 1):
+                column_letter = get_column_letter(col_idx)
+                header_value = str(worksheet.cell(row=1, column=col_idx).value or "")
+                max_length = len(header_value)
+                for row_idx in range(2, max_rows + 1):
+                    cell = worksheet.cell(row=row_idx, column=col_idx)
+                    text = "" if cell.value is None else str(cell.value)
+                    if row_idx % 2 == 0:
+                        cell.fill = zebra_fill
+                    cell.alignment = Alignment(
+                        vertical="top",
+                        wrap_text=header_value in wrap_headers or len(text) > 60,
+                    )
+                    if text.startswith("http://") or text.startswith("https://"):
+                        cell.hyperlink = text
+                        cell.font = link_font
+                    max_length = max(max_length, min(len(text), 80))
+
+                if header_value in wrap_headers:
+                    width = min(max(max_length, 18), 42)
+                elif "count" in header_value.lower() or header_value.lower().endswith("run"):
+                    width = min(max(max_length + 2, 10), 16)
+                else:
+                    width = min(max(max_length + 2, 12), 28)
+                worksheet.column_dimensions[column_letter].width = width
+
+        workbook.save(workbook_path)
+        return
+    except Exception:
+        pass
+
+    with zipfile.ZipFile(workbook_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        archive.writestr(
+            "[Content_Types].xml",
+            """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
+  <Default Extension="xml" ContentType="application/xml"/>
+  <Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>
+  <Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>
+  <Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>
+"""
+            + "\n".join(
+                f'  <Override PartName="/xl/worksheets/sheet{index}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'
+                for index in range(1, len(sheets) + 1)
+            )
+            + "\n</Types>\n",
+        )
+        archive.writestr(
+            "_rels/.rels",
+            """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/>
+  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+  <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+</Relationships>
+""",
+        )
+        archive.writestr(
+            "docProps/app.xml",
+            """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+  <Application>Codex</Application>
+</Properties>
+""",
+        )
+        archive.writestr(
+            "docProps/core.xml",
+            f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dc:creator>Codex</dc:creator>
+  <cp:lastModifiedBy>Codex</cp:lastModifiedBy>
+  <dcterms:created xsi:type="dcterms:W3CDTF">{datetime.now(timezone.utc).isoformat()}</dcterms:created>
+</cp:coreProperties>
+""",
+        )
+        archive.writestr(
+            "xl/_rels/workbook.xml.rels",
+            """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+"""
+            + "\n".join(
+                f'  <Relationship Id="rId{index}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{index}.xml"/>'
+                for index in range(1, len(sheets) + 1)
+            )
+            + "\n</Relationships>\n",
+        )
+        archive.writestr(
+            "xl/workbook.xml",
+            """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <sheets>
+"""
+            + "\n".join(
+                f'    <sheet name="{xml_escape(name[:31])}" sheetId="{index}" r:id="rId{index}"/>'
+                for index, (name, _) in enumerate(sheets, start=1)
+            )
+            + "\n  </sheets>\n</workbook>\n",
+        )
+        for sheet_index, (_, rows) in enumerate(sheets, start=1):
+            max_cols = max((len(row) for row in rows), default=1)
+            sheet_rows: list[str] = []
+            for row_index, row in enumerate(rows, start=1):
+                cells = []
+                for col_index in range(1, max_cols + 1):
+                    value = row[col_index - 1] if col_index - 1 < len(row) else ""
+                    cells.append(_xlsx_inline_cell(f"{_xlsx_column_name(col_index)}{row_index}", value))
+                sheet_rows.append(f'<row r="{row_index}">{"".join(cells)}</row>')
+            dimension_end = f"{_xlsx_column_name(max_cols)}{max(len(rows), 1)}"
+            archive.writestr(
+                f"xl/worksheets/sheet{sheet_index}.xml",
+                """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+"""
+                + f'  <dimension ref="A1:{dimension_end}"/>\n'
+                + '  <sheetData>\n'
+                + "\n".join(f"    {row}" for row in sheet_rows)
+                + "\n  </sheetData>\n</worksheet>\n",
+            )
+
+
+def build_brand_links_excel_sheets(state: InstagramBrandSearchState) -> list[tuple[str, list[list[object]]]]:
+    brand_rows: list[list[object]] = [[
+        "Handle",
+        "Profile URL",
+        "Display Name",
+        "Account Kind",
+        "Outreach Fit",
+        "Brand Likelihood",
+        "Ad Likelihood",
+        "Niche",
+        "Category Label",
+        "External Link",
+        "Unique Bloggers Count",
+        "Source Bloggers",
+        "Source Posts Count",
+        "Latest Source Post",
+    ]]
+    source_rows: list[list[object]] = [[
+        "Brand Handle",
+        "Blogger Handle",
+        "Post Date",
+        "Post URL",
+        "Ad Likelihood",
+        "Ad Reasoning",
+        "Caption Excerpt",
+    ]]
+    blogger_rows: list[list[object]] = [[
+        "Blogger Handle",
+        "Profile URL",
+        "Scanned Posts",
+        "Candidate Mentions",
+        "Accepted Brand Handles",
+        "Stopped Due To Date",
+        "Following Expansion Complete",
+    ]]
+
+    for handle, record in collect_exportable_brand_records(state):
+        source_bloggers = sorted(
+            {
+                canonical_handle(str(source.get("blogger_handle", "")))
+                for source in record.get("sources", [])
+                if canonical_handle(str(source.get("blogger_handle", "")))
+            }
+        )
+        latest_source = record.get("sources", [])[-1].get("post_url", "") if record.get("sources") else ""
+        brand_rows.append([
+            handle,
+            record.get("profile_url", ""),
+            normalize_text(record.get("display_name", "")),
+            record.get("account_kind", ""),
+            record.get("outreach_fit", ""),
+            record.get("brand_likelihood", ""),
+            record.get("ad_likelihood", ""),
+            record.get("niche", ""),
+            record.get("category_label", ""),
+            record.get("external_link", ""),
+            len(source_bloggers),
+            ", ".join(source_bloggers),
+            len(record.get("sources", [])),
+            latest_source,
+        ])
+        for source in record.get("sources", []):
+            source_rows.append([
+                handle,
+                source.get("blogger_handle", ""),
+                source.get("post_date_iso", ""),
+                source.get("post_url", ""),
+                source.get("ad_likelihood", ""),
+                normalize_text(source.get("ad_reasoning", "")),
+                normalize_text(source.get("caption_excerpt", "")),
+            ])
+
+    for blogger_url, stats in sorted(state.blogger_stats.items()):
+        blogger_handle = stats.get("handle") or extract_handle_from_url(blogger_url)
+        blogger_rows.append([
+            blogger_handle,
+            blogger_url,
+            int(stats.get("scanned_posts", 0) or 0),
+            int(stats.get("candidate_mentions", 0) or 0),
+            ", ".join(stats.get("accepted_brand_handles", []) or []),
+            "yes" if stats.get("stopped_due_to_date") else "no",
+            "yes" if blogger_url in state.completed_following_expansions else "no",
+        ])
+
+    return [
+        ("Brands", brand_rows),
+        ("Sources", source_rows),
+        ("Blogger Summary", blogger_rows),
+    ]
+
+
+def write_brand_links_excel_outputs(job: dict, state: InstagramBrandSearchState) -> None:
+    signature = (
+        len(state.brand_records),
+        sum(len(record.get("sources", [])) for record in state.brand_records.values()),
+        len(state.blogger_stats),
+    )
+    if job.get("_brand_links_excel_signature") == signature:
+        return
+
+    workbook_path = build_brand_links_excel_path(job)
+    sheets = build_brand_links_excel_sheets(state)
+    write_simple_xlsx(workbook_path, sheets)
+
+    run_exports_dir = build_run_exports_dir(job)
+    if run_exports_dir is not None:
+        run_exports_dir.mkdir(parents=True, exist_ok=True)
+        write_simple_xlsx(run_exports_dir / "brand_links.xlsx", sheets)
+
+    job["_brand_links_excel_signature"] = signature
+
+
+def compute_run_progress(job: dict, state: InstagramBrandSearchState) -> dict:
+    exportable_brand_records = collect_exportable_brand_records(state)
+    seed_targets = load_blogger_targets(
+        Path(job["inputs"]["blogger_list_file"]),
+        limit=seed_target_limit(job),
+    )
+    seed_urls = [normalize_instagram_url(target.profile_url) for target in seed_targets]
+    seed_set = set(seed_urls)
+    completed_seed = [url for url in state.completed_bloggers if normalize_instagram_url(url) in seed_set]
+    completed_following = [url for url in state.completed_following_expansions if normalize_instagram_url(url) in seed_set]
+    following_enabled = bool(job.get("following_scan_policy", {}).get("enabled", True))
+    selected_enabled = bool(job.get("following_scan_policy", {}).get("scan_selected_targets_after_discovery", True))
+    following_targets = load_state_targets(state, job) if selected_enabled else []
+    following_target_urls = [normalize_instagram_url(target.profile_url) for target in following_targets]
+    following_target_completed = [url for url in following_target_urls if url in {normalize_instagram_url(item) for item in state.completed_bloggers}]
+
+    phase = "completed"
+    next_target_url = ""
+    if len(completed_seed) < len(seed_urls):
+        phase = "seed_scan"
+        next_target_url = state.current_blogger_url or next(
+            (url for url in seed_urls if url not in {normalize_instagram_url(item) for item in state.completed_bloggers}),
+            "",
+        )
+    elif following_enabled and len(completed_following) < len(seed_urls):
+        phase = "following_discovery"
+        next_target_url = state.current_blogger_url or next(
+            (url for url in seed_urls if url not in {normalize_instagram_url(item) for item in state.completed_following_expansions}),
+            "",
+        )
+    elif selected_enabled and len(following_target_completed) < len(following_target_urls):
+        phase = "following_targets_scan"
+        next_target_url = state.current_blogger_url or next(
+            (url for url in following_target_urls if url not in {normalize_instagram_url(item) for item in state.completed_bloggers}),
+            "",
+        )
+
+    return {
+        "run_label": job.get("_run_label", ""),
+        "phase": phase,
+        "current_blogger_url": state.current_blogger_url,
+        "current_post_url": state.current_post_url,
+        "current_post_date_iso": state.current_post_date_iso,
+        "next_target_url": next_target_url,
+        "seed_total": len(seed_urls),
+        "seed_completed": len(completed_seed),
+        "following_total": len(seed_urls) if following_enabled else 0,
+        "following_completed": len(completed_following),
+        "following_targets_total": len(following_target_urls),
+        "following_targets_completed": len(following_target_completed),
+        "brand_records": len(state.brand_records),
+        "raw_brand_records": len(state.brand_records),
+        "exportable_brand_records": len(exportable_brand_records),
+        "blogger_stats": len(state.blogger_stats),
+        "following_candidates": len(state.following_candidates),
+    }
+
+
+def write_run_progress_outputs(job: dict, state: InstagramBrandSearchState) -> None:
+    progress = compute_run_progress(job, state)
+    md_path, json_path = build_progress_output_paths(job)
+    md_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(progress, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    md_lines = [
+        "# Instagram Brand Search Status",
+        "",
+        f"- Run: {progress.get('run_label') or 'current'}",
+        f"- Phase: {progress.get('phase')}",
+        f"- Current blogger: {progress.get('current_blogger_url') or 'none'}",
+        f"- Current post: {progress.get('current_post_url') or 'none'}",
+        f"- Next target: {progress.get('next_target_url') or 'none'}",
+        f"- Seed progress: {progress.get('seed_completed', 0)} / {progress.get('seed_total', 0)}",
+        f"- Following progress: {progress.get('following_completed', 0)} / {progress.get('following_total', 0)}",
+        f"- Following-derived targets progress: {progress.get('following_targets_completed', 0)} / {progress.get('following_targets_total', 0)}",
+        f"- Raw brand records: {progress.get('raw_brand_records', progress.get('brand_records', 0))}",
+        f"- Exportable brand links: {progress.get('exportable_brand_records', 0)}",
+        f"- Blogger stats: {progress.get('blogger_stats', 0)}",
+        f"- Following candidates: {progress.get('following_candidates', 0)}",
+        "",
+    ]
+    md_path.write_text("\n".join(md_lines), encoding="utf-8-sig")
+
+    run_exports_dir = build_run_exports_dir(job)
+    if run_exports_dir is not None:
+        run_exports_dir.mkdir(parents=True, exist_ok=True)
+        (run_exports_dir / "run_status.json").write_text(json.dumps(progress, ensure_ascii=False, indent=2), encoding="utf-8")
+        (run_exports_dir / "run_status.md").write_text("\n".join(md_lines), encoding="utf-8-sig")
 
 
 async def wait_for_following_dialog(page: Page, blogger_handle: str, timeout_ms: int = 12000) -> bool:
@@ -1448,8 +2256,12 @@ def upsert_following_candidate(state: InstagramBrandSearchState, candidate: Foll
     state.following_candidates[following_candidate_key(candidate.source_blogger_handle, candidate.handle)] = asdict(candidate)
 
 
-def build_target_from_following_candidate(record: dict) -> BloggerTarget | None:
-    if not record.get("is_selected_target"):
+def build_target_from_following_candidate(record: dict, job: dict | None = None) -> BloggerTarget | None:
+    if job is not None:
+        is_selected_target = is_selected_following_target_record(record, job)
+    else:
+        is_selected_target = bool(record.get("is_selected_target"))
+    if not is_selected_target:
         return None
     profile_url = normalize_instagram_url(record.get("profile_url", ""))
     if not profile_url:
@@ -1463,6 +2275,25 @@ def build_target_from_following_candidate(record: dict) -> BloggerTarget | None:
         source_blogger_handle=str(record.get("source_blogger_handle", "")),
         source_blogger_url=str(record.get("source_blogger_url", "")),
     )
+
+
+def is_following_record_qualified(record: dict, job: dict | None = None) -> bool:
+    if job is not None:
+        return bool(is_selected_following_target_record(record, job) or record.get("is_brand_like"))
+    return bool(record.get("is_selected_target") or record.get("is_brand_like"))
+
+
+def qualified_following_records_for_source(
+    state: InstagramBrandSearchState,
+    source_blogger_handle: str,
+    job: dict | None = None,
+) -> list[dict]:
+    source_key = canonical_handle(source_blogger_handle)
+    return [
+        record
+        for record in state.following_candidates.values()
+        if canonical_handle(str(record.get("source_blogger_handle", ""))) == source_key and is_following_record_qualified(record, job)
+    ]
 
 
 async def inspect_following_candidate(
@@ -1513,9 +2344,8 @@ async def inspect_following_candidate(
             category_label=str(overview["category_label"]),
             external_link=str(overview["external_link"]),
         )
-        follower_threshold = int(job.get("following_scan_policy", {}).get("follower_threshold", 300000))
         reject_brand_like = bool(job.get("following_scan_policy", {}).get("reject_brand_like_profiles", True))
-        qualifies_followers_threshold = followers_count >= follower_threshold
+        qualifies_followers_threshold = followers_within_selected_range(followers_count, job)
         is_selected_target = qualifies_followers_threshold and is_female_candidate and (not reject_brand_like or not is_brand_like)
 
         screenshot_path = ""
@@ -1579,9 +2409,23 @@ async def fetch_instagram_profile_id(page: Page, handle: str) -> str:
         }""",
         {"handle": handle, "appId": INSTAGRAM_WEB_APP_ID},
     )
-    if not payload.get("ok") or not payload.get("userId"):
-        raise RuntimeError(f"Could not resolve Instagram profile id for @{handle}: status={payload.get('status')} body={payload.get('preview')}")
-    return str(payload["userId"])
+    if payload.get("ok") and payload.get("userId"):
+        return str(payload["userId"])
+
+    profile_url = f"{INSTAGRAM_HOME_URL}{canonical_handle(handle)}/"
+    await page.goto(profile_url, wait_until="domcontentloaded", timeout=60000)
+    await page.wait_for_timeout(1500)
+    html = await page.content()
+    for pattern in (
+        r'"profile_id":"(\d+)"',
+        r'"target_id":"(\d+)"',
+        r'"id":"(\d+)"',
+    ):
+        match = re.search(pattern, html)
+        if match:
+            return match.group(1)
+
+    raise RuntimeError(f"Could not resolve Instagram profile id for @{handle}: status={payload.get('status')} body={payload.get('preview')}")
 
 
 async def fetch_following_handles_via_api(
@@ -1713,6 +2557,7 @@ async def discover_following_candidates(
 
     policy = job.get("following_scan_policy", {})
     max_profiles_to_review = int(policy.get("max_profiles_to_review", 0) or 0)
+    target_qualified_accounts = int(policy.get("target_qualified_accounts_per_seed", 20) or 0)
     discovered_handles = await fetch_following_handles_via_api(
         page,
         logger,
@@ -1720,18 +2565,37 @@ async def discover_following_candidates(
         max_profiles_to_review=max_profiles_to_review,
     )
     progress["discovered_handles"] = discovered_handles
+    progress["target_qualified_accounts"] = target_qualified_accounts
     if discovered_handles:
         progress["last_visible_handle"] = discovered_handles[-1]
-    progress["list_exhausted"] = True
     state.save(state_path)
 
     queued_targets: list[BloggerTarget] = []
     inspected_handles = set(progress.get("inspected_handles", []))
+    qualified_handles = set(progress.get("qualified_handles", []))
+    if not qualified_handles:
+        qualified_handles = {
+            str(record.get("handle", "")).strip()
+            for record in qualified_following_records_for_source(state, source_blogger_handle, job)
+            if str(record.get("handle", "")).strip()
+        }
+        progress["qualified_handles"] = list(qualified_handles)
     aborted_early = False
     for handle in discovered_handles:
+        if target_qualified_accounts and len(qualified_handles) >= target_qualified_accounts:
+            logger.info(
+                "Following target reached for @%s: qualified=%s target=%s",
+                source_blogger_handle,
+                len(qualified_handles),
+                target_qualified_accounts,
+            )
+            break
         if handle in inspected_handles:
             record = state.following_candidates.get(following_candidate_key(source_blogger_handle, handle))
-            target = build_target_from_following_candidate(record) if record is not None else None
+            target = build_target_from_following_candidate(record, job) if record is not None else None
+            if record is not None and is_following_record_qualified(record, job):
+                qualified_handles.add(handle)
+                progress["qualified_handles"] = list(qualified_handles)
             if target is not None:
                 queued_targets.append(target)
             continue
@@ -1759,13 +2623,20 @@ async def discover_following_candidates(
         inspected_handles.add(handle)
         progress["inspected_handles"] = list(inspected_handles)
         progress["last_processed_handle"] = handle
+        if record is not None and is_following_record_qualified(record, job):
+            qualified_handles.add(handle)
+            progress["qualified_handles"] = list(qualified_handles)
         state.save(state_path)
         write_markdown_outputs(job, state)
-        target = build_target_from_following_candidate(record)
+        target = build_target_from_following_candidate(record, job)
         if target is not None:
             queued_targets.append(target)
 
-    if not aborted_early and len(inspected_handles) >= len(discovered_handles):
+    progress["list_exhausted"] = len(inspected_handles) >= len(discovered_handles)
+    if not aborted_early and (
+        len(inspected_handles) >= len(discovered_handles)
+        or (target_qualified_accounts and len(qualified_handles) >= target_qualified_accounts)
+    ):
         state.mark_following_expansion_completed(blogger.profile_url)
     state.save(state_path)
     return queued_targets
@@ -1857,6 +2728,8 @@ def update_blogger_stats(
 
 
 def write_following_candidate_outputs(job: dict, state: InstagramBrandSearchState) -> None:
+    min_followers, max_followers = get_following_selected_follower_bounds(job)
+    follower_label = f"{min_followers // 1000}k-{max_followers // 1000}k" if max_followers else f"{min_followers // 1000}k+"
     grouped: dict[str, list[dict]] = {}
     for record in state.following_candidates.values():
         source_handle = str(record.get("source_blogger_handle", "")).strip()
@@ -1870,9 +2743,13 @@ def write_following_candidate_outputs(job: dict, state: InstagramBrandSearchStat
         report_path = build_following_report_path(job, source_handle)
         brand_report_path = build_following_brand_report_path(job, source_handle)
 
-        selected_records = [record for record in records if record.get("is_selected_target")]
+        selected_records = dedupe_records_by_handle(
+            [record for record in records if is_selected_following_target_record(record, job)]
+        )
         selected_records.sort(key=lambda item: (-int(item.get("followers_count", 0) or 0), str(item.get("handle", ""))))
-        brand_records = [record for record in records if record.get("is_brand_like")]
+        brand_records = dedupe_records_by_handle(
+            [record for record in records if record.get("is_brand_like") and is_exportable_brand_record(record)]
+        )
         brand_records.sort(
             key=lambda item: (
                 str(item.get("matched_priority_niche", "")),
@@ -1883,11 +2760,14 @@ def write_following_candidate_outputs(job: dict, state: InstagramBrandSearchStat
         rejected_brand_like = sum(1 for record in records if record.get("is_brand_like"))
         source_url = str(records[0].get("source_blogger_url", ""))
         progress = state.following_progress.get(source_url, {})
+        qualified_total = len(progress.get("qualified_handles", []))
+        target_qualified_total = int(progress.get("target_qualified_accounts", 0) or 0)
 
         lines = [f"# Shortlist @{source_handle}", ""]
         lines.append(f"- Исходный блогер: {md_link('@' + source_handle, source_url)}")
         lines.append(f"- Просмотрено профилей: {len(records)}")
         lines.append(f"- Подходящих профилей: {len(selected_records)}")
+        lines.append(f"- Целевых аккаунтов всего: {qualified_total}" + (f" / {target_qualified_total}" if target_qualified_total else ""))
         lines.append(f"- Отсеяно как бренд/сервис: {rejected_brand_like}")
         lines.append(f"- Последний обработанный handle: @{progress.get('last_processed_handle', '')}" if progress.get("last_processed_handle") else "- Последний обработанный handle: none")
         lines.append("")
@@ -1923,6 +2803,7 @@ def write_following_candidate_outputs(job: dict, state: InstagramBrandSearchStat
         brand_lines = [f"# Brands In Following @{source_handle}", ""]
         brand_lines.append(f"- Исходный блогер: {md_link('@' + source_handle, source_url)}")
         brand_lines.append(f"- Найдено brand-like профилей: {len(brand_records)}")
+        brand_lines.append(f"- Целевых аккаунтов всего: {qualified_total}" + (f" / {target_qualified_total}" if target_qualified_total else ""))
         brand_lines.append("")
         if not brand_records:
             brand_lines.append("Брендов в подписках пока не найдено.")
@@ -1947,12 +2828,127 @@ def write_following_candidate_outputs(job: dict, state: InstagramBrandSearchStat
                 )
         brand_report_path.write_text("\n".join(brand_lines).strip() + "\n", encoding="utf-8-sig")
 
+    global_report_path = build_following_global_report_path(job)
+    global_report_path.parent.mkdir(parents=True, exist_ok=True)
+    all_records = list(state.following_candidates.values())
+    merged_selected = merge_following_records_by_handle(
+        [record for record in all_records if is_selected_following_target_record(record, job)]
+    )
+    merged_selected.sort(
+        key=lambda item: (
+            -int(item.get("followers_count", 0) or 0),
+            str(item.get("handle", "")),
+        )
+    )
+    merged_brands = merge_following_records_by_handle(
+        [record for record in all_records if record.get("is_brand_like") and is_exportable_brand_record(record)]
+    )
+    merged_brands.sort(
+        key=lambda item: (
+            str(item.get("matched_priority_niche", "")),
+            -int(item.get("followers_count", 0) or 0),
+            str(item.get("handle", "")),
+        )
+    )
+
+    global_lines = ["# Following Global", ""]
+    global_lines.append(f"- Уникальных shortlisted-профилей: {len(merged_selected)}")
+    global_lines.append(f"- Уникальных brand-like профилей: {len(merged_brands)}")
+    global_lines.append(f"- Всего записей второго этапа: {len(all_records)}")
+    global_lines.append("")
+
+    global_lines.append(f"## Shortlisted {follower_label}")
+    global_lines.append("")
+    if not merged_selected:
+        global_lines.append("Подходящих shortlisted-профилей пока нет.")
+        global_lines.append("")
+    else:
+        for record in merged_selected:
+            source_handles = record.get("_source_handles", [])
+            global_lines.extend(
+                [
+                    f"### @{record.get('handle', '')}",
+                    f"- Профиль: {md_link('@' + str(record.get('handle', '')), str(record.get('profile_url', '')))}",
+                    f"- Подписчики: {record.get('followers_count', 0)}",
+                    f"- Источники: {', '.join('@' + handle for handle in source_handles) or 'none'}",
+                    f"- Встречался у блогеров: {len(source_handles)}",
+                    f"- Female match: {'yes' if record.get('is_female_candidate') else 'no'} ({record.get('female_confidence', '')})",
+                    f"- Brand-like: {'yes' if record.get('is_brand_like') else 'no'} ({record.get('brand_confidence', '')})",
+                    "",
+                ]
+            )
+
+    global_lines.append("## Brands From Following")
+    global_lines.append("")
+    if not merged_brands:
+        global_lines.append("Brand-like профилей в following пока нет.")
+        global_lines.append("")
+    else:
+        for record in merged_brands:
+            source_handles = record.get("_source_handles", [])
+            global_lines.extend(
+                [
+                    f"### @{record.get('handle', '')}",
+                    f"- Профиль: {md_link('@' + str(record.get('handle', '')), str(record.get('profile_url', '')))}",
+                    f"- Имя: {normalize_text(str(record.get('display_name', '')))}",
+                    f"- Подписчики: {record.get('followers_count', 0)}",
+                    f"- Priority niche: {record.get('matched_priority_niche', '') or 'unclear'}",
+                    f"- Источники: {', '.join('@' + handle for handle in source_handles) or 'none'}",
+                    f"- Встречался у блогеров: {len(source_handles)}",
+                    f"- Brand reasoning: {normalize_text(str(record.get('brand_reasoning', '')))}",
+                    "",
+                ]
+            )
+
+    global_report_path.write_text("\n".join(global_lines).strip() + "\n", encoding="utf-8-sig")
+
+    phase1_md_path, phase1_txt_path = build_phase1_shortlist_paths(job)
+    phase1_md_path.parent.mkdir(parents=True, exist_ok=True)
+    previously_scanned = {extract_handle_from_url(url) for url in state.completed_bloggers}
+
+    phase1_md_lines = ["# Shortlisted Bloggers For Phase 1", ""]
+    phase1_md_lines.append(f"- Total shortlisted bloggers in follower range: {len(merged_selected)}")
+    phase1_md_lines.append(f"- Follower range: {min_followers} to {max_followers if max_followers else 'unbounded'}")
+    phase1_md_lines.append("- Source: following discovery shortlist, deduplicated across all seed bloggers")
+    phase1_md_lines.append("")
+
+    phase1_txt_lines: list[str] = []
+    for record in merged_selected:
+        handle = str(record.get("handle", "")).strip()
+        profile_url = normalize_instagram_url(str(record.get("profile_url", "")))
+        if not handle or not profile_url:
+            continue
+        source_handles = record.get("_source_handles", [])
+        phase1_md_lines.extend(
+            [
+                f"## @{handle}",
+                f"- Profile: {md_link('@' + handle, profile_url)}",
+                f"- Followers: {int(record.get('followers_count', 0) or 0)}",
+                f"- Female match: {'yes' if record.get('is_female_candidate') else 'no'} ({record.get('female_confidence', '')})",
+                f"- Found via seed bloggers: {', '.join('@' + source_handle for source_handle in source_handles) or 'none'}",
+                f"- Seen in sources: {len(source_handles)}",
+                f"- Already scanned in phase 1 before: {'yes' if handle in previously_scanned else 'no'}",
+                f"- Raw followers text: {normalize_text(str(record.get('followers_text', '')))}",
+                f"- Bio: {normalize_text(str(record.get('bio', ''))) or 'none'}",
+                "",
+            ]
+        )
+        phase1_txt_lines.append(profile_url)
+
+    if not phase1_txt_lines:
+        phase1_md_lines.append("No shortlisted bloggers in the configured follower range yet.")
+        phase1_md_lines.append("")
+
+    phase1_md_path.write_text("\n".join(phase1_md_lines).strip() + "\n", encoding="utf-8-sig")
+    phase1_txt_path.write_text("\n".join(phase1_txt_lines).strip() + ("\n" if phase1_txt_lines else ""), encoding="utf-8-sig")
+
 
 def write_markdown_outputs(job: dict, state: InstagramBrandSearchState) -> None:
     outputs = job["outputs"]
     blogger_summary_path = Path(outputs["blogger_summary_md"])
     brand_links_path = Path(outputs["discovered_brand_links_md"])
     brand_dossiers_path = Path(outputs["extracted_candidates_md"])
+    exportable_brand_records = collect_exportable_brand_records(state)
     for path in (blogger_summary_path, brand_links_path, brand_dossiers_path):
         path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -1963,15 +2959,11 @@ def write_markdown_outputs(job: dict, state: InstagramBrandSearchState) -> None:
         blogger_report_path.parent.mkdir(parents=True, exist_ok=True)
         blogger_brand_records = [
             (handle, record)
-            for handle, record in sorted(state.brand_records.items())
-            if (record.get("outreach_fit", "low") != "low" or record.get("account_kind") in {"brand_store", "service_provider"})
-            and any(source.get("blogger_handle") == blogger_handle for source in record.get("sources", []))
+            for handle, record in exportable_brand_records
+            if any(source.get("blogger_handle") == blogger_handle for source in record.get("sources", []))
         ]
         accepted_handles = sorted(
-            handle
-            for handle, record in state.brand_records.items()
-            if (record.get("outreach_fit", "low") != "low" or record.get("account_kind") in {"brand_store", "service_provider"})
-            and any(source.get("blogger_handle") == blogger_handle for source in record.get("sources", []))
+            handle for handle, _ in blogger_brand_records
         )
         blogger_lines.extend(
             [
@@ -2023,13 +3015,18 @@ def write_markdown_outputs(job: dict, state: InstagramBrandSearchState) -> None:
     blogger_summary_path.write_text("\n".join(blogger_lines).strip() + "\n", encoding="utf-8-sig")
 
     link_lines = ["# Brand Links", ""]
-    for handle, record in sorted(state.brand_records.items()):
-        if record.get("outreach_fit", "low") == "low" and record.get("account_kind") not in {"brand_store", "service_provider"}:
-            continue
+    for handle, record in exportable_brand_records:
         screenshot_target = relative_markdown_target(brand_links_path, record.get("screenshot_path", ""))
         latest_source = ""
         if record.get("sources"):
             latest_source = record["sources"][-1].get("post_url", "")
+        source_bloggers = sorted(
+            {
+                canonical_handle(str(source.get("blogger_handle", "")))
+                for source in record.get("sources", [])
+                if canonical_handle(str(source.get("blogger_handle", "")))
+            }
+        )
         link_lines.extend(
             [
                 f"## @{handle}",
@@ -2039,6 +3036,7 @@ def write_markdown_outputs(job: dict, state: InstagramBrandSearchState) -> None:
                 f"- Outreach fit: {record.get('outreach_fit', '')}",
                 f"- Brand likelihood: {record.get('brand_likelihood')}",
                 f"- Ad likelihood: {record.get('ad_likelihood')}",
+                f"- Source bloggers: {', '.join(source_bloggers) or 'none'}",
                 f"- Sources: {len(record.get('sources', []))}",
                 f"- Latest source post: {md_link('open post', latest_source) if latest_source else ''}".rstrip(),
                 "",
@@ -2047,7 +3045,7 @@ def write_markdown_outputs(job: dict, state: InstagramBrandSearchState) -> None:
     brand_links_path.write_text("\n".join(link_lines).strip() + "\n", encoding="utf-8-sig")
 
     dossier_lines = ["# Brand Dossiers", ""]
-    for handle, record in sorted(state.brand_records.items()):
+    for handle, record in exportable_brand_records:
         screenshot_target = relative_markdown_target(brand_dossiers_path, record.get("screenshot_path", ""))
         bio = normalize_text(record.get("bio", ""))
         reasoning = normalize_text(record.get("reasoning", ""))
@@ -2089,10 +3087,14 @@ def write_markdown_outputs(job: dict, state: InstagramBrandSearchState) -> None:
         dossier_lines.append("")
     brand_dossiers_path.write_text("\n".join(dossier_lines).strip() + "\n", encoding="utf-8-sig")
     write_following_candidate_outputs(job, state)
+    write_brand_links_excel_outputs(job, state)
+    write_run_progress_outputs(job, state)
 
 
 def is_post_older_than_window(post_date: datetime | None, target_days: int) -> bool:
     if post_date is None:
+        return False
+    if target_days <= 0:
         return False
     cutoff = datetime.now(timezone.utc) - timedelta(days=target_days)
     current = post_date.astimezone(timezone.utc) if post_date.tzinfo else post_date.replace(tzinfo=timezone.utc)
@@ -2254,10 +3256,21 @@ async def run_blogger_scan(
         )
         state.save(state_path)
         write_markdown_outputs(job, state)
+        if checkpoint.processed_posts_count >= fallback_limit:
+            logger.info(
+                "Reached scan limit (%s posts) for blogger %s",
+                fallback_limit,
+                blogger_handle,
+            )
+            break
         if action == "stop":
             break
         if action == "skip_old":
-            moved = await go_to_next_post(page, human, logger)
+            try:
+                moved = await go_to_next_post(page, human, logger)
+            except Exception as exc:
+                logger.info("Stopping blogger %s after next-post navigation failed during old-post skip: %s", blogger_handle, exc)
+                break
             if moved:
                 update_current_post_pointer(state, blogger.profile_url, page.url)
                 state.save(state_path)
@@ -2266,7 +3279,11 @@ async def run_blogger_scan(
                 logger.info("No further Next button found for blogger %s while skipping old pinned content", blogger_handle)
                 break
             continue
-        moved = await go_to_next_post(page, human, logger)
+        try:
+            moved = await go_to_next_post(page, human, logger)
+        except Exception as exc:
+            logger.info("Stopping blogger %s after next-post navigation failed: %s", blogger_handle, exc)
+            break
         if moved:
             update_current_post_pointer(state, blogger.profile_url, page.url)
             state.save(state_path)
@@ -2281,10 +3298,10 @@ async def run_blogger_scan(
     return page
 
 
-def load_state_targets(state: InstagramBrandSearchState) -> list[BloggerTarget]:
+def load_state_targets(state: InstagramBrandSearchState, job: dict | None = None) -> list[BloggerTarget]:
     targets: list[BloggerTarget] = []
     for record in state.following_candidates.values():
-        target = build_target_from_following_candidate(record)
+        target = build_target_from_following_candidate(record, job)
         if target is not None:
             targets.append(target)
     return targets
@@ -2342,16 +3359,22 @@ async def run_instagram_brand_search(
                 )
                 state.save(state_path)
                 write_markdown_outputs(job, state)
+            else:
+                logger.info("Marking following expansion as completed/skipped for %s", blogger.profile_url)
+                state.mark_following_expansion_completed(blogger.profile_url)
+                state.save(state_path)
+                write_markdown_outputs(job, state)
 
-    following_targets = load_state_targets(state)
-    following_targets = rotate_targets_for_resume(following_targets, state.current_blogger_url)
-    for blogger in following_targets:
-        if blogger.profile_url in state.completed_bloggers:
-            continue
-        logger.info("Scanning following-derived account %s", blogger.profile_url)
-        page = await run_blogger_scan(page, human, logger, state, job, state_path, screenshots_dir, blogger)
-        state.save(state_path)
-        write_markdown_outputs(job, state)
+    if job.get("following_scan_policy", {}).get("scan_selected_targets_after_discovery", True):
+        following_targets = load_state_targets(state, job)
+        following_targets = rotate_targets_for_resume(following_targets, state.current_blogger_url)
+        for blogger in following_targets:
+            if blogger.profile_url in state.completed_bloggers:
+                continue
+            logger.info("Scanning following-derived account %s", blogger.profile_url)
+            page = await run_blogger_scan(page, human, logger, state, job, state_path, screenshots_dir, blogger)
+            state.save(state_path)
+            write_markdown_outputs(job, state)
 
     write_markdown_outputs(job, state)
 
@@ -2394,6 +3417,9 @@ async def run_instagram_following_discovery(
                 shutil.rmtree(source_dir, ignore_errors=True)
         allows_following = await seed_allows_following_expansion(page, human, logger, blogger)
         if not allows_following:
+            state.mark_following_expansion_completed(blogger.profile_url)
+            state.save(state_path)
+            write_markdown_outputs(job, state)
             continue
         logger.info("Following-only scan for %s", blogger.profile_url)
         await discover_following_candidates(

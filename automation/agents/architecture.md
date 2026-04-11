@@ -2,71 +2,94 @@
 
 ## Goal
 
-Unify all browser automations under one runtime so each workflow behaves like a separate job module, while still reusing:
+Turn the project into a dedicated multi-agent operating model with:
 
-- profile startup and attachment
-- humanized browser actions
-- state persistence
-- artifacts and logs
-- retry and recovery logic
+- one browser-bound agent per AdsPower profile
+- one shared long-term memory layer via `LLM Wiki`
+- one operational discovery pipeline on `353`
+- clear handoffs from discovery -> intelligence -> planning -> conversation -> validation
 
-## Execution Model
+## Active Profile Map
 
-Each automation job should map to one logical agent:
+- `353` -> `Discovery Agent`
+- `345` -> `Brand Intelligence Agent`
+- `346` -> `Outreach Planning Agent`
+- `337` -> `Conversation Agent`
+- `333` -> `Feedback / Validation Agent`
 
-- `genaipro_reference_agent`
-- `instagram_brand_search_agent`
+The canonical machine-readable registry lives in [registry.yaml](/c:/Users/occult/Desktop/auto/autoskill/automation/agents/registry.yaml).
 
-Each agent owns:
+## Core Rule
 
-- one provider binding: `AdsPower` / later `Octo`
-- one browser profile
-- one job config
-- one state file
-- one artifact directory
+Default execution rule:
 
-## Concurrency Rule
+- `one active browser agent = one dedicated AdsPower profile`
 
-Default rule:
+Why:
 
-- `one active agent = one browser profile`
+- shared tabs in one profile corrupt focus and state
+- long-running Instagram scans are especially sensitive to tab contention
+- isolated profiles make resume and recovery practical
 
-Recommended parallel mode:
+## Agent Responsibilities
 
-- `genaipro` on profile `A`
-- `instagram_brand_search` on profile `B`
-- for your current setup, keep `instagram_brand_search` on `353` and run `genaipro` on another profile when parallelizing
+### Discovery Agent
 
-Possible but not recommended:
+- module: `automation/modules/instagram_brand_search/`
+- profile: `353`
+- responsibility:
+  - scan Instagram posts, reels, mentions and following
+  - extract brand handles, bios, links, contacts and context
+  - produce raw evidence for downstream agents
 
-- two agents in different tabs of the same profile
+### Brand Intelligence Agent
 
-Why this is risky:
+- module: `automation/modules/brand_intelligence/`
+- profile: `345`
+- responsibility:
+  - web / reviews / social scan
+  - evaluate reputation, frequency of mentions, tone, niche, geo, price segment, blogger fit
+  - produce dossier and score
 
-- shared keyboard and page focus
-- shared downloads
-- shared cookies and rate limits
-- harder state recovery after interruptions
-- easier to corrupt current position in long-running Instagram scans
+### Outreach Planning Agent
 
-Use same-profile parallel tabs only for read-mostly tasks and only after the single-agent flows are stable.
+- module: `automation/modules/outreach_planning/`
+- profile: `346`
+- responsibility:
+  - decide whether to contact at all
+  - choose channel: Telegram, email, Instagram DM
+  - produce personalized angle and outreach plan
 
-Practical recommendation for your repo:
+### Conversation Agent
 
-- do not run `genaipro` and `instagram_brand_search` at the same time on `353`
-- if you want true sub-agent style parallelism, bind each module to its own AdsPower profile
+- module: `automation/modules/conversation/`
+- profile: `337`
+- responsibility:
+  - run approved conversations
+  - obey rate limits, policy rules, and memory of prior threads
+  - default mode: human approval required
+
+### Feedback / Validation Agent
+
+- module: `automation/modules/feedback_validation/`
+- profile: `333`
+- responsibility:
+  - inspect deeper complaints and review evidence
+  - validate or challenge claims
+  - prepare deeper follow-up tasks
+  - no automatic contact with reviewers/commenters without explicit approval
 
 ## Runtime Layers
 
 ### 1. Provider Layer
 
 - `automation/adspower.py`
-- later optional `automation/octo.py`
+- future optional providers can be added here
 
 Responsibilities:
 
-- start/stop profile
-- rotate proxy if needed
+- start and stop profile
+- profile lookup
 - attach over CDP
 
 ### 2. Browser Layer
@@ -76,60 +99,78 @@ Responsibilities:
 
 Responsibilities:
 
-- Playwright connect
+- Playwright attach
 - screenshots
-- scroll/click/type helpers
-- page stability checks
+- page stability and humanized actions
 
-### 3. Module Layer
+### 3. Role Modules
 
-One folder per workflow family:
-
-- `automation/modules/genai/`
 - `automation/modules/instagram_brand_search/`
+- `automation/modules/brand_intelligence/`
+- `automation/modules/outreach_planning/`
+- `automation/modules/conversation/`
+- `automation/modules/feedback_validation/`
+- `automation/modules/subagents/`
 
 Responsibilities:
 
-- site-specific navigation
-- selectors
-- checkpoint semantics
-- candidate extraction logic
+- role-specific state
+- role-specific policies
+- outputs and status files
 
-### 4. Job Layer
+### 4. Shared Memory Layer
 
-YAML config per run type:
-
-- `automation/modules/genai/job.yaml`
-- `automation/modules/instagram_brand_search/job.yaml`
+- `knowledge/llm_wiki/`
 
 Responsibilities:
 
-- profile binding
-- input files
-- output locations
-- policy knobs
+- store compiled knowledge pages about brands, bloggers, contacts, campaigns, conversations and decisions
+- provide shared working memory for all agents
+- remain human-readable and editable
 
-### 5. Runner Layer
+Important:
 
-- `scripts/run_genaipro_reference_batch.py`
-- `scripts/run_instagram_brand_search.py`
+- this is not RAG
+- this layer is summary memory and structured knowledge
+- raw evidence stays in source artifacts and markdown outputs
 
-Responsibilities:
+### 5. Orchestration Layer
 
-- load config
-- instantiate runtime
-- start module workflow
-- write logs and artifacts
+Current orchestration:
 
-## Instagram Module Design Intent
+- `Discovery Agent` is the production runner
+- `subagents` module is the browser-bound control plane for the other roles
 
-Instagram brand search should be resumable by post permalink, not by scroll offset.
+Target orchestration:
 
-Checkpoint priority:
+1. discovery writes evidence
+2. intelligence enriches and scores
+3. outreach planning decides channel and angle
+4. conversation runs only with approval gate
+5. feedback agent deep-validates when risk or ambiguity is high
 
-1. current blogger profile URL
-2. current post/reel permalink
-3. last processed shortcode
-4. per-blogger processed candidate handles
+## State Model
 
-That makes recovery practical even when Instagram reorders loaded content or only loads posts in batches.
+Each agent should own:
+
+- one state file
+- one output directory
+- one artifact directory
+- one memory workspace under `knowledge/llm_wiki`
+
+Resume priority for browser agents:
+
+1. current entity being processed
+2. current page / URL
+3. last completed action
+4. role-specific completed items
+
+## LLM Wiki
+
+The LLM Wiki architecture is documented in [llm_wiki.md](/c:/Users/occult/Desktop/auto/autoskill/automation/agents/llm_wiki.md).
+
+## Legacy Archive
+
+The old `genaipro / genai` workflow is archived in:
+
+- [archive/genaipro_legacy](/c:/Users/occult/Desktop/auto/autoskill/archive/genaipro_legacy)

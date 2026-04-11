@@ -79,6 +79,8 @@ async def main() -> None:
     job = load_job_config()
     job = normalize_job_paths(job)
     artifacts, logger = setup_run_artifacts(PROJECT_ROOT, "instagram_brand_search")
+    job["_run_dir"] = str(artifacts.run_dir)
+    job["_run_label"] = artifacts.run_dir.name
     settings = AdsPowerSettings.from_project_root(PROJECT_ROOT)
     settings = AdsPowerSettings(
         base_url=settings.base_url,

@@ -1,0 +1,23 @@
+{
+  "agent_name": "brand_intelligence_agent",
+  "role": "Brand Intelligence Agent",
+  "profile_no": "345",
+  "purpose": "web/reviews/social scan; reputation, mention frequency, tone, niche, geo, price segment and blogger fit",
+  "status": "ready",
+  "current_url": "https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Y",
+  "last_started_at_iso": "2026-04-10T16:19:15.481458+00:00",
+  "last_connected_at_iso": "2026-04-10T16:19:25.445326+00:00",
+  "last_completed_at_iso": "2026-04-10T16:19:25.445335+00:00",
+  "last_artifact_dir": "C:\\Users\\occult\\Desktop\\auto\\autoskill\\output\\playwright\\20260410_191915_subagent_brand_intelligence_agent",
+  "last_log_path": "C:\\Users\\occult\\Desktop\\auto\\autoskill\\output\\playwright\\20260410_191915_subagent_brand_intelligence_agent\\run.log",
+  "last_screenshot_path": "C:\\Users\\occult\\Desktop\\auto\\autoskill\\output\\subagents\\brand_intelligence_agent\\landing.png",
+  "allowed_channels": [
+    "web",
+    "reviews",
+    "social"
+  ],
+  "writes_messages": false,
+  "human_approval_required": true,
+  "managed_by_module": "brand_intelligence",
+  "memory_workspace": "knowledge/llm_wiki"
+}

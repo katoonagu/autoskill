@@ -1,0 +1,24 @@
+job_name: outreach_planning
+
+browser_profile:
+  provider: adspower
+  profile_no: "346"
+
+state:
+  state_file: automation/state/outreach_planning_state.json
+
+outputs:
+  base_dir: output/outreach_planning
+  decisions_md: output/outreach_planning/decisions.md
+  drafts_dir: output/outreach_planning/drafts
+
+memory:
+  wiki_root: knowledge/llm_wiki
+
+policy:
+  allowed_channels:
+    - telegram
+    - email
+    - instagram_dm
+  human_approval_required: true
+  produce_drafts_only: true

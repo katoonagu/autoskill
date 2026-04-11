@@ -64,8 +64,10 @@ class InstagramBrandSearchState:
             progress = {
                 "discovered_handles": [],
                 "inspected_handles": [],
+                "qualified_handles": [],
                 "last_processed_handle": "",
                 "last_visible_handle": "",
+                "target_qualified_accounts": 0,
                 "list_exhausted": False,
             }
             self.following_progress[blogger_url] = progress

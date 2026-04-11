@@ -31,6 +31,8 @@ from automation.modules.instagram_brand_search.state import InstagramBrandSearch
 async def main(force_rescan: bool = False) -> None:
     job = normalize_job_paths(load_job_config())
     artifacts, logger = setup_run_artifacts(PROJECT_ROOT, "instagram_following_only")
+    job["_run_dir"] = str(artifacts.run_dir)
+    job["_run_label"] = artifacts.run_dir.name
     settings = AdsPowerSettings.from_project_root(PROJECT_ROOT)
     settings = AdsPowerSettings(
         base_url=settings.base_url,

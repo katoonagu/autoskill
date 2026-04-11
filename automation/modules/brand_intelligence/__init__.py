@@ -1,0 +1,1 @@
+"""Brand intelligence agent scaffold."""

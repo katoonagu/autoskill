@@ -15,7 +15,7 @@ site:
 
 inputs:
   blogger_list_file: inputs/instagram_brand_search/blogger_profiles.txt
-  max_seed_targets: 20
+  max_seed_targets: 0
 
 outputs:
   candidate_screenshots_dir: output/instagram_brand_search/brands/screenshots
@@ -30,8 +30,8 @@ scan_policy:
   include_reels: true
   include_comments: false
   search_for_at_mentions_only: true
-  target_period_days: 365
-  fallback_max_posts_per_blogger: 112
+  target_period_days: 0
+  fallback_max_posts_per_blogger: 50
   max_candidates_per_post: 10
 
 navigation_policy:
@@ -65,7 +65,10 @@ retry_policy:
 
 following_scan_policy:
   enabled: true
+  scan_selected_targets_after_discovery: false
   follower_threshold: 300000
+  max_selected_followers: 800000
+  target_qualified_accounts_per_seed: 20
   reject_brand_like_profiles: true
   dialog_load_max_attempts: 6
   max_profiles_to_review: 0
