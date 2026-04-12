@@ -1,6 +1,6 @@
 # Browser Automation Runtime
 
-This project now focuses on a multi-agent browser automation runtime for brand discovery and outreach operations.
+This project now focuses on a multi-agent control plane for brand discovery and outreach operations.
 
 ## Active Modules
 
@@ -11,13 +11,19 @@ This project now focuses on a multi-agent browser automation runtime for brand d
 - `automation/modules/conversation/`
 - `automation/modules/feedback_validation/`
 
-## Active Profiles
+## Browser Profiles
 
-- `353` -> Discovery
-- `345` -> Brand Intelligence
-- `346` -> Outreach Planning
-- `337` -> Conversation
-- `333` -> Feedback / Validation
+- `353` -> Discovery primary
+- `345` -> Shared browser research
+- `337` -> Conversation primary
+
+The logical agents are no longer forced to own one browser profile each. Browser access is now a backend capability managed by `profile_pool.yaml`.
+
+## Control-Plane Capabilities
+
+- `Brand Intelligence` runs live web research through ranked search results, fetched page summaries, and a persisted `web_research.json` artifact per brand.
+- `Conversation` is split into `prepare_draft` and `send_message`; the send path requires approval plus a leased conversation profile.
+- `Validation` remains a non-browser downstream worker unless a future task explicitly requires browser access.
 
 ## Shared Runtime Pieces
 
@@ -26,23 +32,31 @@ This project now focuses on a multi-agent browser automation runtime for brand d
 - `automation/browser.py`
 - `automation/human.py`
 - `automation/artifacts.py`
+- `automation/control_plane/`
+- `automation/agents/contracts/`
+- `automation/agents/profile_pool.yaml`
 
 ## Design Rules
 
-- one active browser agent per dedicated AdsPower profile
+- logical agents are separate from browser backends
+- one browser profile is leased only when a task actually requires browser access
 - keep operational state separate from knowledge memory
 - use `LLM Wiki` for shared long-term memory
 - keep raw evidence in outputs and artifacts
 - keep human approval for any writing / messaging agent by default
+- move work through task/approval contracts instead of ad-hoc script chaining
 
 ## Key Docs
 
-- [Agent architecture](/c:/Users/occult/Desktop/auto/autoskill/automation/agents/architecture.md)
-- [Agent registry](/c:/Users/occult/Desktop/auto/autoskill/automation/agents/registry.yaml)
-- [LLM Wiki architecture](/c:/Users/occult/Desktop/auto/autoskill/automation/agents/llm_wiki.md)
-- [Instagram brand search plan](/c:/Users/occult/Desktop/auto/autoskill/automation/modules/instagram_brand_search/plan.md)
-- [Instagram brand search job config](/c:/Users/occult/Desktop/auto/autoskill/automation/modules/instagram_brand_search/job.yaml)
-- [Browser subagents config](/c:/Users/occult/Desktop/auto/autoskill/automation/modules/subagents/job.yaml)
+- [Agent architecture](automation/agents/architecture.md)
+- [Agent registry](automation/agents/registry.yaml)
+- [LLM Wiki architecture](automation/agents/llm_wiki.md)
+- [Task contracts](automation/agents/contracts/task_types.yaml)
+- [Routing rules](automation/agents/contracts/routing_rules.yaml)
+- [Profile pool](automation/agents/profile_pool.yaml)
+- [Instagram brand search plan](automation/modules/instagram_brand_search/plan.md)
+- [Instagram brand search job config](automation/modules/instagram_brand_search/job.yaml)
+- [Browser subagents config](automation/modules/subagents/job.yaml)
 
 ## Legacy
 

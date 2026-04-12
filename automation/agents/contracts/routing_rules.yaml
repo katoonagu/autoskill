@@ -1,0 +1,43 @@
+routes:
+  brand_intelligence.evaluate_brand:
+    on_completed:
+      - task_type: outreach_planning.decide
+        mode: per_source_blogger
+        when_output_equals:
+          recommended_action: plan_outreach
+      - task_type: validation.review_brand_risk
+        mode: single
+        when_output_in:
+          recommended_action:
+            - validate
+            - hold
+
+  outreach_planning.decide:
+    on_completed:
+      - task_type: conversation.prepare_draft
+        mode: single
+        requires_approval: true
+        approval_scope: conversation.prepare_draft
+        when_output_equals:
+          recommended_action: prepare_draft
+      - task_type: validation.review_brand_risk
+        mode: single
+        when_output_in:
+          recommended_action:
+            - validate
+            - hold
+
+  validation.review_brand_risk:
+    on_completed: []
+
+  validation.review_failed_task:
+    on_completed: []
+
+  conversation.prepare_draft:
+    on_completed:
+      - task_type: conversation.send_message
+        mode: single
+        requires_approval: true
+        approval_scope: conversation.send_message
+        when_output_equals:
+          recommended_action: request_send_approval

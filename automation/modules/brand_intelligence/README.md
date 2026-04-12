@@ -2,13 +2,14 @@
 
 Role:
 
-- web / reviews / social scan
+- ranked web search and fetched page summaries
 - reputation, mention frequency, tone, niche, geo, price segment, blogger fit
 - produce dossier and score
 
-Profile binding:
+Browser usage:
 
-- `345`
+- optional shared browser research profile: `345`
+- normal scoring runs without a mandatory AdsPower session
 
 State:
 
@@ -17,6 +18,7 @@ State:
 Outputs:
 
 - `output/brand_intelligence/`
+- `output/brand_intelligence/<brand>/web_research.json`
 
 Memory:
 

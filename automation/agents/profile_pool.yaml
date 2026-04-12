@@ -1,0 +1,21 @@
+profiles:
+  discovery_primary:
+    profile_no: "353"
+    capability: instagram_discovery
+    exclusive: true
+    managed_by: instagram_brand_search
+    notes: The production discovery browser profile.
+
+  research_shared:
+    profile_no: "345"
+    capability: browser_research
+    exclusive: false
+    managed_by: supervisor
+    notes: Shared browser profile for optional research or validation tasks.
+
+  conversation_primary:
+    profile_no: "337"
+    capability: outbound_conversation
+    exclusive: true
+    managed_by: supervisor
+    notes: Reserved for approved outbound communication tasks only.

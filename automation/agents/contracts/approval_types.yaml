@@ -1,0 +1,14 @@
+approval_types:
+  conversation.prepare_draft:
+    description: Human approval for draft generation from an outreach plan.
+    required_fields:
+      - brand_handle
+      - blogger_handle
+      - decision_path
+
+  conversation.send_message:
+    description: Human approval for actually sending a message through a live channel.
+    required_fields:
+      - brand_handle
+      - blogger_handle
+      - draft_path

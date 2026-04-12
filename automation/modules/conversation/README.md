@@ -2,7 +2,7 @@
 
 Role:
 
-- run approved outreach and follow-up conversations
+- prepare approved drafts and run explicitly approved sends
 - keep thread memory and next actions
 - stay under policy and rate limits
 
@@ -13,6 +13,7 @@ Profile binding:
 Default safety mode:
 
 - human approval required
+- separate approval for `prepare_draft` and `send_message`
 - no autonomous high-volume outreach
 
 Memory:

@@ -1,0 +1,23 @@
+task_statuses:
+  - pending
+  - leased
+  - running
+  - waiting_external
+  - waiting_human
+  - blocked
+  - completed
+  - failed_retryable
+  - failed_terminal
+  - cancelled
+
+approval_statuses:
+  - pending
+  - approved
+  - rejected
+  - expired
+  - superseded
+
+confidence_levels:
+  - low
+  - medium
+  - high

@@ -1,0 +1,63 @@
+task_types:
+  discovery.extract_brand_candidates:
+    assigned_agent: discovery_agent
+    description: Scan Instagram discovery inputs and materialize exportable brand candidates.
+    requires_browser: true
+    required_profile_capability: instagram_discovery
+    requires_human_approval: false
+    approval_scope: ""
+    max_attempts: 1
+
+  brand_intelligence.evaluate_brand:
+    assigned_agent: brand_intelligence_agent
+    description: Score one discovered brand and write a dossier with traceable evidence.
+    requires_browser: false
+    required_profile_capability: ""
+    requires_human_approval: false
+    approval_scope: ""
+    max_attempts: 3
+
+  outreach_planning.decide:
+    assigned_agent: outreach_planning_agent
+    description: Decide whether to contact a brand-blogger pair and create the outreach angle.
+    requires_browser: false
+    required_profile_capability: ""
+    requires_human_approval: false
+    approval_scope: ""
+    max_attempts: 3
+
+  conversation.prepare_draft:
+    assigned_agent: conversation_agent
+    description: Prepare a message draft for an approved campaign task.
+    requires_browser: false
+    required_profile_capability: ""
+    requires_human_approval: true
+    approval_scope: conversation.prepare_draft
+    max_attempts: 3
+
+  conversation.send_message:
+    assigned_agent: conversation_agent
+    description: Send an approved outbound message through a browser-bound channel.
+    requires_browser: true
+    required_profile_capability: outbound_conversation
+    requires_human_approval: true
+    approval_scope: conversation.send_message
+    max_attempts: 2
+
+  validation.review_brand_risk:
+    assigned_agent: feedback_validation_agent
+    description: Review a high-risk or low-confidence brand before outreach.
+    requires_browser: false
+    required_profile_capability: ""
+    requires_human_approval: false
+    approval_scope: ""
+    max_attempts: 3
+
+  validation.review_failed_task:
+    assigned_agent: feedback_validation_agent
+    description: Investigate a failed downstream task and produce a recommendation.
+    requires_browser: false
+    required_profile_capability: ""
+    requires_human_approval: false
+    approval_scope: ""
+    max_attempts: 2

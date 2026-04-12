@@ -2,20 +2,27 @@
 
 ## Goal
 
-Turn the project into a dedicated multi-agent operating model with:
+Turn the project into a dedicated task-driven multi-agent operating model with:
 
-- one browser-bound agent per AdsPower profile
+- logical agents that own decisions and outputs
+- browser backends that are leased only for tasks that actually need them
 - one shared long-term memory layer via `LLM Wiki`
 - one operational discovery pipeline on `353`
 - clear handoffs from discovery -> intelligence -> planning -> conversation -> validation
 
-## Active Profile Map
+## Logical Agent Map
 
-- `353` -> `Discovery Agent`
-- `345` -> `Brand Intelligence Agent`
-- `346` -> `Outreach Planning Agent`
-- `337` -> `Conversation Agent`
-- `333` -> `Feedback / Validation Agent`
+- `Discovery Agent`
+- `Brand Intelligence Agent`
+- `Outreach Planning Agent`
+- `Conversation Agent`
+- `Feedback / Validation Agent`
+
+## Browser Profile Pool
+
+- `353` -> discovery primary
+- `345` -> shared browser research / live validation
+- `337` -> conversation primary
 
 The canonical machine-readable registry lives in [registry.yaml](/c:/Users/occult/Desktop/auto/autoskill/automation/agents/registry.yaml).
 
@@ -23,13 +30,14 @@ The canonical machine-readable registry lives in [registry.yaml](/c:/Users/occul
 
 Default execution rule:
 
-- `one active browser agent = one dedicated AdsPower profile`
+- `one logical agent != one mandatory browser profile`
+- `one browser profile is leased only when the task requires browser access`
 
 Why:
 
-- shared tabs in one profile corrupt focus and state
-- long-running Instagram scans are especially sensitive to tab contention
-- isolated profiles make resume and recovery practical
+- discovery and conversation truly need stable browser state
+- intelligence, planning, and validation can run as task workers without forcing AdsPower usage
+- profile leases keep browser contention explicit instead of implicit
 
 ## Agent Responsibilities
 
@@ -117,8 +125,24 @@ Responsibilities:
 - role-specific state
 - role-specific policies
 - outputs and status files
+- task worker implementations for downstream agents
 
-### 4. Shared Memory Layer
+### 4. Control Plane
+
+- `automation/control_plane/`
+- `automation/agents/contracts/`
+- `automation/tasks/`
+- `automation/decisions/`
+
+Responsibilities:
+
+- seed tasks from discovery outputs
+- dispatch tasks to the right logical agent
+- create downstream tasks from routing rules
+- create approval records for guarded actions
+- manage browser profile leases when tasks need browser access
+
+### 5. Shared Memory Layer
 
 - `knowledge/llm_wiki/`
 
@@ -134,12 +158,15 @@ Important:
 - this layer is summary memory and structured knowledge
 - raw evidence stays in source artifacts and markdown outputs
 
-### 5. Orchestration Layer
+### 6. Orchestration Layer
 
 Current orchestration:
 
 - `Discovery Agent` is the production runner
-- `subagents` module is the browser-bound control plane for the other roles
+- the supervisor seeds tasks from discovery and executes downstream logical workers
+- `Brand Intelligence Agent` enriches candidates with live search, fetched page summaries, and traceable `web_research.json` artifacts
+- `Conversation Agent` splits into `prepare_draft` and `send_message`, with a second approval gate before the live send
+- `subagents` remains a browser probe harness, not the main orchestration mechanism
 
 Target orchestration:
 
@@ -150,6 +177,13 @@ Target orchestration:
 5. feedback agent deep-validates when risk or ambiguity is high
 
 ## State Model
+
+Control-plane truth now lives in:
+
+- `automation/tasks/` for task lifecycle
+- `automation/decisions/` for approval lifecycle
+- `automation/state/leases/` for browser profile lease records
+- `automation/state/agents/` for per-agent runtime snapshots
 
 Each agent should own:
 
