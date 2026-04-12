@@ -111,6 +111,13 @@ class AdsPowerClient:
         payload = {"profile_id": profile_id, "proxyid": proxy_id}
         return self._http_json("/api/v2/browser-profile/update", method="POST", payload=payload)
 
+    def clear_profile_proxy(self, *, profile_id: str) -> dict:
+        payload = {
+            "profile_id": profile_id,
+            "user_proxy_config": {"proxy_soft": "no_proxy"},
+        }
+        return self._http_json("/api/v2/browser-profile/update", method="POST", payload=payload)
+
     def start_profile(
         self,
         profile_no: str | None = None,

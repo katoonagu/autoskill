@@ -35,20 +35,32 @@ def main() -> None:
     except Exception as exc:
         print(f"Stop profile raised: {exc}")
 
-    update_result = client.update_profile_proxy(profile_id=before.profile_id, proxy_id=candidate.proxy_id)
-    print(f"Update proxy result: {update_result}")
-
-    after = client.get_profile(before.profile_no)
-    print(f"Profile after update: profile_no={after.profile_no} profile_id={after.profile_id} proxy_id={after.proxy_id!r}")
-
     try:
-        started = client.start_profile(profile_no=before.profile_no, last_opened_tabs=True)
+        update_result = client.update_profile_proxy(profile_id=before.profile_id, proxy_id=candidate.proxy_id)
+        print(f"Update proxy result: {update_result}")
+
+        after = client.get_profile(before.profile_no)
+        print(f"Profile after update: profile_no={after.profile_no} profile_id={after.profile_id} proxy_id={after.proxy_id!r}")
+
+        try:
+            started = client.start_profile(profile_no=before.profile_no, last_opened_tabs=True)
+            print(
+                "Start profile result: "
+                f"debug_port={started.debug_port} ws_puppeteer={started.ws_puppeteer}"
+            )
+        except Exception as exc:
+            print(f"Start profile raised: {exc}")
+    finally:
+        if before.proxy_id:
+            restore_result = client.update_profile_proxy(profile_id=before.profile_id, proxy_id=before.proxy_id)
+        else:
+            restore_result = client.clear_profile_proxy(profile_id=before.profile_id)
+        restored = client.get_profile(before.profile_no)
+        print(f"Restore proxy result: {restore_result}")
         print(
-            "Start profile result: "
-            f"debug_port={started.debug_port} ws_puppeteer={started.ws_puppeteer}"
+            "Profile after restore: "
+            f"profile_no={restored.profile_no} profile_id={restored.profile_id} proxy_id={restored.proxy_id!r}"
         )
-    except Exception as exc:
-        print(f"Start profile raised: {exc}")
 
 
 if __name__ == "__main__":
