@@ -21,25 +21,37 @@ def _load_json(path_value: str) -> dict:
 
 
 def run_validation_task(project_root: Path, task: AgentTask, *, write_wiki: bool = True) -> TaskResult:
-    if task.task_type not in {"validation.review_brand_risk", "validation.review_failed_task"}:
+    if task.task_type not in {"validation.review_brand_case", "validation.review_brand_risk", "validation.review_failed_task"}:
         raise RuntimeError(f"Unsupported validation task type: {task.task_type}")
 
     brand_handle = str(task.entity_refs.get("brand_handle") or task.inputs.get("brand_handle") or "")
     snapshot = _load_json(str(task.inputs.get("brand_snapshot_path", ""))) if task.inputs.get("brand_snapshot_path") else {}
-    score_payload = _load_json(str(task.inputs.get("score_path", ""))) if task.inputs.get("score_path") else {}
+    intelligence_packet = _load_json(str(task.inputs.get("intelligence_packet_path", ""))) if task.inputs.get("intelligence_packet_path") else {}
+    legacy_score = _load_json(str(task.inputs.get("score_path", ""))) if task.inputs.get("score_path") else {}
+    media_report = _load_json(str(task.inputs.get("media_report_path", ""))) if task.inputs.get("media_report_path") else {}
     reason = str(task.inputs.get("reason") or task.task_type)
-    risk_score = int(score_payload.get("risk_score", 0) or 0)
-    overall_score = int(score_payload.get("overall_score", 0) or 0)
 
+    risk_score = int(intelligence_packet.get("risk_score", legacy_score.get("risk_score", 0)) or 0)
+    evidence_strength = str(intelligence_packet.get("evidence_strength", "") or "")
+    confidence = str(intelligence_packet.get("confidence", "") or "")
     findings: list[str] = []
+
     if str(snapshot.get("account_kind", "") or "") == "service_provider":
         findings.append("Discovery classified the profile as service_provider, so brand identity is ambiguous.")
     if not snapshot.get("external_link"):
         findings.append("External link is missing, which weakens business-account confidence.")
-    if overall_score and overall_score < 60:
-        findings.append("Overall intelligence score remains below the contact threshold.")
-    if risk_score and risk_score >= 60:
+    if confidence == "low":
+        findings.append("Brand arbiter confidence is low, so the case should not move to outreach without deeper review.")
+    if evidence_strength == "weak":
+        findings.append("Evidence density is weak; the current packet is not strong enough for confident outreach.")
+    if legacy_score and int(legacy_score.get("overall_score", 0) or 0) < 60:
+        findings.append("Legacy intelligence score remains below the contact threshold.")
+    if risk_score >= 60:
         findings.append("Risk score is high enough to require manual validation before any outreach.")
+    if intelligence_packet.get("research_gaps"):
+        findings.extend(str(item) for item in intelligence_packet.get("research_gaps") or [] if str(item).strip())
+    if media_report:
+        findings.append("Media enrichment was attached and should be treated as personalization support, not as primary proof.")
     if not findings:
         findings.append("No blocking contradictions found; task was opened for manual review context only.")
 

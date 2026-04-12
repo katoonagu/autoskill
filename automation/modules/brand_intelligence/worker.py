@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import json
+import re
 
 from automation.control_plane.models import AgentTask, TaskResult
 from automation.control_plane.storage import utcnow_iso
@@ -30,205 +32,235 @@ def _load_brand_snapshot(task: AgentTask) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _parse_datetime(raw_value: str) -> datetime | None:
+    text = str(raw_value or "").strip()
+    if not text:
+        return None
+    normalized = text.replace("Z", "+00:00")
+    try:
+        parsed = datetime.fromisoformat(normalized)
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def _load_source_bloggers(task: AgentTask, snapshot: dict) -> list[str]:
+    bloggers = [str(item).strip() for item in (task.inputs.get("source_bloggers") or []) if str(item).strip()]
+    if bloggers:
+        return sorted(dict.fromkeys(bloggers))
+    extracted = [
+        str(source.get("blogger_handle") or "").strip()
+        for source in (snapshot.get("sources") or [])
+        if str(source.get("blogger_handle") or "").strip()
+    ]
+    return sorted(dict.fromkeys(extracted))
+
+
+def _extract_follower_count(text: str) -> int:
+    match = re.search(r"([\d,\.]+)\s+Followers", str(text or ""), re.IGNORECASE)
+    if not match:
+        return 0
+    numeric = re.sub(r"[^\d]", "", match.group(1))
+    return int(numeric or 0)
+
+
+def _derive_supporting_stats(snapshot: dict, research_report, source_bloggers: list[str]) -> dict:
+    now = datetime.now(timezone.utc)
+    sources = list(snapshot.get("sources") or [])
+    source_dates = [_parse_datetime(source.get("post_date_iso") or "") for source in sources]
+    source_dates = [item for item in source_dates if item is not None]
+    recent_30d = sum(1 for item in source_dates if item >= now - timedelta(days=30))
+    recent_90d = sum(1 for item in source_dates if item >= now - timedelta(days=90))
+    ad_high = sum(1 for source in sources if str(source.get("ad_likelihood") or "").strip().lower() == "high")
+    ad_medium = sum(1 for source in sources if str(source.get("ad_likelihood") or "").strip().lower() == "medium")
+    follower_count = _extract_follower_count(str(snapshot.get("followers_text") or snapshot.get("bio") or ""))
+    official_signal = 1 if research_report.official_site_found else 0
+    positive_signal_count = int(research_report.positive_signal_count or 0)
+    negative_signal_count = int(research_report.negative_signal_count or 0)
+
+    if official_signal and (positive_signal_count >= 2 or len(source_bloggers) >= 2):
+        brand_value_tier = "high"
+    elif official_signal or positive_signal_count >= 1 or follower_count >= 5000:
+        brand_value_tier = "medium"
+    else:
+        brand_value_tier = "low"
+
+    personalization_gap = len(snapshot.get("source_posts") or []) < 2 or not str(snapshot.get("reasoning") or "").strip()
+    signal_conflict = (
+        str(snapshot.get("account_kind") or "").strip().lower() == "service_provider"
+        or (str(snapshot.get("brand_likelihood") or "").strip().lower() == "high" and negative_signal_count >= 2)
+        or (research_report.tone == "negative" and positive_signal_count >= 2)
+    )
+
+    return {
+        "unique_blogger_count": len(source_bloggers),
+        "source_posts_count": len(snapshot.get("source_posts") or []),
+        "recent_mentions_30d": recent_30d,
+        "recent_mentions_90d": recent_90d,
+        "high_ad_likelihood_mentions": ad_high,
+        "medium_ad_likelihood_mentions": ad_medium,
+        "follower_count": follower_count,
+        "official_site_found": research_report.official_site_found,
+        "review_source_count": research_report.review_source_count,
+        "positive_signal_count": positive_signal_count,
+        "negative_signal_count": negative_signal_count,
+        "brand_value_tier": brand_value_tier,
+        "personalization_gap": personalization_gap,
+        "signal_conflict": signal_conflict,
+    }
+
+
 def run_brand_intelligence_task(project_root: Path, task: AgentTask, *, write_wiki: bool = True) -> TaskResult:
+    if task.task_type != "brand_intelligence.collect_evidence":
+        raise RuntimeError(f"Unsupported brand intelligence task type: {task.task_type}")
+
     snapshot = _load_brand_snapshot(task)
     handle = str(snapshot.get("handle") or task.entity_refs.get("brand_handle") or "")
     state_path = project_root / "automation" / "state" / "brand_intelligence_state.json"
     state = BrandIntelligenceState.load(state_path)
     state.current_brand_handle = handle
 
-    outreach_fit = str(snapshot.get("outreach_fit", "") or "")
-    brand_likelihood = str(snapshot.get("brand_likelihood", "") or "")
-    ad_likelihood = str(snapshot.get("ad_likelihood", "") or "")
-    account_kind = str(snapshot.get("account_kind", "") or "")
-    source_bloggers = list(task.inputs.get("source_bloggers") or [])
-    sources_count = len(snapshot.get("sources", []) or [])
+    source_bloggers = _load_source_bloggers(task, snapshot)
     research_report = run_brand_web_research(snapshot)
+    supporting_stats = _derive_supporting_stats(snapshot, research_report, source_bloggers)
+    evidence_dir = project_root / "output" / "brand_intelligence" / _slug(handle)
+    evidence_dir.mkdir(parents=True, exist_ok=True)
 
-    fit_score = _score_from_level(outreach_fit, low=35, medium=62, high=84)
-    commercial_signal = _score_from_level(brand_likelihood, low=30, medium=60, high=85)
-    ad_signal = _score_from_level(ad_likelihood, low=35, medium=58, high=78)
-    research_boost = 0
-    if research_report.official_site_found:
-        research_boost += 8
-    if research_report.positive_signal_count:
-        research_boost += min(8, research_report.positive_signal_count * 2)
-    if research_report.tone == "negative":
-        research_boost -= 10
-    reputation_score = min(92, max(25, int((commercial_signal + ad_signal + fit_score) / 3) + research_boost))
+    web_research_path = evidence_dir / "web_research.json"
+    evidence_bundle_path = evidence_dir / "evidence_bundle.json"
+    evidence_report_path = evidence_dir / "evidence_report.md"
+    write_research_report(web_research_path, research_report)
 
-    risk_score = 22
-    risk_notes: list[str] = []
-    if account_kind == "service_provider":
-        risk_score += 18
-        risk_notes.append("service-provider profile can be a person-brand false positive")
-    if brand_likelihood == "low":
-        risk_score += 18
-        risk_notes.append("brand-likelihood is low in discovery output")
-    if not snapshot.get("external_link"):
-        risk_score += 8
-        risk_notes.append("no external link present")
-    if sources_count <= 1:
-        risk_score += 10
-        risk_notes.append("single-source brand mention only")
-    if research_report.negative_signal_count:
-        risk_score += min(18, research_report.negative_signal_count * 4)
-        risk_notes.append(f"web research surfaced {research_report.negative_signal_count} negative lexical signals")
-    if research_report.tone == "negative":
-        risk_score += 8
-        risk_notes.append("overall web-research tone is negative")
-    risk_score = min(risk_score, 95)
+    source_refs = []
+    for source in snapshot.get("sources") or []:
+        source_refs.append(
+            {
+                "blogger_handle": str(source.get("blogger_handle") or "").strip(),
+                "post_url": str(source.get("post_url") or "").strip(),
+                "post_date_iso": str(source.get("post_date_iso") or "").strip(),
+                "ad_likelihood": str(source.get("ad_likelihood") or "").strip(),
+                "caption_excerpt": str(source.get("caption_excerpt") or "").strip(),
+            }
+        )
 
-    overall_score = max(0, min(100, int((reputation_score * 0.35) + (fit_score * 0.4) + ((100 - risk_score) * 0.25))))
-    recommended_action = "plan_outreach"
-    if overall_score < 58 or risk_score >= 60:
-        recommended_action = "validate"
-    elif overall_score < 68:
-        recommended_action = "hold"
+    evidence_bundle = {
+        "brand_handle": handle,
+        "brand_name": str(snapshot.get("display_name") or handle),
+        "brand_snapshot_path": str(task.inputs.get("brand_snapshot_path") or ""),
+        "discovery_snapshot": snapshot,
+        "source_bloggers": source_bloggers,
+        "source_blogger_refs": source_refs,
+        "search_queries": list(research_report.search_queries),
+        "search_results": [item.__dict__ for item in research_report.search_results],
+        "page_summaries": [item.__dict__ for item in research_report.page_summaries],
+        "review_signals": {
+            "review_source_count": research_report.review_source_count,
+            "tone": research_report.tone,
+            "positive_signal_count": research_report.positive_signal_count,
+            "negative_signal_count": research_report.negative_signal_count,
+            "summary_notes": list(research_report.summary_notes),
+        },
+        "mention_statistics": supporting_stats,
+        "media_summary_refs": [str(task.inputs.get("media_report_path") or "")] if task.inputs.get("media_report_path") else [],
+        "derived_numeric_features": {
+            "fit_signal_score": _score_from_level(str(snapshot.get("outreach_fit") or ""), low=35, medium=62, high=84),
+            "brand_signal_score": _score_from_level(str(snapshot.get("brand_likelihood") or ""), low=30, medium=60, high=86),
+            "ad_signal_score": _score_from_level(str(snapshot.get("ad_likelihood") or ""), low=35, medium=58, high=78),
+        },
+        "media_candidate_urls": list(snapshot.get("source_posts") or []),
+    }
+    evidence_bundle_path.write_text(json.dumps(evidence_bundle, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    dossier_dir = project_root / "output" / "brand_intelligence" / _slug(handle)
-    dossier_dir.mkdir(parents=True, exist_ok=True)
-    dossier_path = dossier_dir / "dossier.md"
-    score_path = dossier_dir / "score.json"
-    research_path = dossier_dir / "web_research.json"
-    write_research_report(research_path, research_report)
-
-    summary_lines = [
-        f"# Brand Intelligence @{handle}",
+    report_lines = [
+        f"# Evidence Bundle @{handle}",
         "",
-        f"- Overall score: {overall_score}",
-        f"- Reputation score: {reputation_score}",
-        f"- Fit score: {fit_score}",
-        f"- Risk score: {risk_score}",
-        f"- Recommended action: {recommended_action}",
-        f"- Account kind: {account_kind or 'unknown'}",
-        f"- Niche: {snapshot.get('niche', '') or 'unknown'}",
-        f"- Category label: {snapshot.get('category_label', '') or 'unknown'}",
+        f"- Brand name: {snapshot.get('display_name') or handle}",
         f"- Source bloggers: {', '.join(source_bloggers) or 'none'}",
-        f"- Web research tone: {research_report.tone}",
-        f"- Geo: {research_report.geo}",
-        f"- Price segment: {research_report.price_segment}",
-        f"- Review source count: {research_report.review_source_count}",
         f"- Official site found: {'yes' if research_report.official_site_found else 'no'}",
+        f"- Review source count: {research_report.review_source_count}",
+        f"- Web tone: {research_report.tone}",
+        f"- Geo hint: {research_report.geo}",
+        f"- Price segment: {research_report.price_segment}",
         "",
-        "## Signals",
-        f"- Brand likelihood: {brand_likelihood or 'unknown'}",
-        f"- Outreach fit: {outreach_fit or 'unknown'}",
-        f"- Ad likelihood: {ad_likelihood or 'unknown'}",
-        "",
-        "## Web Research Notes",
+        "## Supporting Stats",
     ]
+    for key, value in supporting_stats.items():
+        report_lines.append(f"- {key}: {value}")
+    report_lines.extend(
+        [
+            "",
+            "## Web Research Notes",
+        ]
+    )
     for note in research_report.summary_notes:
-        summary_lines.append(f"- {note}")
-    summary_lines.extend(
+        report_lines.append(f"- {note}")
+    report_lines.extend(
         [
             "",
             "## Search Results",
         ]
     )
     for item in research_report.search_results:
-        summary_lines.append(f"- {item.title} | {item.url} | {item.snippet}")
-    summary_lines.extend(
-        [
-            "",
-            "## Notes",
-        ]
-    )
-    for note in risk_notes or ["No major risk notes triggered by the discovery snapshot."]:
-        summary_lines.append(f"- {note}")
-    summary_lines.extend(
-        [
-            "",
-            "## Bio",
-            str(snapshot.get("bio", "") or "none"),
-            "",
-            "## Reasoning",
-            str(snapshot.get("reasoning", "") or "none"),
-            "",
-        ]
-    )
-    dossier_path.write_text("\n".join(summary_lines), encoding="utf-8-sig")
-    score_payload = {
-        "brand_handle": handle,
-        "overall_score": overall_score,
-        "reputation_score": reputation_score,
-        "fit_score": fit_score,
-        "risk_score": risk_score,
-        "recommended_action": recommended_action,
-        "source_bloggers": source_bloggers,
-        "tone": research_report.tone,
-        "geo": research_report.geo,
-        "price_segment": research_report.price_segment,
-        "review_source_count": research_report.review_source_count,
-        "official_site_found": research_report.official_site_found,
-        "web_research_path": str(research_path),
-    }
-    score_path.write_text(json.dumps(score_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        report_lines.append(f"- {item.title} | {item.url} | {item.snippet}")
+    evidence_report_path.write_text("\n".join(report_lines), encoding="utf-8-sig")
 
-    state.dossiers[handle] = {"dossier_path": str(dossier_path)}
-    state.scores[handle] = score_payload
+    state.evidence_bundles[handle] = {
+        "evidence_bundle_path": str(evidence_bundle_path),
+        "supporting_stats": supporting_stats,
+    }
+    state.research_reports[handle] = {
+        "web_research_path": str(web_research_path),
+        "evidence_report_path": str(evidence_report_path),
+    }
     if handle not in state.completed_brand_handles:
         state.completed_brand_handles.append(handle)
     state.current_brand_handle = ""
     state.save(state_path)
 
-    evidence_refs = [str(dossier_path), str(score_path), str(research_path), str(task.inputs.get("brand_snapshot_path", ""))]
+    evidence_refs = [
+        str(evidence_bundle_path),
+        str(evidence_report_path),
+        str(web_research_path),
+        str(task.inputs.get("brand_snapshot_path") or ""),
+    ]
     decision_refs: list[str] = []
     if write_wiki:
         brand_page = project_root / "knowledge" / "llm_wiki" / "brands" / f"{_slug(handle)}.md"
-        decision_page = project_root / "knowledge" / "llm_wiki" / "decisions" / f"brand_intelligence__{_slug(handle)}.md"
         brand_page.parent.mkdir(parents=True, exist_ok=True)
-        decision_page.parent.mkdir(parents=True, exist_ok=True)
         brand_page.write_text(
             "\n".join(
                 [
                     f"# Brand @{handle}",
                     "",
-                    f"- Overall score: {overall_score}",
-                    f"- Recommended action: {recommended_action}",
-                    f"- Risk score: {risk_score}",
+                    f"- Evidence bundle: {evidence_bundle_path.as_posix()}",
+                    f"- Evidence report: {evidence_report_path.as_posix()}",
+                    f"- Web research: {web_research_path.as_posix()}",
                     f"- Source bloggers: {', '.join(source_bloggers) or 'none'}",
-                    f"- Dossier: {dossier_path.as_posix()}",
-                    f"- Web research: {research_path.as_posix()}",
                     "",
                 ]
             ),
             encoding="utf-8-sig",
         )
-        decision_page.write_text(
-            "\n".join(
-                [
-                    f"# Decision Brand Intelligence @{handle}",
-                    "",
-                    f"- Confidence: {'high' if overall_score >= 75 else 'medium' if overall_score >= 55 else 'low'}",
-                    f"- Recommended action: {recommended_action}",
-                    f"- Evidence: {', '.join(path for path in evidence_refs if path)}",
-                    "",
-                ]
-            ),
-            encoding="utf-8-sig",
-        )
-        decision_refs.extend([str(brand_page), str(decision_page)])
+        decision_refs.append(str(brand_page))
 
     return TaskResult(
         task_id=task.task_id,
         agent=task.assigned_agent,
         status="completed",
         completed_at_iso=utcnow_iso(),
-        summary=f"Brand @{handle} scored for downstream routing.",
-        confidence="high" if overall_score >= 75 else "medium" if overall_score >= 55 else "low",
+        summary=f"Evidence collected for @{handle}.",
+        confidence="high" if supporting_stats["official_site_found"] or supporting_stats["unique_blogger_count"] >= 2 else "medium",
         outputs={
             "brand_handle": handle,
-            "overall_score": overall_score,
-            "risk_score": risk_score,
-            "fit_score": fit_score,
-            "reputation_score": reputation_score,
-            "recommended_action": recommended_action,
+            "brand_name": str(snapshot.get("display_name") or handle),
+            "brand_snapshot_path": str(task.inputs.get("brand_snapshot_path") or ""),
             "source_bloggers": source_bloggers,
-            "brand_snapshot_path": str(task.inputs.get("brand_snapshot_path", "")),
-            "dossier_path": str(dossier_path),
-            "score_path": str(score_path),
-            "web_research_path": str(research_path),
+            "web_research_path": str(web_research_path),
+            "evidence_bundle_path": str(evidence_bundle_path),
+            "evidence_report_path": str(evidence_report_path),
+            "supporting_stats": supporting_stats,
         },
         evidence_refs=evidence_refs,
         decision_refs=decision_refs,

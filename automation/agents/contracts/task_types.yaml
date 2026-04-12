@@ -8,14 +8,32 @@ task_types:
     approval_scope: ""
     max_attempts: 1
 
-  brand_intelligence.evaluate_brand:
+  brand_intelligence.collect_evidence:
     assigned_agent: brand_intelligence_agent
-    description: Score one discovered brand and write a dossier with traceable evidence.
+    description: Collect web and discovery evidence for one discovered brand without making the final verdict.
     requires_browser: false
     required_profile_capability: ""
     requires_human_approval: false
     approval_scope: ""
     max_attempts: 3
+
+  brand_arbiter.evaluate_case:
+    assigned_agent: brand_arbiter_agent
+    description: Evaluate one brand case from structured evidence and produce the main intelligence packet.
+    requires_browser: false
+    required_profile_capability: ""
+    requires_human_approval: false
+    approval_scope: ""
+    max_attempts: 3
+
+  media_intelligence.analyze_recent_media:
+    assigned_agent: media_intelligence_agent
+    description: Analyze recent brand-related media and comments when the arbiter requests deeper enrichment.
+    requires_browser: false
+    required_profile_capability: ""
+    requires_human_approval: false
+    approval_scope: ""
+    max_attempts: 2
 
   outreach_planning.decide:
     assigned_agent: outreach_planning_agent
@@ -44,9 +62,9 @@ task_types:
     approval_scope: conversation.send_message
     max_attempts: 2
 
-  validation.review_brand_risk:
+  validation.review_brand_case:
     assigned_agent: feedback_validation_agent
-    description: Review a high-risk or low-confidence brand before outreach.
+    description: Review a high-risk, low-confidence, or incomplete brand case before outreach.
     requires_browser: false
     required_profile_capability: ""
     requires_human_approval: false

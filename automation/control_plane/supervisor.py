@@ -57,8 +57,14 @@ def _spawn_tasks_from_rule(rule: RouteRule, result: TaskResult, source_task: Age
                     "brand_snapshot_path": str(result.outputs.get("brand_snapshot_path") or source_task.inputs.get("brand_snapshot_path") or ""),
                     "score_path": str(result.outputs.get("score_path") or source_task.inputs.get("score_path") or ""),
                     "dossier_path": str(result.outputs.get("dossier_path") or source_task.inputs.get("dossier_path") or ""),
+                    "evidence_bundle_path": str(result.outputs.get("evidence_bundle_path") or source_task.inputs.get("evidence_bundle_path") or ""),
+                    "evidence_report_path": str(result.outputs.get("evidence_report_path") or source_task.inputs.get("evidence_report_path") or ""),
+                    "intelligence_packet_path": str(result.outputs.get("intelligence_packet_path") or source_task.inputs.get("intelligence_packet_path") or ""),
+                    "arbiter_report_path": str(result.outputs.get("arbiter_report_path") or source_task.inputs.get("arbiter_report_path") or ""),
+                    "media_report_path": str(result.outputs.get("media_report_path") or source_task.inputs.get("media_report_path") or ""),
                     "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
                     "blogger_handle": str(blogger_handle),
+                    "supporting_stats": dict(result.outputs.get("supporting_stats") or source_task.inputs.get("supporting_stats") or {}),
                 },
                 source_task_id=source_task.task_id,
                 source_run_id=source_task.source_run_id,
@@ -66,22 +72,34 @@ def _spawn_tasks_from_rule(rule: RouteRule, result: TaskResult, source_task: Age
             for blogger_handle in source_bloggers
         ]
 
+    entity_refs = {
+        "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
+        "blogger_handle": str(result.outputs.get("blogger_handle") or source_task.entity_refs.get("blogger_handle") or ""),
+    }
+    if source_task.task_type == "media_intelligence.analyze_recent_media" and rule.downstream_task_type == "brand_arbiter.evaluate_case":
+        entity_refs["analysis_stage"] = "media_enriched"
+    elif source_task.entity_refs.get("analysis_stage"):
+        entity_refs["analysis_stage"] = str(source_task.entity_refs.get("analysis_stage") or "")
+
     return [
         TaskSpawn(
             task_type=rule.downstream_task_type,
-            entity_refs={
-                "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
-                "blogger_handle": str(result.outputs.get("blogger_handle") or source_task.entity_refs.get("blogger_handle") or ""),
-            },
+            entity_refs=entity_refs,
             inputs={
                 "brand_snapshot_path": str(result.outputs.get("brand_snapshot_path") or source_task.inputs.get("brand_snapshot_path") or ""),
                 "score_path": str(result.outputs.get("score_path") or source_task.inputs.get("score_path") or ""),
                 "dossier_path": str(result.outputs.get("dossier_path") or source_task.inputs.get("dossier_path") or ""),
+                "evidence_bundle_path": str(result.outputs.get("evidence_bundle_path") or source_task.inputs.get("evidence_bundle_path") or ""),
+                "evidence_report_path": str(result.outputs.get("evidence_report_path") or source_task.inputs.get("evidence_report_path") or ""),
+                "intelligence_packet_path": str(result.outputs.get("intelligence_packet_path") or source_task.inputs.get("intelligence_packet_path") or ""),
+                "arbiter_report_path": str(result.outputs.get("arbiter_report_path") or source_task.inputs.get("arbiter_report_path") or ""),
+                "media_report_path": str(result.outputs.get("media_report_path") or source_task.inputs.get("media_report_path") or ""),
                 "decision_path": str(result.outputs.get("decision_path") or source_task.inputs.get("decision_path") or ""),
                 "pitch_path": str(result.outputs.get("pitch_path") or source_task.inputs.get("pitch_path") or ""),
                 "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
                 "blogger_handle": str(result.outputs.get("blogger_handle") or source_task.entity_refs.get("blogger_handle") or ""),
                 "reason": str(result.outputs.get("recommended_action") or ""),
+                "supporting_stats": dict(result.outputs.get("supporting_stats") or source_task.inputs.get("supporting_stats") or {}),
             },
             source_task_id=source_task.task_id,
             source_run_id=source_task.source_run_id,
@@ -123,6 +141,14 @@ def _dispatch_task(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
         from ..modules.brand_intelligence.worker import run_brand_intelligence_task
 
         return run_brand_intelligence_task(project_root, task, write_wiki=write_wiki)
+    if task.assigned_agent == "brand_arbiter_agent":
+        from ..modules.brand_arbiter.worker import run_brand_arbiter_task
+
+        return run_brand_arbiter_task(project_root, task, write_wiki=write_wiki)
+    if task.assigned_agent == "media_intelligence_agent":
+        from ..modules.media_intelligence.worker import run_media_intelligence_task
+
+        return run_media_intelligence_task(project_root, task, write_wiki=write_wiki)
     if task.assigned_agent == "outreach_planning_agent":
         from ..modules.outreach_planning.worker import run_outreach_planning_task
 

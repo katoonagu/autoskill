@@ -24,7 +24,7 @@ def _snapshot_path(paths: ControlPlanePaths, handle: str) -> Path:
 
 def seed_brand_intelligence_tasks(project_root: Path, paths: ControlPlanePaths) -> list[AgentTask]:
     contracts = load_task_type_contracts(project_root)
-    contract = contracts["brand_intelligence.evaluate_brand"]
+    contract = contracts["brand_intelligence.collect_evidence"]
     discovery_job = _load_discovery_job(project_root)
     discovery_state = InstagramBrandSearchState.load(Path(discovery_job["state"]["state_file"]))
     exportable_records = collect_exportable_brand_records(discovery_state)

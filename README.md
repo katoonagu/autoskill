@@ -4,7 +4,7 @@
 
 This is not just a scraper. It is a task-driven multi-agent control plane for the pipeline:
 
-`discovery -> brand intelligence -> outreach planning -> conversation -> validation`
+`discovery -> brand intelligence.collect_evidence -> brand_arbiter.evaluate_case -> outreach planning -> conversation -> validation`
 
 ## What The Project Does
 
@@ -59,7 +59,7 @@ This is the main source of truth for the initial signal.
 
 Role:
 
-- enrichment and scoring of a discovered brand
+- evidence collection for a discovered brand
 
 What it does:
 
@@ -68,11 +68,24 @@ What it does:
 - looks for official sites, review signals, tone, geo, and price segment
 - ranks search results while pushing non-social sources above social pages when possible
 - fetches pages and builds summaries
-- writes a dossier, score, and `web_research.json`
+- writes `web_research.json`, `evidence_bundle.json`, and `evidence_report.md`
 
-This is already more than heuristics on top of Instagram bio. It is the project's research layer.
+This is the project's evidence collector, not the final brain.
 
-### 3. Outreach Planning Agent
+### 3. Brand Arbiter Agent
+
+Role:
+
+- central reasoning and verdict layer
+
+What it does:
+
+- reads the normalized evidence bundle
+- applies structured evaluation in the shape `State -> Criteria -> Analysis -> Verdict`
+- writes `intelligence_packet.json` and `arbiter_report.md`
+- decides whether the case should go to outreach planning, validation, or optional media enrichment
+
+### 4. Outreach Planning Agent
 
 Role:
 
@@ -85,7 +98,7 @@ What it does:
 - produces a personalized outreach angle
 - writes a planning decision instead of sending anything
 
-### 4. Conversation Agent
+### 5. Conversation Agent
 
 Role:
 
@@ -103,7 +116,7 @@ Important:
 - draft generation and send are separated
 - send must not happen automatically without explicit approval
 
-### 5. Feedback / Validation Agent
+### 6. Feedback / Validation Agent
 
 Role:
 

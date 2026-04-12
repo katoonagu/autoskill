@@ -1,16 +1,28 @@
 routes:
-  brand_intelligence.evaluate_brand:
+  brand_intelligence.collect_evidence:
     on_completed:
+      - task_type: brand_arbiter.evaluate_case
+        mode: single
+
+  brand_arbiter.evaluate_case:
+    on_completed:
+      - task_type: media_intelligence.analyze_recent_media
+        mode: single
+        when_output_equals:
+          media_enrichment_required: "true"
       - task_type: outreach_planning.decide
         mode: per_source_blogger
         when_output_equals:
           recommended_action: plan_outreach
-      - task_type: validation.review_brand_risk
+      - task_type: validation.review_brand_case
         mode: single
-        when_output_in:
-          recommended_action:
-            - validate
-            - hold
+        when_output_equals:
+          recommended_action: validate
+
+  media_intelligence.analyze_recent_media:
+    on_completed:
+      - task_type: brand_arbiter.evaluate_case
+        mode: single
 
   outreach_planning.decide:
     on_completed:
@@ -20,14 +32,14 @@ routes:
         approval_scope: conversation.prepare_draft
         when_output_equals:
           recommended_action: prepare_draft
-      - task_type: validation.review_brand_risk
+      - task_type: validation.review_brand_case
         mode: single
         when_output_in:
           recommended_action:
             - validate
             - hold
 
-  validation.review_brand_risk:
+  validation.review_brand_case:
     on_completed: []
 
   validation.review_failed_task:

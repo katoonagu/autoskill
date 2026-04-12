@@ -21,7 +21,8 @@ The logical agents are no longer forced to own one browser profile each. Browser
 
 ## Control-Plane Capabilities
 
-- `Brand Intelligence` runs live web research through ranked search results, fetched page summaries, and a persisted `web_research.json` artifact per brand.
+- `Brand Intelligence` is now the evidence collector: it runs live web research, writes `web_research.json`, and materializes `evidence_bundle.json` plus `evidence_report.md`.
+- `Brand Arbiter` is the central reasoning layer: it reads the evidence bundle, emits `intelligence_packet.json`, and decides between outreach planning, validation, and optional media enrichment.
 - `Conversation` is split into `prepare_draft` and `send_message`; the send path requires approval plus a leased conversation profile.
 - `Validation` remains a non-browser downstream worker unless a future task explicitly requires browser access.
 

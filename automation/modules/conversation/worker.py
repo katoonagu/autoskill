@@ -33,8 +33,10 @@ def _extract_draft_body(draft_path: Path) -> str:
     if "## Draft" not in text:
         return text.strip()
     block = text.split("## Draft", 1)[1]
-    if "## Guardrails" in block:
-        block = block.split("## Guardrails", 1)[0]
+    for marker in ("## Context", "## Why Now", "## Supporting Stats", "## Guardrails"):
+        if marker in block:
+            block = block.split(marker, 1)[0]
+            break
     return block.strip()
 
 
@@ -112,7 +114,16 @@ def _prepare_draft(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
     brand_handle = str(planning_payload.get("brand_handle") or task.entity_refs.get("brand_handle") or "")
     blogger_handle = str(planning_payload.get("blogger_handle") or task.entity_refs.get("blogger_handle") or "")
     channel = str(planning_payload.get("chosen_channel") or "instagram_dm")
-    angle = str(planning_payload.get("angle") or "")
+    if str(planning_payload.get("recommended_action") or "") != "prepare_draft":
+        raise RuntimeError("conversation.prepare_draft received a planning decision that is not outreach-ready")
+
+    angle = str(planning_payload.get("recommended_angle") or planning_payload.get("angle") or "")
+    why_this_brand = str(planning_payload.get("why_this_brand") or "")
+    why_now = str(planning_payload.get("why_now") or "")
+    what_not_to_say = [str(item).strip() for item in (planning_payload.get("what_not_to_say") or []) if str(item).strip()]
+    supporting_stats = dict(planning_payload.get("supporting_stats") or {})
+    supporting_stat_lines = [f"- {key}: {value}" for key, value in supporting_stats.items()] or ["- No supporting stats provided."]
+    guardrail_lines = [f"- {item}" for item in what_not_to_say] or ["- Avoid unverified claims."]
     conversation_key = f"{_slug(brand_handle)}__{_slug(blogger_handle or 'unknown')}__{channel}"
 
     draft_dir = project_root / "output" / "conversation" / conversation_key
@@ -126,12 +137,19 @@ def _prepare_draft(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
         f"- Channel: {channel}",
         "",
         "## Draft",
-        (
-            f"Привет! Увидели, что у тебя уже органично встречаются бренды из похожей ниши. "
-            f"Есть идея аккуратной интеграции для @{brand_handle}, где можно опереться на {angle.lower()}."
-        ),
+        f"Привет! Видим, что @{brand_handle} уже органично пересекается с твоим контекстом. Есть идея аккуратной интеграции, где можно опереться на {angle.lower() if angle else 'текущий brand-fit'}.",
+        "",
+        "## Context",
+        why_this_brand or "Контекст по бренду не был явно сформулирован.",
+        "",
+        "## Why Now",
+        why_now or "Отдельный timing hook не сформулирован.",
+        "",
+        "## Supporting Stats",
+        *supporting_stat_lines,
         "",
         "## Guardrails",
+        *guardrail_lines,
         "- Requires human review before any send action.",
         "- Draft generation does not send anything by itself.",
         "",
@@ -143,6 +161,8 @@ def _prepare_draft(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
         "channel": channel,
         "next_action": "approve_send",
         "draft_path": str(draft_path),
+        "why_this_brand": why_this_brand,
+        "why_now": why_now,
     }
     status_path.write_text(json.dumps(status_payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -155,6 +175,8 @@ def _prepare_draft(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
         "last_message_summary": "Draft generated from approved outreach plan.",
         "next_action": "approve_send",
         "draft_path": str(draft_path),
+        "why_this_brand": why_this_brand,
+        "why_now": why_now,
     }
     if conversation_key not in state.completed_conversation_keys:
         state.completed_conversation_keys.append(conversation_key)

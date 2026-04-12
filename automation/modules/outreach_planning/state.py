@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
+from dataclasses import fields as dataclass_fields
 from pathlib import Path
 import json
 
@@ -16,7 +17,10 @@ class OutreachPlanningState:
     def load(cls, path: Path) -> "OutreachPlanningState":
         if not path.exists():
             return cls()
-        return cls(**json.loads(path.read_text(encoding="utf-8")))
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        allowed = {item.name for item in dataclass_fields(cls)}
+        normalized = {key: value for key, value in payload.items() if key in allowed}
+        return cls(**normalized)
 
     def save(self, path: Path) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)

@@ -18,8 +18,8 @@ agents:
     profile_no: "345"
     module: brand_intelligence
     status: scaffolded
-    managed_by_runtime: browser_subagents
-    purpose: Web, review and social scan that scores reputation, mention frequency, tone, niche, geo, price segment and blogger fit
+    managed_by_runtime: supervisor
+    purpose: Collect and normalize discovery, web, review, and mention evidence for each discovered brand
     channels:
       - web
       - reviews
@@ -27,7 +27,40 @@ agents:
     writes_messages: false
     human_approval_required: true
     memory_workspace: knowledge/llm_wiki
-    notes: Research-only agent that builds dossier and score for each brand.
+    notes: Evidence collector that prepares the bundle consumed by the arbiter.
+
+  brand_arbiter_agent:
+    role: Brand Arbiter Agent
+    profile_no: "345"
+    module: brand_arbiter
+    status: scaffolded
+    managed_by_runtime: supervisor
+    purpose: Evaluate a brand case from structured evidence and produce the main intelligence verdict and recommendation packet
+    channels:
+      - web
+      - reviews
+      - social
+      - internal_reasoning
+    writes_messages: false
+    human_approval_required: true
+    memory_workspace: knowledge/llm_wiki
+    notes: Main brain layer using structured reasoning, verdicts, and explicit evidence quality.
+
+  media_intelligence_agent:
+    role: Media Intelligence Agent
+    profile_no: "345"
+    module: media_intelligence
+    status: scaffolded
+    managed_by_runtime: supervisor
+    purpose: Analyze recent media, comments, and creator-brand fit signals when deeper enrichment is requested
+    channels:
+      - web
+      - social
+      - video
+    writes_messages: false
+    human_approval_required: true
+    memory_workspace: knowledge/llm_wiki
+    notes: Trigger-based enrichment layer and not an always-on step.
 
   outreach_planning_agent:
     role: Outreach Planning Agent

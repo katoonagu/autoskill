@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
+from dataclasses import fields as dataclass_fields
 from pathlib import Path
 import json
 
@@ -9,14 +10,17 @@ import json
 class BrandIntelligenceState:
     current_brand_handle: str = ""
     completed_brand_handles: list[str] = field(default_factory=list)
-    dossiers: dict[str, dict] = field(default_factory=dict)
-    scores: dict[str, dict] = field(default_factory=dict)
+    evidence_bundles: dict[str, dict] = field(default_factory=dict)
+    research_reports: dict[str, dict] = field(default_factory=dict)
 
     @classmethod
     def load(cls, path: Path) -> "BrandIntelligenceState":
         if not path.exists():
             return cls()
-        return cls(**json.loads(path.read_text(encoding="utf-8")))
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        allowed = {item.name for item in dataclass_fields(cls)}
+        normalized = {key: value for key, value in payload.items() if key in allowed}
+        return cls(**normalized)
 
     def save(self, path: Path) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)

@@ -7,14 +7,13 @@ import json
 
 
 @dataclass
-class FeedbackValidationState:
+class MediaIntelligenceState:
     current_brand_handle: str = ""
     completed_brand_handles: list[str] = field(default_factory=list)
-    tasks: dict[str, dict] = field(default_factory=dict)
-    findings: dict[str, dict] = field(default_factory=dict)
+    reports: dict[str, dict] = field(default_factory=dict)
 
     @classmethod
-    def load(cls, path: Path) -> "FeedbackValidationState":
+    def load(cls, path: Path) -> "MediaIntelligenceState":
         if not path.exists():
             return cls()
         payload = json.loads(path.read_text(encoding="utf-8"))
