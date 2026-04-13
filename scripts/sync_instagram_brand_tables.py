@@ -5,6 +5,7 @@ import json
 import re
 import shutil
 import sys
+import tempfile
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
@@ -186,7 +187,11 @@ def sort_key_for_label(label: str, mtime: float) -> tuple[str, float]:
     return ((match.group(1) if match else f"{mtime:.6f}"), mtime)
 
 
-def discover_snapshots(brands_dir: Path) -> list[Snapshot]:
+def normalized_run_label(raw_label: str) -> str:
+    return re.sub(r"^(?:\d{2}_)+", "", raw_label)
+
+
+def discover_snapshots(brands_dir: Path, preserved_run_tables: list[Path] | None = None) -> list[Snapshot]:
     historical_candidates: list[tuple[Path, str, str]] = []
 
     backup_root = PROJECT_ROOT / "output" / "instagram_brand_search" / "_relaunch_backups"
@@ -203,6 +208,14 @@ def discover_snapshots(brands_dir: Path) -> list[Snapshot]:
             label = run_dir.replace("_instagram_brand_search", "")
             historical_candidates.append((path, "playwright", label))
 
+    tables_dir = brands_dir / "tables"
+    if tables_dir.exists():
+        for path in sorted(tables_dir.glob("brand_links_run_*.xlsx")):
+            historical_candidates.append((path, "table_history", normalized_run_label(path.stem.replace("brand_links_run_", ""))))
+
+    for path in preserved_run_tables or []:
+        historical_candidates.append((path, "table_history", normalized_run_label(path.stem.replace("brand_links_run_", ""))))
+
     candidates = list(historical_candidates)
     if not historical_candidates:
         current_live = brands_dir / "brand_links.xlsx"
@@ -210,7 +223,7 @@ def discover_snapshots(brands_dir: Path) -> list[Snapshot]:
             candidates.append((current_live, "current", "current_live"))
 
     grouped: dict[str, Snapshot] = {}
-    priority = {"backup": 0, "playwright": 1, "current": 2}
+    priority = {"backup": 0, "playwright": 1, "table_history": 2, "current": 3}
     for path, source_type, label in candidates:
         sha = file_sha256(path)
         content_signature = workbook_content_signature(path)
@@ -231,6 +244,18 @@ def discover_snapshots(brands_dir: Path) -> list[Snapshot]:
             grouped[content_signature] = snapshot
 
     return sorted(grouped.values(), key=lambda item: sort_key_for_label(item.label, item.mtime))
+
+
+def preserve_existing_run_tables(tables_dir: Path) -> list[Path]:
+    if not tables_dir.exists():
+        return []
+    preserved_root = Path(tempfile.mkdtemp(prefix="instagram_brand_tables_"))
+    preserved_paths: list[Path] = []
+    for path in sorted(tables_dir.glob("brand_links_run_*.xlsx")):
+        target = preserved_root / path.name
+        shutil.copy2(path, target)
+        preserved_paths.append(target)
+    return preserved_paths
 
 
 def copy_if_exists(source: Path, target: Path) -> None:
@@ -635,6 +660,7 @@ def main() -> None:
 
     brands_dir = Path(job["outputs"]["discovered_brand_links_md"]).parent
     tables_dir = brands_dir / "tables"
+    preserved_run_tables = preserve_existing_run_tables(tables_dir)
     live_cache_path = tables_dir / "live_profile_counts.json"
     live_cache_text = ""
     if live_cache_path.exists():
@@ -659,7 +685,7 @@ def main() -> None:
         ["Brands", "Sources", "Blogger Summary"],
     )
 
-    snapshots = discover_snapshots(brands_dir)
+    snapshots = discover_snapshots(brands_dir, preserved_run_tables=preserved_run_tables)
     run_targets: list[Path] = []
     for index, snapshot in enumerate(snapshots, start=1):
         target = tables_dir / f"brand_links_run_{index:02d}_{snapshot.label}.xlsx"
