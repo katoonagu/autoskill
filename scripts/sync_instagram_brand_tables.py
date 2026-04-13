@@ -183,6 +183,8 @@ def workbook_content_signature(path: Path) -> str:
 
 
 def sort_key_for_label(label: str, mtime: float) -> tuple[str, float]:
+    if label == "current_live":
+        return ("99999999_999999", mtime)
     match = re.match(r"^(\d{8}_\d{6})", label)
     return ((match.group(1) if match else f"{mtime:.6f}"), mtime)
 
