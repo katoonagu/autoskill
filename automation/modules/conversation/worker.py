@@ -13,8 +13,10 @@ from automation.browser import capture_screenshot, connect_profile
 from automation.config import AdsPowerSettings
 from automation.control_plane.models import AgentTask, TaskResult
 from automation.control_plane.storage import utcnow_iso
+from automation.policies import load_farida_policy
 
 from .state import ConversationState
+from .style_policies import get_channel_style_policy
 
 
 def _slug(value: str) -> str:
@@ -38,6 +40,60 @@ def _extract_draft_body(draft_path: Path) -> str:
             block = block.split(marker, 1)[0]
             break
     return block.strip()
+
+
+def _format_int(value: int) -> str:
+    return f"{int(value):,}".replace(",", " ")
+
+
+def _format_views_mln(value: int) -> str:
+    return str(round(int(value) / 1_000_000, 1)).replace(".", ",")
+
+
+def _build_offer_body(
+    *,
+    brand_label: str,
+    channel: str,
+    why_this_brand: str,
+    policy: dict,
+) -> str:
+    channel_policy = get_channel_style_policy(channel)
+    creator = dict(policy.get("creator") or {})
+    metrics = dict(policy.get("audience_metrics") or {})
+    cta_policy = dict(policy.get("cta_policy") or {})
+    offer_strategy = dict(policy.get("offer_strategy") or {})
+
+    creator_name = str(creator.get("name") or "Farida Shirinova")
+    creator_handle = str(creator.get("handle") or "farida.shirinova").strip()
+
+    followers = int(metrics.get("followers") or 0)
+    reels_views_30d = int(metrics.get("reels_views_30d") or 0)
+    women_share_percent = metrics.get("women_share_percent") or 0
+    core_age_range = str(metrics.get("core_age_range") or "").strip()
+    primary_geo = str(metrics.get("primary_geo") or "").strip()
+    moscow_share_percent = metrics.get("moscow_share_percent") or 0
+    recommendation_share_percent = str(metrics.get("recommendation_share_percent") or 0).replace(".", ",")
+    strongest_value_prop = str(offer_strategy.get("strongest_value_prop") or "").strip()
+
+    intro = (
+        f"{channel_policy['salutation']} Меня зовут Владислав, я представляю {creator_name}. "
+        f"Профиль блогера: @{creator_handle}. Предлагаю обсудить рекламную интеграцию для {brand_label}."
+    )
+    fit_line = f"Считаю, что {brand_label} хорошо подходит под такой формат сотрудничества." if why_this_brand.strip() else ""
+    metrics_line = (
+        f"Коротко по профилю: {_format_int(followers)} подписчиков, {_format_views_mln(reels_views_30d)} млн просмотров в Reels за последние 30 дней, "
+        f"{recommendation_share_percent}% просмотров приходят из рекомендаций, {women_share_percent}% аудитории — женщины, "
+        f"ядро аудитории — {core_age_range}, основная география — {primary_geo}"
+        + (f" (Москва — {moscow_share_percent}%)." if moscow_share_percent else ".")
+    )
+    value_line = (
+        "Для Вашего бренда это рабочий формат на узнаваемость, расширение касаний с женской аудиторией "
+        "и имиджевое присутствие в сильном lifestyle-контенте."
+    )
+    if strongest_value_prop:
+        value_line = f"{value_line} {strongest_value_prop}"
+    close = str(cta_policy.get("preferred") or channel_policy["cta"]).strip()
+    return " ".join(part for part in [intro, fit_line, metrics_line, value_line, close] if part)
 
 
 async def _run_instagram_dm_send(
@@ -114,16 +170,18 @@ def _prepare_draft(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
     brand_handle = str(planning_payload.get("brand_handle") or task.entity_refs.get("brand_handle") or "")
     blogger_handle = str(planning_payload.get("blogger_handle") or task.entity_refs.get("blogger_handle") or "")
     channel = str(planning_payload.get("chosen_channel") or "instagram_dm")
+    snapshot = _load_json(str(task.inputs.get("brand_snapshot_path", "")))
     if str(planning_payload.get("recommended_action") or "") != "prepare_draft":
         raise RuntimeError("conversation.prepare_draft received a planning decision that is not outreach-ready")
 
-    angle = str(planning_payload.get("recommended_angle") or planning_payload.get("angle") or "")
+    brand_label = str(snapshot.get("display_name") or f"@{brand_handle}")
     why_this_brand = str(planning_payload.get("why_this_brand") or "")
     why_now = str(planning_payload.get("why_now") or "")
     what_not_to_say = [str(item).strip() for item in (planning_payload.get("what_not_to_say") or []) if str(item).strip()]
     supporting_stats = dict(planning_payload.get("supporting_stats") or {})
-    supporting_stat_lines = [f"- {key}: {value}" for key, value in supporting_stats.items()] or ["- No supporting stats provided."]
-    guardrail_lines = [f"- {item}" for item in what_not_to_say] or ["- Avoid unverified claims."]
+    creator_policy = load_farida_policy(project_root)
+    supporting_stat_lines = [f"- {key}: {value}" for key, value in supporting_stats.items()] or ["- Статистика пока не приложена."]
+    guardrail_lines = [f"- {item}" for item in what_not_to_say] or ["- Не использовать непроверенные утверждения."]
     conversation_key = f"{_slug(brand_handle)}__{_slug(blogger_handle or 'unknown')}__{channel}"
 
     draft_dir = project_root / "output" / "conversation" / conversation_key
@@ -137,7 +195,12 @@ def _prepare_draft(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
         f"- Channel: {channel}",
         "",
         "## Draft",
-        f"Привет! Видим, что @{brand_handle} уже органично пересекается с твоим контекстом. Есть идея аккуратной интеграции, где можно опереться на {angle.lower() if angle else 'текущий brand-fit'}.",
+        _build_offer_body(
+            brand_label=brand_label,
+            channel=channel,
+            why_this_brand=why_this_brand,
+            policy=creator_policy,
+        ),
         "",
         "## Context",
         why_this_brand or "Контекст по бренду не был явно сформулирован.",
@@ -150,11 +213,12 @@ def _prepare_draft(project_root: Path, task: AgentTask, *, write_wiki: bool) -> 
         "",
         "## Guardrails",
         *guardrail_lines,
-        "- Requires human review before any send action.",
-        "- Draft generation does not send anything by itself.",
+        "- Требуется ручная проверка перед любой отправкой.",
+        "- Генерация draft не отправляет сообщение автоматически.",
         "",
     ]
     draft_path.write_text("\n".join(draft_lines), encoding="utf-8-sig")
+
     status_payload = {
         "conversation_key": conversation_key,
         "status": "draft_ready",

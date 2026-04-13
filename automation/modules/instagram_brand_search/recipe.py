@@ -1524,7 +1524,7 @@ def classify_brand_profile(
 
     if external_link:
         score += 2
-        reasons.append("???? ??????? ??????")
+        reasons.append("есть внешний сайт")
     for keyword in BRAND_KEYWORDS:
         if keyword in haystack:
             score += 1
@@ -1548,9 +1548,9 @@ def classify_brand_profile(
 
     if has_person_keywords:
         score -= 2
-        reasons.append("???????? ??? ?????? ??????? ??? ??????????")
+        reasons.append("похоже на личный профиль или эксперта")
     if re.fullmatch(r"[a-z]+[._]?[a-z]+[._]?[a-z0-9]*", handle.lower()) and score == 0:
-        reasons.append("handle ??? ?? ???? ???????????")
+        reasons.append("handle сам по себе не выглядит брендовым")
 
     if account_kind == "brand_store":
         outreach_fit = "high" if score >= 2 else "medium"
@@ -1563,13 +1563,13 @@ def classify_brand_profile(
 
     is_brand = account_kind in {"brand_store", "service_provider"}
     if not external_link and has_person_keywords and not has_brand_keywords and not has_service_keywords:
-        return "low", "low", "; ".join(reasons[:4]) or "??????? ?????? ????? ?? ??????", False, niche, account_kind, outreach_fit
+        return "low", "low", "; ".join(reasons[:4]) or "слишком мало признаков бренда", False, niche, account_kind, outreach_fit
 
     if score >= 4:
-        return "high", "high", "; ".join(reasons[:4]) or "??????? ????? ?? ?????", is_brand, niche, account_kind, outreach_fit
+        return "high", "high", "; ".join(reasons[:4]) or "похоже на бренд", is_brand, niche, account_kind, outreach_fit
     if score >= 2:
-        return "medium", "medium", "; ".join(reasons[:4]) or "???? ???????? ????????????? ????????", is_brand, niche, account_kind, outreach_fit
-    return "low", "low", "; ".join(reasons[:4]) or "??????? ?????? ????? ?? ??????", is_brand and outreach_fit != "low", niche, account_kind, outreach_fit
+        return "medium", "medium", "; ".join(reasons[:4]) or "есть средние брендовые сигналы", is_brand, niche, account_kind, outreach_fit
+    return "low", "low", "; ".join(reasons[:4]) or "слишком мало признаков бренда", is_brand and outreach_fit != "low", niche, account_kind, outreach_fit
 
 
 def build_following_output_paths(job: dict, source_blogger_handle: str) -> tuple[Path, Path]:

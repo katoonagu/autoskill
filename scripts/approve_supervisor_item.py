@@ -9,6 +9,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from automation.control_plane.approvals import resolve_approval, write_approval_index
+from automation.control_plane.reporting import write_reporting_bundle
 from automation.control_plane.storage import ensure_control_plane_layout, list_approvals
 
 
@@ -37,6 +38,7 @@ def main() -> None:
         notes=args.notes,
     )
     write_approval_index(paths)
+    write_reporting_bundle(paths)
     print(approval.to_dict())
 
 

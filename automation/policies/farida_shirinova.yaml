@@ -1,0 +1,176 @@
+policy_name: farida_shirinova
+policy_version: 1
+
+creator:
+  name: Farida Shirinova
+  handle: farida.shirinova
+  role: creator_manager
+  positioning: >
+    Фарида — top fashion & lifestyle influencer с сильным визуальным уровнем,
+    виральными Reels и многомиллионными охватами на женскую аудиторию России и СНГ.
+
+audience_metrics:
+  followers: 629000
+  reels_views_30d: 27500000
+  women_share_percent: 61
+  core_age_range: "18-34"
+  primary_geo: "Россия и СНГ"
+  moscow_share_percent: 40
+  recommendation_share_percent: 91.9
+
+brand_categories:
+  allowed:
+    - fashion
+    - beauty
+    - jewelry
+    - travel
+    - lifestyle
+    - tech
+    - wellness
+    - fitness
+  priority:
+    - premium_fashion
+    - middle_fashion
+    - luxury_cosmetics
+    - jewelry
+    - perfumery
+  secondary:
+    - healthy_food
+    - drinks
+    - women_apps
+    - aesthetic_home_appliances
+  excluded:
+    - gambling
+    - betting
+    - unlicensed_supplements
+    - low_visual_mass_market
+    - political
+    - religious
+
+brand_level_policy:
+  allowed_tiers:
+    - premium
+    - middle
+    - instagram_native_high_level
+  minimum_normal_brand: >
+    Ухоженный профиль с качественным продакшном, собственный сайт или присутствие
+    на крупных маркетплейсах в премиальном контексте.
+  weak_brand_signals:
+    - phone_photos_without_production
+    - no_visual_identity
+    - market_style_assortment
+
+instagram_native_exception:
+  enabled: true
+  acceptable_without_site: true
+  preferred_signals:
+    - visual_quality
+    - account_quality
+    - product_clarity
+    - lookbook_level_content
+    - live_comments
+    - mentions_from_top_bloggers
+  heuristic_proxy:
+    min_brand_follower_count: 20000
+    min_creator_mentions: 0
+    allowed_account_kinds:
+      - brand_store
+    max_risk_score: 44
+    require_signal_conflict_false: true
+
+red_flags:
+  undesirable:
+    - fake_followers_low_er
+    - bad_comment_feedback
+    - stolen_content
+  validate:
+    - page_younger_than_3_months
+    - no_contacts_or_legal_data
+  discard:
+    - visual_dissonance_with_farida
+    - suspicious_reputation
+
+offer_strategy:
+  primary_value_props:
+    - reach
+    - awareness
+    - women_audience
+    - recommendations
+    - image
+  strongest_value_prop: >
+    Виральность через Reels и огромный объём просмотров, который даёт бренду доступ
+    к многомиллионной женской аудитории в рекомендациях.
+  do_not_promise:
+    - sales_count
+    - click_volume
+    - roi
+
+metrics_policy:
+  always_use:
+    - reels_views_30d
+    - recommendation_share_percent
+    - moscow_share_percent
+  optional:
+    - followers
+    - women_share_percent
+    - core_age_range
+    - primary_geo
+  avoid:
+    - unrelated_old_post_metrics
+
+channel_policy:
+  instagram_dm:
+    tone: laconic_polite_semiformal
+    address_form: vy
+  email:
+    tone: strict_business_structured
+    address_form: vy
+  website_contact:
+    tone: official
+    address_form: vy
+
+cta_policy:
+  preferred: >
+    Готов направить актуальную статистику и 2–3 идеи интеграции под Ваш продукт.
+  alternatives:
+    - send_media_kit
+    - discuss_format
+    - ask_for_pr_or_partnership_contact
+  ask_for_decision_maker: true
+
+messaging_rules:
+  forbidden_phrases:
+    - рекламка
+    - взаимный пиар
+    - хотим бартер
+    - недорого
+  allowed_phrases:
+    - вижу прямое совпадение
+    - идеально подходит
+    - мы изучили ваш профиль
+    - нашли ваш бренд
+  can_reference_other_bloggers: true
+  can_mention_research: true
+
+decision_policy:
+  outreach_go:
+    - visual_5_plus
+    - category_fit
+    - site_or_marketplace_preferred
+  validate:
+    - good_product_but_low_activity
+  hold:
+    - rebranding
+    - temporary_silence
+  discard:
+    - low_visual_quality
+    - suspicious_mass_market
+    - values_mismatch
+
+ultra_premium_policy:
+  follower_threshold: 1000000
+  label: ultra_premium
+  special_handling: separate_track_production
+  note: >
+    Сохранять отдельно как сильную базу брендов. Такие кейсы могут не подходить
+    под обычный outreach по рекламе, но полезны для других продуктов, например продакшена.

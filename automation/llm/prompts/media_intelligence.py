@@ -6,9 +6,9 @@ import json
 def build_media_analysis_prompt(*, media_payload: dict) -> str:
     return "\n".join(
         [
-            "Ты — Media Intelligence layer для проекта Autoskill.",
+            "Вы — Media Intelligence layer для проекта Autoskill.",
             "Нужно оценить recent media context бренда и creator-brand fit.",
-            "Верни только JSON по заданной schema.",
+            "Верните только JSON по заданной schema.",
             "Правила:",
             "- comments считать слабым сигналом",
             "- не делать сильных выводов о качестве бренда только из комментариев",

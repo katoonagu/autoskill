@@ -34,6 +34,9 @@ def run_outreach_planning_task(project_root: Path, task: AgentTask, *, write_wik
     why_this_brand = str(intelligence_packet.get("why_this_brand") or "")
     why_now = str(intelligence_packet.get("why_now") or "")
     supporting_stats = dict(task.inputs.get("supporting_stats") or intelligence_packet.get("supporting_stats") or {})
+    instagram_native_exception = bool(intelligence_packet.get("instagram_native_exception"))
+    brand_outreach_segment = str(intelligence_packet.get("brand_outreach_segment") or supporting_stats.get("brand_value_tier") or "")
+    special_handling = str(intelligence_packet.get("special_handling") or supporting_stats.get("special_handling") or "")
     guardrail_lines = [f"- {item}" for item in what_not_to_say] or ["- No explicit guardrails provided."]
     stats_lines = [f"- {key}: {value}" for key, value in supporting_stats.items()] or ["- No supporting stats provided."]
 
@@ -52,7 +55,8 @@ def run_outreach_planning_task(project_root: Path, task: AgentTask, *, write_wik
     rationale = (
         f"verdict={verdict}, channel={recommended_channel}, "
         f"outreach_readiness={int(intelligence_packet.get('outreach_readiness_score', 0) or 0)}, "
-        f"risk={int(intelligence_packet.get('risk_score', 0) or 0)}"
+        f"risk={int(intelligence_packet.get('risk_score', 0) or 0)}, "
+        f"segment={brand_outreach_segment or 'unspecified'}"
     )
     decision_payload = {
         "brand_handle": brand_handle,
@@ -63,6 +67,9 @@ def run_outreach_planning_task(project_root: Path, task: AgentTask, *, write_wik
         "recommended_angle": recommended_angle,
         "why_this_brand": why_this_brand,
         "why_now": why_now,
+        "instagram_native_exception": instagram_native_exception,
+        "brand_outreach_segment": brand_outreach_segment,
+        "special_handling": special_handling,
         "what_not_to_say": what_not_to_say,
         "supporting_stats": supporting_stats,
         "arbiter_report_path": arbiter_report_path,
@@ -78,6 +85,7 @@ def run_outreach_planning_task(project_root: Path, task: AgentTask, *, write_wik
         f"- Should contact: {'yes' if should_contact else 'no'}",
         f"- Channel: {recommended_channel}",
         f"- Arbiter report: {arbiter_report_path or 'none'}",
+        f"- Segment: {brand_outreach_segment or 'unspecified'}",
         "",
         "## Why This Brand",
         why_this_brand or "Insufficient arbiter context.",
@@ -95,6 +103,9 @@ def run_outreach_planning_task(project_root: Path, task: AgentTask, *, write_wik
     if should_contact:
         pitch_lines.extend(
             [
+                "## Special Handling",
+                special_handling or "none",
+                "",
                 "## Supporting Stats",
                 *stats_lines,
                 "",
@@ -175,6 +186,9 @@ def run_outreach_planning_task(project_root: Path, task: AgentTask, *, write_wik
             "recommended_angle": recommended_angle,
             "why_this_brand": why_this_brand,
             "why_now": why_now,
+            "instagram_native_exception": instagram_native_exception,
+            "brand_outreach_segment": brand_outreach_segment,
+            "special_handling": special_handling,
             "what_not_to_say": what_not_to_say,
             "supporting_stats": supporting_stats,
         },

@@ -9,7 +9,7 @@ import json
 from .models import AgentTask, ApprovalRecord, TaskResult
 
 
-TASK_BUCKETS = ("inbox", "processing", "blocked", "completed", "failed")
+TASK_BUCKETS = ("inbox", "processing", "waiting_codex_review", "codex_reviewing", "blocked", "completed", "failed")
 APPROVAL_BUCKETS = ("pending", "approved", "rejected", "expired")
 
 

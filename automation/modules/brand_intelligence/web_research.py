@@ -33,6 +33,7 @@ REVIEW_DOMAINS = (
     "tripadvisor.com",
     "sitejabber.com",
 )
+CONTACT_KEYWORDS = ("contact", "contacts", "email", "support", "customer service", "press", "partnership", "wholesale")
 NEGATIVE_KEYWORDS = (
     "scam",
     "fraud",
@@ -340,6 +341,7 @@ def run_brand_web_research(snapshot: dict) -> WebResearchReport:
         f"\"{display_name or handle}\" official site -site:instagram.com -site:facebook.com -site:tiktok.com -site:x.com",
         f"\"{display_name or handle}\" reviews -site:instagram.com -site:facebook.com -site:tiktok.com -site:x.com",
         f"\"{display_name or handle}\" trustpilot OR review",
+        f"\"{display_name or handle}\" contact email -site:instagram.com -site:facebook.com -site:tiktok.com -site:x.com",
         f"\"{handle}\" brand",
     ]
 

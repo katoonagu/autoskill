@@ -2,26 +2,26 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+import json
+import os
 
-from .approvals import create_approval_record, write_approval_index
+from .approvals import write_approval_index
 from .contracts import load_profile_pool, load_routing_rules, load_task_type_contracts
 from .discovery_bridge import seed_brand_intelligence_tasks
-from .models import AgentTask, RouteRule, TaskResult, TaskSpawn
+from .models import AgentTask, TaskResult, TaskSpawn
 from .profiles import acquire_profile_lease, release_profile_lease
+from .reporting import write_reporting_bundle
 from .storage import (
     ControlPlanePaths,
-    build_stable_task_id,
     ensure_control_plane_layout,
     list_approvals,
     list_tasks,
-    result_exists,
-    save_result,
     save_task,
-    task_exists,
     utcnow_iso,
     write_json,
     remove_task,
 )
+from .task_flow import finalize_success, materialize_spawn
 
 
 @dataclass(frozen=True)
@@ -31,109 +31,33 @@ class SupervisorOptions:
     seed_only: bool = False
     write_wiki: bool = True
     allowed_agents: tuple[str, ...] = ()
+    brain_mode: str = ""
 
 
-def _matches_rule(rule: RouteRule, result: TaskResult) -> bool:
-    for key, value in rule.when_output_equals.items():
-        if str(result.outputs.get(key, "")) != value:
-            return False
-    for key, candidates in rule.when_output_in.items():
-        if str(result.outputs.get(key, "")) not in {str(item) for item in candidates}:
-            return False
-    return True
+def _read_env_file(path: Path) -> dict[str, str]:
+    values: dict[str, str] = {}
+    if not path.exists():
+        return values
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        values[key.strip()] = value.strip()
+    return values
 
 
-def _spawn_tasks_from_rule(rule: RouteRule, result: TaskResult, source_task: AgentTask) -> list[TaskSpawn]:
-    if rule.mode == "per_source_blogger":
-        source_bloggers = list(result.outputs.get("source_bloggers") or [])
-        return [
-            TaskSpawn(
-                task_type=rule.downstream_task_type,
-                entity_refs={
-                    "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
-                    "blogger_handle": str(blogger_handle),
-                },
-                inputs={
-                    "brand_snapshot_path": str(result.outputs.get("brand_snapshot_path") or source_task.inputs.get("brand_snapshot_path") or ""),
-                    "score_path": str(result.outputs.get("score_path") or source_task.inputs.get("score_path") or ""),
-                    "dossier_path": str(result.outputs.get("dossier_path") or source_task.inputs.get("dossier_path") or ""),
-                    "evidence_bundle_path": str(result.outputs.get("evidence_bundle_path") or source_task.inputs.get("evidence_bundle_path") or ""),
-                    "evidence_report_path": str(result.outputs.get("evidence_report_path") or source_task.inputs.get("evidence_report_path") or ""),
-                    "intelligence_packet_path": str(result.outputs.get("intelligence_packet_path") or source_task.inputs.get("intelligence_packet_path") or ""),
-                    "arbiter_report_path": str(result.outputs.get("arbiter_report_path") or source_task.inputs.get("arbiter_report_path") or ""),
-                    "media_report_path": str(result.outputs.get("media_report_path") or source_task.inputs.get("media_report_path") or ""),
-                    "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
-                    "blogger_handle": str(blogger_handle),
-                    "supporting_stats": dict(result.outputs.get("supporting_stats") or source_task.inputs.get("supporting_stats") or {}),
-                },
-                source_task_id=source_task.task_id,
-                source_run_id=source_task.source_run_id,
-            )
-            for blogger_handle in source_bloggers
-        ]
-
-    entity_refs = {
-        "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
-        "blogger_handle": str(result.outputs.get("blogger_handle") or source_task.entity_refs.get("blogger_handle") or ""),
-    }
-    if source_task.task_type == "media_intelligence.analyze_recent_media" and rule.downstream_task_type == "brand_arbiter.evaluate_case":
-        entity_refs["analysis_stage"] = "media_enriched"
-    elif source_task.entity_refs.get("analysis_stage"):
-        entity_refs["analysis_stage"] = str(source_task.entity_refs.get("analysis_stage") or "")
-
-    return [
-        TaskSpawn(
-            task_type=rule.downstream_task_type,
-            entity_refs=entity_refs,
-            inputs={
-                "brand_snapshot_path": str(result.outputs.get("brand_snapshot_path") or source_task.inputs.get("brand_snapshot_path") or ""),
-                "score_path": str(result.outputs.get("score_path") or source_task.inputs.get("score_path") or ""),
-                "dossier_path": str(result.outputs.get("dossier_path") or source_task.inputs.get("dossier_path") or ""),
-                "evidence_bundle_path": str(result.outputs.get("evidence_bundle_path") or source_task.inputs.get("evidence_bundle_path") or ""),
-                "evidence_report_path": str(result.outputs.get("evidence_report_path") or source_task.inputs.get("evidence_report_path") or ""),
-                "intelligence_packet_path": str(result.outputs.get("intelligence_packet_path") or source_task.inputs.get("intelligence_packet_path") or ""),
-                "arbiter_report_path": str(result.outputs.get("arbiter_report_path") or source_task.inputs.get("arbiter_report_path") or ""),
-                "media_report_path": str(result.outputs.get("media_report_path") or source_task.inputs.get("media_report_path") or ""),
-                "decision_path": str(result.outputs.get("decision_path") or source_task.inputs.get("decision_path") or ""),
-                "pitch_path": str(result.outputs.get("pitch_path") or source_task.inputs.get("pitch_path") or ""),
-                "brand_handle": str(result.outputs.get("brand_handle") or source_task.entity_refs.get("brand_handle") or ""),
-                "blogger_handle": str(result.outputs.get("blogger_handle") or source_task.entity_refs.get("blogger_handle") or ""),
-                "reason": str(result.outputs.get("recommended_action") or ""),
-                "supporting_stats": dict(result.outputs.get("supporting_stats") or source_task.inputs.get("supporting_stats") or {}),
-            },
-            source_task_id=source_task.task_id,
-            source_run_id=source_task.source_run_id,
-        )
-    ]
-
-
-def _materialize_spawn(project_root: Path, paths: ControlPlanePaths, spawn: TaskSpawn, task_contracts):
-    contract = task_contracts[spawn.task_type]
-    spawn_inputs = dict(spawn.inputs)
-    if spawn.task_type == "conversation.send_message":
-        spawn_inputs["allow_live_send"] = True
-    task = AgentTask(
-        task_id=build_stable_task_id(spawn.task_type, spawn.entity_refs),
-        task_type=spawn.task_type,
-        assigned_agent=contract.assigned_agent,
-        status="pending",
-        priority=spawn.priority,
-        created_at_iso=utcnow_iso(),
-        updated_at_iso=utcnow_iso(),
-        source_run_id=spawn.source_run_id,
-        source_task_id=spawn.source_task_id,
-        entity_refs=dict(spawn.entity_refs),
-        inputs=spawn_inputs,
-        max_attempts=contract.max_attempts,
-        requires_browser=contract.requires_browser,
-        required_profile_capability=contract.required_profile_capability,
-        requires_human_approval=contract.requires_human_approval,
-        approval_scope=contract.approval_scope,
-    )
-    if task_exists(paths, task.task_id) or result_exists(paths, task.task_id):
-        return None
-    save_task(paths, task, "inbox")
-    return task
+def _resolve_brain_mode(project_root: Path, override: str) -> str:
+    if override.strip():
+        return override.strip().lower()
+    env_values: dict[str, str] = {}
+    env_values.update(_read_env_file(project_root / ".env"))
+    env_values.update(_read_env_file(project_root / ".env.local"))
+    return (
+        os.environ.get("AUTOSKILL_BRAIN_MODE")
+        or env_values.get("AUTOSKILL_BRAIN_MODE")
+        or "api"
+    ).strip().lower()
 
 
 def _dispatch_task(project_root: Path, task: AgentTask, *, write_wiki: bool) -> TaskResult:
@@ -168,7 +92,7 @@ def _promote_approved_tasks(project_root: Path, paths: ControlPlanePaths, task_c
     promoted = 0
     for _path, approval in list_approvals(paths, "approved"):
         spawn = TaskSpawn(**approval.proposed_task)
-        task = _materialize_spawn(project_root, paths, spawn, task_contracts)
+        task = materialize_spawn(project_root, paths, spawn, task_contracts)
         if task is not None:
             promoted += 1
     return promoted
@@ -180,12 +104,56 @@ def _write_run_summary(paths: ControlPlanePaths, summary: dict):
     return path
 
 
+def _load_supporting_stats_for_task(task: AgentTask) -> dict:
+    stats = dict(task.inputs.get("supporting_stats") or {})
+    evidence_bundle_path = str(task.inputs.get("evidence_bundle_path") or "")
+    if stats or not evidence_bundle_path:
+        return stats
+    bundle_path = Path(evidence_bundle_path)
+    if not bundle_path.exists():
+        return {}
+    try:
+        payload = json.loads(bundle_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return dict(payload.get("mention_statistics") or {})
+
+
+def _should_route_task_to_codex(task: AgentTask, *, brain_mode: str) -> tuple[bool, str]:
+    if task.task_type != "brand_arbiter.evaluate_case":
+        return False, ""
+    normalized_mode = brain_mode.strip().lower()
+    if normalized_mode == "codex":
+        return True, "Brain mode is codex."
+    if normalized_mode != "hybrid":
+        return False, ""
+
+    stats = _load_supporting_stats_for_task(task)
+    reasons: list[str] = []
+    if str(stats.get("brand_value_tier") or "").strip().lower() == "high":
+        reasons.append("high_value_brand")
+    if bool(stats.get("signal_conflict")):
+        reasons.append("signal_conflict")
+    if bool(stats.get("personalization_gap")):
+        reasons.append("personalization_gap")
+    if int(stats.get("unique_blogger_count") or 0) < 2:
+        reasons.append("limited_creator_context")
+    if not bool(stats.get("official_site_found")) and int(stats.get("review_source_count") or 0) == 0:
+        reasons.append("weak_external_evidence")
+    if task.inputs.get("force_codex_review"):
+        reasons.append("force_codex_review")
+    if not reasons:
+        return False, ""
+    return True, ", ".join(reasons)
+
+
 def run_supervisor(project_root: Path, options: SupervisorOptions | None = None) -> dict:
     options = options or SupervisorOptions()
     paths = ensure_control_plane_layout(project_root)
     task_contracts = load_task_type_contracts(project_root)
     routing_rules = load_routing_rules(project_root)
     profile_pool = load_profile_pool(project_root)
+    brain_mode = _resolve_brain_mode(project_root, options.brain_mode)
 
     seeded_count = 0
     if options.seed_from_discovery:
@@ -197,6 +165,7 @@ def run_supervisor(project_root: Path, options: SupervisorOptions | None = None)
     created_count = 0
     approval_count = 0
     failed_count = 0
+    codex_review_count = 0
     processed_task_ids: list[str] = []
 
     if not options.seed_only and options.max_tasks > 0:
@@ -208,6 +177,16 @@ def run_supervisor(project_root: Path, options: SupervisorOptions | None = None)
 
             lease_profile_key = ""
             try:
+                route_to_codex, codex_reason = _should_route_task_to_codex(task, brain_mode=brain_mode)
+                if route_to_codex:
+                    task.status = "waiting_codex_review"
+                    task.blocked_reason = codex_reason
+                    task.updated_at_iso = utcnow_iso()
+                    task_path.unlink(missing_ok=True)
+                    save_task(paths, task, "waiting_codex_review")
+                    codex_review_count += 1
+                    continue
+
                 if task.requires_browser and task.required_profile_capability:
                     lease = acquire_profile_lease(
                         paths,
@@ -238,37 +217,11 @@ def run_supervisor(project_root: Path, options: SupervisorOptions | None = None)
                 task.updated_at_iso = result.completed_at_iso
                 task.outputs = dict(result.outputs)
                 task.evidence_refs = list(result.evidence_refs)
-                save_task(paths, task, "completed")
-                save_result(paths, result)
                 processed_task_ids.append(task.task_id)
                 processed_count += 1
-
-                for rule in routing_rules.get(task.task_type, []):
-                    if not _matches_rule(rule, result):
-                        continue
-                    for spawn in _spawn_tasks_from_rule(rule, result, task):
-                        if not spawn.entity_refs.get("brand_handle"):
-                            continue
-                        if rule.requires_approval:
-                            create_approval_record(
-                                paths,
-                                scope=rule.approval_scope,
-                                requested_by_agent=task.assigned_agent,
-                                source_task=task,
-                                proposed_task=spawn,
-                                payload_ref=str(
-                                    result.outputs.get("draft_path")
-                                    or result.outputs.get("pitch_path")
-                                    or result.outputs.get("decision_path")
-                                    or ""
-                                ),
-                                summary=result.summary,
-                            )
-                            approval_count += 1
-                            continue
-                        created_task = _materialize_spawn(project_root, paths, spawn, task_contracts)
-                        if created_task is not None:
-                            created_count += 1
+                new_tasks, new_approvals = finalize_success(project_root, paths, task, result, routing_rules, task_contracts)
+                created_count += new_tasks
+                approval_count += new_approvals
             except Exception as exc:
                 remove_task(paths, task.task_id)
                 task.attempts += 1
@@ -286,6 +239,9 @@ def run_supervisor(project_root: Path, options: SupervisorOptions | None = None)
         "seeded_tasks": seeded_count,
         "promoted_approved_tasks": promoted_count,
         "processed_tasks": processed_count,
+        "brain_mode": brain_mode,
+        "waiting_codex_review": len(list_tasks(paths, "waiting_codex_review")),
+        "moved_to_codex_review": codex_review_count,
         "created_downstream_tasks": created_count,
         "created_approvals": approval_count,
         "failed_tasks": failed_count,
@@ -294,4 +250,5 @@ def run_supervisor(project_root: Path, options: SupervisorOptions | None = None)
         "approvals_index": str(approvals_index),
     }
     _write_run_summary(paths, summary)
+    write_reporting_bundle(paths)
     return summary

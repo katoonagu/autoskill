@@ -18,6 +18,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--no-seed", action="store_true", help="Do not seed tasks from discovery state before processing.")
     parser.add_argument("--skip-wiki", action="store_true", help="Skip writes into knowledge/llm_wiki during this run.")
     parser.add_argument(
+        "--brain-mode",
+        choices=("api", "codex", "hybrid"),
+        default="",
+        help="Override AUTOSKILL_BRAIN_MODE for this run.",
+    )
+    parser.add_argument(
         "--agents",
         nargs="*",
         default=[],
@@ -36,6 +42,7 @@ def main() -> None:
             seed_only=args.seed_only,
             write_wiki=not args.skip_wiki,
             allowed_agents=tuple(args.agents),
+            brain_mode=args.brain_mode,
         ),
     )
     print(summary)

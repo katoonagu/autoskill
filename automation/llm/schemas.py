@@ -26,6 +26,9 @@ BRAND_ARBITER_SCHEMA = {
         "recommended_action": {"type": "string"},
         "personalization_gap": {"type": "boolean"},
         "signal_conflict": {"type": "boolean"},
+        "instagram_native_exception": {"type": "boolean"},
+        "brand_outreach_segment": {"type": "string"},
+        "special_handling": {"type": "string"},
     },
     "required": [
         "confidence",

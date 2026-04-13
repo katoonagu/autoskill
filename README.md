@@ -483,6 +483,16 @@ This is the task-driven control plane entrypoint. It seeds downstream tasks from
 python scripts/run_supervisor.py --max-tasks 25
 ```
 
+Brain execution mode can be controlled with `AUTOSKILL_BRAIN_MODE=api|codex|hybrid` or with a one-off CLI override:
+
+```powershell
+python scripts/run_supervisor.py --brain-mode codex --max-tasks 25
+```
+
+- `api` keeps arbiter execution inside the runtime.
+- `codex` moves `brand_arbiter.evaluate_case` tasks into `waiting_codex_review`.
+- `hybrid` keeps ordinary arbiter cases in the runtime and routes high-value, weak-evidence, or conflicting cases into Codex review.
+
 ### Seed Only
 
 Create structured tasks from discovery outputs without executing downstream workers.
@@ -503,6 +513,32 @@ Approve one item:
 
 ```powershell
 python scripts/approve_supervisor_item.py --approval-id <approval-id> --decision approved
+```
+
+### Codex Review Queue
+
+List pending manual arbiter cases that were routed into Codex review:
+
+```powershell
+python scripts/list_codex_review_queue.py --limit 10
+```
+
+Claim a manual review batch:
+
+```powershell
+python scripts/claim_codex_review_batch.py --limit 10
+```
+
+Finalize one reviewed arbiter task from `codex_reviewing`:
+
+```powershell
+python scripts/finalize_codex_review.py --task-id <task-id> --packet-path <packet-json>
+```
+
+Refresh the consolidated supervisor dashboard:
+
+```powershell
+python scripts/write_status_report.py
 ```
 
 ## Current Discovery Outputs
