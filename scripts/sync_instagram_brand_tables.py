@@ -247,6 +247,48 @@ def safe_int(value: str) -> int:
         return 0
 
 
+def load_brand_dossier_metrics() -> dict[str, dict[str, int]]:
+    dossiers_root = PROJECT_ROOT / "output" / "brand_intelligence"
+    metrics: dict[str, dict[str, int]] = {}
+    if not dossiers_root.exists():
+        return metrics
+    for dossier_path in sorted(dossiers_root.glob("*/brand_dossier.json")):
+        try:
+            payload = json.loads(dossier_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        handle = canonical_handle(str(payload.get("brand_handle") or dossier_path.parent.name))
+        if not handle:
+            continue
+        profile = payload.get("instagram_profile") or {}
+        metrics[handle] = {
+            "followers": safe_int(profile.get("followers", 0)),
+            "posts": safe_int(profile.get("posts", 0)),
+        }
+    return metrics
+
+
+def load_live_profile_metrics(tables_dir: Path) -> dict[str, dict[str, int]]:
+    cache_path = tables_dir / "live_profile_counts.json"
+    if not cache_path.exists():
+        return {}
+    try:
+        payload = json.loads(cache_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    metrics: dict[str, dict[str, int]] = {}
+    if isinstance(payload, dict):
+        for raw_handle, item in payload.items():
+            canonical = canonical_handle(str(raw_handle))
+            if not canonical or not isinstance(item, dict):
+                continue
+            metrics[canonical] = {
+                "followers": safe_int(item.get("followers", 0)),
+                "posts": safe_int(item.get("posts", 0)),
+            }
+    return metrics
+
+
 def parse_run_sources(snapshot: Snapshot) -> list[dict[str, str]]:
     rows = sheet_records(snapshot.source_path, "Sources")
     normalized: list[dict[str, str]] = []
@@ -280,6 +322,8 @@ def rewrite_workbook_from_existing(source_path: Path, target_path: Path, sheet_n
 
 def build_common_workbook(tables_dir: Path, snapshots: list[Snapshot], run_targets: list[Path]) -> dict[str, int]:
     run_number_map = {snapshot.label: index for index, snapshot in enumerate(snapshots, start=1)}
+    dossier_metrics = load_brand_dossier_metrics()
+    live_metrics = load_live_profile_metrics(tables_dir)
     merged_brands: dict[str, dict[str, object]] = {}
     merged_sources_by_brand: dict[str, dict[tuple[str, ...], dict[str, object]]] = {}
     all_source_rows: list[dict[str, str]] = []
@@ -320,6 +364,7 @@ def build_common_workbook(tables_dir: Path, snapshots: list[Snapshot], run_targe
                     "Profile URL": row.get("Profile URL", "").strip(),
                     "Display Name": row.get("Display Name", "").strip(),
                     "Followers Count": safe_int(row.get("Followers Count", "")),
+                    "Posts Count": safe_int(row.get("Posts Count", "")),
                     "Account Kind": row.get("Account Kind", "").strip(),
                     "Outreach Fit": row.get("Outreach Fit", "").strip(),
                     "Brand Likelihood": row.get("Brand Likelihood", "").strip(),
@@ -338,6 +383,8 @@ def build_common_workbook(tables_dir: Path, snapshots: list[Snapshot], run_targe
                     current["Display Name"] = row.get("Display Name", "").strip()
                 if safe_int(row.get("Followers Count", "")) > int(current["Followers Count"]):
                     current["Followers Count"] = safe_int(row.get("Followers Count", ""))
+                if safe_int(row.get("Posts Count", "")) > int(current["Posts Count"]):
+                    current["Posts Count"] = safe_int(row.get("Posts Count", ""))
                 for field in (
                     "Account Kind",
                     "Outreach Fit",
@@ -400,10 +447,31 @@ def build_common_workbook(tables_dir: Path, snapshots: list[Snapshot], run_targe
         )
         all_source_rows.extend(source_rows)
 
+    for canonical, current in merged_brands.items():
+        metrics = dossier_metrics.get(canonical)
+        if not metrics:
+            metrics = {}
+        combined = {
+            "followers": max(
+                int(current.get("Followers Count", 0) or 0),
+                int(metrics.get("followers", 0) or 0),
+                int((live_metrics.get(canonical) or {}).get("followers", 0) or 0),
+            ),
+            "posts": max(
+                int(current.get("Posts Count", 0) or 0),
+                int(metrics.get("posts", 0) or 0),
+                int((live_metrics.get(canonical) or {}).get("posts", 0) or 0),
+            ),
+        }
+        current["Followers Count"] = combined["followers"]
+        current["Posts Count"] = combined["posts"]
+
     brand_headers = [
         "Handle",
         "Profile URL",
         "Display Name",
+        "Followers Count",
+        "Posts Count",
         "Account Kind",
         "Outreach Fit",
         "Brand Likelihood",
@@ -455,6 +523,8 @@ def build_common_workbook(tables_dir: Path, snapshots: list[Snapshot], run_targe
             current["Handle"],
             current["Profile URL"],
             current["Display Name"],
+            current["Followers Count"],
+            current["Posts Count"],
             current["Account Kind"],
             current["Outreach Fit"],
             current["Brand Likelihood"],
@@ -565,9 +635,18 @@ def main() -> None:
 
     brands_dir = Path(job["outputs"]["discovered_brand_links_md"]).parent
     tables_dir = brands_dir / "tables"
+    live_cache_path = tables_dir / "live_profile_counts.json"
+    live_cache_text = ""
+    if live_cache_path.exists():
+        try:
+            live_cache_text = live_cache_path.read_text(encoding="utf-8")
+        except Exception:
+            live_cache_text = ""
     if tables_dir.exists():
         shutil.rmtree(tables_dir)
     tables_dir.mkdir(parents=True, exist_ok=True)
+    if live_cache_text:
+        live_cache_path.write_text(live_cache_text, encoding="utf-8")
 
     for legacy_dir in ("current", "master", "raw", "runs"):
         path = brands_dir / legacy_dir

@@ -8,7 +8,7 @@
 
 ## @gladdestofficiall
 - Profile: [@gladdestofficiall](https://www.instagram.com/gladdestofficiall/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_gladdestofficiall_DIjPJN2pCx4.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_gladdestofficiall_DIjPJN2pCx4.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @maccosmetics
 - Profile: [@maccosmetics](https://www.instagram.com/maccosmetics/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_maccosmetics_DIbp6bcyvoU.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_maccosmetics_DIbp6bcyvoU.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @sheglam_official
 - Profile: [@sheglam_official](https://www.instagram.com/sheglam_official/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_sheglam_official_DIbp6bcyvoU.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_sheglam_official_DIbp6bcyvoU.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -35,7 +35,7 @@
 
 ## @spellcraftbyesmerose
 - Profile: [@spellcraftbyesmerose](https://www.instagram.com/spellcraftbyesmerose/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_spellcraftbyesmerose_C_YiKxbOPop.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_spellcraftbyesmerose_C_YiKxbOPop.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @thebeautyfx
 - Profile: [@thebeautyfx](https://www.instagram.com/thebeautyfx/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_thebeautyfx_DWEtabjD9R8.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_thebeautyfx_DWEtabjD9R8.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @thenetherrealmstudios
 - Profile: [@thenetherrealmstudios](https://www.instagram.com/thenetherrealmstudios/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_thenetherrealmstudios_DHjCeHsJmJ6.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_thenetherrealmstudios_DHjCeHsJmJ6.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -62,7 +62,7 @@
 
 ## @warnerbrosentertainment
 - Profile: [@warnerbrosentertainment](https://www.instagram.com/warnerbrosentertainment/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_warnerbrosentertainment_DHjCeHsJmJ6.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_warnerbrosentertainment_DHjCeHsJmJ6.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -71,7 +71,7 @@
 
 ## @xgofficial
 - Profile: [@xgofficial](https://www.instagram.com/xgofficial/)
-- Screenshot: [open screenshot](../../screenshots/anastasia_shnabel_xgofficial_DPouevSD95G.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_xgofficial_DPouevSD95G.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

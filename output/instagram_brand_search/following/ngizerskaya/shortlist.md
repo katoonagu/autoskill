@@ -10,7 +10,7 @@
 ## @purplegrace
 - Метка: подписчица ngizerskaya
 - Профиль: [@purplegrace](https://www.instagram.com/purplegrace/)
-- Скрин: [open screenshot](screenshots/purplegrace.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/ngizerskaya/screenshots/purplegrace.png)
 - Имя: Арина 💜🏋🏽‍♀️
 - Подписчики: 611000
 - Followers raw: 611K Followers, 308 Following, 2,140 Posts - Арина 💜🏋🏽‍♀️ (@purplegrace) on Instagram: "•мотивирую девушек на заботу о себе 

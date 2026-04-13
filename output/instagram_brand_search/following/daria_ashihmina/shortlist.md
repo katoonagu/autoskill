@@ -10,7 +10,7 @@
 ## @lialina.official
 - Метка: подписчица daria_ashihmina
 - Профиль: [@lialina.official](https://www.instagram.com/lialina.official/)
-- Скрин: [open screenshot](screenshots/lialina.official.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/lialina.official.png)
 - Имя: Ли Алина
 - Подписчики: 752000
 - Followers raw: 752K Followers, 885 Following, 1,977 Posts - Ли Алина (@lialina.official) on Instagram: "Блогер с 10-летним стажем
@@ -32,7 +32,7 @@
 ## @exxpolly
 - Метка: подписчица daria_ashihmina
 - Профиль: [@exxpolly](https://www.instagram.com/exxpolly/)
-- Скрин: [open screenshot](screenshots/exxpolly.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/exxpolly.png)
 - Имя: Полина
 - Подписчики: 682000
 - Followers raw: 682K Followers, 260 Following, 761 Posts - Полина (@exxpolly) on Instagram: "Здесь искренне про жизнь 🕊️ 
@@ -50,7 +50,7 @@
 ## @ka.karina1
 - Метка: подписчица daria_ashihmina
 - Профиль: [@ka.karina1](https://www.instagram.com/ka.karina1/)
-- Скрин: [open screenshot](screenshots/ka.karina1.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/ka.karina1.png)
 - Имя: Карина Оганнисян | о счастливой семье
 - Подписчики: 496000
 - Followers raw: 496K Followers, 237 Following, 661 Posts - Карина Оганнисян | о счастливой семье (@ka.karina1) on Instagram: "здесь - жизнь. здесь - душа💛
@@ -76,7 +76,7 @@ Founder @gevorkova_bh"
 ## @bogdanovich.elena
 - Метка: подписчица daria_ashihmina
 - Профиль: [@bogdanovich.elena](https://www.instagram.com/bogdanovich.elena/)
-- Скрин: [open screenshot](screenshots/bogdanovich.elena.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/bogdanovich.elena.png)
 - Имя: Elena Bogdanovich
 - Подписчики: 494000
 - Followers raw: 494K Followers, 1,328 Following, 3,568 Posts - Elena Bogdanovich (@bogdanovich.elena) on Instagram: "Make-up Artist | Influencer
@@ -96,7 +96,7 @@ Work: pr@bogdanovich.ru"
 ## @lizarudkevich
 - Метка: подписчица daria_ashihmina
 - Профиль: [@lizarudkevich](https://www.instagram.com/lizarudkevich/)
-- Скрин: [open screenshot](screenshots/lizarudkevich.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/lizarudkevich.png)
 - Имя: Liza Rudkevich
 - Подписчики: 447000
 - Followers raw: 447K Followers, 674 Following, 2,378 Posts - Liza Rudkevich (@lizarudkevich) on Instagram: "bag boss @ruel.brand
@@ -120,7 +120,7 @@ St.Petersburg, Moscow
 ## @daria.savinaaa
 - Метка: подписчица daria_ashihmina
 - Профиль: [@daria.savinaaa](https://www.instagram.com/daria.savinaaa/)
-- Скрин: [open screenshot](screenshots/daria.savinaaa.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/daria.savinaaa.png)
 - Имя: Daria Savina | fashion influencer | UGC
 - Подписчики: 422000
 - Followers raw: 422K Followers, 599 Following, 536 Posts - Daria Savina | fashion influencer | UGC (@daria.savinaaa) on Instagram: "beauty & style & life 
@@ -142,7 +142,7 @@ Telegram👇🏼"
 ## @shepelevich
 - Метка: подписчица daria_ashihmina
 - Профиль: [@shepelevich](https://www.instagram.com/shepelevich/)
-- Скрин: [open screenshot](screenshots/shepelevich.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/shepelevich.png)
 - Имя: Anastasia Shepelevich
 - Подписчики: 419000
 - Followers raw: 419K Followers, 705 Following, 694 Posts - Anastasia Shepelevich (@shepelevich) on Instagram: "St.Petersburg 
@@ -166,7 +166,7 @@ itsme.shepelevich@gmail.com"
 ## @baluevama
 - Метка: подписчица daria_ashihmina
 - Профиль: [@baluevama](https://www.instagram.com/baluevama/)
-- Скрин: [open screenshot](screenshots/baluevama.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/baluevama.png)
 - Имя: MARIA BALUEVA lifestyle influencer
 - Подписчики: 414000
 - Followers raw: 414K Followers, 773 Following, 2,224 Posts - MARIA BALUEVA lifestyle influencer (@baluevama) on Instagram: "директор вашего визуального образа
@@ -186,7 +186,7 @@ itsme.shepelevich@gmail.com"
 ## @lizaaleksseevna
 - Метка: подписчица daria_ashihmina
 - Профиль: [@lizaaleksseevna](https://www.instagram.com/lizaaleksseevna/)
-- Скрин: [open screenshot](screenshots/lizaaleksseevna.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/lizaaleksseevna.png)
 - Имя: Лиза Жандарова | life mommy | body | fashion | ugc
 - Подписчики: 392000
 - Followers raw: 392K Followers, 631 Following, 1,184 Posts - Лиза Жандарова | life mommy | body | fashion | ugc (@lizaaleksseevna) on Instagram: "Восстановление после 🤰🏻
@@ -212,7 +212,7 @@ pr: @lizaaleksseevnapr"
 ## @viva_la_vika
 - Метка: подписчица daria_ashihmina
 - Профиль: [@viva_la_vika](https://www.instagram.com/viva_la_vika/)
-- Скрин: [open screenshot](screenshots/viva_la_vika.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/viva_la_vika.png)
 - Имя: Вика Молдавская | GIRLBOSS
 - Подписчики: 387000
 - Followers raw: 387K Followers, 1,238 Following, 2,276 Posts - Вика Молдавская | GIRLBOSS (@viva_la_vika) on Instagram: "⚡️Building brands that make you smile
@@ -234,7 +234,7 @@ pr: @lizaaleksseevnapr"
 ## @tattivasilieva
 - Метка: подписчица daria_ashihmina
 - Профиль: [@tattivasilieva](https://www.instagram.com/tattivasilieva/)
-- Скрин: [open screenshot](screenshots/tattivasilieva.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/tattivasilieva.png)
 - Имя: Tatiana Vasilieva
 - Подписчики: 365000
 - Followers raw: 365K Followers, 1,120 Following, 3,446 Posts - Tatiana Vasilieva (@tattivasilieva) on Instagram: "☆ travel & fashion
@@ -258,7 +258,7 @@ MGIMO 🎓 Bocconi
 ## @polina_letti
 - Метка: подписчица daria_ashihmina
 - Профиль: [@polina_letti](https://www.instagram.com/polina_letti/)
-- Скрин: [open screenshot](screenshots/polina_letti.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/daria_ashihmina/screenshots/polina_letti.png)
 - Имя: Полина | обзоры | материнство
 - Подписчики: 341000
 - Followers raw: 341K Followers, 599 Following, 1,618 Posts - Полина | обзоры | материнство (@polina_letti) on Instagram: "— красиво одеваемся и делимся с вами

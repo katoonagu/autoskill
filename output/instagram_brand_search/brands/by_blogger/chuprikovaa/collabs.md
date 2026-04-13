@@ -8,7 +8,7 @@
 
 ## @13_showroom_
 - Profile: [@13_showroom_](https://www.instagram.com/13_showroom_/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_13_showroom__DS5ELZjCCKn.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_13_showroom__DS5ELZjCCKn.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @1stclassjewellery
 - Profile: [@1stclassjewellery](https://www.instagram.com/1stclassjewellery/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_1stclassjewellery_DVwCOPMEhGA.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_1stclassjewellery_DVwCOPMEhGA.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @datethelabel
 - Profile: [@datethelabel](https://www.instagram.com/datethelabel/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_datethelabel_DUDulEliCsu.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_datethelabel_DUDulEliCsu.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @frou.frou.ru
 - Profile: [@frou.frou.ru](https://www.instagram.com/frou.frou.ru/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_frou.frou.ru_DWN8fc3CPMu.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_frou.frou.ru_DWN8fc3CPMu.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @ilalimitedcollection
 - Profile: [@ilalimitedcollection](https://www.instagram.com/ilalimitedcollection/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -53,7 +53,7 @@
 
 ## @incantoofficial
 - Profile: [@incantoofficial](https://www.instagram.com/incantoofficial/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_incantoofficial_DUS8wj5CIB3.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_incantoofficial_DUS8wj5CIB3.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -62,7 +62,7 @@
 
 ## @londri_brand
 - Profile: [@londri_brand](https://www.instagram.com/londri_brand/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__londri_brand_DWGzPTziFzd.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__londri_brand_DWGzPTziFzd.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -71,7 +71,7 @@
 
 ## @manicshop
 - Profile: [@manicshop](https://www.instagram.com/manicshop/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_manicshop_DSVKQDeCIFD.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_manicshop_DSVKQDeCIFD.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -80,7 +80,7 @@
 
 ## @miu.app
 - Profile: [@miu.app](https://www.instagram.com/miu.app/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_miu.app_DTkviH0iI1Z.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_miu.app_DTkviH0iI1Z.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -89,7 +89,7 @@
 
 ## @pantera.dubai
 - Profile: [@pantera.dubai](https://www.instagram.com/pantera.dubai/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_pantera.dubai_DUn7WfAiKIY.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_pantera.dubai_DUn7WfAiKIY.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -98,7 +98,7 @@
 
 ## @tamu_s7
 - Profile: [@tamu_s7](https://www.instagram.com/tamu_s7/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_tamu_s7_DU06AFyCHAD.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_tamu_s7_DU06AFyCHAD.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -107,7 +107,7 @@
 
 ## @wonder_wander_shop
 - Profile: [@wonder_wander_shop](https://www.instagram.com/wonder_wander_shop/)
-- Screenshot: [open screenshot](../../screenshots/chuprikovaa_wonder_wander_shop_DVJPiUfiJua.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_wonder_wander_shop_DVJPiUfiJua.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

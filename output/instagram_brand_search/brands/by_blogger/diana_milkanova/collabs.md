@@ -8,7 +8,7 @@
 
 ## @ashkastudio
 - Profile: [@ashkastudio](https://www.instagram.com/ashkastudio/)
-- Screenshot: [open screenshot](../../screenshots/diana_milkanova_ashkastudio_DIj4MSLoycL.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_ashkastudio_DIj4MSLoycL.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @hermes
 - Profile: [@hermes](https://www.instagram.com/hermes/)
-- Screenshot: [open screenshot](../../screenshots/diana_milkanova_hermes_DHBw4bZI48c.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_hermes_DHBw4bZI48c.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @hotelbalzacparis
 - Profile: [@hotelbalzacparis](https://www.instagram.com/hotelbalzacparis/)
-- Screenshot: [open screenshot](../../screenshots/diana_milkanova_hotelbalzacparis_DI8pJT-IiW4.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_hotelbalzacparis_DI8pJT-IiW4.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @mbbfw_official
 - Profile: [@mbbfw_official](https://www.instagram.com/mbbfw_official/)
-- Screenshot: [open screenshot](../../screenshots/diana_milkanova_mbbfw_official_DIECw5Doo_P.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_mbbfw_official_DIECw5Doo_P.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @nobuhotelwarsaw
 - Profile: [@nobuhotelwarsaw](https://www.instagram.com/nobuhotelwarsaw/)
-- Screenshot: [open screenshot](../../screenshots/diana_milkanova_nobuhotelwarsaw_DQ7GHuZiAxI.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_nobuhotelwarsaw_DQ7GHuZiAxI.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @zieta_studio
 - Profile: [@zieta_studio](https://www.instagram.com/zieta_studio/)
-- Screenshot: [open screenshot](../../screenshots/diana_milkanova_zieta_studio_DMF22mOodrI.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_zieta_studio_DMF22mOodrI.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

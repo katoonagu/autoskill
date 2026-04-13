@@ -8,7 +8,7 @@
 
 ## @apcollection_official
 - Profile: [@apcollection_official](https://www.instagram.com/apcollection_official/)
-- Screenshot: [open screenshot](../../screenshots/isv.m_apcollection_official_DVDQYjQkogP.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_apcollection_official_DVDQYjQkogP.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -17,7 +17,7 @@
 
 ## @brabra_store
 - Profile: [@brabra_store](https://www.instagram.com/brabra_store/)
-- Screenshot: [open screenshot](../../screenshots/isv.m_brabra_store_DVAthdpj8zo.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_brabra_store_DVAthdpj8zo.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -26,7 +26,7 @@
 
 ## @dopecosmetics.ru
 - Profile: [@dopecosmetics.ru](https://www.instagram.com/dopecosmetics.ru/)
-- Screenshot: [open screenshot](../../screenshots/isv.m_dopecosmetics.ru_DWds25qlytC.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_dopecosmetics.ru_DWds25qlytC.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -35,7 +35,7 @@
 
 ## @glowgirl.me
 - Profile: [@glowgirl.me](https://www.instagram.com/glowgirl.me/)
-- Screenshot: [open screenshot](../../screenshots/isv.m_glowgirl.me_DVSx7ZhD0kj.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_glowgirl.me_DVSx7ZhD0kj.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -44,7 +44,7 @@
 
 ## @iceicegergert
 - Profile: [@iceicegergert](https://www.instagram.com/iceicegergert/)
-- Screenshot: [open screenshot](../../screenshots/isv.m_iceicegergert_DWzCxjljens.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_iceicegergert_DWzCxjljens.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

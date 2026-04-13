@@ -8,7 +8,7 @@
 
 ## @el.trendy
 - Profile: [@el.trendy](https://www.instagram.com/el.trendy/)
-- Screenshot: [open screenshot](../../screenshots/oh_kate__el.trendy_C6gFch8tVR_.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__el.trendy_C6gFch8tVR_.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @irnby.store
 - Profile: [@irnby.store](https://www.instagram.com/irnby.store/)
-- Screenshot: [open screenshot](../../screenshots/oh_kate__irnby.store_DKjcBaQta0V.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__irnby.store_DKjcBaQta0V.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @malina_fashion
 - Profile: [@malina_fashion](https://www.instagram.com/malina_fashion/)
-- Screenshot: [open screenshot](../../screenshots/oh_kate__malina_fashion_C25b3VfNWW_.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__malina_fashion_C25b3VfNWW_.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -35,7 +35,7 @@
 
 ## @mariamalyarevich
 - Profile: [@mariamalyarevich](https://www.instagram.com/mariamalyarevich/)
-- Screenshot: [open screenshot](../../screenshots/oh_kate__mariamalyarevich_DC9LuHVNNYs.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__mariamalyarevich_DC9LuHVNNYs.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -44,7 +44,7 @@
 
 ## @nashiargan.ru
 - Profile: [@nashiargan.ru](https://www.instagram.com/nashiargan.ru/)
-- Screenshot: [open screenshot](../../screenshots/oh_kate__nashiargan.ru_C6gFch8tVR_.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__nashiargan.ru_C6gFch8tVR_.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

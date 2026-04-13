@@ -10,7 +10,7 @@
 ## @mirna_kaplan
 - Метка: подписчица anna.utka22
 - Профиль: [@mirna_kaplan](https://www.instagram.com/mirna_kaplan/)
-- Скрин: [open screenshot](screenshots/mirna_kaplan.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/anna.utka22/screenshots/mirna_kaplan.png)
 - Имя: Дарья Каплан
 - Подписчики: 764000
 - Followers raw: 764K Followers, 368 Following, 930 Posts - Дарья Каплан (@mirna_kaplan) on Instagram: "Сотрудничество и PR: +79804764250 Тим
@@ -28,7 +28,7 @@
 ## @cosmos_dg
 - Метка: подписчица anna.utka22
 - Профиль: [@cosmos_dg](https://www.instagram.com/cosmos_dg/)
-- Скрин: [open screenshot](screenshots/cosmos_dg.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/anna.utka22/screenshots/cosmos_dg.png)
 - Имя: DARIA GRAPH
 - Подписчики: 671000
 - Followers raw: 671K Followers, 337 Following, 1,135 Posts - DARIA GRAPH (@cosmos_dg) on Instagram: "Youtube: 2,3🍋
@@ -50,7 +50,7 @@ TikTok: 3,3🍋
 ## @nyasharisha
 - Метка: подписчица anna.utka22
 - Профиль: [@nyasharisha](https://www.instagram.com/nyasharisha/)
-- Скрин: [open screenshot](screenshots/nyasharisha.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/anna.utka22/screenshots/nyasharisha.png)
 - Имя: Arina Berdnikova
 - Подписчики: 525000
 - Followers raw: 525K Followers, 562 Following, 31 Posts - Arina Berdnikova (@nyasharisha) on Instagram: "gamer"
@@ -66,7 +66,7 @@ TikTok: 3,3🍋
 ## @nedianarice
 - Метка: подписчица anna.utka22
 - Профиль: [@nedianarice](https://www.instagram.com/nedianarice/)
-- Скрин: [open screenshot](screenshots/nedianarice.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/anna.utka22/screenshots/nedianarice.png)
 - Имя: diana rice
 - Подписчики: 300000
 - Followers raw: 300K Followers, 1,994 Following, 117 Posts - diana rice (@nedianarice) on Instagram: ""

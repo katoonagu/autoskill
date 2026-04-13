@@ -8,7 +8,7 @@
 
 ## @nuverance
 - Profile: [@nuverance](https://www.instagram.com/nuverance/)
-- Screenshot: [open screenshot](../../screenshots/purplegrace_nuverance_DVyPoCOk_sS.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/purplegrace_nuverance_DVyPoCOk_sS.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high

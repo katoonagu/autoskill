@@ -10,7 +10,7 @@
 ## @yakyninavictoriia
 - Метка: подписчица alina.yal
 - Профиль: [@yakyninavictoriia](https://www.instagram.com/yakyninavictoriia/)
-- Скрин: [open screenshot](screenshots/yakyninavictoriia.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina.yal/screenshots/yakyninavictoriia.png)
 - Имя: Виктория Якунина | ПОХУДЕНИЕ | МАТЕРИНСТВО | МОТИВАЦИЯ
 - Подписчики: 763000
 - Followers raw: 763K Followers, 338 Following, 1,597 Posts - Виктория Якунина | ПОХУДЕНИЕ | МАТЕРИНСТВО | МОТИВАЦИЯ (@yakyninavictoriia) on Instagram: "⚜️PR: @pr_yakyninavictoriia"
@@ -26,7 +26,7 @@
 ## @bogdanovich.elena
 - Метка: подписчица alina.yal
 - Профиль: [@bogdanovich.elena](https://www.instagram.com/bogdanovich.elena/)
-- Скрин: [open screenshot](screenshots/bogdanovich.elena.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina.yal/screenshots/bogdanovich.elena.png)
 - Имя: Elena Bogdanovich
 - Подписчики: 494000
 - Followers raw: 494K Followers, 1,328 Following, 3,568 Posts - Elena Bogdanovich (@bogdanovich.elena) on Instagram: "Make-up Artist | Influencer
@@ -46,7 +46,7 @@ Work: pr@bogdanovich.ru"
 ## @ms.galata
 - Метка: подписчица alina.yal
 - Профиль: [@ms.galata](https://www.instagram.com/ms.galata/)
-- Скрин: [open screenshot](screenshots/ms.galata.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina.yal/screenshots/ms.galata.png)
 - Имя: АЛИНА МИРНОВА | Мисс Харизма
 - Подписчики: 404000
 - Followers raw: 404K Followers, 443 Following, 1,153 Posts - АЛИНА МИРНОВА | Мисс Харизма (@ms.galata) on Instagram: "сотрудничество @galata.pr"
@@ -62,7 +62,7 @@ Work: pr@bogdanovich.ru"
 ## @dianaa.off
 - Метка: подписчица alina.yal
 - Профиль: [@dianaa.off](https://www.instagram.com/dianaa.off/)
-- Скрин: [open screenshot](screenshots/dianaa.off.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina.yal/screenshots/dianaa.off.png)
 - Имя: Diana S.
 - Подписчики: 357000
 - Followers raw: 357K Followers, 512 Following, 295 Posts - Diana S. (@dianaa.off) on Instagram: "место спокойствия, любви и теплоты🕊️

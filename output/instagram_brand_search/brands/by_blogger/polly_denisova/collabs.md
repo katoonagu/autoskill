@@ -8,7 +8,7 @@
 
 ## @fablestore
 - Profile: [@fablestore](https://www.instagram.com/fablestore/)
-- Screenshot: [open screenshot](../../screenshots/polly_denisova_fablestore_DGJG2XcPFno.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polly_denisova_fablestore_DGJG2XcPFno.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @ilalimitedcollection
 - Profile: [@ilalimitedcollection](https://www.instagram.com/ilalimitedcollection/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @itten_studio
 - Profile: [@itten_studio](https://www.instagram.com/itten_studio/)
-- Screenshot: [open screenshot](../../screenshots/polly_denisova_itten_studio_DKxbhvuRAva.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polly_denisova_itten_studio_DKxbhvuRAva.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

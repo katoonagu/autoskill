@@ -8,7 +8,7 @@
 
 ## @aysel_curly
 - Profile: [@aysel_curly](https://www.instagram.com/aysel_curly/)
-- Screenshot: [open screenshot](../../screenshots/exxpolly_aysel_curly_DW0eR0riGeQ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/exxpolly_aysel_curly_DW0eR0riGeQ.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @ilalimitedcollection
 - Profile: [@ilalimitedcollection](https://www.instagram.com/ilalimitedcollection/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @limestorecom
 - Profile: [@limestorecom](https://www.instagram.com/limestorecom/)
-- Screenshot: [open screenshot](../../screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

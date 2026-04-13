@@ -10,7 +10,7 @@
 ## @nfedko
 - Метка: подписчица polssau
 - Профиль: [@nfedko](https://www.instagram.com/nfedko/)
-- Скрин: [open screenshot](screenshots/nfedko.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/polssau/screenshots/nfedko.png)
 - Имя: Anastasia Fedko
 - Подписчики: 457000
 - Followers raw: 457K Followers, 1,003 Following, 573 Posts - Anastasia Fedko (@nfedko) on Instagram: "actress & content creator / 🗽 NYC
@@ -30,7 +30,7 @@ collab - mnfedko@bk.ru"
 ## @lizarudkevich
 - Метка: подписчица polssau
 - Профиль: [@lizarudkevich](https://www.instagram.com/lizarudkevich/)
-- Скрин: [open screenshot](screenshots/lizarudkevich.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/polssau/screenshots/lizarudkevich.png)
 - Имя: Liza Rudkevich
 - Подписчики: 447000
 - Followers raw: 447K Followers, 674 Following, 2,378 Posts - Liza Rudkevich (@lizarudkevich) on Instagram: "bag boss @ruel.brand
@@ -54,7 +54,7 @@ St.Petersburg, Moscow
 ## @riorinna
 - Метка: подписчица polssau
 - Профиль: [@riorinna](https://www.instagram.com/riorinna/)
-- Скрин: [open screenshot](screenshots/riorinna.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/polssau/screenshots/riorinna.png)
 - Имя: Арина Дубкова-балерина с амбициями🩰
 - Подписчики: 390000
 - Followers raw: 390K Followers, 2,167 Following, 915 Posts - Арина Дубкова-балерина с амбициями🩰 (@riorinna) on Instagram: "TikTok - 11,2m+🍋

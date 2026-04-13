@@ -8,7 +8,7 @@
 
 ## @2moodstore
 - Profile: [@2moodstore](https://www.instagram.com/2moodstore/)
-- Screenshot: [open screenshot](../../screenshots/dominic__ana_2moodstore_DVggUWSjNd7.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_2moodstore_DVggUWSjNd7.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @acte.brand
 - Profile: [@acte.brand](https://www.instagram.com/acte.brand/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_acte.brand_DUa03MVDMcp.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_acte.brand_DUa03MVDMcp.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @amoremio.brand
 - Profile: [@amoremio.brand](https://www.instagram.com/amoremio.brand/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_amoremio.brand_DWEY39fjEvD.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_amoremio.brand_DWEY39fjEvD.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @belartes.ru
 - Profile: [@belartes.ru](https://www.instagram.com/belartes.ru/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_belartes.ru_DUK7NSaDUQk.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_belartes.ru_DUK7NSaDUQk.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @chanelofficial
 - Profile: [@chanelofficial](https://www.instagram.com/chanelofficial/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @dalba_russia
 - Profile: [@dalba_russia](https://www.instagram.com/dalba_russia/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -62,7 +62,7 @@
 
 ## @esteelauder
 - Profile: [@esteelauder](https://www.instagram.com/esteelauder/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_esteelauder_DT0bh2Tgjeo.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_esteelauder_DT0bh2Tgjeo.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -71,7 +71,7 @@
 
 ## @goldapple
 - Profile: [@goldapple](https://www.instagram.com/goldapple/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_goldapple_DT0bh2Tgjeo.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_goldapple_DT0bh2Tgjeo.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -80,7 +80,7 @@
 
 ## @ideashop__ru
 - Profile: [@ideashop__ru](https://www.instagram.com/ideashop__ru/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_ideashop__ru_DUGK8nAjVSm.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_ideashop__ru_DUGK8nAjVSm.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -89,7 +89,7 @@
 
 ## @kyankstore
 - Profile: [@kyankstore](https://www.instagram.com/kyankstore/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_kyankstore_DVtHOlLggzA.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_kyankstore_DVtHOlLggzA.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -98,7 +98,7 @@
 
 ## @lamodaru
 - Profile: [@lamodaru](https://www.instagram.com/lamodaru/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_lamodaru_DT0bh2Tgjeo.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_lamodaru_DT0bh2Tgjeo.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -107,7 +107,7 @@
 
 ## @lim1e1ght
 - Profile: [@lim1e1ght](https://www.instagram.com/lim1e1ght/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_lim1e1ght_DUa03MVDMcp.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_lim1e1ght_DUa03MVDMcp.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -116,7 +116,7 @@
 
 ## @limestorecom
 - Profile: [@limestorecom](https://www.instagram.com/limestorecom/)
-- Screenshot: [open screenshot](../../screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -125,7 +125,7 @@
 
 ## @loverepublic_official
 - Profile: [@loverepublic_official](https://www.instagram.com/loverepublic_official/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_loverepublic_official_DUXpjr5DGVO.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_loverepublic_official_DUXpjr5DGVO.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -134,7 +134,7 @@
 
 ## @magic__atelier
 - Profile: [@magic__atelier](https://www.instagram.com/magic__atelier/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_magic__atelier_DVIqJ6RDaSe.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_magic__atelier_DVIqJ6RDaSe.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -143,7 +143,7 @@
 
 ## @mari_ellebrand
 - Profile: [@mari_ellebrand](https://www.instagram.com/mari_ellebrand/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_mari_ellebrand_DUf2szhjc86.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_mari_ellebrand_DUf2szhjc86.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high

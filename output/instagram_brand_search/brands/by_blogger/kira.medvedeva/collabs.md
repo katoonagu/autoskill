@@ -8,7 +8,7 @@
 
 ## @bogdantitomir_official
 - Profile: [@bogdantitomir_official](https://www.instagram.com/bogdantitomir_official/)
-- Screenshot: [open screenshot](../../screenshots/_kira.medvedeva__bogdantitomir_official_DV22m5ZkdtQ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_kira.medvedeva__bogdantitomir_official_DV22m5ZkdtQ.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

@@ -8,7 +8,7 @@
 
 ## @ekonikastyle
 - Profile: [@ekonikastyle](https://www.instagram.com/ekonikastyle/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_ekonikastyle_DWGLqJOiDzC.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_ekonikastyle_DWGLqJOiDzC.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @itsmore.tv
 - Profile: [@itsmore.tv](https://www.instagram.com/itsmore.tv/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_itsmore.tv_DT4pf7jiAsw.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_itsmore.tv_DT4pf7jiAsw.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @mercury_russia
 - Profile: [@mercury_russia](https://www.instagram.com/mercury_russia/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_mercury_russia_DTH24IvCDl5.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_mercury_russia_DTH24IvCDl5.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -35,7 +35,7 @@
 
 ## @mercuryjewellery
 - Profile: [@mercuryjewellery](https://www.instagram.com/mercuryjewellery/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_mercuryjewellery_DTH24IvCDl5.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_mercuryjewellery_DTH24IvCDl5.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -44,7 +44,7 @@
 
 ## @start.ru
 - Profile: [@start.ru](https://www.instagram.com/start.ru/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_start.ru_DUGMvZ8iFqS.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_start.ru_DUGMvZ8iFqS.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @ushatava_live
 - Profile: [@ushatava_live](https://www.instagram.com/ushatava_live/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_ushatava_live_DT8FmhHCDRk.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_ushatava_live_DT8FmhHCDRk.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -62,7 +62,7 @@
 
 ## @vivavoxofficial
 - Profile: [@vivavoxofficial](https://www.instagram.com/vivavoxofficial/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_vivavoxofficial_DWGLqJOiDzC.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_vivavoxofficial_DWGLqJOiDzC.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -71,7 +71,7 @@
 
 ## @vtoroy_mekhovoy
 - Profile: [@vtoroy_mekhovoy](https://www.instagram.com/vtoroy_mekhovoy/)
-- Screenshot: [open screenshot](../../screenshots/v_isakova_vtoroy_mekhovoy_DTH24IvCDl5.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_vtoroy_mekhovoy_DTH24IvCDl5.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

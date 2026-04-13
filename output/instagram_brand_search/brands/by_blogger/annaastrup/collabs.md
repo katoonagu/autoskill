@@ -8,7 +8,7 @@
 
 ## @armanibeauty
 - Profile: [@armanibeauty](https://www.instagram.com/armanibeauty/)
-- Screenshot: [open screenshot](../../screenshots/annaastrup_armanibeauty_DVYzHWaDOqZ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annaastrup_armanibeauty_DVYzHWaDOqZ.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @diorbeauty
 - Profile: [@diorbeauty](https://www.instagram.com/diorbeauty/)
-- Screenshot: [open screenshot](../../screenshots/annaastrup_diorbeauty_DVYzHWaDOqZ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annaastrup_diorbeauty_DVYzHWaDOqZ.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @fentybeauty
 - Profile: [@fentybeauty](https://www.instagram.com/fentybeauty/)
-- Screenshot: [open screenshot](../../screenshots/annaastrup_fentybeauty_DVYzHWaDOqZ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annaastrup_fentybeauty_DVYzHWaDOqZ.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

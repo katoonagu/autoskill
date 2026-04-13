@@ -8,7 +8,7 @@
 
 ## @alientoatelier
 - Profile: [@alientoatelier](https://www.instagram.com/alientoatelier/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_alientoatelier_DOqeBlEiK4j.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_alientoatelier_DOqeBlEiK4j.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @gumushanedencom
 - Profile: [@gumushanedencom](https://www.instagram.com/gumushanedencom/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_gumushanedencom_DQoVvTzCNcc.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_gumushanedencom_DQoVvTzCNcc.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @nauticalhotel
 - Profile: [@nauticalhotel](https://www.instagram.com/nauticalhotel/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_nauticalhotel_DOTGtV6iMmH.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_nauticalhotel_DOTGtV6iMmH.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @perduehotel
 - Profile: [@perduehotel](https://www.instagram.com/perduehotel/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_perduehotel_DOTGtV6iMmH.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_perduehotel_DOTGtV6iMmH.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @saman_butik
 - Profile: [@saman_butik](https://www.instagram.com/saman_butik/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_saman_butik_DOqeBlEiK4j.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_saman_butik_DOqeBlEiK4j.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @servetfethiye
 - Profile: [@servetfethiye](https://www.instagram.com/servetfethiye/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_servetfethiye_DOqeBlEiK4j.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_servetfethiye_DOqeBlEiK4j.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -62,7 +62,7 @@
 
 ## @tazeciftlikavokado
 - Profile: [@tazeciftlikavokado](https://www.instagram.com/tazeciftlikavokado/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_tazeciftlikavokado_DR6ltIHgqDk.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_tazeciftlikavokado_DR6ltIHgqDk.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -71,7 +71,7 @@
 
 ## @tintonshouse
 - Profile: [@tintonshouse](https://www.instagram.com/tintonshouse/)
-- Screenshot: [open screenshot](../../screenshots/diana.in.diana_tintonshouse_DMH-T9tCOdF.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_tintonshouse_DMH-T9tCOdF.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

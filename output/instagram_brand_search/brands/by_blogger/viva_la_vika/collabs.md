@@ -8,7 +8,7 @@
 
 ## @delacon.official
 - Profile: [@delacon.official](https://www.instagram.com/delacon.official/)
-- Screenshot: [open screenshot](../../screenshots/viva_la_vika_delacon.official_DV0ZcLqiO1Q.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/viva_la_vika_delacon.official_DV0ZcLqiO1Q.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @vilavi.london
 - Profile: [@vilavi.london](https://www.instagram.com/vilavi.london/)
-- Screenshot: [open screenshot](../../screenshots/viva_la_vika_vilavi.london_CxdTlOho2af.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/viva_la_vika_vilavi.london_CxdTlOho2af.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

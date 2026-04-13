@@ -8,7 +8,7 @@
 
 ## @12storeez
 - Profile: [@12storeez](https://www.instagram.com/12storeez/)
-- Screenshot: [open screenshot](../../screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @vcuzzstore.kz
 - Profile: [@vcuzzstore.kz](https://www.instagram.com/vcuzzstore.kz/)
-- Screenshot: [open screenshot](../../screenshots/lialina.official_vcuzzstore.kz_DWvj-WtDG4-.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lialina.official_vcuzzstore.kz_DWvj-WtDG4-.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

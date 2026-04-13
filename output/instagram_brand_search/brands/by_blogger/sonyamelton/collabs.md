@@ -8,7 +8,7 @@
 
 ## @alabel.su
 - Profile: [@alabel.su](https://www.instagram.com/alabel.su/)
-- Screenshot: [open screenshot](../../screenshots/sonyamelton_alabel.su_DWRzzxvjZ05.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/sonyamelton_alabel.su_DWRzzxvjZ05.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @ghettoprincess.studio
 - Profile: [@ghettoprincess.studio](https://www.instagram.com/ghettoprincess.studio/)
-- Screenshot: [open screenshot](../../screenshots/sonyamelton_ghettoprincess.studio_DTSaylxjWRb.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/sonyamelton_ghettoprincess.studio_DTSaylxjWRb.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @meandme.online
 - Profile: [@meandme.online](https://www.instagram.com/meandme.online/)
-- Screenshot: [open screenshot](../../screenshots/sonyamelton_meandme.online_DWgh913DbQH.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/sonyamelton_meandme.online_DWgh913DbQH.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

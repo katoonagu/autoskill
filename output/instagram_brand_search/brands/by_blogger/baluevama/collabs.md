@@ -8,7 +8,7 @@
 
 ## @12storeez
 - Profile: [@12storeez](https://www.instagram.com/12storeez/)
-- Screenshot: [open screenshot](../../screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @autentiments
 - Profile: [@autentiments](https://www.instagram.com/autentiments/)
-- Screenshot: [open screenshot](../../screenshots/lizarudkevich_autentiments_DWluHp9l1er.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_autentiments_DWluHp9l1er.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @bork_com
 - Profile: [@bork_com](https://www.instagram.com/bork_com/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @loginovastore
 - Profile: [@loginovastore](https://www.instagram.com/loginovastore/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_loginovastore_DUNVstUCIh3.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_loginovastore_DUNVstUCIh3.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -44,7 +44,7 @@
 
 ## @roodo.home
 - Profile: [@roodo.home](https://www.instagram.com/roodo.home/)
-- Screenshot: [open screenshot](../../screenshots/baluevama_roodo.home_DWG477cjTu7.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/baluevama_roodo.home_DWG477cjTu7.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

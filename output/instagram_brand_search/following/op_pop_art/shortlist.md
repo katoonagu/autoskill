@@ -10,7 +10,7 @@
 ## @mar_alexandrova
 - Метка: подписчица op_pop_art
 - Профиль: [@mar_alexandrova](https://www.instagram.com/mar_alexandrova/)
-- Скрин: [open screenshot](screenshots/mar_alexandrova.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/op_pop_art/screenshots/mar_alexandrova.png)
 - Имя: Марина Александрова
 - Подписчики: 559000
 - Followers raw: 559K Followers, 872 Following, 1,678 Posts - Марина Александрова (@mar_alexandrova) on Instagram: "Actress
@@ -30,7 +30,7 @@ Agent kkomolova@gmail.com"
 ## @vshelyagova
 - Метка: подписчица op_pop_art
 - Профиль: [@vshelyagova](https://www.instagram.com/vshelyagova/)
-- Скрин: [open screenshot](screenshots/vshelyagova.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/op_pop_art/screenshots/vshelyagova.png)
 - Имя: Шелягова Виктория Shelyagova
 - Подписчики: 526000
 - Followers raw: 526K Followers, 846 Following, 6,824 Posts - Шелягова Виктория Shelyagova (@vshelyagova) on Instagram: "По вопросам сотрудничества @mariadekalma"
@@ -46,7 +46,7 @@ Agent kkomolova@gmail.com"
 ## @mari__mirai
 - Метка: подписчица op_pop_art
 - Профиль: [@mari__mirai](https://www.instagram.com/mari__mirai/)
-- Скрин: [open screenshot](screenshots/mari__mirai.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/op_pop_art/screenshots/mari__mirai.png)
 - Имя: МАРИЯ МИРАЙ
 - Подписчики: 495000
 - Followers raw: 495K Followers, 570 Following, 621 Posts - МАРИЯ МИРАЙ (@mari__mirai) on Instagram: "Роскошная жизнь 
@@ -66,7 +66,7 @@ Agent kkomolova@gmail.com"
 ## @victoriamirogallery
 - Метка: подписчица op_pop_art
 - Профиль: [@victoriamirogallery](https://www.instagram.com/victoriamirogallery/)
-- Скрин: [open screenshot](screenshots/victoriamirogallery.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/op_pop_art/screenshots/victoriamirogallery.png)
 - Имя: Victoria Miro
 - Подписчики: 384000
 - Followers raw: 384K Followers, 776 Following, 4,836 Posts - Victoria Miro (@victoriamirogallery) on Instagram: "Contemporary art gallery
@@ -90,7 +90,7 @@ Upcoming in London—Paula Rego"
 ## @mgolomazdina
 - Метка: подписчица op_pop_art
 - Профиль: [@mgolomazdina](https://www.instagram.com/mgolomazdina/)
-- Скрин: [open screenshot](screenshots/mgolomazdina.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/op_pop_art/screenshots/mgolomazdina.png)
 - Имя: Marina Golomazdina
 - Подписчики: 338000
 - Followers raw: 338K Followers, 978 Following, 2,261 Posts - Marina Golomazdina (@mgolomazdina) on Instagram: "Сооснователь  бренда belle you 
@@ -108,7 +108,7 @@ Upcoming in London—Paula Rego"
 ## @elenanika
 - Метка: подписчица op_pop_art
 - Профиль: [@elenanika](https://www.instagram.com/elenanika/)
-- Скрин: [open screenshot](screenshots/elenanika.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/op_pop_art/screenshots/elenanika.png)
 - Имя: Elena Nikolaeva
 - Подписчики: 316000
 - Followers raw: 316K Followers, 5,135 Following, 5,804 Posts - Elena Nikolaeva (@elenanika) on Instagram: "📍 Реклама вечных ценностей. Не идеальная, но настоящая.

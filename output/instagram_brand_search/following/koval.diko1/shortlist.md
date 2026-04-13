@@ -10,7 +10,7 @@
 ## @bella.vladi
 - Метка: подписчица koval.diko1
 - Профиль: [@bella.vladi](https://www.instagram.com/bella.vladi/)
-- Скрин: [open screenshot](screenshots/bella.vladi.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/koval.diko1/screenshots/bella.vladi.png)
 - Имя: Bella Vanieva
 - Подписчики: 792000
 - Followers raw: 792K Followers, 10 Following, 847 Posts - Bella Vanieva (@bella.vladi) on Instagram: "☝️ФейсФитнес тренер 
@@ -36,7 +36,7 @@
 ## @samoylova_official
 - Метка: подписчица koval.diko1
 - Профиль: [@samoylova_official](https://www.instagram.com/samoylova_official/)
-- Скрин: [open screenshot](screenshots/samoylova_official.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/koval.diko1/screenshots/samoylova_official.png)
 - Имя: Оксана Самойлова • SamoylovaOxana • ofc
 - Подписчики: 595000
 - Followers raw: 595K Followers, 8 Following, 945 Posts - Оксана Самойлова • SamoylovaOxana • ofc (@samoylova_official) on Instagram: "10001 reels😅 развлекательный контент🤌

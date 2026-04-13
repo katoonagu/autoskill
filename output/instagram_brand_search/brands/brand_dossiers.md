@@ -2,7 +2,7 @@
 
 ## @12storeez
 - Profile: [@12storeez](https://www.instagram.com/12storeez/)
-- Screenshot: [open screenshot](screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -47,7 +47,7 @@ Worldwide shipping: @12storeez_com
 
 ## @13_showroom_
 - Profile: [@13_showroom_](https://www.instagram.com/13_showroom_/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_13_showroom__DS5ELZjCCKn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_13_showroom__DS5ELZjCCKn.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -70,7 +70,7 @@ Worldwide shipping: @12storeez_com
 
 ## @1811eighteenoneone
 - Profile: [@1811eighteenoneone](https://www.instagram.com/1811eighteenoneone/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_1811eighteenoneone_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_1811eighteenoneone_DWRfCSLDc1m.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -97,7 +97,7 @@ Worldwide shipping: @12storeez_com
 
 ## @1stclassjewellery
 - Profile: [@1stclassjewellery](https://www.instagram.com/1stclassjewellery/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_1stclassjewellery_DVwCOPMEhGA.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_1stclassjewellery_DVwCOPMEhGA.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -120,7 +120,7 @@ Worldwide shipping: @12storeez_com
 
 ## @2moodstore
 - Profile: [@2moodstore](https://www.instagram.com/2moodstore/)
-- Screenshot: [open screenshot](screenshots/dominic__ana_2moodstore_DVggUWSjNd7.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_2moodstore_DVggUWSjNd7.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -150,7 +150,7 @@ Worldwide shipping: @12storeez_com
 
 ## @2mymoods
 - Profile: [@2mymoods](https://www.instagram.com/2mymoods/)
-- Screenshot: [open screenshot](screenshots/shepelevich_2mymoods_DRMYrePDAsD.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_2mymoods_DRMYrePDAsD.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -177,7 +177,7 @@ Offline store — Moscow
 
 ## @4seasons_wear.r
 - Profile: [@4seasons_wear.r](https://www.instagram.com/4seasons_wear.r/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_4seasons_wear.r_DWTX83XxwSB.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_4seasons_wear.r_DWTX83XxwSB.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -205,7 +205,7 @@ Multi-brand
 
 ## @69moscow
 - Profile: [@69moscow](https://www.instagram.com/69moscow/)
-- Screenshot: [open screenshot](screenshots/polina_letti_69moscow_DWyu8GTjA4B.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_69moscow_DWyu8GTjA4B.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -234,7 +234,7 @@ Multi-brand
 
 ## @_pineappleari_
 - Profile: [@_pineappleari_](https://www.instagram.com/_pineappleari_/)
-- Screenshot: [open screenshot](screenshots/vyaaal__pineappleari__DWjJjQ9DZ71.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/vyaaal__pineappleari__DWjJjQ9DZ71.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -265,7 +265,7 @@ Styling
 
 ## @_shotandstory_
 - Profile: [@_shotandstory_](https://www.instagram.com/_shotandstory_/)
-- Screenshot: [open screenshot](screenshots/mama_vseya_insti__shotandstory__DUinUB8jySN.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/mama_vseya_insti__shotandstory__DUinUB8jySN.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -289,7 +289,7 @@ Styling
 
 ## @abda.ru
 - Profile: [@abda.ru](https://www.instagram.com/abda.ru/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_abda.ru_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_abda.ru_DWRfCSLDc1m.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -312,7 +312,7 @@ Styling
 
 ## @acnestudios
 - Profile: [@acnestudios](https://www.instagram.com/acnestudios/)
-- Screenshot: [open screenshot](screenshots/olga_sokolenko_acnestudios_DUyKiL2jnY4.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/olga_sokolenko_acnestudios_DUyKiL2jnY4.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -333,7 +333,7 @@ Styling
 
 ## @acte.brand
 - Profile: [@acte.brand](https://www.instagram.com/acte.brand/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_acte.brand_DUa03MVDMcp.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_acte.brand_DUa03MVDMcp.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -360,7 +360,7 @@ OFFLINE | Москва
 
 ## @afemmie
 - Profile: [@afemmie](https://www.instagram.com/afemmie/)
-- Screenshot: [open screenshot](screenshots/lizarudkevich_afemmie_DU3cgMiDZ2l.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_afemmie_DU3cgMiDZ2l.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -383,7 +383,7 @@ OFFLINE | Москва
 
 ## @aifory_official
 - Profile: [@aifory_official](https://www.instagram.com/aifory_official/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_aifory_official_DWTX83XxwSB.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_aifory_official_DWTX83XxwSB.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -408,7 +408,7 @@ OFFLINE | Москва
 
 ## @alabel.su
 - Profile: [@alabel.su](https://www.instagram.com/alabel.su/)
-- Screenshot: [open screenshot](screenshots/sonyamelton_alabel.su_DWRzzxvjZ05.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/sonyamelton_alabel.su_DWRzzxvjZ05.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -431,7 +431,7 @@ OFFLINE | Москва
 
 ## @alientoatelier
 - Profile: [@alientoatelier](https://www.instagram.com/alientoatelier/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_alientoatelier_DOqeBlEiK4j.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_alientoatelier_DOqeBlEiK4j.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -455,7 +455,7 @@ Small-Batch Ceramics · Modern İznik Art"
 
 ## @alo
 - Profile: [@alo](https://www.instagram.com/alo/)
-- Screenshot: [open screenshot](screenshots/shepelevich_alo_DQTvaHwjOSl.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_alo_DQTvaHwjOSl.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -476,7 +476,7 @@ Small-Batch Ceramics · Modern İznik Art"
 
 ## @amoremio.brand
 - Profile: [@amoremio.brand](https://www.instagram.com/amoremio.brand/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_amoremio.brand_DWEY39fjEvD.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_amoremio.brand_DWEY39fjEvD.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -504,7 +504,7 @@ Small-Batch Ceramics · Modern İznik Art"
 
 ## @animavestra.wardrobe
 - Profile: [@animavestra.wardrobe](https://www.instagram.com/animavestra.wardrobe/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_animavestra.wardrobe_DVdXroUiH1z.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_animavestra.wardrobe_DVdXroUiH1z.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -526,7 +526,7 @@ Saint Petersburg - Gatchinskaya 31/33"
 
 ## @ankerofficialuk
 - Profile: [@ankerofficialuk](https://www.instagram.com/ankerofficialuk/)
-- Screenshot: [open screenshot](screenshots/toryiabts_ankerofficialuk_DW3wR35CDbf.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_ankerofficialuk_DW3wR35CDbf.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -548,7 +548,7 @@ Follow us for helpful tips to keep #fullycharged and the latest new Anker produc
 
 ## @anmuse____
 - Profile: [@anmuse____](https://www.instagram.com/anmuse____/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_anmuse_____DVynRufjERj.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_anmuse_____DVynRufjERj.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -572,7 +572,7 @@ Follow us for helpful tips to keep #fullycharged and the latest new Anker produc
 
 ## @annuko.brand
 - Profile: [@annuko.brand](https://www.instagram.com/annuko.brand/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_annuko.brand_DVLjGVgjVzJ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_annuko.brand_DVLjGVgjVzJ.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -599,7 +599,7 @@ Follow us for helpful tips to keep #fullycharged and the latest new Anker produc
 
 ## @apcollection_official
 - Profile: [@apcollection_official](https://www.instagram.com/apcollection_official/)
-- Screenshot: [open screenshot](screenshots/isv.m_apcollection_official_DVDQYjQkogP.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_apcollection_official_DVDQYjQkogP.png)
 - Brand likelihood: high
 - Ad likelihood: high
 - Is brand: yes
@@ -621,7 +621,7 @@ To place an order, please DM us 💌"
 
 ## @arakii.official
 - Profile: [@arakii.official](https://www.instagram.com/arakii.official/)
-- Screenshot: [open screenshot](screenshots/olga_sokolenko_arakii.official_DUyKiL2jnY4.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/olga_sokolenko_arakii.official_DUyKiL2jnY4.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -642,7 +642,7 @@ To place an order, please DM us 💌"
 
 ## @ararat_park_hotel_moscow
 - Profile: [@ararat_park_hotel_moscow](https://www.instagram.com/ararat_park_hotel_moscow/)
-- Screenshot: [open screenshot](screenshots/_fenik__ararat_park_hotel_moscow_DWY_ZA_DAH9.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__ararat_park_hotel_moscow_DWY_ZA_DAH9.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -665,7 +665,7 @@ To place an order, please DM us 💌"
 
 ## @armanibeauty
 - Profile: [@armanibeauty](https://www.instagram.com/armanibeauty/)
-- Screenshot: [open screenshot](screenshots/annaastrup_armanibeauty_DVYzHWaDOqZ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annaastrup_armanibeauty_DVYzHWaDOqZ.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -687,7 +687,7 @@ Giorgio Armani"
 
 ## @ashkastudio
 - Profile: [@ashkastudio](https://www.instagram.com/ashkastudio/)
-- Screenshot: [open screenshot](screenshots/diana_milkanova_ashkastudio_DIj4MSLoycL.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_ashkastudio_DIj4MSLoycL.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -709,7 +709,7 @@ Creative agency • Production"
 
 ## @astoria_activewear
 - Profile: [@astoria_activewear](https://www.instagram.com/astoria_activewear/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_astoria_activewear_DVboQBSjfKr.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_astoria_activewear_DVboQBSjfKr.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -736,7 +736,7 @@ Woman-owned and operated"
 
 ## @asyasemyonova_official
 - Profile: [@asyasemyonova_official](https://www.instagram.com/asyasemyonova_official/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_asyasemyonova_official_DUx5HO0DSD-.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_asyasemyonova_official_DUx5HO0DSD-.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -762,7 +762,7 @@ TREND ISLAND, 3 эт
 
 ## @autentiments
 - Profile: [@autentiments](https://www.instagram.com/autentiments/)
-- Screenshot: [open screenshot](screenshots/lizarudkevich_autentiments_DWluHp9l1er.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_autentiments_DWluHp9l1er.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -787,7 +787,7 @@ TREND ISLAND, 3 эт
 
 ## @aysel_curly
 - Profile: [@aysel_curly](https://www.instagram.com/aysel_curly/)
-- Screenshot: [open screenshot](screenshots/exxpolly_aysel_curly_DW0eR0riGeQ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/exxpolly_aysel_curly_DW0eR0riGeQ.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -812,7 +812,7 @@ TREND ISLAND, 3 эт
 
 ## @b2508wear
 - Profile: [@b2508wear](https://www.instagram.com/b2508wear/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_b2508wear_DVv7FPsjP5x.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_b2508wear_DVv7FPsjP5x.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -836,7 +836,7 @@ TREND ISLAND, 3 эт
 
 ## @beautycrewbylorealistar
 - Profile: [@beautycrewbylorealistar](https://www.instagram.com/beautycrewbylorealistar/)
-- Screenshot: [open screenshot](screenshots/toryiabts_beautycrewbylorealistar_DVMNPA_jUHv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_beautycrewbylorealistar_DVMNPA_jUHv.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -857,7 +857,7 @@ Instagram
 
 ## @belartes.ru
 - Profile: [@belartes.ru](https://www.instagram.com/belartes.ru/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_belartes.ru_DUK7NSaDUQk.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_belartes.ru_DUK7NSaDUQk.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -878,7 +878,7 @@ Instagram
 
 ## @bellany.pro
 - Profile: [@bellany.pro](https://www.instagram.com/bellany.pro/)
-- Screenshot: [open screenshot](screenshots/maslova.alisha_bellany.pro_DU2znYQEbfu.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/maslova.alisha_bellany.pro_DU2znYQEbfu.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -903,7 +903,7 @@ worldwide shipping 👇🏼"
 
 ## @belmond
 - Profile: [@belmond](https://www.instagram.com/belmond/)
-- Screenshot: [open screenshot](screenshots/_fenik__belmond_C6JN6MEMe5b.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__belmond_C6JN6MEMe5b.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -924,7 +924,7 @@ worldwide shipping 👇🏼"
 
 ## @bettermestore
 - Profile: [@bettermestore](https://www.instagram.com/bettermestore/)
-- Screenshot: [open screenshot](screenshots/toryiabts_bettermestore_DWZDEWRCCJn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_bettermestore_DWZDEWRCCJn.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -948,7 +948,7 @@ created by @victoria_repa"
 
 ## @blakely_women
 - Profile: [@blakely_women](https://www.instagram.com/blakely_women/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_blakely_women_DLsYsFStzdu.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_blakely_women_DLsYsFStzdu.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -970,7 +970,7 @@ created by @victoria_repa"
 
 ## @bogdantitomir_official
 - Profile: [@bogdantitomir_official](https://www.instagram.com/bogdantitomir_official/)
-- Screenshot: [open screenshot](screenshots/_kira.medvedeva__bogdantitomir_official_DV22m5ZkdtQ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_kira.medvedeva__bogdantitomir_official_DV22m5ZkdtQ.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -992,7 +992,7 @@ created by @victoria_repa"
 
 ## @bogner.official
 - Profile: [@bogner.official](https://www.instagram.com/bogner.official/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_bogner.official_DULdr1bEXlU.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_bogner.official_DULdr1bEXlU.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -1013,7 +1013,7 @@ created by @victoria_repa"
 
 ## @boohoo
 - Profile: [@boohoo](https://www.instagram.com/boohoo/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_boohoo_DR2gQUzDdKi.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_boohoo_DR2gQUzDdKi.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1035,7 +1035,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @bork_com
 - Profile: [@bork_com](https://www.instagram.com/bork_com/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1062,7 +1062,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @bornstar_brand
 - Profile: [@bornstar_brand](https://www.instagram.com/bornstar_brand/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_bornstar_brand_DTs2Mu2DVIn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_bornstar_brand_DTs2Mu2DVIn.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1085,7 +1085,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @brabra_store
 - Profile: [@brabra_store](https://www.instagram.com/brabra_store/)
-- Screenshot: [open screenshot](screenshots/isv.m_brabra_store_DVAthdpj8zo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_brabra_store_DVAthdpj8zo.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -1110,7 +1110,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @brucestudios
 - Profile: [@brucestudios](https://www.instagram.com/brucestudios/)
-- Screenshot: [open screenshot](screenshots/annawinck_brucestudios_DUoFhQ_jHmz.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_brucestudios_DUoFhQ_jHmz.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1131,7 +1131,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @brucestudios.dk
 - Profile: [@brucestudios.dk](https://www.instagram.com/brucestudios.dk/)
-- Screenshot: [open screenshot](screenshots/annawinck_brucestudios.dk_DUoFhQ_jHmz.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_brucestudios.dk_DUoFhQ_jHmz.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1152,7 +1152,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @bungly.official
 - Profile: [@bungly.official](https://www.instagram.com/bungly.official/)
-- Screenshot: [open screenshot](screenshots/polina_letti_bungly.official_DWozaqqDCRG.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_bungly.official_DWozaqqDCRG.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1178,7 +1178,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @by.borsch
 - Profile: [@by.borsch](https://www.instagram.com/by.borsch/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_by.borsch_DWCEg3miBxS.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_by.borsch_DWCEg3miBxS.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1206,7 +1206,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @by_matu
 - Profile: [@by_matu](https://www.instagram.com/by_matu/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_by_matu_DQllLmkjB7s.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_by_matu_DQllLmkjB7s.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1231,7 +1231,7 @@ Need help with an order? Our team replies fastest via DM 💬"
 
 ## @by_sogoyasha
 - Profile: [@by_sogoyasha](https://www.instagram.com/by_sogoyasha/)
-- Screenshot: [open screenshot](screenshots/_fenik__by_sogoyasha_DSp1wF-jJgI.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__by_sogoyasha_DSp1wF-jJgI.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1255,7 +1255,7 @@ Moscow, Paris, Yerevan"
 
 ## @cafepavlova
 - Profile: [@cafepavlova](https://www.instagram.com/cafepavlova/)
-- Screenshot: [open screenshot](screenshots/mama_vseya_insti_cafepavlova_DVfl6Z3iN5p.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/mama_vseya_insti_cafepavlova_DVfl6Z3iN5p.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1279,7 +1279,7 @@ Moscow, Paris, Yerevan"
 
 ## @calzedonia
 - Profile: [@calzedonia](https://www.instagram.com/calzedonia/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_calzedonia_DUx_kjHjab5.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_calzedonia_DUx_kjHjab5.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1300,7 +1300,7 @@ Moscow, Paris, Yerevan"
 
 ## @chanelofficial
 - Profile: [@chanelofficial](https://www.instagram.com/chanelofficial/)
-- Screenshot: [open screenshot](screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1353,7 +1353,7 @@ Moscow, Paris, Yerevan"
 
 ## @chertovski.official
 - Profile: [@chertovski.official](https://www.instagram.com/chertovski.official/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_chertovski.official_DS7G3SHjNMi.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_chertovski.official_DS7G3SHjNMi.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -1377,7 +1377,7 @@ Worldwide Shipping"
 
 ## @childmood.store
 - Profile: [@childmood.store](https://www.instagram.com/childmood.store/)
-- Screenshot: [open screenshot](screenshots/polina_letti_childmood.store_DW9GT8sDCgG.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_childmood.store_DW9GT8sDCgG.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1403,7 +1403,7 @@ Worldwide Shipping"
 
 ## @chimes.studio
 - Profile: [@chimes.studio](https://www.instagram.com/chimes.studio/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_chimes.studio_DUQAp7pDc_z.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_chimes.studio_DUQAp7pDc_z.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1427,7 +1427,7 @@ essentials for you🪽"
 
 ## @cityfurs__
 - Profile: [@cityfurs__](https://www.instagram.com/cityfurs__/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_cityfurs___DWjczONMCXT.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_cityfurs___DWjczONMCXT.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1454,7 +1454,7 @@ Moscow,Aвтозаводская
 
 ## @clubmedseychelles
 - Profile: [@clubmedseychelles](https://www.instagram.com/clubmedseychelles/)
-- Screenshot: [open screenshot](screenshots/_fenik__clubmedseychelles_DT-vozGDOgp.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__clubmedseychelles_DT-vozGDOgp.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1479,7 +1479,7 @@ Club Med Exclusive Collection, luxury is the art of living"
 
 ## @concepciobynobis
 - Profile: [@concepciobynobis](https://www.instagram.com/concepciobynobis/)
-- Screenshot: [open screenshot](screenshots/annawinck_concepciobynobis_DWjjTuVDDkM.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_concepciobynobis_DWjjTuVDDkM.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1503,7 +1503,7 @@ Palma de Mallorca"
 
 ## @conso.store
 - Profile: [@conso.store](https://www.instagram.com/conso.store/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_conso.store_DSCdo_EjIwv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_conso.store_DSCdo_EjIwv.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1527,7 +1527,7 @@ Palma de Mallorca"
 
 ## @csb
 - Profile: [@csb](https://www.instagram.com/csb/)
-- Screenshot: [open screenshot](screenshots/toryiabts_csb_DVG73NQDRG7.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_csb_DVG73NQDRG7.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -1549,7 +1549,7 @@ Worldwide Shipping"
 
 ## @cultura_eyewear
 - Profile: [@cultura_eyewear](https://www.instagram.com/cultura_eyewear/)
-- Screenshot: [open screenshot](screenshots/shepelevich_cultura_eyewear_DVqEnmeDIpH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_cultura_eyewear_DVqEnmeDIpH.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1572,7 +1572,7 @@ Worldwide Shipping"
 
 ## @dalba_russia
 - Profile: [@dalba_russia](https://www.instagram.com/dalba_russia/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1608,7 +1608,7 @@ Worldwide Shipping"
 
 ## @datethelabel
 - Profile: [@datethelabel](https://www.instagram.com/datethelabel/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_datethelabel_DUDulEliCsu.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_datethelabel_DUDulEliCsu.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1631,7 +1631,7 @@ Worldwide Shipping"
 
 ## @delacon.official
 - Profile: [@delacon.official](https://www.instagram.com/delacon.official/)
-- Screenshot: [open screenshot](screenshots/viva_la_vika_delacon.official_DV0ZcLqiO1Q.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/viva_la_vika_delacon.official_DV0ZcLqiO1Q.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1654,7 +1654,7 @@ Worldwide shipping 🌎"
 
 ## @dior
 - Profile: [@dior](https://www.instagram.com/dior/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_dior_DTs2Mu2DVIn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_dior_DTs2Mu2DVIn.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -1675,7 +1675,7 @@ Worldwide shipping 🌎"
 
 ## @diorbeauty
 - Profile: [@diorbeauty](https://www.instagram.com/diorbeauty/)
-- Screenshot: [open screenshot](screenshots/annaastrup_diorbeauty_DVYzHWaDOqZ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annaastrup_diorbeauty_DVYzHWaDOqZ.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1705,7 +1705,7 @@ Worldwide shipping 🌎"
 
 ## @diptyque
 - Profile: [@diptyque](https://www.instagram.com/diptyque/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_diptyque_DUNVstUCIh3.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_diptyque_DUNVstUCIh3.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1728,7 +1728,7 @@ Worldwide shipping 🌎"
 
 ## @dopecosmetics.ru
 - Profile: [@dopecosmetics.ru](https://www.instagram.com/dopecosmetics.ru/)
-- Screenshot: [open screenshot](screenshots/isv.m_dopecosmetics.ru_DWds25qlytC.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_dopecosmetics.ru_DWds25qlytC.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -1749,7 +1749,7 @@ Worldwide shipping 🌎"
 
 ## @dr.althea_cis
 - Profile: [@dr.althea_cis](https://www.instagram.com/dr.althea_cis/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_dr.althea_cis_DW1IQiCDI3Z.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_dr.althea_cis_DW1IQiCDI3Z.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1771,7 +1771,7 @@ Worldwide shipping 🌎"
 
 ## @drbarbarasturm
 - Profile: [@drbarbarasturm](https://www.instagram.com/drbarbarasturm/)
-- Screenshot: [open screenshot](screenshots/toryiabts_drbarbarasturm_DVd690NCB5O.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_drbarbarasturm_DVd690NCB5O.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1794,7 +1794,7 @@ Worldwide shipping 🌎"
 
 ## @dresserie.brand
 - Profile: [@dresserie.brand](https://www.instagram.com/dresserie.brand/)
-- Screenshot: [open screenshot](screenshots/ngizerskaya_dresserie.brand_DUD7zQSjTtQ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ngizerskaya_dresserie.brand_DUD7zQSjTtQ.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -1817,7 +1817,7 @@ Worldwide shipping 🌎"
 
 ## @dymostudio
 - Profile: [@dymostudio](https://www.instagram.com/dymostudio/)
-- Screenshot: [open screenshot](screenshots/shepelevich_dymostudio_DRopVuVjJOx.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_dymostudio_DRopVuVjJOx.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1840,7 +1840,7 @@ Worldwide shipping 🌎"
 
 ## @eclata.clothing
 - Profile: [@eclata.clothing](https://www.instagram.com/eclata.clothing/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_eclata.clothing_DWguQo8jJl9.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_eclata.clothing_DWguQo8jJl9.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1868,7 +1868,7 @@ Worldwide shipping 🌎"
 
 ## @egoofficial
 - Profile: [@egoofficial](https://www.instagram.com/egoofficial/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_egoofficial_DVdt9MNjPjE.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_egoofficial_DVdt9MNjPjE.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -1889,7 +1889,7 @@ Worldwide shipping 🌎"
 
 ## @ekonikastyle
 - Profile: [@ekonikastyle](https://www.instagram.com/ekonikastyle/)
-- Screenshot: [open screenshot](screenshots/v_isakova_ekonikastyle_DWGLqJOiDzC.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_ekonikastyle_DWGLqJOiDzC.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1932,7 +1932,7 @@ Worldwide shipping 🌎"
 
 ## @el.trendy
 - Profile: [@el.trendy](https://www.instagram.com/el.trendy/)
-- Screenshot: [open screenshot](screenshots/oh_kate__el.trendy_C6gFch8tVR_.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__el.trendy_C6gFch8tVR_.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1960,7 +1960,7 @@ Worldwide shipping 🌎"
 
 ## @elemis
 - Profile: [@elemis](https://www.instagram.com/elemis/)
-- Screenshot: [open screenshot](screenshots/toryiabts_elemis_DWWZ4v7iG9v.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_elemis_DWWZ4v7iG9v.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -1986,7 +1986,7 @@ Official Skincare partner of @astonmartinf1"
 
 ## @elemis_uki
 - Profile: [@elemis_uki](https://www.instagram.com/elemis_uki/)
-- Screenshot: [open screenshot](screenshots/toryiabts_elemis_uki_DWWZ4v7iG9v.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_elemis_uki_DWWZ4v7iG9v.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2011,7 +2011,7 @@ Book a results-driven facial ⬇️"
 
 ## @embody.brand
 - Profile: [@embody.brand](https://www.instagram.com/embody.brand/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_embody.brand_DVa60FWDwsO.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_embody.brand_DVa60FWDwsO.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -2040,7 +2040,7 @@ EMBODY ТРЦ KazanMall (pop-up)"
 
 ## @encelade.store
 - Profile: [@encelade.store](https://www.instagram.com/encelade.store/)
-- Screenshot: [open screenshot](screenshots/shepelevich_encelade.store_DWbF7PzjETx.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_encelade.store_DWbF7PzjETx.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -2065,7 +2065,7 @@ Moscow: Трехпрудный переулок 4с1 (2 эт)
 
 ## @envy_atelier
 - Profile: [@envy_atelier](https://www.instagram.com/envy_atelier/)
-- Screenshot: [open screenshot](screenshots/shepelevich_envy_atelier_DPn9i2njOs1.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_envy_atelier_DPn9i2njOs1.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2087,7 +2087,7 @@ Moscow: Трехпрудный переулок 4с1 (2 эт)
 
 ## @eshomes.ru
 - Profile: [@eshomes.ru](https://www.instagram.com/eshomes.ru/)
-- Screenshot: [open screenshot](screenshots/polina_letti_eshomes.ru_DWTKJhPjA9T.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_eshomes.ru_DWTKJhPjA9T.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -2111,7 +2111,7 @@ Moscow: Трехпрудный переулок 4с1 (2 эт)
 
 ## @esteelauder
 - Profile: [@esteelauder](https://www.instagram.com/esteelauder/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_esteelauder_DT0bh2Tgjeo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_esteelauder_DT0bh2Tgjeo.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2132,7 +2132,7 @@ Moscow: Трехпрудный переулок 4с1 (2 эт)
 
 ## @eyepetizer
 - Profile: [@eyepetizer](https://www.instagram.com/eyepetizer/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_eyepetizer_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_eyepetizer_DWRfCSLDc1m.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2153,7 +2153,7 @@ Moscow: Трехпрудный переулок 4с1 (2 эт)
 
 ## @faberge_museum
 - Profile: [@faberge_museum](https://www.instagram.com/faberge_museum/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_faberge_museum_DVgvGNnDKjM.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_faberge_museum_DVgvGNnDKjM.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2178,7 +2178,7 @@ Telegram ⬇️"
 
 ## @fablestore
 - Profile: [@fablestore](https://www.instagram.com/fablestore/)
-- Screenshot: [open screenshot](screenshots/polly_denisova_fablestore_DGJG2XcPFno.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polly_denisova_fablestore_DGJG2XcPFno.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -2199,7 +2199,7 @@ Telegram ⬇️"
 
 ## @fantome_design
 - Profile: [@fantome_design](https://www.instagram.com/fantome_design/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_fantome_design_DUNVstUCIh3.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_fantome_design_DUNVstUCIh3.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -2221,7 +2221,7 @@ Dubai @the_poppington"
 
 ## @fentybeauty
 - Profile: [@fentybeauty](https://www.instagram.com/fentybeauty/)
-- Screenshot: [open screenshot](screenshots/annaastrup_fentybeauty_DVYzHWaDOqZ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annaastrup_fentybeauty_DVYzHWaDOqZ.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2244,7 +2244,7 @@ Dubai @the_poppington"
 
 ## @figura_activewear
 - Profile: [@figura_activewear](https://www.instagram.com/figura_activewear/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_figura_activewear_DULdr1bEXlU.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_figura_activewear_DULdr1bEXlU.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -2266,7 +2266,7 @@ Dubai @the_poppington"
 
 ## @finn_flare_official
 - Profile: [@finn_flare_official](https://www.instagram.com/finn_flare_official/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_finn_flare_official_DVdU_y2jOIi.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_finn_flare_official_DVdU_y2jOIi.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2293,7 +2293,7 @@ Dubai @the_poppington"
 
 ## @flowerswill_spb
 - Profile: [@flowerswill_spb](https://www.instagram.com/flowerswill_spb/)
-- Screenshot: [open screenshot](screenshots/shepelevich_flowerswill_spb_DU29vZajGAc.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_flowerswill_spb_DU29vZajGAc.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2318,7 +2318,7 @@ Dubai @the_poppington"
 
 ## @fmk__world
 - Profile: [@fmk__world](https://www.instagram.com/fmk__world/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_fmk__world_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_fmk__world_DWRfCSLDc1m.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2339,7 +2339,7 @@ Dubai @the_poppington"
 
 ## @frambini
 - Profile: [@frambini](https://www.instagram.com/frambini/)
-- Screenshot: [open screenshot](screenshots/dominic__ana_frambini_DI1CGzdtuZy.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_frambini_DI1CGzdtuZy.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2362,7 +2362,7 @@ Dubai @the_poppington"
 
 ## @frou.frou.ru
 - Profile: [@frou.frou.ru](https://www.instagram.com/frou.frou.ru/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_frou.frou.ru_DWN8fc3CPMu.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_frou.frou.ru_DWN8fc3CPMu.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2391,7 +2391,7 @@ DUBAI @frou_dubai 💎"
 
 ## @fsflorence
 - Profile: [@fsflorence](https://www.instagram.com/fsflorence/)
-- Screenshot: [open screenshot](screenshots/_fenik__fsflorence_DCRwzLAMUKh.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__fsflorence_DCRwzLAMUKh.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2416,7 +2416,7 @@ DUBAI @frou_dubai 💎"
 
 ## @fsgeneva
 - Profile: [@fsgeneva](https://www.instagram.com/fsgeneva/)
-- Screenshot: [open screenshot](screenshots/_fenik__fsgeneva_DRhtioojNDe.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__fsgeneva_DRhtioojNDe.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2444,7 +2444,7 @@ Four Seasons Hotel des Bergues Geneva! ❤️"
 
 ## @ghettoprincess.studio
 - Profile: [@ghettoprincess.studio](https://www.instagram.com/ghettoprincess.studio/)
-- Screenshot: [open screenshot](screenshots/sonyamelton_ghettoprincess.studio_DTSaylxjWRb.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/sonyamelton_ghettoprincess.studio_DTSaylxjWRb.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2469,7 +2469,7 @@ Four Seasons Hotel des Bergues Geneva! ❤️"
 
 ## @gladdestofficiall
 - Profile: [@gladdestofficiall](https://www.instagram.com/gladdestofficiall/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_gladdestofficiall_DIjPJN2pCx4.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_gladdestofficiall_DIjPJN2pCx4.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2494,7 +2494,7 @@ GUYANA 🇬🇾 📍
 
 ## @glowgirl.me
 - Profile: [@glowgirl.me](https://www.instagram.com/glowgirl.me/)
-- Screenshot: [open screenshot](screenshots/isv.m_glowgirl.me_DVSx7ZhD0kj.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_glowgirl.me_DVSx7ZhD0kj.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2518,7 +2518,7 @@ GUYANA 🇬🇾 📍
 
 ## @goldapple
 - Profile: [@goldapple](https://www.instagram.com/goldapple/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_goldapple_DT0bh2Tgjeo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_goldapple_DT0bh2Tgjeo.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2542,7 +2542,7 @@ GUYANA 🇬🇾 📍
 
 ## @guerlain
 - Profile: [@guerlain](https://www.instagram.com/guerlain/)
-- Screenshot: [open screenshot](screenshots/toryiabts_guerlain_DUWHeTejTZd.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_guerlain_DUWHeTejTZd.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2563,7 +2563,7 @@ GUYANA 🇬🇾 📍
 
 ## @guess
 - Profile: [@guess](https://www.instagram.com/guess/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_guess_C9nHsDlNpJb.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_guess_C9nHsDlNpJb.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2584,7 +2584,7 @@ GUYANA 🇬🇾 📍
 
 ## @guesslingerie
 - Profile: [@guesslingerie](https://www.instagram.com/guesslingerie/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_guesslingerie_DObeyHFjaFo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_guesslingerie_DObeyHFjaFo.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2606,7 +2606,7 @@ Shop the #GUESSLingerie Collection"
 
 ## @gumushanedencom
 - Profile: [@gumushanedencom](https://www.instagram.com/gumushanedencom/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_gumushanedencom_DQoVvTzCNcc.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_gumushanedencom_DQoVvTzCNcc.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2632,7 +2632,7 @@ DM/ Wp ile kolay sipariş"
 
 ## @haruharuwonder_official
 - Profile: [@haruharuwonder_official](https://www.instagram.com/haruharuwonder_official/)
-- Screenshot: [open screenshot](screenshots/toryiabts_haruharuwonder_official_DVd690NCB5O.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_haruharuwonder_official_DVd690NCB5O.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2654,7 +2654,7 @@ Discover now👇🏻👇🏼👇🏽"
 
 ## @herbody.store
 - Profile: [@herbody.store](https://www.instagram.com/herbody.store/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_herbody.store_DVMDQ6eCJaj.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_herbody.store_DVMDQ6eCJaj.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -2677,7 +2677,7 @@ Discover now👇🏻👇🏼👇🏽"
 
 ## @hermes
 - Profile: [@hermes](https://www.instagram.com/hermes/)
-- Screenshot: [open screenshot](screenshots/diana_milkanova_hermes_DHBw4bZI48c.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_hermes_DHBw4bZI48c.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2700,7 +2700,7 @@ Discover now👇🏻👇🏼👇🏽"
 
 ## @hiss_official
 - Profile: [@hiss_official](https://www.instagram.com/hiss_official/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_hiss_official_DWO7GX9jbii.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_hiss_official_DWO7GX9jbii.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -2728,7 +2728,7 @@ Online store ↓"
 
 ## @holikaholika_official
 - Profile: [@holikaholika_official](https://www.instagram.com/holikaholika_official/)
-- Screenshot: [open screenshot](screenshots/polina_letti_holikaholika_official_DWY_P5xDEir.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_holikaholika_official_DWY_P5xDEir.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2750,7 +2750,7 @@ Online store ↓"
 
 ## @hotelbalzacparis
 - Profile: [@hotelbalzacparis](https://www.instagram.com/hotelbalzacparis/)
-- Screenshot: [open screenshot](screenshots/diana_milkanova_hotelbalzacparis_DI8pJT-IiW4.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_hotelbalzacparis_DI8pJT-IiW4.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2776,7 +2776,7 @@ Online store ↓"
 
 ## @hotelderussie
 - Profile: [@hotelderussie](https://www.instagram.com/hotelderussie/)
-- Screenshot: [open screenshot](screenshots/_fenik__hotelderussie_DQWz6A3DJKX.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__hotelderussie_DQWz6A3DJKX.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -2799,7 +2799,7 @@ Online store ↓"
 
 ## @hourglasscosmetics
 - Profile: [@hourglasscosmetics](https://www.instagram.com/hourglasscosmetics/)
-- Screenshot: [open screenshot](screenshots/toryiabts_hourglasscosmetics_DVG73NQDRG7.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_hourglasscosmetics_DVG73NQDRG7.png)
 - Brand likelihood: high
 - Ad likelihood: high
 - Is brand: yes
@@ -2820,7 +2820,7 @@ Online store ↓"
 
 ## @iceicegergert
 - Profile: [@iceicegergert](https://www.instagram.com/iceicegergert/)
-- Screenshot: [open screenshot](screenshots/isv.m_iceicegergert_DWzCxjljens.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/isv.m_iceicegergert_DWzCxjljens.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2843,7 +2843,7 @@ Questions/Concerts: @kamillkamoon"
 
 ## @ideashop__ru
 - Profile: [@ideashop__ru](https://www.instagram.com/ideashop__ru/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_ideashop__ru_DUGK8nAjVSm.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_ideashop__ru_DUGK8nAjVSm.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2867,7 +2867,7 @@ Questions/Concerts: @kamillkamoon"
 
 ## @ilalimitedcollection
 - Profile: [@ilalimitedcollection](https://www.instagram.com/ilalimitedcollection/)
-- Screenshot: [open screenshot](screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -2907,7 +2907,7 @@ Questions/Concerts: @kamillkamoon"
 
 ## @incantoofficial
 - Profile: [@incantoofficial](https://www.instagram.com/incantoofficial/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_incantoofficial_DUS8wj5CIB3.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_incantoofficial_DUS8wj5CIB3.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -2929,7 +2929,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @inna
 - Profile: [@inna](https://www.instagram.com/inna/)
-- Screenshot: [open screenshot](screenshots/eva_timus_inna_CwGAsuPoYTc.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/eva_timus_inna_CwGAsuPoYTc.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2950,7 +2950,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @irnby.store
 - Profile: [@irnby.store](https://www.instagram.com/irnby.store/)
-- Screenshot: [open screenshot](screenshots/oh_kate__irnby.store_DKjcBaQta0V.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__irnby.store_DKjcBaQta0V.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2975,7 +2975,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @itsmore.tv
 - Profile: [@itsmore.tv](https://www.instagram.com/itsmore.tv/)
-- Screenshot: [open screenshot](screenshots/v_isakova_itsmore.tv_DT4pf7jiAsw.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_itsmore.tv_DT4pf7jiAsw.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -2997,7 +2997,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @itten_studio
 - Profile: [@itten_studio](https://www.instagram.com/itten_studio/)
-- Screenshot: [open screenshot](screenshots/polly_denisova_itten_studio_DKxbhvuRAva.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polly_denisova_itten_studio_DKxbhvuRAva.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3022,7 +3022,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @jjxx_official
 - Profile: [@jjxx_official](https://www.instagram.com/jjxx_official/)
-- Screenshot: [open screenshot](screenshots/oliviatps_jjxx_official_DU06n5kDPlR.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oliviatps_jjxx_official_DU06n5kDPlR.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3043,7 +3043,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @kalmanovich_official
 - Profile: [@kalmanovich_official](https://www.instagram.com/kalmanovich_official/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_kalmanovich_official_DSZfUADjMv2.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_kalmanovich_official_DSZfUADjMv2.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -3065,7 +3065,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @kapsula.shop
 - Profile: [@kapsula.shop](https://www.instagram.com/kapsula.shop/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_kapsula.shop_DVoVt7YjF5f.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_kapsula.shop_DVoVt7YjF5f.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -3089,7 +3089,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @karpov.studio
 - Profile: [@karpov.studio](https://www.instagram.com/karpov.studio/)
-- Screenshot: [open screenshot](screenshots/shepelevich_karpov.studio_DS4htmLjKwW.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_karpov.studio_DS4htmLjKwW.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3112,7 +3112,7 @@ Discover the new Incanto Collection.  #incantoofficial"
 
 ## @kerastase_official
 - Profile: [@kerastase_official](https://www.instagram.com/kerastase_official/)
-- Screenshot: [open screenshot](screenshots/toryiabts_kerastase_official_DVd690NCB5O.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_kerastase_official_DVd690NCB5O.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3137,7 +3137,7 @@ Enter into the Kérastase world 👇"
 
 ## @kuboraum
 - Profile: [@kuboraum](https://www.instagram.com/kuboraum/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_kuboraum_DU_CFTbjDoR.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_kuboraum_DU_CFTbjDoR.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -3163,7 +3163,7 @@ BERLIN, CIUDAD DE MÉXICO, MILANO, ROMA, TOKYO at DSM GINZA"
 
 ## @kyankstore
 - Profile: [@kyankstore](https://www.instagram.com/kyankstore/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_kyankstore_DVtHOlLggzA.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_kyankstore_DVtHOlLggzA.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -3188,7 +3188,7 @@ Prints.Embroidery.Uniqueness
 
 ## @lamodaru
 - Profile: [@lamodaru](https://www.instagram.com/lamodaru/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_lamodaru_DT0bh2Tgjeo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_lamodaru_DT0bh2Tgjeo.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3215,7 +3215,7 @@ Prints.Embroidery.Uniqueness
 
 ## @lamonastica
 - Profile: [@lamonastica](https://www.instagram.com/lamonastica/)
-- Screenshot: [open screenshot](screenshots/_fenik__lamonastica_DRcsCTcjCw3.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__lamonastica_DRcsCTcjCw3.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3236,7 +3236,7 @@ Prints.Embroidery.Uniqueness
 
 ## @lancomeofficial
 - Profile: [@lancomeofficial](https://www.instagram.com/lancomeofficial/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_lancomeofficial_DWWfqIDMcGg.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_lancomeofficial_DWWfqIDMcGg.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3257,7 +3257,7 @@ Prints.Embroidery.Uniqueness
 
 ## @lapeau.clinic
 - Profile: [@lapeau.clinic](https://www.instagram.com/lapeau.clinic/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_lapeau.clinic_DW6uHz6DBzH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_lapeau.clinic_DW6uHz6DBzH.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3280,7 +3280,7 @@ Prints.Embroidery.Uniqueness
 
 ## @lareserve_geneve
 - Profile: [@lareserve_geneve](https://www.instagram.com/lareserve_geneve/)
-- Screenshot: [open screenshot](screenshots/_fenik__lareserve_geneve_DRwnGmRDMGu.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__lareserve_geneve_DRwnGmRDMGu.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3303,7 +3303,7 @@ A member of @leadinghotelsoftheworld."
 
 ## @lavarice_
 - Profile: [@lavarice_](https://www.instagram.com/lavarice_/)
-- Screenshot: [open screenshot](screenshots/dominic__ana_lavarice__DWoGS19jaP6.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_lavarice__DWoGS19jaP6.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3329,7 +3329,7 @@ Telegram: lavarice_official
 
 ## @lichi_brand
 - Profile: [@lichi_brand](https://www.instagram.com/lichi_brand/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_lichi_brand_DS2PhipDAfH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_lichi_brand_DS2PhipDAfH.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3358,7 +3358,7 @@ Telegram: lavarice_official
 
 ## @ligio_official
 - Profile: [@ligio_official](https://www.instagram.com/ligio_official/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_ligio_official_DS5nIcjDHiS.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_ligio_official_DS5nIcjDHiS.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3380,7 +3380,7 @@ Telegram: lavarice_official
 
 ## @lim1e1ght
 - Profile: [@lim1e1ght](https://www.instagram.com/lim1e1ght/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_lim1e1ght_DUa03MVDMcp.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_lim1e1ght_DUa03MVDMcp.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -3405,7 +3405,7 @@ Hearts | 304 Jumeirah St - Jumeirah 2, Dubai
 
 ## @lime_official
 - Profile: [@lime_official](https://www.instagram.com/lime_official/)
-- Screenshot: [open screenshot](screenshots/shepelevich_lime_official_DPJh1aZDD9Y.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_lime_official_DPJh1aZDD9Y.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3428,7 +3428,7 @@ Hearts | 304 Jumeirah St - Jumeirah 2, Dubai
 
 ## @limestorecom
 - Profile: [@limestorecom](https://www.instagram.com/limestorecom/)
-- Screenshot: [open screenshot](screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -3473,7 +3473,7 @@ Hearts | 304 Jumeirah St - Jumeirah 2, Dubai
 
 ## @lioness_official
 - Profile: [@lioness_official](https://www.instagram.com/lioness_official/)
-- Screenshot: [open screenshot](screenshots/annawinck_lioness_official_DVMO6zJDKCM.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_lioness_official_DVMO6zJDKCM.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -3495,7 +3495,7 @@ Hearts | 304 Jumeirah St - Jumeirah 2, Dubai
 
 ## @loginovastore
 - Profile: [@loginovastore](https://www.instagram.com/loginovastore/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_loginovastore_DUNVstUCIh3.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_loginovastore_DUNVstUCIh3.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -3523,7 +3523,7 @@ Timeless premium base.
 
 ## @londri_brand
 - Profile: [@londri_brand](https://www.instagram.com/londri_brand/)
-- Screenshot: [open screenshot](screenshots/_ritmoo__londri_brand_DWGzPTziFzd.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__londri_brand_DWGzPTziFzd.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -3552,7 +3552,7 @@ Timeless premium base.
 
 ## @look7ee
 - Profile: [@look7ee](https://www.instagram.com/look7ee/)
-- Screenshot: [open screenshot](screenshots/lizarudkevich_look7ee_DTspRKsF_sV.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_look7ee_DTspRKsF_sV.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -3578,7 +3578,7 @@ Worldwide shipping 🌎"
 
 ## @lookfantastic
 - Profile: [@lookfantastic](https://www.instagram.com/lookfantastic/)
-- Screenshot: [open screenshot](screenshots/toryiabts_lookfantastic_DVMNPA_jUHv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_lookfantastic_DVMNPA_jUHv.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3599,7 +3599,7 @@ Worldwide shipping 🌎"
 
 ## @loomknits
 - Profile: [@loomknits](https://www.instagram.com/loomknits/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_loomknits_DRzZVN4iJZv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_loomknits_DRzZVN4iJZv.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3624,7 +3624,7 @@ SS"26 уже на сайте"
 
 ## @loverepublic_official
 - Profile: [@loverepublic_official](https://www.instagram.com/loverepublic_official/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_loverepublic_official_DUXpjr5DGVO.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_loverepublic_official_DUXpjr5DGVO.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -3655,7 +3655,7 @@ SS"26 уже на сайте"
 
 ## @lunifera_ru
 - Profile: [@lunifera_ru](https://www.instagram.com/lunifera_ru/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_lunifera_ru_DW1IQiCDI3Z.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_lunifera_ru_DW1IQiCDI3Z.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3678,7 +3678,7 @@ SS"26 уже на сайте"
 
 ## @luxerosedubai
 - Profile: [@luxerosedubai](https://www.instagram.com/luxerosedubai/)
-- Screenshot: [open screenshot](screenshots/_ritmoo__luxerosedubai_DWmBm9IiIR3.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__luxerosedubai_DWmBm9IiIR3.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -3702,7 +3702,7 @@ Speaking-🇺🇲🇷🇺🇦🇪‎"
 
 ## @luxurybali_flowers
 - Profile: [@luxurybali_flowers](https://www.instagram.com/luxurybali_flowers/)
-- Screenshot: [open screenshot](screenshots/maslova.alisha_luxurybali_flowers_DUnd3X2EVTN.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/maslova.alisha_luxurybali_flowers_DUnd3X2EVTN.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -3726,7 +3726,7 @@ Eng / Rus"
 
 ## @m31design
 - Profile: [@m31design](https://www.instagram.com/m31design/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_m31design_DUf_KO1EXzc.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_m31design_DUf_KO1EXzc.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -3753,7 +3753,7 @@ Eng / Rus"
 
 ## @maag_fshn
 - Profile: [@maag_fshn](https://www.instagram.com/maag_fshn/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_maag_fshn_DUXvUU-ETHC.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_maag_fshn_DUXvUU-ETHC.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -3774,7 +3774,7 @@ Eng / Rus"
 
 ## @maccosmetics
 - Profile: [@maccosmetics](https://www.instagram.com/maccosmetics/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_maccosmetics_DIbp6bcyvoU.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_maccosmetics_DIbp6bcyvoU.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3795,7 +3795,7 @@ Eng / Rus"
 
 ## @magic__atelier
 - Profile: [@magic__atelier](https://www.instagram.com/magic__atelier/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_magic__atelier_DVIqJ6RDaSe.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_magic__atelier_DVIqJ6RDaSe.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3820,7 +3820,7 @@ Worn by Ariana Grande, J.Lo, Heidi Klum"
 
 ## @malina_fashion
 - Profile: [@malina_fashion](https://www.instagram.com/malina_fashion/)
-- Screenshot: [open screenshot](screenshots/oh_kate__malina_fashion_C25b3VfNWW_.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__malina_fashion_C25b3VfNWW_.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3849,7 +3849,7 @@ Www.malinabonita.com
 
 ## @malinandgoetz
 - Profile: [@malinandgoetz](https://www.instagram.com/malinandgoetz/)
-- Screenshot: [open screenshot](screenshots/toryiabts_malinandgoetz_DUWHeTejTZd.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_malinandgoetz_DUWHeTejTZd.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3872,7 +3872,7 @@ since 2004, nyc."
 
 ## @mango
 - Profile: [@mango](https://www.instagram.com/mango/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_mango_DWloeKmjTKe.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_mango_DWloeKmjTKe.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -3899,7 +3899,7 @@ Also at:
 
 ## @manicshop
 - Profile: [@manicshop](https://www.instagram.com/manicshop/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_manicshop_DSVKQDeCIFD.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_manicshop_DSVKQDeCIFD.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -3920,7 +3920,7 @@ Also at:
 
 ## @marem.brand
 - Profile: [@marem.brand](https://www.instagram.com/marem.brand/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_marem.brand_DU7fr5EjJsJ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_marem.brand_DU7fr5EjJsJ.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -3946,7 +3946,7 @@ Also at:
 
 ## @mari_ellebrand
 - Profile: [@mari_ellebrand](https://www.instagram.com/mari_ellebrand/)
-- Screenshot: [open screenshot](screenshots/ka.karina1_mari_ellebrand_DUf2szhjc86.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_mari_ellebrand_DUf2szhjc86.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -3969,7 +3969,7 @@ Worldwide delivery | fitting"
 
 ## @mariamalyarevich
 - Profile: [@mariamalyarevich](https://www.instagram.com/mariamalyarevich/)
-- Screenshot: [open screenshot](screenshots/oh_kate__mariamalyarevich_DC9LuHVNNYs.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__mariamalyarevich_DC9LuHVNNYs.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -3991,7 +3991,7 @@ Worldwide delivery | fitting"
 
 ## @marte.ru
 - Profile: [@marte.ru](https://www.instagram.com/marte.ru/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_marte.ru_DWld_d7DVck.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_marte.ru_DWld_d7DVck.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -4014,7 +4014,7 @@ Worldwide delivery | fitting"
 
 ## @maryglow_studio
 - Profile: [@maryglow_studio](https://www.instagram.com/maryglow_studio/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_maryglow_studio_DWjVTg8DFbV.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_maryglow_studio_DWjVTg8DFbV.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -4037,7 +4037,7 @@ Worldwide delivery | fitting"
 
 ## @mbbfw_official
 - Profile: [@mbbfw_official](https://www.instagram.com/mbbfw_official/)
-- Screenshot: [open screenshot](screenshots/diana_milkanova_mbbfw_official_DIECw5Doo_P.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_mbbfw_official_DIECw5Doo_P.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4060,7 +4060,7 @@ See you in October."
 
 ## @meandme.online
 - Profile: [@meandme.online](https://www.instagram.com/meandme.online/)
-- Screenshot: [open screenshot](screenshots/sonyamelton_meandme.online_DWgh913DbQH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/sonyamelton_meandme.online_DWgh913DbQH.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4085,7 +4085,7 @@ See you in October."
 
 ## @mendel_jewelry
 - Profile: [@mendel_jewelry](https://www.instagram.com/mendel_jewelry/)
-- Screenshot: [open screenshot](screenshots/polina_letti_mendel_jewelry_DWozaqqDCRG.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_mendel_jewelry_DWozaqqDCRG.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -4109,7 +4109,7 @@ See you in October."
 
 ## @mercury_russia
 - Profile: [@mercury_russia](https://www.instagram.com/mercury_russia/)
-- Screenshot: [open screenshot](screenshots/v_isakova_mercury_russia_DTH24IvCDl5.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_mercury_russia_DTH24IvCDl5.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -4134,7 +4134,7 @@ See you in October."
 
 ## @mercuryjewellery
 - Profile: [@mercuryjewellery](https://www.instagram.com/mercuryjewellery/)
-- Screenshot: [open screenshot](screenshots/v_isakova_mercuryjewellery_DTH24IvCDl5.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_mercuryjewellery_DTH24IvCDl5.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -4160,7 +4160,7 @@ See you in October."
 
 ## @mesh_n_flesh
 - Profile: [@mesh_n_flesh](https://www.instagram.com/mesh_n_flesh/)
-- Screenshot: [open screenshot](screenshots/lizarudkevich_mesh_n_flesh_DUkoOw9DfU4.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_mesh_n_flesh_DUkoOw9DfU4.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -4183,7 +4183,7 @@ Worldwide shipping with DHL🌍"
 
 ## @michele__muse
 - Profile: [@michele__muse](https://www.instagram.com/michele__muse/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_michele__muse_DUcv49gDC_Q.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_michele__muse_DUcv49gDC_Q.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4206,7 +4206,7 @@ Worldwide shipping with DHL🌍"
 
 ## @miramiram_altay
 - Profile: [@miramiram_altay](https://www.instagram.com/miramiram_altay/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_miramiram_altay_DVdU_y2jOIi.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_miramiram_altay_DVdU_y2jOIi.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4235,7 +4235,7 @@ Worldwide shipping with DHL🌍"
 
 ## @miss___38
 - Profile: [@miss___38](https://www.instagram.com/miss___38/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_miss___38_DV_iC4Bja_W.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_miss___38_DV_iC4Bja_W.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4261,7 +4261,7 @@ offline Moscow , улица 1812 года 8к1
 
 ## @missguided
 - Profile: [@missguided](https://www.instagram.com/missguided/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_missguided_DQKOvfhjbkp.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_missguided_DQKOvfhjbkp.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4286,7 +4286,7 @@ offline Moscow , улица 1812 года 8к1
 
 ## @miu.app
 - Profile: [@miu.app](https://www.instagram.com/miu.app/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_miu.app_DTkviH0iI1Z.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_miu.app_DTkviH0iI1Z.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4307,7 +4307,7 @@ offline Moscow , улица 1812 года 8к1
 
 ## @mo_geneva
 - Profile: [@mo_geneva](https://www.instagram.com/mo_geneva/)
-- Screenshot: [open screenshot](screenshots/_fenik__mo_geneva_DQ6XixujFrC.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__mo_geneva_DQ6XixujFrC.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4330,7 +4330,7 @@ offline Moscow , улица 1812 года 8к1
 
 ## @monsheri_boutique
 - Profile: [@monsheri_boutique](https://www.instagram.com/monsheri_boutique/)
-- Screenshot: [open screenshot](screenshots/dominic__ana_monsheri_boutique_DWI645pDeMD.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_monsheri_boutique_DWI645pDeMD.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -4357,7 +4357,7 @@ offline Moscow , улица 1812 года 8к1
 
 ## @moveli_store
 - Profile: [@moveli_store](https://www.instagram.com/moveli_store/)
-- Screenshot: [open screenshot](screenshots/_fenik__moveli_store_DSc0jLzjGu7.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__moveli_store_DSc0jLzjGu7.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -4378,7 +4378,7 @@ offline Moscow , улица 1812 года 8к1
 
 ## @mulier.moscow
 - Profile: [@mulier.moscow](https://www.instagram.com/mulier.moscow/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_mulier.moscow_DRcgn01DBnv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_mulier.moscow_DRcgn01DBnv.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4403,7 +4403,7 @@ owned by @vasilisaart & @arinakist"
 
 ## @muneca.collection
 - Profile: [@muneca.collection](https://www.instagram.com/muneca.collection/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_muneca.collection_DWOOVt3sidw.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_muneca.collection_DWOOVt3sidw.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -4426,7 +4426,7 @@ owned by @vasilisaart & @arinakist"
 
 ## @muserastore
 - Profile: [@muserastore](https://www.instagram.com/muserastore/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_muserastore_DUqt_S5jcK8.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_muserastore_DUqt_S5jcK8.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -4455,7 +4455,7 @@ Shop MUSERA below 👇"
 
 ## @mvs_hotels
 - Profile: [@mvs_hotels](https://www.instagram.com/mvs_hotels/)
-- Screenshot: [open screenshot](screenshots/shepelevich_mvs_hotels_DU29vZajGAc.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_mvs_hotels_DU29vZajGAc.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4482,7 +4482,7 @@ Shop MUSERA below 👇"
 
 ## @nakdfashion
 - Profile: [@nakdfashion](https://www.instagram.com/nakdfashion/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_nakdfashion_DRU9X4VDYuW.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_nakdfashion_DRU9X4VDYuW.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4503,7 +4503,7 @@ Shop MUSERA below 👇"
 
 ## @namelazz
 - Profile: [@namelazz](https://www.instagram.com/namelazz/)
-- Screenshot: [open screenshot](screenshots/lizarudkevich_namelazz_DUFrD_gDdVL.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_namelazz_DUFrD_gDdVL.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4534,7 +4534,7 @@ Shop MUSERA below 👇"
 
 ## @naomi_knitwear
 - Profile: [@naomi_knitwear](https://www.instagram.com/naomi_knitwear/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_naomi_knitwear_DQOg21zE4Zp.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_naomi_knitwear_DQOg21zE4Zp.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -4557,7 +4557,7 @@ Shop MUSERA below 👇"
 
 ## @nashiargan.ru
 - Profile: [@nashiargan.ru](https://www.instagram.com/nashiargan.ru/)
-- Screenshot: [open screenshot](screenshots/oh_kate__nashiargan.ru_C6gFch8tVR_.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__nashiargan.ru_C6gFch8tVR_.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -4580,7 +4580,7 @@ Shop MUSERA below 👇"
 
 ## @nauticalhotel
 - Profile: [@nauticalhotel](https://www.instagram.com/nauticalhotel/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_nauticalhotel_DOTGtV6iMmH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_nauticalhotel_DOTGtV6iMmH.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -4604,7 +4604,7 @@ Dance with the waves, dine with the breeze, dream with the stars 🌌
 
 ## @nobishotelpalma
 - Profile: [@nobishotelpalma](https://www.instagram.com/nobishotelpalma/)
-- Screenshot: [open screenshot](screenshots/annawinck_nobishotelpalma_DWUZ6xaDsg_.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_nobishotelpalma_DWUZ6xaDsg_.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4625,7 +4625,7 @@ Dance with the waves, dine with the breeze, dream with the stars 🌌
 
 ## @nobuhotelwarsaw
 - Profile: [@nobuhotelwarsaw](https://www.instagram.com/nobuhotelwarsaw/)
-- Screenshot: [open screenshot](screenshots/diana_milkanova_nobuhotelwarsaw_DQ7GHuZiAxI.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_nobuhotelwarsaw_DQ7GHuZiAxI.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4646,7 +4646,7 @@ Dance with the waves, dine with the breeze, dream with the stars 🌌
 
 ## @nuegroundstudio
 - Profile: [@nuegroundstudio](https://www.instagram.com/nuegroundstudio/)
-- Screenshot: [open screenshot](screenshots/toryiabts_nuegroundstudio_DWrXHfuDfXo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_nuegroundstudio_DWrXHfuDfXo.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -4667,7 +4667,7 @@ Dance with the waves, dine with the breeze, dream with the stars 🌌
 
 ## @nuenue.store
 - Profile: [@nuenue.store](https://www.instagram.com/nuenue.store/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_nuenue.store_DW1oLzhjUlM.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_nuenue.store_DW1oLzhjUlM.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -4695,7 +4695,7 @@ OFFLINE
 
 ## @nume.brand
 - Profile: [@nume.brand](https://www.instagram.com/nume.brand/)
-- Screenshot: [open screenshot](screenshots/lizarudkevich_nume.brand_DWoI2bSl7nm.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_nume.brand_DWoI2bSl7nm.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -4718,7 +4718,7 @@ OFFLINE
 
 ## @nutribullet
 - Profile: [@nutribullet](https://www.instagram.com/nutribullet/)
-- Screenshot: [open screenshot](screenshots/toryiabts_nutribullet_DWotQcKCBvq.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_nutribullet_DWotQcKCBvq.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4739,7 +4739,7 @@ OFFLINE
 
 ## @nuverance
 - Profile: [@nuverance](https://www.instagram.com/nuverance/)
-- Screenshot: [open screenshot](screenshots/purplegrace_nuverance_DVyPoCOk_sS.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/purplegrace_nuverance_DVyPoCOk_sS.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -4761,7 +4761,7 @@ OFFLINE
 
 ## @ohmymarr
 - Profile: [@ohmymarr](https://www.instagram.com/ohmymarr/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_ohmymarr_DUFdYvoj0GZ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_ohmymarr_DUFdYvoj0GZ.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -4785,7 +4785,7 @@ OFFLINE
 
 ## @ohtapark
 - Profile: [@ohtapark](https://www.instagram.com/ohtapark/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_ohtapark_DT-60F_DP36.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_ohtapark_DT-60F_DP36.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4811,7 +4811,7 @@ Collection 4* — ваша семейная коллекция."
 
 ## @on_stuff_brand
 - Profile: [@on_stuff_brand](https://www.instagram.com/on_stuff_brand/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_on_stuff_brand_DULdr1bEXlU.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_on_stuff_brand_DULdr1bEXlU.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -4835,7 +4835,7 @@ WINTER SALE на сайте!"
 
 ## @p.p.s.brand
 - Profile: [@p.p.s.brand](https://www.instagram.com/p.p.s.brand/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_p.p.s.brand_DT-NPe2Ecem.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_p.p.s.brand_DT-NPe2Ecem.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -4856,7 +4856,7 @@ WINTER SALE на сайте!"
 
 ## @pacheswimwear
 - Profile: [@pacheswimwear](https://www.instagram.com/pacheswimwear/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_pacheswimwear_DQllLmkjB7s.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_pacheswimwear_DQllLmkjB7s.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -4881,7 +4881,7 @@ WINTER SALE на сайте!"
 
 ## @pantera.dubai
 - Profile: [@pantera.dubai](https://www.instagram.com/pantera.dubai/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_pantera.dubai_DUn7WfAiKIY.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_pantera.dubai_DUn7WfAiKIY.png)
 - Brand likelihood: high
 - Ad likelihood: medium
 - Is brand: yes
@@ -4907,7 +4907,7 @@ PANTERASPORT @pantera.sportwear
 
 ## @pearlmaiofficial
 - Profile: [@pearlmaiofficial](https://www.instagram.com/pearlmaiofficial/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_pearlmaiofficial_DOG4ZDrDU4p.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_pearlmaiofficial_DOG4ZDrDU4p.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4929,7 +4929,7 @@ WORLDWIDE SHIPPING"
 
 ## @perduehotel
 - Profile: [@perduehotel](https://www.instagram.com/perduehotel/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_perduehotel_DOTGtV6iMmH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_perduehotel_DOTGtV6iMmH.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -4954,7 +4954,7 @@ From honeymoons to romantic getaway
 
 ## @peremenabyduo
 - Profile: [@peremenabyduo](https://www.instagram.com/peremenabyduo/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_peremenabyduo_DUcv49gDC_Q.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_peremenabyduo_DUcv49gDC_Q.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4977,7 +4977,7 @@ From honeymoons to romantic getaway
 
 ## @piminovavalery
 - Profile: [@piminovavalery](https://www.instagram.com/piminovavalery/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_piminovavalery_DWb8HZmjEzJ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_piminovavalery_DWb8HZmjEzJ.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -4998,7 +4998,7 @@ From honeymoons to romantic getaway
 
 ## @plombir_flowers
 - Profile: [@plombir_flowers](https://www.instagram.com/plombir_flowers/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_plombir_flowers_DVxtBXSjMON.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_plombir_flowers_DVxtBXSjMON.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5024,7 +5024,7 @@ From honeymoons to romantic getaway
 
 ## @plusch.ru
 - Profile: [@plusch.ru](https://www.instagram.com/plusch.ru/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_plusch.ru_DWJTfwYDagr.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_plusch.ru_DWJTfwYDagr.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5046,7 +5046,7 @@ From honeymoons to romantic getaway
 
 ## @pourpour_decor
 - Profile: [@pourpour_decor](https://www.instagram.com/pourpour_decor/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_pourpour_decor_DVdXroUiH1z.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_pourpour_decor_DVdXroUiH1z.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5069,7 +5069,7 @@ From honeymoons to romantic getaway
 
 ## @psch_gallery
 - Profile: [@psch_gallery](https://www.instagram.com/psch_gallery/)
-- Screenshot: [open screenshot](screenshots/op_pop_art_psch_gallery_DWzCrhxDNW2.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/op_pop_art_psch_gallery_DWzCrhxDNW2.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5090,7 +5090,7 @@ From honeymoons to romantic getaway
 
 ## @pullandbear
 - Profile: [@pullandbear](https://www.instagram.com/pullandbear/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_pullandbear_DTs2Mu2DVIn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_pullandbear_DTs2Mu2DVIn.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5113,7 +5113,7 @@ Get the looks ⬇️"
 
 ## @pur_pur_store
 - Profile: [@pur_pur_store](https://www.instagram.com/pur_pur_store/)
-- Screenshot: [open screenshot](screenshots/dominic__ana_pur_pur_store_DVdhVlHDAmn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_pur_pur_store_DVdhVlHDAmn.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5140,7 +5140,7 @@ Get the looks ⬇️"
 
 ## @rarebeauty
 - Profile: [@rarebeauty](https://www.instagram.com/rarebeauty/)
-- Screenshot: [open screenshot](screenshots/toryiabts_rarebeauty_DVMNPA_jUHv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_rarebeauty_DVMNPA_jUHv.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5162,7 +5162,7 @@ Get the looks ⬇️"
 
 ## @rebornbyduo
 - Profile: [@rebornbyduo](https://www.instagram.com/rebornbyduo/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_rebornbyduo_DT0jQgFDE6V.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_rebornbyduo_DT0jQgFDE6V.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5185,7 +5185,7 @@ Best Pastry Chef 2025 @stas.paul WTE Russia"
 
 ## @red.flag.brand
 - Profile: [@red.flag.brand](https://www.instagram.com/red.flag.brand/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_red.flag.brand_DW6qCivjQAf.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_red.flag.brand_DW6qCivjQAf.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5209,7 +5209,7 @@ Best Pastry Chef 2025 @stas.paul WTE Russia"
 
 ## @redmexru
 - Profile: [@redmexru](https://www.instagram.com/redmexru/)
-- Screenshot: [open screenshot](screenshots/shepelevich_redmexru_DRy1leljJuo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_redmexru_DRy1leljJuo.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5239,7 +5239,7 @@ Best Pastry Chef 2025 @stas.paul WTE Russia"
 
 ## @refineryhotel
 - Profile: [@refineryhotel](https://www.instagram.com/refineryhotel/)
-- Screenshot: [open screenshot](screenshots/shepelevich_refineryhotel_DRtsubDDLL-.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_refineryhotel_DRtsubDDLL-.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5262,7 +5262,7 @@ Best Pastry Chef 2025 @stas.paul WTE Russia"
 
 ## @reshetnikovaofficial
 - Profile: [@reshetnikovaofficial](https://www.instagram.com/reshetnikovaofficial/)
-- Screenshot: [open screenshot](screenshots/vyaaal_reshetnikovaofficial_DSZ5FIJEm_w.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/vyaaal_reshetnikovaofficial_DSZ5FIJEm_w.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5284,7 +5284,7 @@ Best Pastry Chef 2025 @stas.paul WTE Russia"
 
 ## @rimarka_moscow
 - Profile: [@rimarka_moscow](https://www.instagram.com/rimarka_moscow/)
-- Screenshot: [open screenshot](screenshots/_ritmoo__rimarka_moscow_DWGzPTziFzd.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__rimarka_moscow_DWGzPTziFzd.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5313,7 +5313,7 @@ Best Pastry Chef 2025 @stas.paul WTE Russia"
 
 ## @roodo.home
 - Profile: [@roodo.home](https://www.instagram.com/roodo.home/)
-- Screenshot: [open screenshot](screenshots/baluevama_roodo.home_DWG477cjTu7.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/baluevama_roodo.home_DWG477cjTu7.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5337,7 +5337,7 @@ Best Pastry Chef 2025 @stas.paul WTE Russia"
 
 ## @roomleyhotel
 - Profile: [@roomleyhotel](https://www.instagram.com/roomleyhotel/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_roomleyhotel_DU8YlPvjFIH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_roomleyhotel_DU8YlPvjFIH.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5362,7 +5362,7 @@ Book online ⬇️"
 
 ## @saltandstone
 - Profile: [@saltandstone](https://www.instagram.com/saltandstone/)
-- Screenshot: [open screenshot](screenshots/toryiabts_saltandstone_DVMNPA_jUHv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_saltandstone_DVMNPA_jUHv.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5384,7 +5384,7 @@ Find us in store at @sephora @nordstrom @erewhon"
 
 ## @saman_butik
 - Profile: [@saman_butik](https://www.instagram.com/saman_butik/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_saman_butik_DOqeBlEiK4j.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_saman_butik_DOqeBlEiK4j.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5408,7 +5408,7 @@ Shop here 👇🏻"
 
 ## @santoniofficial
 - Profile: [@santoniofficial](https://www.instagram.com/santoniofficial/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_santoniofficial_DU7fr5EjJsJ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_santoniofficial_DU7fr5EjJsJ.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -5429,7 +5429,7 @@ Shop here 👇🏻"
 
 ## @scandale_maniere
 - Profile: [@scandale_maniere](https://www.instagram.com/scandale_maniere/)
-- Screenshot: [open screenshot](screenshots/shepelevich_scandale_maniere_DPn9i2njOs1.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_scandale_maniere_DPn9i2njOs1.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5453,7 +5453,7 @@ NEW: корсет MONA ↓"
 
 ## @selfish_shine
 - Profile: [@selfish_shine](https://www.instagram.com/selfish_shine/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_selfish_shine_DVba4OujblE.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_selfish_shine_DVba4OujblE.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5480,7 +5480,7 @@ NEW: корсет MONA ↓"
 
 ## @selfmade_brand
 - Profile: [@selfmade_brand](https://www.instagram.com/selfmade_brand/)
-- Screenshot: [open screenshot](screenshots/lizarudkevich_selfmade_brand_DWtPgJdF5L3.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lizarudkevich_selfmade_brand_DWtPgJdF5L3.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5507,7 +5507,7 @@ NEW: корсет MONA ↓"
 
 ## @sergo_artemka
 - Profile: [@sergo_artemka](https://www.instagram.com/sergo_artemka/)
-- Screenshot: [open screenshot](screenshots/dianaa.off_sergo_artemka_DNIfcbvIOCN.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dianaa.off_sergo_artemka_DNIfcbvIOCN.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5533,7 +5533,7 @@ NEW: корсет MONA ↓"
 
 ## @servetfethiye
 - Profile: [@servetfethiye](https://www.instagram.com/servetfethiye/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_servetfethiye_DOqeBlEiK4j.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_servetfethiye_DOqeBlEiK4j.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5556,7 +5556,7 @@ Türkiye'nin Serveti"
 
 ## @sevenworlds
 - Profile: [@sevenworlds](https://www.instagram.com/sevenworlds/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_sevenworlds_DUx_kjHjab5.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_sevenworlds_DUx_kjHjab5.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5579,7 +5579,7 @@ Moscow - Dubai"
 
 ## @sextysix.official
 - Profile: [@sextysix.official](https://www.instagram.com/sextysix.official/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_sextysix.official_DWOOVt3sidw.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_sextysix.official_DWOOVt3sidw.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -5603,7 +5603,7 @@ WORLDWIDE DELIVERY"
 
 ## @sezane
 - Profile: [@sezane](https://www.instagram.com/sezane/)
-- Screenshot: [open screenshot](screenshots/oliviatps_sezane_DWW3QpFjAV1.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oliviatps_sezane_DWW3QpFjAV1.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5628,7 +5628,7 @@ Home @lescomposantes"
 
 ## @sheglam_official
 - Profile: [@sheglam_official](https://www.instagram.com/sheglam_official/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_sheglam_official_DIbp6bcyvoU.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_sheglam_official_DIbp6bcyvoU.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5653,7 +5653,7 @@ Home @lescomposantes"
 
 ## @shein_gb
 - Profile: [@shein_gb](https://www.instagram.com/shein_gb/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_shein_gb_DWebJ5cDaT1.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_shein_gb_DWebJ5cDaT1.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5677,7 +5677,7 @@ Home @lescomposantes"
 
 ## @sheinofficial
 - Profile: [@sheinofficial](https://www.instagram.com/sheinofficial/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_sheinofficial_DWebJ5cDaT1.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_sheinofficial_DWebJ5cDaT1.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5701,7 +5701,7 @@ Home @lescomposantes"
 
 ## @shewear_ru
 - Profile: [@shewear_ru](https://www.instagram.com/shewear_ru/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_shewear_ru_DW4IqZ2DNIC.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_shewear_ru_DW4IqZ2DNIC.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5723,7 +5723,7 @@ Home @lescomposantes"
 
 ## @shikstudio
 - Profile: [@shikstudio](https://www.instagram.com/shikstudio/)
-- Screenshot: [open screenshot](screenshots/chadinaaaaaaa_shikstudio_DViL3mzDMFR.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chadinaaaaaaa_shikstudio_DViL3mzDMFR.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -5748,7 +5748,7 @@ Home @lescomposantes"
 
 ## @simihaze
 - Profile: [@simihaze](https://www.instagram.com/simihaze/)
-- Screenshot: [open screenshot](screenshots/anna.utka22_simihaze_DVTMq2XjAvo.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anna.utka22_simihaze_DVTMq2XjAvo.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5769,7 +5769,7 @@ Home @lescomposantes"
 
 ## @simonee.brand
 - Profile: [@simonee.brand](https://www.instagram.com/simonee.brand/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_simonee.brand_DQW7E0lDKRv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_simonee.brand_DQW7E0lDKRv.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5794,7 +5794,7 @@ Home @lescomposantes"
 
 ## @sobright_dress
 - Profile: [@sobright_dress](https://www.instagram.com/sobright_dress/)
-- Screenshot: [open screenshot](screenshots/shepelevich_sobright_dress_DSwvuLvDG_D.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_sobright_dress_DSwvuLvDG_D.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5817,7 +5817,7 @@ Home @lescomposantes"
 
 ## @sogu.shop
 - Profile: [@sogu.shop](https://www.instagram.com/sogu.shop/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_sogu.shop_DVEIsn8DBmc.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_sogu.shop_DVEIsn8DBmc.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5842,7 +5842,7 @@ SOGUSHOP15 — скидка -15% на первый заказ на нашем с
 
 ## @songmont_official
 - Profile: [@songmont_official](https://www.instagram.com/songmont_official/)
-- Screenshot: [open screenshot](screenshots/oliviatps_songmont_official_DWhB0WsjPrD.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oliviatps_songmont_official_DWhB0WsjPrD.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5866,7 +5866,7 @@ Worldwide Available"
 
 ## @specifica_store
 - Profile: [@specifica_store](https://www.instagram.com/specifica_store/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_specifica_store_DW4IqZ2DNIC.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_specifica_store_DW4IqZ2DNIC.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -5895,7 +5895,7 @@ Worldwide Available"
 
 ## @spellcraftbyesmerose
 - Profile: [@spellcraftbyesmerose](https://www.instagram.com/spellcraftbyesmerose/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_spellcraftbyesmerose_C_YiKxbOPop.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_spellcraftbyesmerose_C_YiKxbOPop.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5917,7 +5917,7 @@ Worldwide Available"
 
 ## @start.ru
 - Profile: [@start.ru](https://www.instagram.com/start.ru/)
-- Screenshot: [open screenshot](screenshots/v_isakova_start.ru_DUGMvZ8iFqS.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_start.ru_DUGMvZ8iFqS.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5940,7 +5940,7 @@ Worldwide Available"
 
 ## @stelladimosca
 - Profile: [@stelladimosca](https://www.instagram.com/stelladimosca/)
-- Screenshot: [open screenshot](screenshots/shepelevich_stelladimosca_DQTvaHwjOSl.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_stelladimosca_DQTvaHwjOSl.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5963,7 +5963,7 @@ The newest luxury hotel in the heart of Moscow
 
 ## @tamu_s7
 - Profile: [@tamu_s7](https://www.instagram.com/tamu_s7/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_tamu_s7_DU06AFyCHAD.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_tamu_s7_DU06AFyCHAD.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -5989,7 +5989,7 @@ Canal Front Residents 7B
 
 ## @tash_shop_ru
 - Profile: [@tash_shop_ru](https://www.instagram.com/tash_shop_ru/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_tash_shop_ru_DWld_d7DVck.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_tash_shop_ru_DWld_d7DVck.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -6014,7 +6014,7 @@ Canal Front Residents 7B
 
 ## @tatcha
 - Profile: [@tatcha](https://www.instagram.com/tatcha/)
-- Screenshot: [open screenshot](screenshots/toryiabts_tatcha_DWWZ4v7iG9v.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_tatcha_DWWZ4v7iG9v.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6035,7 +6035,7 @@ Canal Front Residents 7B
 
 ## @tatika_store
 - Profile: [@tatika_store](https://www.instagram.com/tatika_store/)
-- Screenshot: [open screenshot](screenshots/dominic__ana_tatika_store_DWOwEztDcRT.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_tatika_store_DWOwEztDcRT.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6062,7 +6062,7 @@ Offline: ТЦ «АФИМОЛЛ СИТИ»
 
 ## @tazeciftlikavokado
 - Profile: [@tazeciftlikavokado](https://www.instagram.com/tazeciftlikavokado/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_tazeciftlikavokado_DR6ltIHgqDk.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_tazeciftlikavokado_DR6ltIHgqDk.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6084,7 +6084,7 @@ Offline: ТЦ «АФИМОЛЛ СИТИ»
 
 ## @teri.magazine
 - Profile: [@teri.magazine](https://www.instagram.com/teri.magazine/)
-- Screenshot: [open screenshot](screenshots/tatiana_racovets_teri.magazine_DWrYJMFDCjw.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tatiana_racovets_teri.magazine_DWrYJMFDCjw.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6107,7 +6107,7 @@ Offline: ТЦ «АФИМОЛЛ СИТИ»
 
 ## @thebeautyfx
 - Profile: [@thebeautyfx](https://www.instagram.com/thebeautyfx/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_thebeautyfx_DWEtabjD9R8.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_thebeautyfx_DWEtabjD9R8.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -6130,7 +6130,7 @@ Offline: ТЦ «АФИМОЛЛ СИТИ»
 
 ## @thefamily.bali
 - Profile: [@thefamily.bali](https://www.instagram.com/thefamily.bali/)
-- Screenshot: [open screenshot](screenshots/maslova.alisha_thefamily.bali_DUur6cBkb1X.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/maslova.alisha_thefamily.bali_DUur6cBkb1X.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6160,7 +6160,7 @@ Address link👇🏽"
 
 ## @thenetherrealmstudios
 - Profile: [@thenetherrealmstudios](https://www.instagram.com/thenetherrealmstudios/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_thenetherrealmstudios_DHjCeHsJmJ6.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_thenetherrealmstudios_DHjCeHsJmJ6.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6184,7 +6184,7 @@ Collabs & Sponsorships 👇"
 
 ## @thesupereliza
 - Profile: [@thesupereliza](https://www.instagram.com/thesupereliza/)
-- Screenshot: [open screenshot](screenshots/eva_timus_thesupereliza_DRCv27riMOO.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/eva_timus_thesupereliza_DRCv27riMOO.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6205,7 +6205,7 @@ Collabs & Sponsorships 👇"
 
 ## @thimbeauty_ru
 - Profile: [@thimbeauty_ru](https://www.instagram.com/thimbeauty_ru/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_thimbeauty_ru_DWRFOQajbwf.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_thimbeauty_ru_DWRFOQajbwf.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6227,7 +6227,7 @@ Collabs & Sponsorships 👇"
 
 ## @tiffanyandco
 - Profile: [@tiffanyandco](https://www.instagram.com/tiffanyandco/)
-- Screenshot: [open screenshot](screenshots/marinafilatovaaa_tiffanyandco_DWoIu5-Dc1M.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_tiffanyandco_DWoIu5-Dc1M.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6252,7 +6252,7 @@ Collabs & Sponsorships 👇"
 
 ## @tintonshouse
 - Profile: [@tintonshouse](https://www.instagram.com/tintonshouse/)
-- Screenshot: [open screenshot](screenshots/diana.in.diana_tintonshouse_DMH-T9tCOdF.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana.in.diana_tintonshouse_DMH-T9tCOdF.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6277,7 +6277,7 @@ Check the link below for available dates 👇🏻"
 
 ## @top_elki_trees
 - Profile: [@top_elki_trees](https://www.instagram.com/top_elki_trees/)
-- Screenshot: [open screenshot](screenshots/daria_ashihmina_top_elki_trees_DRzZVN4iJZv.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_top_elki_trees_DRzZVN4iJZv.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6303,7 +6303,7 @@ Check the link below for available dates 👇🏻"
 
 ## @toucankids.ru
 - Profile: [@toucankids.ru](https://www.instagram.com/toucankids.ru/)
-- Screenshot: [open screenshot](screenshots/polina_letti_toucankids.ru_DWts4DyjJGH.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_toucankids.ru_DWts4DyjJGH.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -6326,7 +6326,7 @@ Check the link below for available dates 👇🏻"
 
 ## @trimpol.store
 - Profile: [@trimpol.store](https://www.instagram.com/trimpol.store/)
-- Screenshot: [open screenshot](screenshots/shepelevich_trimpol.store_DRWpsHHDEXV.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_trimpol.store_DRWpsHHDEXV.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -6349,7 +6349,7 @@ Check the link below for available dates 👇🏻"
 
 ## @try.more.store
 - Profile: [@try.more.store](https://www.instagram.com/try.more.store/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_try.more.store_DUFdYvoj0GZ.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_try.more.store_DUFdYvoj0GZ.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -6373,7 +6373,7 @@ aesthetic бутик в центре Минска | пн-вс 11-20
 
 ## @twowe.brand
 - Profile: [@twowe.brand](https://www.instagram.com/twowe.brand/)
-- Screenshot: [open screenshot](screenshots/yanarusaya_twowe.brand_DVi_Uv0CBfP.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_twowe.brand_DVi_Uv0CBfP.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -6401,7 +6401,7 @@ aesthetic бутик в центре Минска | пн-вс 11-20
 
 ## @ushatava_live
 - Profile: [@ushatava_live](https://www.instagram.com/ushatava_live/)
-- Screenshot: [open screenshot](screenshots/v_isakova_ushatava_live_DT8FmhHCDRk.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_ushatava_live_DT8FmhHCDRk.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6424,7 +6424,7 @@ aesthetic бутик в центре Минска | пн-вс 11-20
 
 ## @vakkohotelandresidence
 - Profile: [@vakkohotelandresidence](https://www.instagram.com/vakkohotelandresidence/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_vakkohotelandresidence_DRozhd5DNSn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_vakkohotelandresidence_DRozhd5DNSn.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6448,7 +6448,7 @@ For reservations:"
 
 ## @vakkolatelier
 - Profile: [@vakkolatelier](https://www.instagram.com/vakkolatelier/)
-- Screenshot: [open screenshot](screenshots/tattivasilieva_vakkolatelier_DRozhd5DNSn.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_vakkolatelier_DRozhd5DNSn.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6471,7 +6471,7 @@ Sipariş Hattı
 
 ## @valmontcosmetics
 - Profile: [@valmontcosmetics](https://www.instagram.com/valmontcosmetics/)
-- Screenshot: [open screenshot](screenshots/toryiabts_valmontcosmetics_DW9BC85iAbl.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_valmontcosmetics_DW9BC85iAbl.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6496,7 +6496,7 @@ Sipariş Hattı
 
 ## @vcuzzstore.kz
 - Profile: [@vcuzzstore.kz](https://www.instagram.com/vcuzzstore.kz/)
-- Screenshot: [open screenshot](screenshots/lialina.official_vcuzzstore.kz_DWvj-WtDG4-.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lialina.official_vcuzzstore.kz_DWvj-WtDG4-.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6523,7 +6523,7 @@ Sipariş Hattı
 
 ## @vehla
 - Profile: [@vehla](https://www.instagram.com/vehla/)
-- Screenshot: [open screenshot](screenshots/shepelevich_vehla_DWGdi3XjJAu.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_vehla_DWGdi3XjJAu.png)
 - Brand likelihood: medium
 - Ad likelihood: high
 - Is brand: yes
@@ -6557,7 +6557,7 @@ Shop exclusively online ↓"
 
 ## @victoriassecretuk
 - Profile: [@victoriassecretuk](https://www.instagram.com/victoriassecretuk/)
-- Screenshot: [open screenshot](screenshots/toryiabts_victoriassecretuk_DVd690NCB5O.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_victoriassecretuk_DVd690NCB5O.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6579,7 +6579,7 @@ Shop Victoriassecret.co.uk ⬇️⬇️"
 
 ## @vilavi.london
 - Profile: [@vilavi.london](https://www.instagram.com/vilavi.london/)
-- Screenshot: [open screenshot](screenshots/viva_la_vika_vilavi.london_CxdTlOho2af.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/viva_la_vika_vilavi.london_CxdTlOho2af.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6603,7 +6603,7 @@ hello@vilavi.co.uk 💌
 
 ## @vivavoxofficial
 - Profile: [@vivavoxofficial](https://www.instagram.com/vivavoxofficial/)
-- Screenshot: [open screenshot](screenshots/v_isakova_vivavoxofficial_DWGLqJOiDzC.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_vivavoxofficial_DWGLqJOiDzC.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6633,7 +6633,7 @@ hello@vilavi.co.uk 💌
 
 ## @viviennesabo.official
 - Profile: [@viviennesabo.official](https://www.instagram.com/viviennesabo.official/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_viviennesabo.official_DWRFOQajbwf.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_viviennesabo.official_DWRFOQajbwf.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6657,7 +6657,7 @@ find us here 👇🏽"
 
 ## @vtcosmetics_cis
 - Profile: [@vtcosmetics_cis](https://www.instagram.com/vtcosmetics_cis/)
-- Screenshot: [open screenshot](screenshots/daria.savinaaa_vtcosmetics_cis_DW1IQiCDI3Z.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_vtcosmetics_cis_DW1IQiCDI3Z.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6680,7 +6680,7 @@ find us here 👇🏽"
 
 ## @vtoroy_mekhovoy
 - Profile: [@vtoroy_mekhovoy](https://www.instagram.com/vtoroy_mekhovoy/)
-- Screenshot: [open screenshot](screenshots/v_isakova_vtoroy_mekhovoy_DTH24IvCDl5.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/v_isakova_vtoroy_mekhovoy_DTH24IvCDl5.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6703,7 +6703,7 @@ find us here 👇🏽"
 
 ## @waldorfastoriaplatteisland
 - Profile: [@waldorfastoriaplatteisland](https://www.instagram.com/waldorfastoriaplatteisland/)
-- Screenshot: [open screenshot](screenshots/_fenik__waldorfastoriaplatteisland_DUTZI2hjBK-.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_fenik__waldorfastoriaplatteisland_DUTZI2hjBK-.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6734,7 +6734,7 @@ find us here 👇🏽"
 
 ## @warnerbrosentertainment
 - Profile: [@warnerbrosentertainment](https://www.instagram.com/warnerbrosentertainment/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_warnerbrosentertainment_DHjCeHsJmJ6.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_warnerbrosentertainment_DHjCeHsJmJ6.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6757,7 +6757,7 @@ find us here 👇🏽"
 
 ## @wearetala
 - Profile: [@wearetala](https://www.instagram.com/wearetala/)
-- Screenshot: [open screenshot](screenshots/toryiabts_wearetala_DUtIhPCCA-E.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/toryiabts_wearetala_DUtIhPCCA-E.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6780,7 +6780,7 @@ worldwide shipping."
 
 ## @whitefoxboutique
 - Profile: [@whitefoxboutique](https://www.instagram.com/whitefoxboutique/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_whitefoxboutique_DW6xGS4jbQz.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_whitefoxboutique_DW6xGS4jbQz.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6806,7 +6806,7 @@ Follow us on TikTok: whitefox 🤳🏼"
 
 ## @wiskiiactive
 - Profile: [@wiskiiactive](https://www.instagram.com/wiskiiactive/)
-- Screenshot: [open screenshot](screenshots/victoriaturnerr_wiskiiactive_DSC6GB9Dfhb.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_wiskiiactive_DSC6GB9Dfhb.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6829,7 +6829,7 @@ Shop Now👇"
 
 ## @wonder_wander_shop
 - Profile: [@wonder_wander_shop](https://www.instagram.com/wonder_wander_shop/)
-- Screenshot: [open screenshot](screenshots/chuprikovaa_wonder_wander_shop_DVJPiUfiJua.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chuprikovaa_wonder_wander_shop_DVJPiUfiJua.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6854,7 +6854,7 @@ Moscow / Worldwide
 
 ## @xgofficial
 - Profile: [@xgofficial](https://www.instagram.com/xgofficial/)
-- Screenshot: [open screenshot](screenshots/anastasia_shnabel_xgofficial_DPouevSD95G.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anastasia_shnabel_xgofficial_DPouevSD95G.png)
 - Brand likelihood: low
 - Ad likelihood: medium
 - Is brand: yes
@@ -6877,7 +6877,7 @@ Now Available"
 
 ## @yooah.cosmetics
 - Profile: [@yooah.cosmetics](https://www.instagram.com/yooah.cosmetics/)
-- Screenshot: [open screenshot](screenshots/dashapogadaevaa_yooah.cosmetics_DWRFOQajbwf.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_yooah.cosmetics_DWRFOQajbwf.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes
@@ -6898,7 +6898,7 @@ Now Available"
 
 ## @zara
 - Profile: [@zara](https://www.instagram.com/zara/)
-- Screenshot: [open screenshot](screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
 - Brand likelihood: low
 - Ad likelihood: high
 - Is brand: yes
@@ -6932,7 +6932,7 @@ Discover Woman collection ⬇️"
 
 ## @zieta_studio
 - Profile: [@zieta_studio](https://www.instagram.com/zieta_studio/)
-- Screenshot: [open screenshot](screenshots/diana_milkanova_zieta_studio_DMF22mOodrI.png)
+- Screenshot: [open screenshot](../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/diana_milkanova_zieta_studio_DMF22mOodrI.png)
 - Brand likelihood: medium
 - Ad likelihood: medium
 - Is brand: yes

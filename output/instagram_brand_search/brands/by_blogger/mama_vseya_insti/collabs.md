@@ -8,7 +8,7 @@
 
 ## @_shotandstory_
 - Profile: [@_shotandstory_](https://www.instagram.com/_shotandstory_/)
-- Screenshot: [open screenshot](../../screenshots/mama_vseya_insti__shotandstory__DUinUB8jySN.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/mama_vseya_insti__shotandstory__DUinUB8jySN.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @bork_com
 - Profile: [@bork_com](https://www.instagram.com/bork_com/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @cafepavlova
 - Profile: [@cafepavlova](https://www.instagram.com/cafepavlova/)
-- Screenshot: [open screenshot](../../screenshots/mama_vseya_insti_cafepavlova_DVfl6Z3iN5p.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/mama_vseya_insti_cafepavlova_DVfl6Z3iN5p.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

@@ -8,7 +8,7 @@
 
 ## @bork_com
 - Profile: [@bork_com](https://www.instagram.com/bork_com/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @lichi_brand
 - Profile: [@lichi_brand](https://www.instagram.com/lichi_brand/)
-- Screenshot: [open screenshot](../../screenshots/tattivasilieva_lichi_brand_DS2PhipDAfH.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/tattivasilieva_lichi_brand_DS2PhipDAfH.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

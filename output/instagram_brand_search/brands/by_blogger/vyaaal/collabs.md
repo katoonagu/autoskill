@@ -8,7 +8,7 @@
 
 ## @_pineappleari_
 - Profile: [@_pineappleari_](https://www.instagram.com/_pineappleari_/)
-- Screenshot: [open screenshot](../../screenshots/vyaaal__pineappleari__DWjJjQ9DZ71.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/vyaaal__pineappleari__DWjJjQ9DZ71.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @acte.brand
 - Profile: [@acte.brand](https://www.instagram.com/acte.brand/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_acte.brand_DUa03MVDMcp.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_acte.brand_DUa03MVDMcp.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @reshetnikovaofficial
 - Profile: [@reshetnikovaofficial](https://www.instagram.com/reshetnikovaofficial/)
-- Screenshot: [open screenshot](../../screenshots/vyaaal_reshetnikovaofficial_DSZ5FIJEm_w.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/vyaaal_reshetnikovaofficial_DSZ5FIJEm_w.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

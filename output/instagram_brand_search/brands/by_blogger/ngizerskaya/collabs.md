@@ -8,7 +8,7 @@
 
 ## @dresserie.brand
 - Profile: [@dresserie.brand](https://www.instagram.com/dresserie.brand/)
-- Screenshot: [open screenshot](../../screenshots/ngizerskaya_dresserie.brand_DUD7zQSjTtQ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ngizerskaya_dresserie.brand_DUD7zQSjTtQ.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

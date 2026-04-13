@@ -8,7 +8,7 @@
 
 ## @animavestra.wardrobe
 - Profile: [@animavestra.wardrobe](https://www.instagram.com/animavestra.wardrobe/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_animavestra.wardrobe_DVdXroUiH1z.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_animavestra.wardrobe_DVdXroUiH1z.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @bork_com
 - Profile: [@bork_com](https://www.instagram.com/bork_com/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_bork_com_DVMDQ6eCJaj.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @dalba_russia
 - Profile: [@dalba_russia](https://www.instagram.com/dalba_russia/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -35,7 +35,7 @@
 
 ## @diptyque
 - Profile: [@diptyque](https://www.instagram.com/diptyque/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_diptyque_DUNVstUCIh3.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_diptyque_DUNVstUCIh3.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @fantome_design
 - Profile: [@fantome_design](https://www.instagram.com/fantome_design/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_fantome_design_DUNVstUCIh3.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_fantome_design_DUNVstUCIh3.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @herbody.store
 - Profile: [@herbody.store](https://www.instagram.com/herbody.store/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_herbody.store_DVMDQ6eCJaj.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_herbody.store_DVMDQ6eCJaj.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -62,7 +62,7 @@
 
 ## @loginovastore
 - Profile: [@loginovastore](https://www.instagram.com/loginovastore/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_loginovastore_DUNVstUCIh3.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_loginovastore_DUNVstUCIh3.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -71,7 +71,7 @@
 
 ## @loomknits
 - Profile: [@loomknits](https://www.instagram.com/loomknits/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_loomknits_DRzZVN4iJZv.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_loomknits_DRzZVN4iJZv.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -80,7 +80,7 @@
 
 ## @pourpour_decor
 - Profile: [@pourpour_decor](https://www.instagram.com/pourpour_decor/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_pourpour_decor_DVdXroUiH1z.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_pourpour_decor_DVdXroUiH1z.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -89,7 +89,7 @@
 
 ## @top_elki_trees
 - Profile: [@top_elki_trees](https://www.instagram.com/top_elki_trees/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_top_elki_trees_DRzZVN4iJZv.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_top_elki_trees_DRzZVN4iJZv.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

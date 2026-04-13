@@ -8,7 +8,7 @@
 
 ## @jjxx_official
 - Profile: [@jjxx_official](https://www.instagram.com/jjxx_official/)
-- Screenshot: [open screenshot](../../screenshots/oliviatps_jjxx_official_DU06n5kDPlR.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oliviatps_jjxx_official_DU06n5kDPlR.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @sezane
 - Profile: [@sezane](https://www.instagram.com/sezane/)
-- Screenshot: [open screenshot](../../screenshots/oliviatps_sezane_DWW3QpFjAV1.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oliviatps_sezane_DWW3QpFjAV1.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @songmont_official
 - Profile: [@songmont_official](https://www.instagram.com/songmont_official/)
-- Screenshot: [open screenshot](../../screenshots/oliviatps_songmont_official_DWhB0WsjPrD.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oliviatps_songmont_official_DWhB0WsjPrD.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

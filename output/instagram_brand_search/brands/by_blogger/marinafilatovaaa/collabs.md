@@ -8,7 +8,7 @@
 
 ## @1811eighteenoneone
 - Profile: [@1811eighteenoneone](https://www.instagram.com/1811eighteenoneone/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_1811eighteenoneone_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_1811eighteenoneone_DWRfCSLDc1m.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @2mymoods
 - Profile: [@2mymoods](https://www.instagram.com/2mymoods/)
-- Screenshot: [open screenshot](../../screenshots/shepelevich_2mymoods_DRMYrePDAsD.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/shepelevich_2mymoods_DRMYrePDAsD.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @abda.ru
 - Profile: [@abda.ru](https://www.instagram.com/abda.ru/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_abda.ru_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_abda.ru_DWRfCSLDc1m.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -35,7 +35,7 @@
 
 ## @anmuse____
 - Profile: [@anmuse____](https://www.instagram.com/anmuse____/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_anmuse_____DVynRufjERj.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_anmuse_____DVynRufjERj.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @annuko.brand
 - Profile: [@annuko.brand](https://www.instagram.com/annuko.brand/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_annuko.brand_DVLjGVgjVzJ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_annuko.brand_DVLjGVgjVzJ.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @b2508wear
 - Profile: [@b2508wear](https://www.instagram.com/b2508wear/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_b2508wear_DVv7FPsjP5x.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_b2508wear_DVv7FPsjP5x.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -62,7 +62,7 @@
 
 ## @bogner.official
 - Profile: [@bogner.official](https://www.instagram.com/bogner.official/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_bogner.official_DULdr1bEXlU.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_bogner.official_DULdr1bEXlU.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -71,7 +71,7 @@
 
 ## @calzedonia
 - Profile: [@calzedonia](https://www.instagram.com/calzedonia/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_calzedonia_DUx_kjHjab5.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_calzedonia_DUx_kjHjab5.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -80,7 +80,7 @@
 
 ## @chanelofficial
 - Profile: [@chanelofficial](https://www.instagram.com/chanelofficial/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -89,7 +89,7 @@
 
 ## @eclata.clothing
 - Profile: [@eclata.clothing](https://www.instagram.com/eclata.clothing/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_eclata.clothing_DWguQo8jJl9.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_eclata.clothing_DWguQo8jJl9.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -98,7 +98,7 @@
 
 ## @eyepetizer
 - Profile: [@eyepetizer](https://www.instagram.com/eyepetizer/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_eyepetizer_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_eyepetizer_DWRfCSLDc1m.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -107,7 +107,7 @@
 
 ## @figura_activewear
 - Profile: [@figura_activewear](https://www.instagram.com/figura_activewear/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_figura_activewear_DULdr1bEXlU.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_figura_activewear_DULdr1bEXlU.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -116,7 +116,7 @@
 
 ## @fmk__world
 - Profile: [@fmk__world](https://www.instagram.com/fmk__world/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_fmk__world_DWRfCSLDc1m.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_fmk__world_DWRfCSLDc1m.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -125,7 +125,7 @@
 
 ## @hiss_official
 - Profile: [@hiss_official](https://www.instagram.com/hiss_official/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_hiss_official_DWO7GX9jbii.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_hiss_official_DWO7GX9jbii.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -134,7 +134,7 @@
 
 ## @kuboraum
 - Profile: [@kuboraum](https://www.instagram.com/kuboraum/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_kuboraum_DU_CFTbjDoR.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_kuboraum_DU_CFTbjDoR.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -143,7 +143,7 @@
 
 ## @marem.brand
 - Profile: [@marem.brand](https://www.instagram.com/marem.brand/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_marem.brand_DU7fr5EjJsJ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_marem.brand_DU7fr5EjJsJ.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -152,7 +152,7 @@
 
 ## @marte.ru
 - Profile: [@marte.ru](https://www.instagram.com/marte.ru/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_marte.ru_DWld_d7DVck.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_marte.ru_DWld_d7DVck.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -161,7 +161,7 @@
 
 ## @miss___38
 - Profile: [@miss___38](https://www.instagram.com/miss___38/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_miss___38_DV_iC4Bja_W.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_miss___38_DV_iC4Bja_W.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -170,7 +170,7 @@
 
 ## @nuenue.store
 - Profile: [@nuenue.store](https://www.instagram.com/nuenue.store/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_nuenue.store_DW1oLzhjUlM.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_nuenue.store_DW1oLzhjUlM.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -179,7 +179,7 @@
 
 ## @on_stuff_brand
 - Profile: [@on_stuff_brand](https://www.instagram.com/on_stuff_brand/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_on_stuff_brand_DULdr1bEXlU.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_on_stuff_brand_DULdr1bEXlU.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -188,7 +188,7 @@
 
 ## @p.p.s.brand
 - Profile: [@p.p.s.brand](https://www.instagram.com/p.p.s.brand/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_p.p.s.brand_DT-NPe2Ecem.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_p.p.s.brand_DT-NPe2Ecem.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -197,7 +197,7 @@
 
 ## @pur_pur_store
 - Profile: [@pur_pur_store](https://www.instagram.com/pur_pur_store/)
-- Screenshot: [open screenshot](../../screenshots/dominic__ana_pur_pur_store_DVdhVlHDAmn.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_pur_pur_store_DVdhVlHDAmn.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -206,7 +206,7 @@
 
 ## @red.flag.brand
 - Profile: [@red.flag.brand](https://www.instagram.com/red.flag.brand/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_red.flag.brand_DW6qCivjQAf.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_red.flag.brand_DW6qCivjQAf.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -215,7 +215,7 @@
 
 ## @santoniofficial
 - Profile: [@santoniofficial](https://www.instagram.com/santoniofficial/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_santoniofficial_DU7fr5EjJsJ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_santoniofficial_DU7fr5EjJsJ.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -224,7 +224,7 @@
 
 ## @sevenworlds
 - Profile: [@sevenworlds](https://www.instagram.com/sevenworlds/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_sevenworlds_DUx_kjHjab5.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_sevenworlds_DUx_kjHjab5.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -233,7 +233,7 @@
 
 ## @sogu.shop
 - Profile: [@sogu.shop](https://www.instagram.com/sogu.shop/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_sogu.shop_DVEIsn8DBmc.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_sogu.shop_DVEIsn8DBmc.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -242,7 +242,7 @@
 
 ## @tash_shop_ru
 - Profile: [@tash_shop_ru](https://www.instagram.com/tash_shop_ru/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_tash_shop_ru_DWld_d7DVck.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_tash_shop_ru_DWld_d7DVck.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -251,7 +251,7 @@
 
 ## @tiffanyandco
 - Profile: [@tiffanyandco](https://www.instagram.com/tiffanyandco/)
-- Screenshot: [open screenshot](../../screenshots/marinafilatovaaa_tiffanyandco_DWoIu5-Dc1M.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/marinafilatovaaa_tiffanyandco_DWoIu5-Dc1M.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -260,7 +260,7 @@
 
 ## @zara
 - Profile: [@zara](https://www.instagram.com/zara/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

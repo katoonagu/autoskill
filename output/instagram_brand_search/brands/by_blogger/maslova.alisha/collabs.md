@@ -8,7 +8,7 @@
 
 ## @bellany.pro
 - Profile: [@bellany.pro](https://www.instagram.com/bellany.pro/)
-- Screenshot: [open screenshot](../../screenshots/maslova.alisha_bellany.pro_DU2znYQEbfu.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/maslova.alisha_bellany.pro_DU2znYQEbfu.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @luxurybali_flowers
 - Profile: [@luxurybali_flowers](https://www.instagram.com/luxurybali_flowers/)
-- Screenshot: [open screenshot](../../screenshots/maslova.alisha_luxurybali_flowers_DUnd3X2EVTN.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/maslova.alisha_luxurybali_flowers_DUnd3X2EVTN.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -26,7 +26,7 @@
 
 ## @thefamily.bali
 - Profile: [@thefamily.bali](https://www.instagram.com/thefamily.bali/)
-- Screenshot: [open screenshot](../../screenshots/maslova.alisha_thefamily.bali_DUur6cBkb1X.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/maslova.alisha_thefamily.bali_DUur6cBkb1X.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

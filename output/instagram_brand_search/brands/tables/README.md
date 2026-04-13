@@ -9,11 +9,10 @@ All clean brand Excel files live here.
 
 ## Run Tables
 
-- `brand_links_run_01_20260409_211530.xlsx` - 155 brands, 377 sources
-- `brand_links_run_02_20260410_165749.xlsx` - 283 brands, 521 sources
+- `brand_links_run_01_current_live.xlsx` - 283 brands, 521 sources
 
 ## Summary
 
-- Runs merged: 2
-- Unique brands: 379
+- Runs merged: 1
+- Unique brands: 283
 - Unique sources: 521

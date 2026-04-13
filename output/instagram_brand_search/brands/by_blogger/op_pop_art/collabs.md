@@ -8,7 +8,7 @@
 
 ## @psch_gallery
 - Profile: [@psch_gallery](https://www.instagram.com/psch_gallery/)
-- Screenshot: [open screenshot](../../screenshots/op_pop_art_psch_gallery_DWzCrhxDNW2.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/op_pop_art_psch_gallery_DWzCrhxDNW2.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

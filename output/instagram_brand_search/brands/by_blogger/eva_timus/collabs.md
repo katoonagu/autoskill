@@ -8,7 +8,7 @@
 
 ## @inna
 - Profile: [@inna](https://www.instagram.com/inna/)
-- Screenshot: [open screenshot](../../screenshots/eva_timus_inna_CwGAsuPoYTc.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/eva_timus_inna_CwGAsuPoYTc.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @thesupereliza
 - Profile: [@thesupereliza](https://www.instagram.com/thesupereliza/)
-- Screenshot: [open screenshot](../../screenshots/eva_timus_thesupereliza_DRCv27riMOO.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/eva_timus_thesupereliza_DRCv27riMOO.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

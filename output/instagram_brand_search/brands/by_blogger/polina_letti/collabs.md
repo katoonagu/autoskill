@@ -8,7 +8,7 @@
 
 ## @12storeez
 - Profile: [@12storeez](https://www.instagram.com/12storeez/)
-- Screenshot: [open screenshot](../../screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/lialina.official_12storeez_DW3kSPtDB9I.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @69moscow
 - Profile: [@69moscow](https://www.instagram.com/69moscow/)
-- Screenshot: [open screenshot](../../screenshots/polina_letti_69moscow_DWyu8GTjA4B.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_69moscow_DWyu8GTjA4B.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @amoremio.brand
 - Profile: [@amoremio.brand](https://www.instagram.com/amoremio.brand/)
-- Screenshot: [open screenshot](../../screenshots/ka.karina1_amoremio.brand_DWEY39fjEvD.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/ka.karina1_amoremio.brand_DWEY39fjEvD.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @bungly.official
 - Profile: [@bungly.official](https://www.instagram.com/bungly.official/)
-- Screenshot: [open screenshot](../../screenshots/polina_letti_bungly.official_DWozaqqDCRG.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_bungly.official_DWozaqqDCRG.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @childmood.store
 - Profile: [@childmood.store](https://www.instagram.com/childmood.store/)
-- Screenshot: [open screenshot](../../screenshots/polina_letti_childmood.store_DW9GT8sDCgG.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_childmood.store_DW9GT8sDCgG.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @eshomes.ru
 - Profile: [@eshomes.ru](https://www.instagram.com/eshomes.ru/)
-- Screenshot: [open screenshot](../../screenshots/polina_letti_eshomes.ru_DWTKJhPjA9T.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_eshomes.ru_DWTKJhPjA9T.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -62,7 +62,7 @@
 
 ## @holikaholika_official
 - Profile: [@holikaholika_official](https://www.instagram.com/holikaholika_official/)
-- Screenshot: [open screenshot](../../screenshots/polina_letti_holikaholika_official_DWY_P5xDEir.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_holikaholika_official_DWY_P5xDEir.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -71,7 +71,7 @@
 
 ## @lavarice_
 - Profile: [@lavarice_](https://www.instagram.com/lavarice_/)
-- Screenshot: [open screenshot](../../screenshots/dominic__ana_lavarice__DWoGS19jaP6.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_lavarice__DWoGS19jaP6.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -80,7 +80,7 @@
 
 ## @limestorecom
 - Profile: [@limestorecom](https://www.instagram.com/limestorecom/)
-- Screenshot: [open screenshot](../../screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/exxpolly_limestorecom_DWjXVcdCNsc.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -89,7 +89,7 @@
 
 ## @loomknits
 - Profile: [@loomknits](https://www.instagram.com/loomknits/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_loomknits_DRzZVN4iJZv.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_loomknits_DRzZVN4iJZv.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -98,7 +98,7 @@
 
 ## @mendel_jewelry
 - Profile: [@mendel_jewelry](https://www.instagram.com/mendel_jewelry/)
-- Screenshot: [open screenshot](../../screenshots/polina_letti_mendel_jewelry_DWozaqqDCRG.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_mendel_jewelry_DWozaqqDCRG.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -107,7 +107,7 @@
 
 ## @specifica_store
 - Profile: [@specifica_store](https://www.instagram.com/specifica_store/)
-- Screenshot: [open screenshot](../../screenshots/daria.savinaaa_specifica_store_DW4IqZ2DNIC.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria.savinaaa_specifica_store_DW4IqZ2DNIC.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -116,7 +116,7 @@
 
 ## @toucankids.ru
 - Profile: [@toucankids.ru](https://www.instagram.com/toucankids.ru/)
-- Screenshot: [open screenshot](../../screenshots/polina_letti_toucankids.ru_DWts4DyjJGH.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/polina_letti_toucankids.ru_DWts4DyjJGH.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

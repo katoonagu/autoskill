@@ -8,7 +8,7 @@
 
 ## @acnestudios
 - Profile: [@acnestudios](https://www.instagram.com/acnestudios/)
-- Screenshot: [open screenshot](../../screenshots/olga_sokolenko_acnestudios_DUyKiL2jnY4.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/olga_sokolenko_acnestudios_DUyKiL2jnY4.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @arakii.official
 - Profile: [@arakii.official](https://www.instagram.com/arakii.official/)
-- Screenshot: [open screenshot](../../screenshots/olga_sokolenko_arakii.official_DUyKiL2jnY4.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/olga_sokolenko_arakii.official_DUyKiL2jnY4.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @zara
 - Profile: [@zara](https://www.instagram.com/zara/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

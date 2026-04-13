@@ -8,7 +8,7 @@
 
 ## @4seasons_wear.r
 - Profile: [@4seasons_wear.r](https://www.instagram.com/4seasons_wear.r/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_4seasons_wear.r_DWTX83XxwSB.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_4seasons_wear.r_DWTX83XxwSB.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @aifory_official
 - Profile: [@aifory_official](https://www.instagram.com/aifory_official/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_aifory_official_DWTX83XxwSB.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_aifory_official_DWTX83XxwSB.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @bornstar_brand
 - Profile: [@bornstar_brand](https://www.instagram.com/bornstar_brand/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_bornstar_brand_DTs2Mu2DVIn.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_bornstar_brand_DTs2Mu2DVIn.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @by.borsch
 - Profile: [@by.borsch](https://www.instagram.com/by.borsch/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_by.borsch_DWCEg3miBxS.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_by.borsch_DWCEg3miBxS.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -44,7 +44,7 @@
 
 ## @cityfurs__
 - Profile: [@cityfurs__](https://www.instagram.com/cityfurs__/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_cityfurs___DWjczONMCXT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_cityfurs___DWjczONMCXT.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @dalba_russia
 - Profile: [@dalba_russia](https://www.instagram.com/dalba_russia/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -62,7 +62,7 @@
 
 ## @dior
 - Profile: [@dior](https://www.instagram.com/dior/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_dior_DTs2Mu2DVIn.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_dior_DTs2Mu2DVIn.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -71,7 +71,7 @@
 
 ## @diorbeauty
 - Profile: [@diorbeauty](https://www.instagram.com/diorbeauty/)
-- Screenshot: [open screenshot](../../screenshots/annaastrup_diorbeauty_DVYzHWaDOqZ.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annaastrup_diorbeauty_DVYzHWaDOqZ.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -80,7 +80,7 @@
 
 ## @ilalimitedcollection
 - Profile: [@ilalimitedcollection](https://www.instagram.com/ilalimitedcollection/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -89,7 +89,7 @@
 
 ## @lancomeofficial
 - Profile: [@lancomeofficial](https://www.instagram.com/lancomeofficial/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_lancomeofficial_DWWfqIDMcGg.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_lancomeofficial_DWWfqIDMcGg.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -98,7 +98,7 @@
 
 ## @malina_fashion
 - Profile: [@malina_fashion](https://www.instagram.com/malina_fashion/)
-- Screenshot: [open screenshot](../../screenshots/oh_kate__malina_fashion_C25b3VfNWW_.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/oh_kate__malina_fashion_C25b3VfNWW_.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -107,7 +107,7 @@
 
 ## @monsheri_boutique
 - Profile: [@monsheri_boutique](https://www.instagram.com/monsheri_boutique/)
-- Screenshot: [open screenshot](../../screenshots/dominic__ana_monsheri_boutique_DWI645pDeMD.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dominic__ana_monsheri_boutique_DWI645pDeMD.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -116,7 +116,7 @@
 
 ## @muneca.collection
 - Profile: [@muneca.collection](https://www.instagram.com/muneca.collection/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_muneca.collection_DWOOVt3sidw.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_muneca.collection_DWOOVt3sidw.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -125,7 +125,7 @@
 
 ## @pullandbear
 - Profile: [@pullandbear](https://www.instagram.com/pullandbear/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_pullandbear_DTs2Mu2DVIn.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_pullandbear_DTs2Mu2DVIn.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -134,7 +134,7 @@
 
 ## @sextysix.official
 - Profile: [@sextysix.official](https://www.instagram.com/sextysix.official/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_sextysix.official_DWOOVt3sidw.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_sextysix.official_DWOOVt3sidw.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -143,7 +143,7 @@
 
 ## @twowe.brand
 - Profile: [@twowe.brand](https://www.instagram.com/twowe.brand/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_twowe.brand_DVi_Uv0CBfP.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_twowe.brand_DVi_Uv0CBfP.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

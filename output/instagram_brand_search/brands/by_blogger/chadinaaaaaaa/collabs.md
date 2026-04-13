@@ -8,7 +8,7 @@
 
 ## @shikstudio
 - Profile: [@shikstudio](https://www.instagram.com/shikstudio/)
-- Screenshot: [open screenshot](../../screenshots/chadinaaaaaaa_shikstudio_DViL3mzDMFR.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/chadinaaaaaaa_shikstudio_DViL3mzDMFR.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

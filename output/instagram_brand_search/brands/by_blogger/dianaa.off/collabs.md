@@ -8,7 +8,7 @@
 
 ## @sergo_artemka
 - Profile: [@sergo_artemka](https://www.instagram.com/sergo_artemka/)
-- Screenshot: [open screenshot](../../screenshots/dianaa.off_sergo_artemka_DNIfcbvIOCN.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dianaa.off_sergo_artemka_DNIfcbvIOCN.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

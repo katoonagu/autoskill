@@ -10,7 +10,7 @@
 ## @shergina.victoria
 - Метка: подписчица alina_telling
 - Профиль: [@shergina.victoria](https://www.instagram.com/shergina.victoria/)
-- Скрин: [open screenshot](screenshots/shergina.victoria.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/shergina.victoria.png)
 - Имя: Виктория Шергина
 - Подписчики: 764000
 - Followers raw: 764K Followers, 1,206 Following, 2,223 Posts - Виктория Шергина (@shergina.victoria) on Instagram: "Лучшее, что можно купить за деньги, это финансовая свобода.
@@ -28,7 +28,7 @@
 ## @ananovaa
 - Метка: подписчица alina_telling
 - Профиль: [@ananovaa](https://www.instagram.com/ananovaa/)
-- Скрин: [open screenshot](screenshots/ananovaa.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/ananovaa.png)
 - Имя: Анна✨ Мама Пятерых❤️
 - Подписчики: 670000
 - Followers raw: 670K Followers, 82 Following, 4,086 Posts - Анна✨ Мама Пятерых❤️ (@ananovaa) on Instagram: "🌟 Лучшее, чем я могу поделиться- опытом своих ошибок ❤️
@@ -54,7 +54,7 @@
 ## @olga.gogaladze
 - Метка: подписчица alina_telling
 - Профиль: [@olga.gogaladze](https://www.instagram.com/olga.gogaladze/)
-- Скрин: [open screenshot](screenshots/olga.gogaladze.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/olga.gogaladze.png)
 - Имя: Ольга Гогаладзе
 - Подписчики: 663000
 - Followers raw: 663K Followers, 169 Following, 180 Posts - Ольга Гогаладзе (@olga.gogaladze) on Instagram: "‼️пиши в директ, чтобы подписаться
@@ -76,7 +76,7 @@
 ## @lana.invest
 - Метка: подписчица alina_telling
 - Профиль: [@lana.invest](https://www.instagram.com/lana.invest/)
-- Скрин: [open screenshot](screenshots/lana.invest.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/lana.invest.png)
 - Имя: СВЕТЛАНА НАГОРНАЯ
 - Подписчики: 567000
 - Followers raw: 567K Followers, 47 Following, 47 Posts - СВЕТЛАНА НАГОРНАЯ (@lana.invest) on Instagram: "Ссылка на личный канал ⬇️"
@@ -92,7 +92,7 @@
 ## @natalia_bbos
 - Метка: подписчица alina_telling
 - Профиль: [@natalia_bbos](https://www.instagram.com/natalia_bbos/)
-- Скрин: [open screenshot](screenshots/natalia_bbos.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/natalia_bbos.png)
 - Имя: Natalia Bosich
 - Подписчики: 458000
 - Followers raw: 458K Followers, 30 Following, 938 Posts - Natalia Bosich (@natalia_bbos) on Instagram: "индивидуальный подбор ухода и 
@@ -110,7 +110,7 @@
 ## @t_rumyantseva
 - Метка: подписчица alina_telling
 - Профиль: [@t_rumyantseva](https://www.instagram.com/t_rumyantseva/)
-- Скрин: [open screenshot](screenshots/t_rumyantseva.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/t_rumyantseva.png)
 - Имя: Татьяна Якунина
 - Подписчики: 446000
 - Followers raw: 446K Followers, 37 Following, 2,467 Posts - Татьяна Якунина (@t_rumyantseva) on Instagram: "По шагам. Размеренно. Красиво. Из любви.
@@ -130,7 +130,7 @@
 ## @focus.dalshe
 - Метка: подписчица alina_telling
 - Профиль: [@focus.dalshe](https://www.instagram.com/focus.dalshe/)
-- Скрин: [open screenshot](screenshots/focus.dalshe.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/focus.dalshe.png)
 - Имя: МиоФУНКЦИОНАЛЬНЫЙ ОРТОДОНТ Ксения Караваева
 - Подписчики: 430000
 - Followers raw: 430K Followers, 10 Following, 735 Posts - МиоФУНКЦИОНАЛЬНЫЙ ОРТОДОНТ Ксения Караваева (@focus.dalshe) on Instagram: "Врач.
@@ -150,7 +150,7 @@
 ## @amagyrova
 - Метка: подписчица alina_telling
 - Профиль: [@amagyrova](https://www.instagram.com/amagyrova/)
-- Скрин: [open screenshot](screenshots/amagyrova.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/amagyrova.png)
 - Имя: Елена Амагырова
 - Подписчики: 372000
 - Followers raw: 372K Followers, 246 Following, 336 Posts - Елена Амагырова (@amagyrova) on Instagram: "Первое бесплатное обучение по Таобао 15 апреля ⬇️"
@@ -166,7 +166,7 @@
 ## @bolshe_nikogda
 - Метка: подписчица alina_telling
 - Профиль: [@bolshe_nikogda](https://www.instagram.com/bolshe_nikogda/)
-- Скрин: [open screenshot](screenshots/bolshe_nikogda.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/bolshe_nikogda.png)
 - Имя: Вера Полозкова
 - Подписчики: 330000
 - Followers raw: 330K Followers, 940 Following, 4,730 Posts - Вера Полозкова (@bolshe_nikogda) on Instagram: "альбом «рыжая нить» с александром маноцковым"
@@ -182,7 +182,7 @@
 ## @olga_fox
 - Метка: подписчица alina_telling
 - Профиль: [@olga_fox](https://www.instagram.com/olga_fox/)
-- Скрин: [open screenshot](screenshots/olga_fox.png)
+- Скрин: [open screenshot](../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/following/alina_telling/screenshots/olga_fox.png)
 - Имя: Ольга Фокс | Бьюти-блогер
 - Подписчики: 310000
 - Followers raw: 310K Followers, 1,818 Following, 5,190 Posts - Ольга Фокс | Бьюти-блогер (@olga_fox) on Instagram: "✨ 42 и не прячу кожу

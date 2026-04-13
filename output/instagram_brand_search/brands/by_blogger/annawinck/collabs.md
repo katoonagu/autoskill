@@ -8,7 +8,7 @@
 
 ## @brucestudios
 - Profile: [@brucestudios](https://www.instagram.com/brucestudios/)
-- Screenshot: [open screenshot](../../screenshots/annawinck_brucestudios_DUoFhQ_jHmz.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_brucestudios_DUoFhQ_jHmz.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @brucestudios.dk
 - Profile: [@brucestudios.dk](https://www.instagram.com/brucestudios.dk/)
-- Screenshot: [open screenshot](../../screenshots/annawinck_brucestudios.dk_DUoFhQ_jHmz.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_brucestudios.dk_DUoFhQ_jHmz.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @concepciobynobis
 - Profile: [@concepciobynobis](https://www.instagram.com/concepciobynobis/)
-- Screenshot: [open screenshot](../../screenshots/annawinck_concepciobynobis_DWjjTuVDDkM.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_concepciobynobis_DWjjTuVDDkM.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -35,7 +35,7 @@
 
 ## @lioness_official
 - Profile: [@lioness_official](https://www.instagram.com/lioness_official/)
-- Screenshot: [open screenshot](../../screenshots/annawinck_lioness_official_DVMO6zJDKCM.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_lioness_official_DVMO6zJDKCM.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -44,7 +44,7 @@
 
 ## @nobishotelpalma
 - Profile: [@nobishotelpalma](https://www.instagram.com/nobishotelpalma/)
-- Screenshot: [open screenshot](../../screenshots/annawinck_nobishotelpalma_DWUZ6xaDsg_.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/annawinck_nobishotelpalma_DWUZ6xaDsg_.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

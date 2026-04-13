@@ -8,7 +8,7 @@
 
 ## @astoria_activewear
 - Profile: [@astoria_activewear](https://www.instagram.com/astoria_activewear/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_astoria_activewear_DVboQBSjfKr.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_astoria_activewear_DVboQBSjfKr.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @blakely_women
 - Profile: [@blakely_women](https://www.instagram.com/blakely_women/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_blakely_women_DLsYsFStzdu.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_blakely_women_DLsYsFStzdu.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @boohoo
 - Profile: [@boohoo](https://www.instagram.com/boohoo/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_boohoo_DR2gQUzDdKi.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_boohoo_DR2gQUzDdKi.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -35,7 +35,7 @@
 
 ## @egoofficial
 - Profile: [@egoofficial](https://www.instagram.com/egoofficial/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_egoofficial_DVdt9MNjPjE.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_egoofficial_DVdt9MNjPjE.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -44,7 +44,7 @@
 
 ## @guess
 - Profile: [@guess](https://www.instagram.com/guess/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_guess_C9nHsDlNpJb.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_guess_C9nHsDlNpJb.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @guesslingerie
 - Profile: [@guesslingerie](https://www.instagram.com/guesslingerie/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_guesslingerie_DObeyHFjaFo.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_guesslingerie_DObeyHFjaFo.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -62,7 +62,7 @@
 
 ## @missguided
 - Profile: [@missguided](https://www.instagram.com/missguided/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_missguided_DQKOvfhjbkp.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_missguided_DQKOvfhjbkp.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -71,7 +71,7 @@
 
 ## @muserastore
 - Profile: [@muserastore](https://www.instagram.com/muserastore/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_muserastore_DUqt_S5jcK8.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_muserastore_DUqt_S5jcK8.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -80,7 +80,7 @@
 
 ## @nakdfashion
 - Profile: [@nakdfashion](https://www.instagram.com/nakdfashion/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_nakdfashion_DRU9X4VDYuW.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_nakdfashion_DRU9X4VDYuW.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -89,7 +89,7 @@
 
 ## @pearlmaiofficial
 - Profile: [@pearlmaiofficial](https://www.instagram.com/pearlmaiofficial/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_pearlmaiofficial_DOG4ZDrDU4p.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_pearlmaiofficial_DOG4ZDrDU4p.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -98,7 +98,7 @@
 
 ## @shein_gb
 - Profile: [@shein_gb](https://www.instagram.com/shein_gb/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_shein_gb_DWebJ5cDaT1.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_shein_gb_DWebJ5cDaT1.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -107,7 +107,7 @@
 
 ## @sheinofficial
 - Profile: [@sheinofficial](https://www.instagram.com/sheinofficial/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_sheinofficial_DWebJ5cDaT1.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_sheinofficial_DWebJ5cDaT1.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -116,7 +116,7 @@
 
 ## @whitefoxboutique
 - Profile: [@whitefoxboutique](https://www.instagram.com/whitefoxboutique/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_whitefoxboutique_DW6xGS4jbQz.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_whitefoxboutique_DW6xGS4jbQz.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -125,7 +125,7 @@
 
 ## @wiskiiactive
 - Profile: [@wiskiiactive](https://www.instagram.com/wiskiiactive/)
-- Screenshot: [open screenshot](../../screenshots/victoriaturnerr_wiskiiactive_DSC6GB9Dfhb.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/victoriaturnerr_wiskiiactive_DSC6GB9Dfhb.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

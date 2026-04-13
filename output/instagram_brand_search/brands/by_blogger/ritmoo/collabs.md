@@ -8,7 +8,7 @@
 
 ## @chanelofficial
 - Profile: [@chanelofficial](https://www.instagram.com/chanelofficial/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__chanelofficial_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -17,7 +17,7 @@
 
 ## @ilalimitedcollection
 - Profile: [@ilalimitedcollection](https://www.instagram.com/ilalimitedcollection/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__ilalimitedcollection_DWCCp4CiBRT.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -26,7 +26,7 @@
 
 ## @londri_brand
 - Profile: [@londri_brand](https://www.instagram.com/londri_brand/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__londri_brand_DWGzPTziFzd.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__londri_brand_DWGzPTziFzd.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -35,7 +35,7 @@
 
 ## @luxerosedubai
 - Profile: [@luxerosedubai](https://www.instagram.com/luxerosedubai/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__luxerosedubai_DWmBm9IiIR3.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__luxerosedubai_DWmBm9IiIR3.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: high
@@ -44,7 +44,7 @@
 
 ## @rimarka_moscow
 - Profile: [@rimarka_moscow](https://www.instagram.com/rimarka_moscow/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__rimarka_moscow_DWGzPTziFzd.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__rimarka_moscow_DWGzPTziFzd.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -53,7 +53,7 @@
 
 ## @zara
 - Profile: [@zara](https://www.instagram.com/zara/)
-- Screenshot: [open screenshot](../../screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/_ritmoo__zara_DWEgiGhiOkG.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low

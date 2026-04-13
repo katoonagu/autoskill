@@ -8,7 +8,7 @@
 
 ## @dalba_russia
 - Profile: [@dalba_russia](https://www.instagram.com/dalba_russia/)
-- Screenshot: [open screenshot](../../screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/daria_ashihmina_dalba_russia_DB8ZMuWO0iI.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium
@@ -17,7 +17,7 @@
 
 ## @twowe.brand
 - Profile: [@twowe.brand](https://www.instagram.com/twowe.brand/)
-- Screenshot: [open screenshot](../../screenshots/yanarusaya_twowe.brand_DVi_Uv0CBfP.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/yanarusaya_twowe.brand_DVi_Uv0CBfP.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
@@ -26,7 +26,7 @@
 
 ## @viviennesabo.official
 - Profile: [@viviennesabo.official](https://www.instagram.com/viviennesabo.official/)
-- Screenshot: [open screenshot](../../screenshots/dashapogadaevaa_viviennesabo.official_DWRFOQajbwf.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/dashapogadaevaa_viviennesabo.official_DWRFOQajbwf.png)
 - Account kind: brand_store
 - Outreach fit: high
 - Brand likelihood: medium

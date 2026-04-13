@@ -8,7 +8,7 @@
 
 ## @simihaze
 - Profile: [@simihaze](https://www.instagram.com/simihaze/)
-- Screenshot: [open screenshot](../../screenshots/anna.utka22_simihaze_DVTMq2XjAvo.png)
+- Screenshot: [open screenshot](../../../../../../../../../occult/Desktop/auto/autoskill/output/instagram_brand_search/brands/screenshots/anna.utka22_simihaze_DVTMq2XjAvo.png)
 - Account kind: brand_store
 - Outreach fit: medium
 - Brand likelihood: low
