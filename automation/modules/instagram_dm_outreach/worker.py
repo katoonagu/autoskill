@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import random
 import re
 import time
 from pathlib import Path
@@ -10,7 +11,7 @@ from playwright.async_api import TimeoutError as PlaywrightTimeoutError, async_p
 from automation.adspower import AdsPowerClient
 from automation.artifacts import setup_run_artifacts
 from automation.browser import capture_screenshot, connect_profile
-from automation.config import AdsPowerSettings
+from automation.config import AdsPowerSettings, InstagramDmSettings
 from automation.control_plane.storage import utcnow_iso
 
 from .reporting import write_instagram_dm_status_report
@@ -20,6 +21,8 @@ from .state import InstagramDmAuditRecord, InstagramDmOutreachState
 DM_STATUS_READY = "ready_to_send"
 DM_STATUS_SENT = "thread_found_sent_only"
 DM_STATUS_REPLY = "reply_detected"
+_RNG = random.Random()
+_DM_SETTINGS: InstagramDmSettings | None = None
 
 
 def _slug(value: str) -> str:
@@ -81,6 +84,27 @@ def _load_targets(project_root: Path) -> list[dict]:
 
 def _normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", str(value or "").strip()).lower()
+
+
+async def _human_pause(page, base_ms: int, jitter_ms: int = 120) -> None:
+    effective_jitter = jitter_ms if _DM_SETTINGS is None else _DM_SETTINGS.jitter_ms
+    await page.wait_for_timeout(max(0, base_ms + _RNG.randint(0, effective_jitter)))
+
+
+async def _move_mouse_to_locator(page, locator) -> None:
+    if _DM_SETTINGS is not None and not _DM_SETTINGS.use_mouse_moves:
+        return
+    box = await locator.bounding_box()
+    if not box:
+        return
+    target_x = box["x"] + (box["width"] / 2)
+    target_y = box["y"] + (box["height"] / 2)
+    current_x, current_y = await page.evaluate("() => [window.innerWidth / 2, 120]")
+    mid_x = (current_x + target_x) / 2 + _RNG.uniform(-20, 20)
+    mid_y = (current_y + target_y) / 2 + _RNG.uniform(-16, 16)
+    await page.mouse.move(current_x, current_y, steps=4)
+    await page.mouse.move(mid_x, mid_y, steps=6)
+    await page.mouse.move(target_x, target_y, steps=10)
 
 
 def build_test_dm_message() -> str:
@@ -314,8 +338,11 @@ async def _open_dm_thread(page, *, target_url: str, handle: str, logger, open_sh
             has_text=re.compile(r"^(Message|Сообщение|Написать)$", re.I)
         ).first
     await message_button.scroll_into_view_if_needed(timeout=5000)
+    await _human_pause(page, 350, 180)
+    await _move_mouse_to_locator(page, message_button)
+    await _human_pause(page, 180, 120)
     await message_button.click(timeout=20000, force=True)
-    await page.wait_for_timeout(3000)
+    await _human_pause(page, 2200, 900)
     if open_shot is not None:
         await capture_screenshot(page, open_shot, logger)
     await _dismiss_common_popups(page)
@@ -325,13 +352,30 @@ async def _send_in_open_thread(page, *, message: str, logger, after_shot: Path |
     logger.info("Waiting for Instagram DM composer")
     await _wait_for_dm_composer(page, timeout_ms=30000)
     await _focus_dm_composer(page)
-    await page.keyboard.insert_text(message)
+    composer = page.locator(
+        "div[role='textbox'][contenteditable='true'][aria-placeholder='Message...'], "
+        "div[role='textbox'][contenteditable='true'][aria-placeholder='Сообщение...'], "
+        "div[role='textbox'][contenteditable='true'][aria-label='Message'], "
+        "div[role='textbox'][contenteditable='true'][aria-label='Сообщение'], "
+        "div[role='textbox'][contenteditable='true'][aria-describedby='Message'], "
+        "div[role='textbox'][contenteditable='true'][aria-describedby='Сообщение'], "
+        "div[role='textbox'][contenteditable='true']"
+    ).first
+    await _move_mouse_to_locator(page, composer)
+    await _human_pause(page, 150, 120)
+    await composer.click(timeout=10000)
+    await _human_pause(page, 180, 120)
+    typing_delay_ms = 300 if _DM_SETTINGS is None else _DM_SETTINGS.typing_delay_ms
+    await page.keyboard.type(message, delay=typing_delay_ms)
+    await _human_pause(page, 280, 160)
     send_button = page.get_by_role("button", name=re.compile(r"^(Send|Отправить)$", re.I)).first
     if await send_button.count() > 0:
+        await _move_mouse_to_locator(page, send_button)
+        await _human_pause(page, 140, 100)
         await send_button.click(timeout=10000)
     else:
         await page.keyboard.press("Enter")
-    await page.wait_for_timeout(1800)
+    await _human_pause(page, 1400, 500)
     if after_shot is not None:
         await capture_screenshot(page, after_shot, logger)
 
@@ -364,8 +408,10 @@ async def send_instagram_dm_message(
     message: str,
     profile_no: str = "333",
 ) -> dict:
+    global _DM_SETTINGS
     normalized_url = _sanitize_instagram_url(target_url)
     handle = _extract_handle(normalized_url)
+    _DM_SETTINGS = InstagramDmSettings.from_project_root(project_root)
     client, playwright, browser, page, artifacts, logger = await _open_session(
         project_root, label=f"instagram_dm_send_{_slug(handle or normalized_url)}", profile_no=profile_no
     )
@@ -400,9 +446,11 @@ async def send_instagram_dm_message(
 
 
 async def audit_instagram_dm_targets(project_root: Path, *, limit: int | None = None, profile_no: str = "333") -> list[InstagramDmAuditRecord]:
+    global _DM_SETTINGS
     targets = _load_targets(project_root)
     if limit:
         targets = targets[:limit]
+    _DM_SETTINGS = InstagramDmSettings.from_project_root(project_root)
     state = InstagramDmOutreachState.load(_state_path(project_root))
     client, playwright, browser, page, artifacts, logger = await _open_session(
         project_root, label="instagram_dm_audit", profile_no=profile_no
@@ -454,7 +502,9 @@ async def run_instagram_dm_cycle(
     profile_no: str = "333",
     message: str = "",
 ) -> dict:
+    global _DM_SETTINGS
     targets = _load_targets(project_root)
+    _DM_SETTINGS = InstagramDmSettings.from_project_root(project_root)
     state = InstagramDmOutreachState.load(_state_path(project_root))
     client, playwright, browser, page, artifacts, logger = await _open_session(
         project_root, label="instagram_dm_cycle", profile_no=profile_no

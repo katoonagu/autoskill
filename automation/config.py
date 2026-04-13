@@ -57,3 +57,34 @@ class AdsPowerSettings:
             profile_no=profile_no,
         )
 
+
+@dataclass(frozen=True)
+class InstagramDmSettings:
+    typing_delay_ms: int = 300
+    jitter_ms: int = 120
+    use_mouse_moves: bool = True
+
+    @classmethod
+    def from_project_root(cls, project_root: Path) -> "InstagramDmSettings":
+        values = _load_env_files(project_root)
+        typing_delay_raw = os.environ.get("INSTAGRAM_DM_TYPING_DELAY_MS") or values.get("INSTAGRAM_DM_TYPING_DELAY_MS")
+        jitter_raw = os.environ.get("INSTAGRAM_DM_JITTER_MS") or values.get("INSTAGRAM_DM_JITTER_MS")
+        use_mouse_moves_raw = os.environ.get("INSTAGRAM_DM_USE_MOUSE_MOVES") or values.get("INSTAGRAM_DM_USE_MOUSE_MOVES")
+
+        typing_delay_ms = 300
+        if typing_delay_raw:
+            typing_delay_ms = max(0, int(typing_delay_raw))
+
+        jitter_ms = 120
+        if jitter_raw:
+            jitter_ms = max(0, int(jitter_raw))
+
+        use_mouse_moves = True
+        if use_mouse_moves_raw:
+            use_mouse_moves = str(use_mouse_moves_raw).strip().lower() not in {"0", "false", "no", "off"}
+
+        return cls(
+            typing_delay_ms=typing_delay_ms,
+            jitter_ms=jitter_ms,
+            use_mouse_moves=use_mouse_moves,
+        )
