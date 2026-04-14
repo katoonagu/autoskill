@@ -1,0 +1,477 @@
+# Target companies for NSX Production B2B outreach
+# Format: name + optional hints for search
+# Priority: companies most likely to need video production
+
+companies:
+  # === TECH / DIGITAL ===
+  - name: "ЯНДЕКС"
+    aliases: ["Yandex", "yandex.ru"]
+    sector: tech
+    priority: high
+
+  - name: "OZON"
+    aliases: ["Озон", "ozon.ru"]
+    sector: e-commerce
+    priority: high
+
+  - name: "HEADHUNTER"
+    aliases: ["HeadHunter", "hh.ru", "ХедХантер"]
+    sector: tech_hr
+    priority: high
+
+  - name: "PLAYKOT"
+    aliases: ["Плейкот"]
+    sector: gamedev
+    priority: medium
+
+  - name: "AZUR GAMES"
+    aliases: ["Azur Games", "Азур Геймз"]
+    sector: gamedev
+    priority: medium
+
+  - name: "AXLEBOLT"
+    aliases: ["Аксельболт"]
+    sector: gamedev
+    priority: medium
+
+  - name: "MINERVASOFT"
+    aliases: ["Минервасофт"]
+    sector: tech
+    priority: medium
+
+  - name: "GOODT"
+    aliases: ["Гудт"]
+    sector: tech_hr
+    priority: medium
+
+  - name: "ТЕЛЕМАТИКА"
+    aliases: ["Telematika"]
+    sector: tech
+    priority: low
+
+  # === TELECOM ===
+  - name: "MTC"
+    aliases: ["МТС", "mts.ru"]
+    sector: telecom
+    priority: high
+    note: "Already worked with MTS (see portfolio)"
+
+  - name: "МЕГАФОН"
+    aliases: ["MegaFon", "megafon.ru"]
+    sector: telecom
+    priority: high
+
+  - name: "БИЛАЙН"
+    aliases: ["Beeline", "beeline.ru"]
+    sector: telecom
+    priority: high
+
+  - name: "РОСТЕЛЕКОМ"
+    aliases: ["Rostelecom", "rostelecom.ru"]
+    sector: telecom
+    priority: medium
+
+  - name: "ТТК"
+    aliases: ["TTK", "ТрансТелеКом"]
+    sector: telecom
+    priority: low
+
+  # === RETAIL / FMCG ===
+  - name: "X5 GROUP"
+    aliases: ["X5 Retail Group", "Х5"]
+    sector: retail
+    priority: high
+
+  - name: "ПЯТЕРОЧКА"
+    aliases: ["Pyaterochka", "5ka.ru"]
+    sector: retail
+    priority: high
+
+  - name: "ПЕРЕКРЕСТОК"
+    aliases: ["Perekrestok", "perekrestok.ru"]
+    sector: retail
+    priority: high
+
+  - name: "ЧИЖИК"
+    aliases: ["Chizhik"]
+    sector: retail
+    priority: medium
+
+  - name: "МАГНИТ"
+    aliases: ["Magnit", "magnit.ru"]
+    sector: retail
+    priority: high
+
+  - name: "ДИКСИ"
+    aliases: ["Dixy", "dixy.ru"]
+    sector: retail
+    priority: medium
+
+  - name: "ДЕТСКИЙ МИР"
+    aliases: ["Detsky Mir", "detmir.ru"]
+    sector: retail
+    priority: high
+
+  - name: "М.ВИДЕО-ЭЛЬДОРАДО"
+    aliases: ["M.Video", "Eldorado", "mvideo.ru"]
+    sector: retail_electronics
+    priority: high
+
+  - name: "СПОРТМАСТЕР"
+    aliases: ["Sportmaster", "sportmaster.ru"]
+    sector: retail_sport
+    priority: high
+
+  - name: "FAMILIA"
+    aliases: ["Фамилия", "famil.ru"]
+    sector: retail_fashion
+    priority: medium
+
+  - name: "ПОДРУЖКА"
+    aliases: ["Podrugka", "podrugka.ru"]
+    sector: retail_beauty
+    priority: medium
+
+  - name: "УЛЫБКА РАДУГИ"
+    aliases: ["Ulybka Radugi"]
+    sector: retail_beauty
+    priority: medium
+
+  - name: "АЗБУКА ВКУСА"
+    aliases: ["Azbuka Vkusa", "av.ru"]
+    sector: retail_premium
+    priority: high
+
+  - name: "ВЕРНЫЙ"
+    aliases: ["Verny"]
+    sector: retail
+    priority: low
+
+  - name: "В1 - ПЕРВЫЙ ВЫБОР"
+    aliases: ["V1"]
+    sector: retail
+    priority: low
+
+  - name: "КОМУС"
+    aliases: ["Komus", "komus.ru"]
+    sector: retail_office
+    priority: low
+
+  - name: "МЕТРО"
+    aliases: ["Metro Cash & Carry", "metro-cc.ru"]
+    sector: retail_wholesale
+    priority: medium
+
+  - name: "ВСЕИНСТРУМЕНТЫ"
+    aliases: ["Vseinstrumenti", "vseinstrumenti.ru"]
+    sector: retail_tools
+    priority: medium
+
+  # === FMCG / FOOD ===
+  - name: "PEPSICO"
+    aliases: ["ПепсиКо", "pepsico.ru"]
+    sector: fmcg
+    priority: high
+
+  - name: "COCA-COLA"
+    aliases: ["Кока-Кола", "coca-cola.ru"]
+    sector: fmcg
+    priority: high
+
+  - name: "MULTON PARTNERS"
+    aliases: ["Мултон", "МУЛТОН"]
+    sector: fmcg_beverages
+    priority: medium
+
+  - name: "БАЛТИКА"
+    aliases: ["Baltika", "baltika.ru"]
+    sector: fmcg_beverages
+    priority: medium
+
+  - name: "ДОДО"
+    aliases: ["Dodo Pizza", "Додо Пицца", "dodopizza.ru"]
+    sector: food_delivery
+    priority: high
+
+  - name: "ВКУСНО - И ТОЧКА"
+    aliases: ["Vkusno i Tochka", "бывший McDonald's"]
+    sector: food_qsr
+    priority: high
+
+  - name: "РОСТИКС"
+    aliases: ["Rostics", "бывший KFC"]
+    sector: food_qsr
+    priority: high
+
+  - name: "ДАМАТЕ"
+    aliases: ["Damate"]
+    sector: food_production
+    priority: low
+
+  - name: "PURATOS"
+    aliases: ["Пуратос"]
+    sector: food_ingredients
+    priority: low
+
+  # === BANKING / FINANCE ===
+  - name: "СБЕР"
+    aliases: ["Sber", "Сбербанк", "sber.ru"]
+    sector: banking
+    priority: high
+
+  - name: "ВТБ"
+    aliases: ["VTB", "vtb.ru"]
+    sector: banking
+    priority: high
+
+  - name: "АЛЬФА БАНК"
+    aliases: ["Alfa Bank", "alfabank.ru"]
+    sector: banking
+    priority: high
+
+  - name: "ЭКСПОБАНК"
+    aliases: ["Expobank", "expobank.ru"]
+    sector: banking
+    priority: low
+
+  - name: "РНКБ"
+    aliases: ["RNKB"]
+    sector: banking
+    priority: low
+
+  - name: "МОСКОВСКАЯ БИРЖА"
+    aliases: ["MOEX", "moex.com"]
+    sector: finance
+    priority: medium
+
+  - name: "АБСОЛЮТ СТРАХОВАНИЕ"
+    aliases: ["Absolut Insurance"]
+    sector: insurance
+    priority: low
+
+  - name: "SFI"
+    aliases: ["СФИ"]
+    sector: finance
+    priority: low
+
+  - name: "ЛИКАРД"
+    aliases: ["Likard"]
+    sector: fintech
+    priority: low
+
+  # === TRANSPORT / LOGISTICS ===
+  - name: "S7"
+    aliases: ["S7 Airlines", "s7.ru"]
+    sector: aviation
+    priority: high
+    note: "Similar to Aeroflot case in portfolio"
+
+  - name: "ДЕЛИМОБИЛЬ"
+    aliases: ["Delimobil", "delimobil.ru"]
+    sector: carsharing
+    priority: high
+
+  - name: "ПОЧТА РОССИИ"
+    aliases: ["Russian Post", "pochta.ru"]
+    sector: logistics
+    priority: medium
+
+  - name: "ПГК"
+    aliases: ["PGK", "Первая Грузовая Компания"]
+    sector: logistics_rail
+    priority: low
+
+  - name: "АВТОБАН"
+    aliases: ["Avtodor", "Автобан"]
+    sector: transport_infra
+    priority: low
+
+  - name: "ФК ПУЛЬС"
+    aliases: ["FK Puls"]
+    sector: pharma_logistics
+    priority: low
+
+  # === ENERGY / INDUSTRIAL ===
+  - name: "ГАЗПРОМНЕФТЬ"
+    aliases: ["Gazprom Neft", "gazprom-neft.ru"]
+    sector: energy
+    priority: medium
+
+  - name: "НОРНИКЕЛЬ"
+    aliases: ["Nornickel", "nornickel.ru"]
+    sector: mining
+    priority: medium
+
+  - name: "РУСАЛ"
+    aliases: ["Rusal", "rusal.ru"]
+    sector: mining
+    priority: low
+
+  - name: "СИБУР"
+    aliases: ["Sibur", "sibur.ru"]
+    sector: petrochemistry
+    priority: medium
+
+  - name: "ЕВРОХИМ"
+    aliases: ["EuroChem", "eurochemgroup.com"]
+    sector: chemistry
+    priority: low
+
+  - name: "СЛАВНЕФТЬ"
+    aliases: ["Slavneft"]
+    sector: energy
+    priority: low
+
+  - name: "РОССЕТИ"
+    aliases: ["Rosseti", "rosseti.ru"]
+    sector: energy
+    priority: low
+
+  - name: "АЛТАЙ КОКС"
+    aliases: ["Altai Koks"]
+    sector: mining
+    priority: low
+
+  - name: "АЛРОСА"
+    aliases: ["Alrosa", "alrosa.ru"]
+    sector: mining_diamonds
+    priority: medium
+    note: "Luxury positioning matches NSX style"
+
+  - name: "ОМК"
+    aliases: ["OMK", "Объединенная металлургическая компания"]
+    sector: metallurgy
+    priority: low
+
+  - name: "ГРИНАТОМ -росатом"
+    aliases: ["Greenatom", "Росатом", "rosatom.ru"]
+    sector: energy_nuclear
+    priority: medium
+
+  - name: "АТОМЭНЕРГОРЕМОНТ"
+    aliases: ["Atomenergoremont"]
+    sector: energy_nuclear
+    priority: low
+
+  - name: "СОЛАР"
+    aliases: ["Solar", "rt-solar.ru"]
+    sector: cybersecurity
+    priority: medium
+
+  - name: "ОЭК"
+    aliases: ["OEK", "Объединенная энергетическая компания"]
+    sector: energy
+    priority: low
+
+  # === PHARMA / HEALTH ===
+  - name: "ИНВИТРО"
+    aliases: ["Invitro", "invitro.ru"]
+    sector: health
+    priority: high
+
+  - name: "Р-ФАРМ"
+    aliases: ["R-Pharm", "r-pharm.com"]
+    sector: pharma
+    priority: medium
+
+  - name: "ОНКОЛОГИКА"
+    aliases: ["Oncologica"]
+    sector: health
+    priority: low
+
+  - name: "36,6"
+    aliases: ["366", "Аптеки 36.6"]
+    sector: pharma_retail
+    priority: medium
+
+  # === REAL ESTATE / CONSTRUCTION ===
+  - name: "MALLTECH"
+    aliases: ["Моллтех"]
+    sector: real_estate
+    priority: medium
+
+  - name: "ПЛАНЕТА ТРЦ"
+    aliases: ["Planeta TRC"]
+    sector: real_estate_mall
+    priority: low
+
+  - name: "ПОЛИМЕРСТРОЙ"
+    aliases: ["Polymerstroy"]
+    sector: construction
+    priority: low
+
+  - name: "МОСКОВСКАЯ ПЕРСПЕКТИВА"
+    aliases: ["Moscow Perspective"]
+    sector: real_estate
+    priority: low
+
+  # === MEDIA / DIGITAL SERVICES ===
+  - name: "INTERCOMM"
+    aliases: ["Интерком"]
+    sector: media
+    priority: medium
+
+  - name: "RETAIL"
+    aliases: ["Retail.ru"]
+    sector: media
+    priority: low
+
+  - name: "GARAGE 8"
+    aliases: ["Гараж 8"]
+    sector: media_creative
+    priority: medium
+
+  - name: "ARCHIVE"
+    aliases: ["Архив"]
+    sector: media
+    priority: low
+
+  - name: "AP"
+    aliases: ["АП"]
+    sector: media
+    priority: low
+
+  - name: "МИР"
+    aliases: ["Mir", "Платежная система Мир"]
+    sector: fintech
+    priority: high
+
+  - name: "ЧЕСТНЫЙ ЗНАК"
+    aliases: ["Chestnyznak", "честныйзнак.рф"]
+    sector: gov_tech
+    priority: medium
+
+  - name: "УАПГ"
+    aliases: ["UAPG"]
+    sector: industrial
+    priority: low
+
+  - name: "РЫБАКОВ ФОНД"
+    aliases: ["Rybakov Foundation"]
+    sector: ngo
+    priority: low
+
+  - name: "САПФИР"
+    aliases: ["Sapphire"]
+    sector: unknown
+    priority: low
+
+  - name: "ПУРГА"
+    aliases: ["Purga"]
+    sector: unknown
+    priority: low
+
+  - name: "АКСЕЛЬ"
+    aliases: ["Aksel"]
+    sector: auto_dealer
+    priority: low
+
+  - name: "АСКОНА"
+    aliases: ["Askona", "askona.ru"]
+    sector: retail_home
+    priority: medium
+
+  - name: "TTK"
+    aliases: ["ТТК"]
+    sector: telecom
+    priority: low
