@@ -1,16 +1,16 @@
-job_name: brand_intelligence
+﻿job_name: brand_intelligence
 
 browser_profile:
   provider: adspower
   profile_no: "345"
 
 state:
-  state_file: automation/state/brand_intelligence_state.json
+  state_file: runtime/state/brand_intelligence_state.json
 
 outputs:
-  base_dir: output/brand_intelligence
-  dossiers_dir: output/brand_intelligence/dossiers
-  scores_md: output/brand_intelligence/brand_scores.md
+  base_dir: artifacts/brand_intelligence
+  dossiers_dir: artifacts/brand_intelligence/dossiers
+  scores_md: artifacts/brand_intelligence/brand_scores.md
 
 memory:
   wiki_root: knowledge/llm_wiki
@@ -20,3 +20,4 @@ policy:
   use_review_scan: true
   use_social_scan: true
   produce_brand_score: true
+

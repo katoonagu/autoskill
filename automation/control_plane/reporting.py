@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 from pathlib import Path
-import json
 
+from ..paths import artifacts_root
 from .storage import (
     APPROVAL_BUCKETS,
     TASK_BUCKETS,
@@ -93,7 +93,7 @@ def _codex_batches(paths: ControlPlanePaths, *, limit: int = 10) -> list[dict]:
 
 
 def _has_planning_material(paths: ControlPlanePaths, brand_handle: str, blogger_handle: str) -> bool:
-    decision_path = paths.project_root / "output" / "outreach_planning" / _pair_key(brand_handle, blogger_handle) / "decision.json"
+    decision_path = artifacts_root(paths.project_root) / "outreach_planning" / _pair_key(brand_handle, blogger_handle) / "decision.json"
     return decision_path.exists()
 
 
@@ -172,7 +172,7 @@ def _collect_waiting_approval(paths: ControlPlanePaths) -> list[dict]:
 
 def _collect_sent(paths: ControlPlanePaths) -> list[dict]:
     items: list[dict] = []
-    for send_status_path in sorted((paths.project_root / "output" / "conversation").glob("**/send_status.json")):
+    for send_status_path in sorted((artifacts_root(paths.project_root) / "conversation").glob("**/send_status.json")):
         payload = _safe_read_json(send_status_path)
         if not payload:
             continue

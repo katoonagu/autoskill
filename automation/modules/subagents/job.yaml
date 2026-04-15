@@ -1,10 +1,10 @@
-job_name: browser_subagents
+﻿job_name: browser_subagents
 
 state:
-  state_dir: automation/state/subagents
+  state_dir: runtime/state/subagents
 
 outputs:
-  base_dir: output/subagents
+  base_dir: artifacts/subagents
 
 agents:
   discovery_agent:
@@ -90,3 +90,4 @@ agents:
       - forums
       - social
     notes: Should not contact commenters or reviewers automatically without explicit approval.
+

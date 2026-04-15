@@ -1,13 +1,19 @@
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha1
 from pathlib import Path
-import json
 
+from ..paths import (
+    artifacts_root,
+    ensure_project_layout,
+    runtime_decisions_root,
+    runtime_state_root,
+    runtime_tasks_root,
+)
 from .models import AgentTask, ApprovalRecord, TaskResult
-
 
 TASK_BUCKETS = ("inbox", "processing", "waiting_codex_review", "codex_reviewing", "blocked", "completed", "failed")
 APPROVAL_BUCKETS = ("pending", "approved", "rejected", "expired")
@@ -30,10 +36,11 @@ def utcnow_iso() -> str:
 
 
 def ensure_control_plane_layout(project_root: Path) -> ControlPlanePaths:
-    tasks_root = project_root / "automation" / "tasks"
-    decisions_root = project_root / "automation" / "decisions"
-    state_root = project_root / "automation" / "state"
-    output_root = project_root / "output" / "supervisor"
+    ensure_project_layout(project_root)
+    tasks_root = runtime_tasks_root(project_root)
+    decisions_root = runtime_decisions_root(project_root)
+    state_root = runtime_state_root(project_root)
+    output_root = artifacts_root(project_root) / "supervisor"
     normalized_root = output_root / "normalized"
     results_root = output_root / "results"
     route_logs_root = output_root / "routing"

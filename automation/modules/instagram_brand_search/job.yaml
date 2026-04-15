@@ -1,11 +1,11 @@
-job_name: instagram_brand_search
+﻿job_name: instagram_brand_search
 
 browser_profile:
   provider: adspower
   profile_no: "353"
 
 state:
-  state_file: automation/state/instagram_brand_search_state.json
+  state_file: runtime/state/instagram_brand_search_state.json
   restore_last_context_on_startup: true
   resume_from_last_post: true
   persist_candidate_history: true
@@ -18,12 +18,12 @@ inputs:
   max_seed_targets: 0
 
 outputs:
-  candidate_screenshots_dir: output/instagram_brand_search/brands/screenshots
-  extracted_candidates_md: output/instagram_brand_search/brands/brand_dossiers.md
-  discovered_brand_links_md: output/instagram_brand_search/brands/brand_links.md
-  blogger_summary_md: output/instagram_brand_search/brands/blogger_summary.md
-  brands_by_blogger_dir: output/instagram_brand_search/brands/by_blogger
-  following_candidates_dir: output/instagram_brand_search/following
+  candidate_screenshots_dir: artifacts/instagram_brand_search/brands/screenshots
+  extracted_candidates_md: artifacts/instagram_brand_search/brands/brand_dossiers.md
+  discovered_brand_links_md: artifacts/instagram_brand_search/brands/brand_links.md
+  blogger_summary_md: artifacts/instagram_brand_search/brands/blogger_summary.md
+  brands_by_blogger_dir: artifacts/instagram_brand_search/brands/by_blogger
+  following_candidates_dir: artifacts/instagram_brand_search/following
 
 scan_policy:
   include_posts: true
@@ -73,3 +73,4 @@ following_scan_policy:
   dialog_load_max_attempts: 6
   max_profiles_to_review: 0
   max_scroll_passes_without_new_handles: 6
+

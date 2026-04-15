@@ -1,4 +1,4 @@
-# Brand Intelligence Module
+﻿# Brand Intelligence Module
 
 Role:
 
@@ -13,15 +13,16 @@ Browser usage:
 
 State:
 
-- `automation/state/brand_intelligence_state.json`
+- `runtime/state/brand_intelligence_state.json`
 
 Outputs:
 
-- `output/brand_intelligence/`
-- `output/brand_intelligence/<brand>/web_research.json`
+- `artifacts/brand_intelligence/`
+- `artifacts/brand_intelligence/<brand>/web_research.json`
 
 Memory:
 
 - `knowledge/llm_wiki/brands/`
 - `knowledge/llm_wiki/evidence/`
 - `knowledge/llm_wiki/decisions/`
+

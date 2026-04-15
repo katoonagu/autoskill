@@ -1,4 +1,4 @@
-# Autoskill
+﻿# Autoskill
 
 `Autoskill` is a local Python project for Instagram brand discovery and downstream outreach workflows.
 
@@ -174,10 +174,10 @@ Important:
 
 Operational truth lives in:
 
-- `automation/tasks/` for task lifecycle
-- `automation/decisions/` for approval lifecycle
-- `automation/state/leases/` for browser lease records
-- `automation/state/agents/` for runtime snapshots
+- `runtime/tasks/` for task lifecycle
+- `runtime/decisions/` for approval lifecycle
+- `runtime/state/leases/` for browser lease records
+- `runtime/state/agents/` for runtime snapshots
 
 ### Knowledge / Memory
 
@@ -204,10 +204,10 @@ Important:
 
 Raw outputs live in:
 
-- `output/instagram_brand_search/`
-- `output/brand_intelligence/`
-- `output/conversation/`
-- `output/supervisor/`
+- `artifacts/instagram_brand_search/`
+- `artifacts/brand_intelligence/`
+- `artifacts/conversation/`
+- `artifacts/supervisor/`
 
 The principle is:
 
@@ -455,7 +455,7 @@ python scripts/run_instagram_following_only.py
 
 ### Rebuild Discovery Exports From Current State
 
-This command does not open the browser and does not re-scrape Instagram. It rebuilds the discovery outputs from `automation/state/instagram_brand_search_state.json`.
+This command does not open the browser and does not re-scrape Instagram. It rebuilds the discovery outputs from `runtime/state/instagram_brand_search_state.json`.
 
 ```powershell
 python scripts/rebuild_instagram_brand_exports.py
@@ -463,7 +463,7 @@ python scripts/rebuild_instagram_brand_exports.py
 
 ### Sync Organized Brand Tables
 
-This command rebuilds current live exports, keeps the live `brand_links.xlsx`, and refreshes the centralized Excel set in `output/instagram_brand_search/brands/tables/`.
+This command rebuilds current live exports, keeps the live `brand_links.xlsx`, and refreshes the centralized Excel set in `artifacts/instagram_brand_search/brands/tables/`.
 
 ```powershell
 python scripts/sync_instagram_brand_tables.py
@@ -545,31 +545,32 @@ python scripts/write_status_report.py
 
 Main live outputs:
 
-- `output/instagram_brand_search/run_status.md`
-- `output/instagram_brand_search/run_status.json`
-- `output/instagram_brand_search/brands/brand_links.md`
-- `output/instagram_brand_search/brands/brand_dossiers.md`
-- `output/instagram_brand_search/brands/blogger_summary.md`
-- `output/instagram_brand_search/brands/brand_links.xlsx`
+- `artifacts/instagram_brand_search/run_status.md`
+- `artifacts/instagram_brand_search/run_status.json`
+- `artifacts/instagram_brand_search/brands/brand_links.md`
+- `artifacts/instagram_brand_search/brands/brand_dossiers.md`
+- `artifacts/instagram_brand_search/brands/blogger_summary.md`
+- `artifacts/instagram_brand_search/brands/brand_links.xlsx`
 
 Per-blogger discovery output:
 
-- `output/instagram_brand_search/brands/by_blogger/<handle>/collabs.md`
+- `artifacts/instagram_brand_search/brands/by_blogger/<handle>/collabs.md`
 
 Following outputs:
 
-- `output/instagram_brand_search/following/<handle>/shortlist.md`
-- `output/instagram_brand_search/following/<handle>/brands.md`
-- `output/instagram_brand_search/following/following_global.md`
-- `output/instagram_brand_search/following/shortlisted_bloggers_for_phase1.md`
-- `output/instagram_brand_search/following/shortlisted_bloggers_for_phase1.txt`
+- `artifacts/instagram_brand_search/following/<handle>/shortlist.md`
+- `artifacts/instagram_brand_search/following/<handle>/brands.md`
+- `artifacts/instagram_brand_search/following/following_global.md`
+- `artifacts/instagram_brand_search/following/shortlisted_bloggers_for_phase1.md`
+- `artifacts/instagram_brand_search/following/shortlisted_bloggers_for_phase1.txt`
 
 ## Notes
 
 - `Brand records` in `run_status.md` is the raw count in state.
 - `brand_links.xlsx` contains the filtered and deduplicated exportable brands, not the full raw set.
-- For a full raw export, see files like `output/instagram_brand_search/brands/brand_records_all_734.xlsx`.
-- The control plane stores runtime task JSONs under `automation/tasks/` and approval JSONs under `automation/decisions/`.
+- For a full raw export, see files like `artifacts/instagram_brand_search/brands/brand_records_all_734.xlsx`.
+- The control plane stores runtime task JSONs under `runtime/tasks/` and approval JSONs under `runtime/decisions/`.
 - Discovery remains the browser-bound production crawler for sourcing brands.
 - Brand Intelligence enriches candidates with live web search, non-social result ranking, fetched page summaries, and traceable `web_research.json` reports.
 - Conversation has a two-step approval chain: `prepare_draft` and then `send_message`, with the live send path running only through a leased conversation browser profile.
+

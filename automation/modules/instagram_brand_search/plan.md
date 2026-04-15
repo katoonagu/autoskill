@@ -1,4 +1,4 @@
-# Instagram Brand Search Plan
+﻿# Instagram Brand Search Plan
 
 ## Objective
 
@@ -25,7 +25,7 @@ The bot should:
 - screenshots of brand candidates
 - markdown report with found brand links and assessments
 - per-blogger checkpoints in state JSON
-- run log in `output/playwright/...`
+- run log in `artifacts/playwright/...`
 
 ## Core Workflow
 
@@ -133,3 +133,4 @@ Reason:
 
 1. Stories are currently assumed out of scope for v1. If you want them included later, that should be a separate pass.
 2. Brand candidates will be opened in a new tab by default unless you want same-tab navigation.
+

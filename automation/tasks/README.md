@@ -1,13 +1,5 @@
-# Task Buckets
+# Deprecated Path
 
-Runtime task files are created here by the control plane.
+Runtime task buckets moved to `runtime/tasks/`.
 
-Tracked structure:
-
-- `inbox/`
-- `processing/`
-- `blocked/`
-- `completed/`
-- `failed/`
-
-All JSON task payloads inside these runtime buckets are ignored by git.
+This directory remains only as a compatibility marker during the Phase 0 layout migration.

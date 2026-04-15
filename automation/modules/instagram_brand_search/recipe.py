@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from dataclasses import asdict
 from datetime import datetime, timedelta, timezone
@@ -1595,7 +1595,7 @@ def build_following_global_report_path(job: dict) -> Path:
 
 
 def build_blogger_brand_report_path(job: dict, blogger_handle: str) -> Path:
-    base_dir = Path(job["outputs"].get("brands_by_blogger_dir", "output/instagram_brand_search/brands/by_blogger"))
+    base_dir = Path(job["outputs"].get("brands_by_blogger_dir", "artifacts/instagram_brand_search/brands/by_blogger"))
     return base_dir / safe_handle_slug(blogger_handle) / "collabs.md"
 
 
@@ -3435,3 +3435,4 @@ async def run_instagram_following_discovery(
         write_markdown_outputs(job, state)
 
     write_markdown_outputs(job, state)
+

@@ -1,15 +1,15 @@
-job_name: feedback_validation
+﻿job_name: feedback_validation
 
 browser_profile:
   provider: adspower
   profile_no: "333"
 
 state:
-  state_file: automation/state/feedback_validation_state.json
+  state_file: runtime/state/feedback_validation_state.json
 
 outputs:
-  base_dir: output/feedback_validation
-  validation_md: output/feedback_validation/validation.md
+  base_dir: artifacts/feedback_validation
+  validation_md: artifacts/feedback_validation/validation.md
 
 memory:
   wiki_root: knowledge/llm_wiki
@@ -18,3 +18,4 @@ policy:
   human_approval_required: true
   can_contact_reviewers: false
   can_contact_commenters: false
+

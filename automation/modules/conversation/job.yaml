@@ -1,15 +1,15 @@
-job_name: conversation
+﻿job_name: conversation
 
 browser_profile:
   provider: adspower
   profile_no: "337"
 
 state:
-  state_file: automation/state/conversation_state.json
+  state_file: runtime/state/conversation_state.json
 
 outputs:
-  base_dir: output/conversation
-  threads_md: output/conversation/threads.md
+  base_dir: artifacts/conversation
+  threads_md: artifacts/conversation/threads.md
 
 memory:
   wiki_root: knowledge/llm_wiki
@@ -21,3 +21,4 @@ policy:
     - telegram
     - email
     - instagram_dm
+

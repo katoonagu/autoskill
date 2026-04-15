@@ -1,4 +1,4 @@
-# Browser Automation Runtime
+﻿# Browser Automation Runtime
 
 This project now focuses on a multi-agent control plane for brand discovery and outreach operations.
 
@@ -64,3 +64,4 @@ The logical agents are no longer forced to own one browser profile each. Browser
 The removed `genaipro / genai` workflow is archived in:
 
 - [archive/genaipro_legacy](/c:/Users/occult/Desktop/auto/autoskill/archive/genaipro_legacy)
+

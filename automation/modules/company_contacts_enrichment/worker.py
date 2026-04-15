@@ -2,14 +2,15 @@
 
 from __future__ import annotations
 
-from dataclasses import asdict
-from datetime import datetime, timezone
-from pathlib import Path
 import json
 import logging
 import re
 import urllib.parse
+from dataclasses import asdict
+from datetime import datetime, timezone
+from pathlib import Path
 
+from ...paths import artifacts_root, runtime_state_root
 from .email_validator import classify_email, deduce_department_emails
 from .models import CompanyCard, EnrichmentTask
 from .sources.corporate_site import crawl_corporate_site
@@ -17,7 +18,6 @@ from .sources.hh_search import search_hh_company
 from .sources.people_search import search_decision_makers
 from .state import CompanyEnrichmentState
 from .web_research import domain_from_url, fetch_urllib_html, smart_fetch, smart_search
-
 
 logger = logging.getLogger(__name__)
 
@@ -500,11 +500,11 @@ def _write_company_card(output_dir: Path, card: CompanyCard) -> tuple[Path, Path
 def enrich_company(project_root: Path, task: EnrichmentTask, *, use_firecrawl: bool = True) -> CompanyCard:
     card = CompanyCard(company_name=task.company_name, company_name_aliases=list(task.aliases), industry=task.sector)
     slug = _slug(task.company_name)
-    state_path = project_root / "automation" / "state" / "company_enrichment_state.json"
+    state_path = runtime_state_root(project_root) / "company_enrichment_state.json"
     state = CompanyEnrichmentState.load(state_path)
     state.in_progress = slug
 
-    output_dir = project_root / "output" / "company_contacts_enrichment" / slug
+    output_dir = artifacts_root(project_root) / "company_contacts_enrichment" / slug
 
     steps = {
         1: ("Domain Resolution", lambda: _step_1_resolve_domain(task, card, use_firecrawl=use_firecrawl)),

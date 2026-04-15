@@ -1,4 +1,4 @@
-# Agent Architecture
+﻿# Agent Architecture
 
 ## Goal
 
@@ -131,8 +131,8 @@ Responsibilities:
 
 - `automation/control_plane/`
 - `automation/agents/contracts/`
-- `automation/tasks/`
-- `automation/decisions/`
+- `runtime/tasks/`
+- `runtime/decisions/`
 
 Responsibilities:
 
@@ -180,10 +180,10 @@ Target orchestration:
 
 Control-plane truth now lives in:
 
-- `automation/tasks/` for task lifecycle
-- `automation/decisions/` for approval lifecycle
-- `automation/state/leases/` for browser profile lease records
-- `automation/state/agents/` for per-agent runtime snapshots
+- `runtime/tasks/` for task lifecycle
+- `runtime/decisions/` for approval lifecycle
+- `runtime/state/leases/` for browser profile lease records
+- `runtime/state/agents/` for per-agent runtime snapshots
 
 Each agent should own:
 
@@ -208,3 +208,4 @@ The LLM Wiki architecture is documented in [llm_wiki.md](/c:/Users/occult/Deskto
 The old `genaipro / genai` workflow is archived in:
 
 - [archive/genaipro_legacy](/c:/Users/occult/Desktop/auto/autoskill/archive/genaipro_legacy)
+

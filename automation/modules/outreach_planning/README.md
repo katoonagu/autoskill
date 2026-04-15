@@ -1,4 +1,4 @@
-# Outreach Planning Module
+﻿# Outreach Planning Module
 
 Role:
 
@@ -12,10 +12,11 @@ Profile binding:
 
 State:
 
-- `automation/state/outreach_planning_state.json`
+- `runtime/state/outreach_planning_state.json`
 
 Memory:
 
 - `knowledge/llm_wiki/campaigns/`
 - `knowledge/llm_wiki/decisions/`
 - `knowledge/llm_wiki/playbooks/`
+

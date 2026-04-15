@@ -6,6 +6,7 @@ import yaml
 
 from ..modules.instagram_brand_search.recipe import collect_exportable_brand_records
 from ..modules.instagram_brand_search.state import InstagramBrandSearchState
+from ..paths import resolve_repo_path
 from .contracts import load_task_type_contracts
 from .models import AgentTask
 from .storage import ControlPlanePaths, build_stable_task_id, save_task, task_exists, utcnow_iso, write_json
@@ -14,7 +15,7 @@ from .storage import ControlPlanePaths, build_stable_task_id, save_task, task_ex
 def _load_discovery_job(project_root: Path) -> dict:
     path = project_root / "automation" / "modules" / "instagram_brand_search" / "job.yaml"
     payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    payload["state"]["state_file"] = str(project_root / payload["state"]["state_file"])
+    payload["state"]["state_file"] = str(resolve_repo_path(project_root, payload["state"]["state_file"]))
     return payload
 
 

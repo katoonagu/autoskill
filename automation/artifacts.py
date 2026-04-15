@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-import logging
+
+from .paths import artifacts_root, ensure_artifacts_layout
 
 
 def _timestamp() -> str:
@@ -21,7 +23,8 @@ class RunArtifacts:
 
 
 def setup_run_artifacts(project_root: Path, label: str) -> tuple[RunArtifacts, logging.Logger]:
-    run_dir = project_root / "output" / "playwright" / f"{_timestamp()}_{label}"
+    ensure_artifacts_layout(project_root)
+    run_dir = artifacts_root(project_root) / "playwright" / f"{_timestamp()}_{label}"
     screenshots_dir = run_dir / "screenshots"
     screenshots_dir.mkdir(parents=True, exist_ok=True)
     log_path = run_dir / "run.log"
@@ -41,4 +44,3 @@ def setup_run_artifacts(project_root: Path, label: str) -> tuple[RunArtifacts, l
     logger.addHandler(stream_handler)
 
     return RunArtifacts(run_dir=run_dir, log_path=log_path), logger
-

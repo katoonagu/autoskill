@@ -1,5 +1,5 @@
 # Deprecated Path
 
-Runtime approval buckets moved to `runtime/decisions/`.
+Runtime state moved to `runtime/state/`.
 
 This directory remains only as a compatibility marker during the Phase 0 layout migration.

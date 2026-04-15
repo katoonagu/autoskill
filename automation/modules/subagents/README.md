@@ -1,4 +1,4 @@
-# Browser Subagents
+﻿# Browser Subagents
 
 This module is the browser-bound control plane for dedicated AdsPower-backed agents.
 
@@ -37,7 +37,8 @@ This module is the browser-bound control plane for dedicated AdsPower-backed age
 
 ## Output
 
-- state: `automation/state/subagents/<agent>.json`
-- status: `output/subagents/<agent>/status.md`
-- screenshot: `output/subagents/<agent>/landing.png`
-- per-run log: `output/playwright/<timestamp>_subagent_<agent>/run.log`
+- state: `runtime/state/subagents/<agent>.json`
+- status: `artifacts/subagents/<agent>/status.md`
+- screenshot: `artifacts/subagents/<agent>/landing.png`
+- per-run log: `artifacts/playwright/<timestamp>_subagent_<agent>/run.log`
+
