@@ -1,0 +1,22 @@
+source: https://theblueprint.ru/career
+discovery_mode: brand_index
+parsed_at: '2026-04-15T12:19:44.329473+00:00'
+brand_catalog_count: 1427
+brands_crawled_count: 0
+article_page_count: 0
+listing_count: 0
+company_count: 0
+errors:
+- 'brand amagazinecuratedby: no listings parsed'
+- 'brand acoldwall: no listings parsed'
+- 'brand abinbevefes: no listings parsed'
+- 'brand abccoffeeroasters: no listings parsed'
+- 'brand ahouse: no listings parsed'
+- 'brand abhome: no listings parsed'
+- 'brand acetate: no listings parsed'
+- 'brand aboutyou: no listings parsed'
+- 'brand accent: no listings parsed'
+- 'brand accessmarketing: no listings parsed'
+brands: []
+article_page_ids: []
+companies: []

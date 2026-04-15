@@ -61,7 +61,14 @@ def _load_target_companies(path: Path) -> list[dict]:
         raise FileNotFoundError(f"Target companies file not found: {path}")
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
     data = _repair_loaded_data(data)
-    return list(data.get("companies") or [])
+    companies: list[dict] = []
+    for item in list(data.get("companies") or []):
+        if not isinstance(item, dict):
+            continue
+        normalized = dict(item)
+        normalized["entity_type"] = str(item.get("entity_type") or "prospect")
+        companies.append(normalized)
+    return companies
 
 
 def _configure_utf8_console() -> None:
@@ -92,6 +99,17 @@ def main() -> None:
     parser.add_argument("--no-firecrawl", action="store_true", help="Disable Firecrawl, use free fetchers only")
     parser.add_argument("--dry-run", action="store_true", help="Print plan without executing")
     parser.add_argument(
+        "--include-channels",
+        action="store_true",
+        help="Include channel/partner entities from mixed research files",
+    )
+    parser.add_argument(
+        "--min-nsx-fit",
+        type=int,
+        choices=[0, 1, 2, 3],
+        help="Only process entries with nsx_fit >= N when the input file provides that field",
+    )
+    parser.add_argument(
         "--skip-completed",
         action=argparse.BooleanOptionalAction,
         default=True,
@@ -118,6 +136,29 @@ def main() -> None:
 
     if args.priority:
         companies = [c for c in companies if c.get("priority") == args.priority]
+
+    if not args.include_channels:
+        before = len(companies)
+        companies = [c for c in companies if c.get("entity_type") != "channel"]
+        skipped_channels = before - len(companies)
+        if skipped_channels:
+            logging.info("Skipping %d channel entities", skipped_channels)
+
+    if args.min_nsx_fit is not None:
+        before = len(companies)
+        companies = [
+            c for c in companies
+            if ("nsx_fit" not in c) or int(c.get("nsx_fit") or 0) >= args.min_nsx_fit
+        ]
+        filtered = before - len(companies)
+        if filtered:
+            logging.info("Filtered out %d companies below nsx_fit=%d", filtered, args.min_nsx_fit)
+
+    before = len(companies)
+    companies = [c for c in companies if int(c.get("nsx_fit") or 1) > 0]
+    skipped_non_targets = before - len(companies)
+    if skipped_non_targets:
+        logging.info("Skipping %d non-target entries with nsx_fit=0", skipped_non_targets)
 
     # Check state
     state_path = PROJECT_ROOT / "automation" / "state" / "company_enrichment_state.json"
@@ -146,7 +187,9 @@ def main() -> None:
             name = c.get("name", "?")
             priority = c.get("priority", "?")
             sector = c.get("sector", "?")
-            print(f"  {i:3d}. [{priority:6s}] {name:30s} ({sector})")
+            entity_type = c.get("entity_type", "prospect")
+            nsx_fit = c.get("nsx_fit", "-")
+            print(f"  {i:3d}. [{priority:6s}] [{entity_type:8s}] [fit={nsx_fit}] {name:30s} ({sector})")
         print()
         return
 

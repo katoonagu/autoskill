@@ -1,0 +1,707 @@
+# The Blueprint stage-2 people targets
+# Auto-generated from the reduced shortlist plus public-route heuristics.
+# Focus: who to contact first, through which route, and what still needs confirmation.
+generated_at: '2026-04-15T13:54:45.292406+00:00'
+generated_from: output/company_contacts_enrichment/theblueprint_career_brand_archive.yaml
+generated_from_shortlist: inputs/theblueprint_career_hiring.yaml
+summary:
+  shortlist_company_count: 81
+  targets_count: 10
+  wave_counts:
+    wave_1: 5
+    wave_2: 3
+    wave_3: 2
+heuristic:
+  search_order:
+  - lock why-now signal
+  - find named buyer by role
+  - search person + brand in open web
+  - expand via Instagram bio
+  - expand via Telegram profile or channel
+  - close with official site and email trail
+  default_priority:
+  - segment C and D with founder/person route
+  - segment B with named marketing or PR owner
+  - segment E only with clear named buyer or strong route
+targets:
+- rank: 1
+  wave: wave_1
+  brand: Don't Touch My Skin
+  segment: C
+  nsx_fit: 3
+  priority_score: 184
+  why_now: Идет найм руководителя отдела маркетинга. Это момент, когда founder и новый маркетинг-руководитель
+    будут собирать новый стек подрядчиков.
+  best_first_write_to: Адэль Мифтахова (Founder)
+  recommended_entry_route: person-first via Telegram, then brand Instagram and direct founder-related
+    email trail
+  angle: Skincare сейчас = короткие AI-ролики + ASMR-видео. Это наша сильная сторона. Плюс AI-музыка для
+    бренда — у DTMS нет саунд-идентичности.
+  fallback_emails:
+  - m.mitasova@fdroconsult.com
+  - igor.doubnov@dtmskin.com
+  - info@dtmskin.com
+  - cv@foamstore.ru
+  person_candidates:
+  - name: Адэль Мифтахова
+    role: Founder
+    route_priority: primary
+    email: ''
+    instagram_url: https://www.instagram.com/adeliamft/
+    telegram_url: https://t.me/donttouchmyface
+    confidence: high
+    note: Telegram bio прямо привязывает Адэль к DTMS; Instagram handle подтверждается публичными упоминаниями.
+    proof_urls:
+    - https://t.me/donttouchmyface
+    - https://www.instagram.com/p/B4KAFY8otyw/
+    - https://telegram.me/s/donttouchmyface?before=2227
+  public_routes:
+  - platform: instagram
+    label: Official brand Instagram
+    url: https://www.instagram.com/dtmskin/
+    confidence: high
+  - platform: website
+    label: Brand site
+    url: https://dtmskin.com/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/donttouchmyskin
+  - https://theblueprint.ru/career/38806
+  - https://theblueprint.ru/career/38518
+  - https://theblueprint.ru/career/37595
+  - https://theblueprint.ru/career/35231
+  - https://theblueprint.ru/career/34148
+  - https://theblueprint.ru/career/32306
+  - https://theblueprint.ru/career/30700
+  - https://theblueprint.ru/career/28213
+  - https://theblueprint.ru/career/27782
+  - https://donttouchmyskin.ru
+  - https://t.me/donttouchmyface
+  - https://www.instagram.com/dtmskin/
+  - https://dtmskin.com/
+  next_gap: 'Через 2-4 недели обновить имя нового head of marketing и писать парой: founder + marketer.'
+  next_search_queries:
+  - '"Don''t Touch My Skin" "руководитель отдела маркетинга"'
+  - '"Адэль Мифтахова" Instagram'
+  - '"Адэль Мифтахова" Telegram'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/38806
+  - https://theblueprint.ru/career/38518
+  - https://theblueprint.ru/career/37595
+  - https://theblueprint.ru/career/35231
+  - https://theblueprint.ru/career/34148
+  - https://theblueprint.ru/career/32306
+  - https://theblueprint.ru/career/30700
+  - https://theblueprint.ru/career/28213
+  - https://theblueprint.ru/career/27782
+- rank: 2
+  wave: wave_1
+  brand: Befree
+  segment: C
+  nsx_fit: 3
+  priority_score: 171
+  why_now: Новый marketing manager Евгений Лагутин. Это лучший триггер на тест нового продакшна в первые
+    30-60 дней.
+  best_first_write_to: Евгений Лагутин (Marketing Manager)
+  recommended_entry_route: person-first via industry mentions, then brand Telegram fallback
+  angle: Лагутин — известный в индустрии, придёт с пулом агентств. Но он ценит 'что-то новое'. Питч =
+    'освежим ваш vertical content, покажем альтернативу текущему production'.
+  fallback_emails:
+  - bunkovaar@melonfashion.com
+  - rubinovamzh@melonfashion.com
+  person_candidates:
+  - name: Евгений Лагутин
+    role: Marketing Manager
+    route_priority: primary
+    email: ''
+    instagram_url: ''
+    telegram_url: ''
+    confidence: medium
+    note: Имя зафиксировано по hiring signal, но публичный персональный social-route еще не закрыт.
+    proof_urls:
+    - https://theblueprint.ru/career/brand/befree
+    - https://theblueprint.ru/career/39242
+  public_routes:
+  - platform: telegram
+    label: Official brand Telegram
+    url: https://t.me/befree_community
+    confidence: high
+  - platform: website
+    label: Brand site
+    url: https://befree.ru/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/befree
+  - https://theblueprint.ru/career/39242
+  - https://theblueprint.ru/career/38765
+  - https://theblueprint.ru/career/38585
+  - https://theblueprint.ru/career/33958
+  - https://theblueprint.ru/career/33262
+  - https://theblueprint.ru/career/32518
+  - https://theblueprint.ru/career/32500
+  - https://theblueprint.ru/career/31262
+  - https://theblueprint.ru/career/29369
+  - https://befree.ru
+  - https://t.me/befree_community
+  - https://befree.ru/
+  next_gap: Нужно добить персональный Instagram/Telegram Евгения Лагутина через vc.ru, Cossa, AdIndex
+    и выступления.
+  next_search_queries:
+  - '"Евгений Лагутин" Befree'
+  - '"Евгений Лагутин" Instagram'
+  - '"Евгений Лагутин" Telegram'
+  - site:vc.ru "Евгений Лагутин"
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/39242
+  - https://theblueprint.ru/career/38765
+  - https://theblueprint.ru/career/38585
+  - https://theblueprint.ru/career/33958
+  - https://theblueprint.ru/career/33262
+  - https://theblueprint.ru/career/32518
+  - https://theblueprint.ru/career/32500
+  - https://theblueprint.ru/career/31262
+  - https://theblueprint.ru/career/29369
+- rank: 3
+  wave: wave_1
+  brand: Ushatava
+  segment: C
+  nsx_fit: 3
+  priority_score: 170
+  why_now: Ushatava открывает или усиливает обувную и аксессуарную категорию. Это прямой launch-content
+    кейс под кампанию и product reels.
+  best_first_write_to: Нино Шаматавa (Creative / Content Director, co-founder)
+  recommended_entry_route: person-first via Instagram, then official photo/content contact
+  angle: Запуск новой категории (обувь) = нужны съёмки product + campaign. Их стиль = минималистичная
+    режиссура, подходит Danil/Georgiy.
+  fallback_emails:
+  - photo@ushatava.com
+  person_candidates:
+  - name: Нино Шаматава
+    role: Content director / co-founder
+    route_priority: primary
+    email: photo@ushatava.com
+    instagram_url: https://www.instagram.com/ninoshenka/
+    telegram_url: ''
+    confidence: high
+    note: Официальный contacts page привязывает Nino Shamatava к content/photo contact.
+    proof_urls:
+    - https://en.ushatava.ru/about/contacts/
+    - https://www.instagram.com/ninoshenka/
+  public_routes:
+  - platform: telegram
+    label: Official client service bot
+    url: https://t.me/Ushatava_clientsbot
+    confidence: high
+  - platform: website
+    label: Official contacts
+    url: https://en.ushatava.ru/about/contacts/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/ushatava
+  - https://theblueprint.ru/career/39175
+  - https://theblueprint.ru/career/38811
+  - https://theblueprint.ru/career/38795
+  - https://theblueprint.ru/career/37895
+  - https://theblueprint.ru/career/36757
+  - https://theblueprint.ru/career/35868
+  - https://theblueprint.ru/career/35648
+  - https://theblueprint.ru/career/35394
+  - https://theblueprint.ru/career/35097
+  - https://theblueprint.ru/career/34436
+  - https://ushatava.ru
+  - https://hr.ushatava.ru/developing_shoes
+  - https://www.hr.ushatava.ru/developing_shoes
+  - https://en.ushatava.ru/about/contacts/
+  - https://t.me/Ushatava_clientsbot
+  next_gap: 'Отдельно найти личный route Алисы Ушатовой, чтобы писать двум лицам с разным углом: launch
+    и brand.'
+  next_search_queries:
+  - '"Алиса Ушатова" Instagram'
+  - '"Алиса Ушатова" Telegram'
+  - '"Нино Шаматава" Telegram'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/39175
+  - https://theblueprint.ru/career/38811
+  - https://theblueprint.ru/career/38795
+  - https://theblueprint.ru/career/37895
+  - https://theblueprint.ru/career/36757
+  - https://theblueprint.ru/career/35868
+  - https://theblueprint.ru/career/35648
+  - https://theblueprint.ru/career/35394
+  - https://theblueprint.ru/career/35097
+  - https://theblueprint.ru/career/34436
+- rank: 4
+  wave: wave_1
+  brand: Emka
+  segment: C
+  nsx_fit: 3
+  priority_score: 169
+  why_now: Прохор Шаляпин только что стал PR-менеджером бренда. Новый PR-руководитель почти всегда ищет
+    быстрые заметные кейсы.
+  best_first_write_to: Прохор Шаляпин (PR-менеджер)
+  recommended_entry_route: person-first via Instagram or Telegram
+  angle: Новый PR-директор будет ставить свою повестку — ему нужен сильный визуал за первые 60 дней. Питч
+    = сезонный имиджевый ролик + 4 вертикала.
+  fallback_emails:
+  - hrfactory@emkafashion.ru
+  person_candidates:
+  - name: Прохор Шаляпин
+    role: PR-менеджер
+    route_priority: primary
+    email: ''
+    instagram_url: https://www.instagram.com/shalyapin_official/
+    telegram_url: https://t.me/aChaliapin
+    confidence: high
+    note: Публичная персона, поэтому warm-cold через личный DM имеет смысл.
+    proof_urls:
+    - https://theblueprint.ru/career/brand/emka
+    - https://www.instagram.com/reel/DWlRI6AiMRG/
+    - https://t.me/s/aChaliapin
+  public_routes:
+  - platform: website
+    label: Brand site
+    url: https://emka-fashion.ru/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/emka
+  - https://theblueprint.ru/career/brand/brendemka
+  - https://theblueprint.ru/career/39044
+  - https://theblueprint.ru/career/39035
+  - https://theblueprint.ru/career/36216
+  - https://theblueprint.ru/career/27027
+  - https://theblueprint.ru/career/26214
+  - https://theblueprint.ru/career/27674
+  - https://emka-fashion.ru
+  - https://www.instagram.com/reel/DWlRI6AiMRG/
+  - https://t.me/s/aChaliapin
+  - https://emka-fashion.ru/
+  next_gap: Если личный DM не зайдет, дожать через брендовый PR-mailbox и подтверждение нового PR owner
+    в профильных медиа.
+  next_search_queries:
+  - '"Прохор Шаляпин" Emka'
+  - '"Прохор Шаляпин" Instagram'
+  - '"Прохор Шаляпин" Telegram'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/39044
+  - https://theblueprint.ru/career/39035
+  - https://theblueprint.ru/career/36216
+  - https://theblueprint.ru/career/27027
+  - https://theblueprint.ru/career/26214
+  - https://theblueprint.ru/career/27674
+- rank: 5
+  wave: wave_1
+  brand: Finn Flare
+  segment: C
+  nsx_fit: 3
+  priority_score: 166
+  why_now: Ищут SMM-менеджера. Это обычно значит, что дистрибуцию строят in-house, а тяжелый видео-продакшн
+    готовы отдавать наружу.
+  best_first_write_to: Named HR bridge + marketing/pr mailbox (Bridge to marketing owner)
+  recommended_entry_route: named-email-first with parallel official Telegram/Instagram touch
+  angle: SMM-менеджер сам не снимет кампанию. NSX — готовый пакет 15-20 сек вертикалов для TG/VK. Чек
+    150-300к на ежемесячный поток контента.
+  fallback_emails:
+  - chernovitskaya@finn-flare.ru
+  - gavrikova@finn-flare.ru
+  - ivanova.a@finn-flare.ru
+  - kadry@finn-flare.ru
+  person_candidates:
+  - name: Unknown marketing owner
+    role: SMM / marketing
+    route_priority: primary
+    email: chernovitskaya@finn-flare.ru
+    instagram_url: ''
+    telegram_url: ''
+    confidence: medium
+    note: Надежный bridge-contact из вакансии; дальше задача получить owner в маркетинге.
+    proof_urls:
+    - https://theblueprint.ru/career/brand/finnflare
+  public_routes:
+  - platform: telegram
+    label: Official brand Telegram
+    url: https://t.me/finnflareofficial
+    confidence: high
+  - platform: instagram
+    label: Official brand Instagram
+    url: https://www.instagram.com/finn_flare_official/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/finnflare
+  - https://theblueprint.ru/career/38809
+  - https://theblueprint.ru/career/34159
+  - https://theblueprint.ru/career/32702
+  - https://theblueprint.ru/career/32497
+  - https://theblueprint.ru/career/31693
+  - https://theblueprint.ru/career/31509
+  - https://theblueprint.ru/career/30451
+  - https://theblueprint.ru/career/30162
+  - https://theblueprint.ru/career/28756
+  - https://finn-flare.ru
+  - https://t.me/finnflareofficial
+  - https://www.instagram.com/finn_flare_official/
+  next_gap: Нужно имя текущего маркетинг/бренд owner, чтобы уйти от HR-bridge к buyer.
+  next_search_queries:
+  - '"Finn Flare" marketing director'
+  - '"Finn Flare" brand director'
+  - '"Finn Flare" Telegram'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/38809
+  - https://theblueprint.ru/career/34159
+  - https://theblueprint.ru/career/32702
+  - https://theblueprint.ru/career/32497
+  - https://theblueprint.ru/career/31693
+  - https://theblueprint.ru/career/31509
+  - https://theblueprint.ru/career/30451
+  - https://theblueprint.ru/career/30162
+  - https://theblueprint.ru/career/28756
+- rank: 6
+  wave: wave_2
+  brand: Lamoda
+  segment: C
+  nsx_fit: 3
+  priority_score: 154
+  why_now: Одновременно видны digital marketing, STM design, event и producer signals. Это значит, что
+    Lamoda строит контент-поток, а не единичную кампанию.
+  best_first_write_to: Brand / STM owner (name to confirm) (Private label / digital marketing)
+  recommended_entry_route: role-first via named Lamoda email plus brand Telegram
+  angle: СТМ требует отдельной визуальной идентичности. Питч = полный пакет (имиджевые + соцсеть-вертикалы)
+    для запуска.
+  fallback_emails:
+  - darya.sokolova@lamoda.ru
+  person_candidates:
+  - name: Darya Sokolova
+    role: Lamoda contact from Blueprint hiring trail
+    route_priority: primary
+    email: darya.sokolova@lamoda.ru
+    instagram_url: ''
+    telegram_url: ''
+    confidence: medium
+    note: Рабочая точка входа для запроса контакта бренд- или private-label owner.
+    proof_urls:
+    - https://theblueprint.ru/career/brand/lamoda
+  public_routes:
+  - platform: telegram
+    label: Official brand Telegram
+    url: https://t.me/lamoda_na_svyazi
+    confidence: high
+  - platform: instagram
+    label: Official brand Instagram
+    url: https://www.instagram.com/lamoda/
+    confidence: high
+  - platform: website
+    label: Career site
+    url: https://job.lamoda.ru/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/lamoda
+  - https://theblueprint.ru/career/39231
+  - https://theblueprint.ru/career/39181
+  - https://theblueprint.ru/career/38885
+  - https://theblueprint.ru/career/38646
+  - https://theblueprint.ru/career/38132
+  - https://theblueprint.ru/career/38154
+  - https://theblueprint.ru/career/37870
+  - https://theblueprint.ru/career/37583
+  - https://theblueprint.ru/career/32579
+  - https://theblueprint.ru/career/37372
+  - https://lamoda.ru
+  - https://job.lamoda.ru
+  - https://t.me/lamoda_na_svyazi
+  - https://job.lamoda.ru/
+  - https://www.instagram.com/lamoda/
+  next_gap: Нужно имя владельца STM/private label или текущего brand lead, иначе писать придется через
+    bridge contact.
+  next_search_queries:
+  - '"Lamoda" "private label" маркетинг'
+  - '"Lamoda" brand director'
+  - '"Lamoda" Telegram'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/39231
+  - https://theblueprint.ru/career/39181
+  - https://theblueprint.ru/career/38885
+  - https://theblueprint.ru/career/38646
+  - https://theblueprint.ru/career/38132
+  - https://theblueprint.ru/career/38154
+  - https://theblueprint.ru/career/37870
+  - https://theblueprint.ru/career/37583
+  - https://theblueprint.ru/career/32579
+  - https://theblueprint.ru/career/37372
+- rank: 7
+  wave: wave_2
+  brand: Bork
+  segment: B
+  nsx_fit: 3
+  priority_score: 138
+  why_now: У Bork одновременно видны CRM, brand, SMM и event roles. Это не единичный найм, а работающий
+    контент- и brand-маховик.
+  best_first_write_to: Brand / marketing owner via named Bork email (Brand or CRM marketing)
+  recommended_entry_route: named-email-first, then premium brand socials
+  angle: Bork = премиум-сегмент. Режиссёрский имиджевый ролик 1.5 мин — их стандарт. Кейсы Dior/Hugo убеждают.
+  fallback_emails:
+  - valeriya.chernova@bork.com
+  - valeriya.chernova@bork.ru
+  person_candidates:
+  - name: Valeriya Chernova
+    role: HR / hiring bridge
+    route_priority: primary
+    email: valeriya.chernova@bork.com
+    instagram_url: ''
+    telegram_url: ''
+    confidence: high
+    note: Повторяется в Blueprint-вакансиях как рабочая точка входа.
+    proof_urls:
+    - https://theblueprint.ru/career/brand/bork
+    - https://theblueprint.ru/career/38080
+  public_routes:
+  - platform: telegram
+    label: Official brand Telegram
+    url: https://t.me/bork_public
+    confidence: high
+  - platform: instagram
+    label: Official brand Instagram
+    url: https://www.instagram.com/bork_com/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/bork
+  - https://theblueprint.ru/career/39243
+  - https://theblueprint.ru/career/39057
+  - https://theblueprint.ru/career/38608
+  - https://theblueprint.ru/career/38379
+  - https://theblueprint.ru/career/38080
+  - https://theblueprint.ru/career/36784
+  - https://theblueprint.ru/career/36522
+  - https://theblueprint.ru/career/35556
+  - https://theblueprint.ru/career/35506
+  - https://theblueprint.ru/career/34029
+  - https://bork.ru
+  - https://www.instagram.com/bork_com/
+  - https://t.me/s/bork_public
+  - https://t.me/bork_public
+  next_gap: Нужно конкретное имя бренд-менеджера или PR owner, чтобы перестать писать через hiring bridge.
+  next_search_queries:
+  - '"Bork" "бренд-менеджер"'
+  - '"Bork" PR director'
+  - '"Valeriya Chernova" Bork'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/39243
+  - https://theblueprint.ru/career/39057
+  - https://theblueprint.ru/career/38608
+  - https://theblueprint.ru/career/38379
+  - https://theblueprint.ru/career/38080
+  - https://theblueprint.ru/career/36784
+  - https://theblueprint.ru/career/36522
+  - https://theblueprint.ru/career/35556
+  - https://theblueprint.ru/career/35506
+  - https://theblueprint.ru/career/34029
+- rank: 8
+  wave: wave_2
+  brand: 2Mood
+  segment: C
+  nsx_fit: 3
+  priority_score: 138
+  why_now: Свежий найм в SMM и Influence & PR marketing. Это ровно тот момент, когда бренд расширяет контент-команду,
+    но еще не закрыл все production-потребности.
+  best_first_write_to: Полина Подплетенная (Co-owner)
+  recommended_entry_route: person-first via founder Instagram, then brand mailboxes
+  angle: ''
+  fallback_emails:
+  - pollyheywork@gmail.com
+  - khkristinaur@gmail.com
+  - p.moskalev@2mood.com
+  - r.lavrushkin@2mood.com
+  - hr@2mood.com
+  person_candidates:
+  - name: Полина Подплетенная
+    role: Co-owner
+    route_priority: primary
+    email: pollyheywork@gmail.com
+    instagram_url: https://www.instagram.com/pollyhey/
+    telegram_url: ''
+    confidence: high
+    note: Instagram bio публично указывает co-owner 2moodstore.
+    proof_urls:
+    - https://www.instagram.com/pollyhey/?hl=en
+    - https://theblueprint.ru/career/brand/2mood
+  - name: Кристина Хоронжук
+    role: Co-owner
+    route_priority: secondary
+    email: khkristinaur@gmail.com
+    instagram_url: https://www.instagram.com/khkris/
+    telegram_url: ''
+    confidence: high
+    note: Instagram bio публично указывает co-owner @2moodstore.
+    proof_urls:
+    - https://www.instagram.com/khkris/
+    - https://theblueprint.ru/career/brand/2mood
+  public_routes:
+  - platform: telegram
+    label: Brand Telegram
+    url: https://t.me/twomoodstore
+    confidence: medium
+  - platform: instagram
+    label: Brand Instagram
+    url: https://www.instagram.com/2moodstore/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/2mood
+  - https://theblueprint.ru/career/38606
+  - https://theblueprint.ru/career/38605
+  - https://theblueprint.ru/career/37366
+  - https://theblueprint.ru/career/37309
+  - https://theblueprint.ru/career/37302
+  - https://theblueprint.ru/career/36662
+  - https://theblueprint.ru/career/36109
+  - https://theblueprint.ru/career/34502
+  - https://theblueprint.ru/career/32166
+  - https://theblueprint.ru/career/30375
+  - https://www.instagram.com/pollyhey/?hl=en
+  - https://www.instagram.com/khkris/
+  - https://t.me/s/twomoodstore?before=1039
+  - https://t.me/twomoodstore
+  - https://www.instagram.com/2moodstore/
+  next_gap: Нужно имя текущего Influence & PR marketing lead, чтобы писать founders + team owner.
+  next_search_queries:
+  - '"2MOOD" "Influence & PR"'
+  - '"Полина Подплетенная" Telegram'
+  - '"Кристина Хоронжук" Telegram'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/38606
+  - https://theblueprint.ru/career/38605
+  - https://theblueprint.ru/career/37366
+  - https://theblueprint.ru/career/37309
+  - https://theblueprint.ru/career/37302
+  - https://theblueprint.ru/career/36662
+  - https://theblueprint.ru/career/36109
+  - https://theblueprint.ru/career/34502
+  - https://theblueprint.ru/career/32166
+  - https://theblueprint.ru/career/30375
+- rank: 9
+  wave: wave_3
+  brand: YuliaWave
+  segment: C
+  nsx_fit: 3
+  priority_score: 134
+  why_now: Свежий PR-director signal плюс у founder-led fashion house уже есть прямой personal route,
+    что сильно сокращает путь до решения.
+  best_first_write_to: Юлия Василевская (Founder)
+  recommended_entry_route: person-first via founder Instagram, then CEO / PR email fallback
+  angle: ''
+  fallback_emails:
+  - ceo@yuliawave.com
+  - creative.director@yuliawave.com
+  - art.director@yuliawave.com
+  - hrd@yuliawave.com
+  person_candidates:
+  - name: Юлия Василевская
+    role: Founder
+    route_priority: primary
+    email: ceo@yuliawave.com
+    instagram_url: https://www.instagram.com/yuliawave/
+    telegram_url: https://t.me/YULIAWAVE_BRAND
+    confidence: high
+    note: Founder Instagram прямо указывает на YULIAWAVE; брендовый Telegram доступен как direct contact.
+    proof_urls:
+    - https://www.instagram.com/yuliawave/
+    - https://t.me/YULIAWAVE_BRAND
+    - https://theblueprint.ru/career/brand/yuliawave
+  public_routes:
+  - platform: instagram
+    label: Brand Instagram
+    url: https://www.instagram.com/yuliawave.brand/
+    confidence: high
+  - platform: website
+    label: Brand contacts
+    url: https://yuliawave.com/contact/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/yuliawave
+  - https://theblueprint.ru/career/brand/brendyuliawave
+  - https://theblueprint.ru/career/37838
+  - https://theblueprint.ru/career/36494
+  - https://theblueprint.ru/career/36377
+  - https://theblueprint.ru/career/36177
+  - https://theblueprint.ru/career/33886
+  - https://theblueprint.ru/career/33431
+  - https://theblueprint.ru/career/32515
+  - https://theblueprint.ru/career/31125
+  - https://theblueprint.ru/career/30748
+  - https://theblueprint.ru/career/30382
+  - https://theblueprint.ru/career/23470
+  - https://www.instagram.com/yuliawave/
+  - https://yuliawave.com/contact/
+  - https://www.instagram.com/yuliawave.brand/
+  next_gap: Хорошо бы найти имя нового PR director, чтобы писать founder + PR pair.
+  next_search_queries:
+  - '"YuliaWave" "PR-директор"'
+  - '"Юлия Василевская" Telegram'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/37838
+  - https://theblueprint.ru/career/36494
+  - https://theblueprint.ru/career/36377
+  - https://theblueprint.ru/career/36177
+  - https://theblueprint.ru/career/33886
+  - https://theblueprint.ru/career/33431
+  - https://theblueprint.ru/career/32515
+  - https://theblueprint.ru/career/31125
+  - https://theblueprint.ru/career/30748
+  - https://theblueprint.ru/career/30382
+  - https://theblueprint.ru/career/23470
+- rank: 10
+  wave: wave_3
+  brand: Бар «Ровесник»
+  segment: D
+  nsx_fit: 3
+  priority_score: 131
+  why_now: Две свежие SMM-роли с фокусом на content и sales. Для HoReCa это почти прямой маркер постоянной
+    потребности в роликах и social formats.
+  best_first_write_to: Александр Мартынов (Co-founder)
+  recommended_entry_route: founder-aware via official Instagram/Telegram and HR Telegram handle
+  angle: ''
+  fallback_emails: []
+  person_candidates:
+  - name: Александр Мартынов
+    role: Co-founder
+    route_priority: primary
+    email: ''
+    instagram_url: ''
+    telegram_url: ''
+    confidence: medium
+    note: Публично подтвержден как сооснователь; прямой social handle еще не закрыт.
+    proof_urls:
+    - https://moskvichmag.ru/gorod/v-malom-gnedzdnikovskom-otkroetsya-bar-rovesnik-pryamo-u-ministerstva-kultury/
+  - name: HR / studio contact
+    role: Hiring bridge
+    route_priority: secondary
+    email: ''
+    instagram_url: ''
+    telegram_url: https://t.me/HRp2pstudio
+    confidence: high
+    note: Вакансия напрямую ведет в Telegram handle @HRp2pstudio.
+    proof_urls:
+    - https://theblueprint.ru/career/38754
+    - https://theblueprint.ru/career/brand/bar-rovesnik
+  public_routes:
+  - platform: telegram
+    label: Official bar Telegram
+    url: https://t.me/rovesnikbar
+    confidence: high
+  - platform: instagram
+    label: Official bar Instagram
+    url: https://www.instagram.com/rovesnik.bar/
+    confidence: high
+  proof_urls:
+  - https://theblueprint.ru/career/brand/bar-rovesnik
+  - https://theblueprint.ru/career/38754
+  - https://theblueprint.ru/career/38753
+  - https://t.me/rovesnikbar
+  - https://www.instagram.com/rovesnik.bar/
+  - https://moskvichmag.ru/gorod/v-malom-gnedzdnikovskom-otkroetsya-bar-rovesnik-pryamo-u-ministerstva-kultury/
+  next_gap: Нужно добить личный Instagram/Telegram Александра Мартынова и второго co-founder для прямого
+    owner outreach.
+  next_search_queries:
+  - '"Александр Мартынов" "Ровесник" Instagram'
+  - '"Александр Мартынов" "Ровесник" Telegram'
+  - '"Кирилл" "Ровесник" бар'
+  source_blueprint_urls:
+  - https://theblueprint.ru/career/38754
+  - https://theblueprint.ru/career/38753

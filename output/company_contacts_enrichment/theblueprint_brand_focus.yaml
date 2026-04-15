@@ -1,0 +1,352 @@
+source: https://theblueprint.ru/career
+discovery_mode: brand_index
+parsed_at: '2026-04-15T12:20:54.341583+00:00'
+brand_catalog_count: 2016
+brands_crawled_count: 3
+article_page_count: 30
+listing_count: 30
+company_count: 3
+errors: []
+brands:
+- name: Fashion Factory School
+  slug: fashionfactoryschool
+  url: https://theblueprint.ru/career/brand/fashionfactoryschool
+- name: Love Republic
+  slug: loverepublic
+  url: https://theblueprint.ru/career/brand/loverepublic
+- name: Т-Банк
+  slug: tbank
+  url: https://theblueprint.ru/career/brand/tbank
+article_page_ids:
+- 26883
+- 28588
+- 28887
+- 30483
+- 30715
+- 31240
+- 31255
+- 31804
+- 32204
+- 32639
+- 32653
+- 33119
+- 34481
+- 35064
+- 36117
+- 37121
+- 37295
+- 38243
+- 38423
+- 38607
+- 38775
+- 38903
+- 38924
+- 38995
+- 38996
+- 38998
+- 39180
+- 39199
+- 39254
+- 39255
+companies:
+- name: Fashion Factory School
+  entity_type: prospect
+  segment: ''
+  industry: ''
+  source: theblueprint_career
+  contacts:
+    emails:
+    - semen.kokurin@ultimate.education
+    phones: []
+  hiring:
+  - role: Продуктовый маркетинг-менеджер
+    published_at: '2026-02-13'
+    source_url: https://theblueprint.ru/career/38903
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  - role: ''
+    published_at: '2023-08-17'
+    source_url: https://theblueprint.ru/career/38423
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: false
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/37295
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/35064
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/33119
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: false
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/32653
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/32639
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/31804
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/28588
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/26883
+    source_page_url: https://theblueprint.ru/career/brand/fashionfactoryschool
+    source_feed_kind: brand
+    source_feed_key: fashionfactoryschool
+    marketing_signal: true
+  blueprint_page_ids: []
+  blueprint_brand_slugs:
+  - fashionfactoryschool
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/fashionfactoryschool
+  blueprint_urls:
+  - https://theblueprint.ru/career/38903
+  - https://theblueprint.ru/career/38423
+  - https://theblueprint.ru/career/37295
+  - https://theblueprint.ru/career/35064
+  - https://theblueprint.ru/career/33119
+  - https://theblueprint.ru/career/32653
+  - https://theblueprint.ru/career/32639
+  - https://theblueprint.ru/career/31804
+  - https://theblueprint.ru/career/28588
+  - https://theblueprint.ru/career/26883
+  marketing_signal: true
+  parser_notes:
+  - Auto-parsed from The Blueprint career feed.
+  - Requires manual segment and nsx_fit review before enrichment.
+- name: Т-Банк
+  entity_type: prospect
+  segment: ''
+  industry: ''
+  source: theblueprint_career
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: IR PR-менеджер
+    published_at: '2026-04-15'
+    source_url: https://theblueprint.ru/career/39255
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: Стажер PR-специалист
+    published_at: '2026-04-10'
+    source_url: https://theblueprint.ru/career/39199
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: Маркетолог
+    published_at: '2026-03-30'
+    source_url: https://theblueprint.ru/career/39180
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: false
+  - role: Старший категорийный маркетолог в направление «Мода»
+    published_at: '2026-04-10'
+    source_url: https://theblueprint.ru/career/38998
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: false
+  - role: Редактор
+    published_at: '2026-03-30'
+    source_url: https://theblueprint.ru/career/38996
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: Дизайнер
+    published_at: '2026-03-30'
+    source_url: https://theblueprint.ru/career/38995
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: false
+  - role: Шеф-редактор
+    published_at: '2026-03-24'
+    source_url: https://theblueprint.ru/career/38924
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: Редактор в редакцию Еды Т—Ж
+    published_at: '2026-02-27'
+    source_url: https://theblueprint.ru/career/38775
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: Редактор блога
+    published_at: '2026-02-02'
+    source_url: https://theblueprint.ru/career/38607
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/38243
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: false
+  blueprint_page_ids: []
+  blueprint_brand_slugs:
+  - tbank
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/tbank
+  blueprint_urls:
+  - https://theblueprint.ru/career/39255
+  - https://theblueprint.ru/career/39199
+  - https://theblueprint.ru/career/39180
+  - https://theblueprint.ru/career/38998
+  - https://theblueprint.ru/career/38996
+  - https://theblueprint.ru/career/38995
+  - https://theblueprint.ru/career/38924
+  - https://theblueprint.ru/career/38775
+  - https://theblueprint.ru/career/38607
+  - https://theblueprint.ru/career/38243
+  marketing_signal: true
+  parser_notes:
+  - Auto-parsed from The Blueprint career feed.
+  - Requires manual segment and nsx_fit review before enrichment.
+- name: Love Republic
+  entity_type: prospect
+  segment: ''
+  industry: ''
+  source: theblueprint_career
+  contacts:
+    emails:
+    - job@melonfashion.com
+    - abolmasovaayu@melonfashion.com
+    - pshenichnikovaayu@melonfashion.com
+    phones: []
+  hiring:
+  - role: Младший дизайнер одежды
+    published_at: '2026-04-15'
+    source_url: https://theblueprint.ru/career/39254
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: false
+  - role: Стилист
+    published_at: '2025-10-27'
+    source_url: https://theblueprint.ru/career/37121
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: false
+  - role: Графический дизайнер
+    published_at: '2025-08-13'
+    source_url: https://theblueprint.ru/career/36117
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: true
+  - role: SMM-менеджер
+    published_at: '2025-03-25'
+    source_url: https://theblueprint.ru/career/34481
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: true
+  - role: ''
+    published_at: '2024-06-05'
+    source_url: https://theblueprint.ru/career/32204
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: true
+  - role: ''
+    published_at: '2024-04-08'
+    source_url: https://theblueprint.ru/career/31255
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: true
+  - role: ''
+    published_at: '2024-03-15'
+    source_url: https://theblueprint.ru/career/31240
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: false
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/30715
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: true
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/30483
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: false
+  - role: ''
+    published_at: ''
+    source_url: https://theblueprint.ru/career/28887
+    source_page_url: https://theblueprint.ru/career/brand/loverepublic
+    source_feed_kind: brand
+    source_feed_key: loverepublic
+    marketing_signal: false
+  blueprint_page_ids: []
+  blueprint_brand_slugs:
+  - loverepublic
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/loverepublic
+  blueprint_urls:
+  - https://theblueprint.ru/career/39254
+  - https://theblueprint.ru/career/37121
+  - https://theblueprint.ru/career/36117
+  - https://theblueprint.ru/career/34481
+  - https://theblueprint.ru/career/32204
+  - https://theblueprint.ru/career/31255
+  - https://theblueprint.ru/career/31240
+  - https://theblueprint.ru/career/30715
+  - https://theblueprint.ru/career/30483
+  - https://theblueprint.ru/career/28887
+  marketing_signal: true
+  parser_notes:
+  - Auto-parsed from The Blueprint career feed.
+  - Requires manual segment and nsx_fit review before enrichment.

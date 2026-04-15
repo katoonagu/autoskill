@@ -1,0 +1,3612 @@
+# The Blueprint career hiring shortlist
+# Auto-generated from full brand archive output.
+# This file keeps only target segments B/C/D/E with fresh marketing/PR/content hiring signals.
+generated_at: '2026-04-15T14:19:40.459900+00:00'
+generated_from: output/company_contacts_enrichment/theblueprint_career_brand_archive.yaml
+selection_rules:
+  include_segments:
+  - B
+  - C
+  - D
+  - E
+  freshness_window_days: 365
+  exclude_media_culture_non_target: true
+  require_fresh_marketing_pr_content_roles: true
+summary:
+  archive_company_count: 2000
+  selected_company_count: 81
+  segment_counts:
+    E: 9
+    D: 3
+    B: 45
+    C: 24
+  excluded_counts:
+    non_target_patterns: 507
+    no_fresh_relevant_roles: 111
+    outside_target_segments: 1295
+shortlist_top20:
+- «Кинопоиск»
+- Prime Ride
+- Jenek
+- Miele
+- F | ABLE
+- Nikasport
+- Sanchy
+- vesnaskoro
+- Бани Малевича
+- Omoikiri
+- Cois
+- Pritch
+- R4S
+- Imakebags
+- Pitkina
+- Tondeo
+- VASSA&Co
+- NAOS
+- SENECA
+- ABC Coffee Roasters
+companies:
+- name: «Кинопоиск»
+  aliases:
+  - «Кинопоиск»
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: medium
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - kinopoisk
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/kinopoisk
+  blueprint_urls:
+  - https://theblueprint.ru/career/38654
+  - https://theblueprint.ru/career/37868
+  - https://theblueprint.ru/career/36565
+  - https://theblueprint.ru/career/36030
+  - https://theblueprint.ru/career/35002
+  - https://theblueprint.ru/career/34721
+  - https://theblueprint.ru/career/33219
+  - https://theblueprint.ru/career/33007
+  - https://theblueprint.ru/career/31506
+  - https://theblueprint.ru/career/31089
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: Аналитик контента
+    published_at: '2025-05-12'
+    source_url: https://theblueprint.ru/career/36030
+    source_page_url: https://theblueprint.ru/career/brand/kinopoisk
+    source_feed_kind: brand
+    source_feed_key: kinopoisk
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Аналитик контента.'
+  nsx_fit: 2
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Аналитик контента.'
+- name: Prime Ride
+  aliases:
+  - Prime Ride
+  entity_type: prospect
+  segment: D
+  sector: premium car service
+  priority: low
+  industry: premium car service
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - prime-ride
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/prime-ride
+  blueprint_urls:
+  - https://theblueprint.ru/career/39136
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: PR & Marketing Director (новый)
+    hired_person: Анна Зайцева (exp. Volga Dream)
+  marketing_signal: true
+  signal_reason: ''
+  nsx_fit: 2
+  note: HoReCa brand with current marketing/content hiring signal.
+  angle: Premium транспорт — клиент с бюджетом. Новый PR-директор = warm cold-pitch moment.
+  entry_route: Поиск Анны Зайцевой в Telegram + по упоминанию Volga Dream в vc.ru/Коммерсант.
+- name: Jenek
+  aliases:
+  - Jenek
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - jenek
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/jenek
+  blueprint_urls:
+  - https://theblueprint.ru/career/35676
+  contacts:
+    emails:
+    - artskillevgenia@gmail.com
+    phones: []
+  hiring:
+  - role: SMM-редактор с функционалом контент-мейкера
+    published_at: '2025-07-08'
+    source_url: https://theblueprint.ru/career/35676
+    source_page_url: https://theblueprint.ru/career/brand/jenek
+    source_feed_kind: brand
+    source_feed_key: jenek
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-редактор с функционалом контент-мейкера.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-редактор
+    с функционалом контент-мейкера.'
+- name: Miele
+  aliases:
+  - Miele
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - miele
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/miele
+  blueprint_urls:
+  - https://theblueprint.ru/career/35646
+  contacts:
+    emails:
+    - info@russianmieleclub.ru
+    phones: []
+  hiring:
+  - role: PR-менеджер
+    published_at: '2025-07-07'
+    source_url: https://theblueprint.ru/career/35646
+    source_page_url: https://theblueprint.ru/career/brand/miele
+    source_feed_kind: brand
+    source_feed_key: miele
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: PR-менеджер.'
+- name: F | ABLE
+  aliases:
+  - F | ABLE
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - fable
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/fable
+  blueprint_urls:
+  - https://theblueprint.ru/career/35614
+  contacts:
+    emails:
+    - milla.hr@yandex.ru
+    phones: []
+  hiring:
+  - role: Менеджер по маркетинговым коммуникациям
+    published_at: '2025-07-02'
+    source_url: https://theblueprint.ru/career/35614
+    source_page_url: https://theblueprint.ru/career/brand/fable
+    source_feed_kind: brand
+    source_feed_key: fable
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по маркетинговым коммуникациям.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Менеджер по
+    маркетинговым коммуникациям.'
+- name: Nikasport
+  aliases:
+  - Nikasport
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - nikasport
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/nikasport
+  blueprint_urls:
+  - https://theblueprint.ru/career/35487
+  contacts:
+    emails:
+    - hr@nikasport.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-06-23'
+    source_url: https://theblueprint.ru/career/35487
+    source_page_url: https://theblueprint.ru/career/brand/nikasport
+    source_feed_kind: brand
+    source_feed_key: nikasport
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Sanchy
+  aliases:
+  - Sanchy
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - sanchy
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/sanchy
+  blueprint_urls:
+  - https://theblueprint.ru/career/35418
+  - https://theblueprint.ru/career/35417
+  - https://theblueprint.ru/career/29961
+  contacts:
+    emails:
+    - lalysheva@sanchy.ru
+    - makarova@sanchy.ru
+    phones: []
+  hiring:
+  - role: PR-менеджер
+    published_at: '2025-06-18'
+    source_url: https://theblueprint.ru/career/35418
+    source_page_url: https://theblueprint.ru/career/brand/sanchy
+    source_feed_kind: brand
+    source_feed_key: sanchy
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: PR-менеджер.'
+- name: vesnaskoro
+  aliases:
+  - vesnaskoro
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - vesnaskoro
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/vesnaskoro
+  blueprint_urls:
+  - https://theblueprint.ru/career/36209
+  - https://theblueprint.ru/career/36089
+  - https://theblueprint.ru/career/35409
+  - https://theblueprint.ru/career/32634
+  - https://theblueprint.ru/career/25333
+  contacts:
+    emails:
+    - info@vesnaskoro.com
+    phones: []
+  hiring:
+  - role: PR-специалист
+    published_at: '2025-06-17'
+    source_url: https://theblueprint.ru/career/36209
+    source_page_url: https://theblueprint.ru/career/brand/vesnaskoro
+    source_feed_kind: brand
+    source_feed_key: vesnaskoro
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-специалист.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: PR-специалист.'
+- name: Бани Малевича
+  aliases:
+  - Бани Малевича
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - banimalevicha
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/banimalevicha
+  blueprint_urls:
+  - https://theblueprint.ru/career/35135
+  contacts:
+    emails:
+    - info@banimalevich.ru
+    phones: []
+  hiring:
+  - role: Маркетолог
+    published_at: '2025-05-23'
+    source_url: https://theblueprint.ru/career/35135
+    source_page_url: https://theblueprint.ru/career/brand/banimalevicha
+    source_feed_kind: brand
+    source_feed_key: banimalevicha
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Маркетолог.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Маркетолог.'
+- name: Omoikiri
+  aliases:
+  - Omoikiri
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - omoikiri
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/omoikiri
+  blueprint_urls:
+  - https://theblueprint.ru/career/35068
+  contacts:
+    emails:
+    - a.dyadechko@omoikiri.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-05-16'
+    source_url: https://theblueprint.ru/career/35068
+    source_page_url: https://theblueprint.ru/career/brand/omoikiri
+    source_feed_kind: brand
+    source_feed_key: omoikiri
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Cois
+  aliases:
+  - Cois
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - cois
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/cois
+  blueprint_urls:
+  - https://theblueprint.ru/career/37873
+  - https://theblueprint.ru/career/34924
+  - https://theblueprint.ru/career/34406
+  - https://theblueprint.ru/career/34311
+  contacts:
+    emails:
+    - brand.director@cois.co
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-05-07'
+    source_url: https://theblueprint.ru/career/37873
+    source_page_url: https://theblueprint.ru/career/brand/cois
+    source_feed_kind: brand
+    source_feed_key: cois
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Pritch
+  aliases:
+  - Pritch
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - pritch
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/pritch
+  blueprint_urls:
+  - https://theblueprint.ru/career/34734
+  contacts:
+    emails:
+    - irina@pritchlondon.com
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-04-21'
+    source_url: https://theblueprint.ru/career/34734
+    source_page_url: https://theblueprint.ru/career/brand/pritch
+    source_feed_kind: brand
+    source_feed_key: pritch
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: R4S
+  aliases:
+  - R4S
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - r4s
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/r4s
+  blueprint_urls:
+  - https://theblueprint.ru/career/34736
+  contacts:
+    emails:
+    - hr@r4s.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-04-16'
+    source_url: https://theblueprint.ru/career/34736
+    source_page_url: https://theblueprint.ru/career/brand/r4s
+    source_feed_kind: brand
+    source_feed_key: r4s
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Imakebags
+  aliases:
+  - Imakebags
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - imakebags
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/imakebags
+  blueprint_urls:
+  - https://theblueprint.ru/career/37500
+  contacts:
+    emails:
+    - info@imakebags.com
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-11-26'
+    source_url: https://theblueprint.ru/career/37500
+    source_page_url: https://theblueprint.ru/career/brand/imakebags
+    source_feed_kind: brand
+    source_feed_key: imakebags
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Pitkina
+  aliases:
+  - Pitkina
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - pitkina
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/pitkina
+  blueprint_urls:
+  - https://theblueprint.ru/career/37780
+  - https://theblueprint.ru/career/37772
+  - https://theblueprint.ru/career/37662
+  - https://theblueprint.ru/career/37275
+  - https://theblueprint.ru/career/37237
+  - https://theblueprint.ru/career/31511
+  - https://theblueprint.ru/career/31477
+  contacts:
+    emails:
+    - ceo@pitkina.ru
+    - smm@pitkina.ru
+    - hr@pitkina.ru
+    - pitkina.hr@gmail.com
+    phones: []
+  hiring:
+  - role: PR-менеджер
+    published_at: '2025-11-07'
+    source_url: https://theblueprint.ru/career/37662
+    source_page_url: https://theblueprint.ru/career/brand/pitkina
+    source_feed_kind: brand
+    source_feed_key: pitkina
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: PR-менеджер.'
+- name: Tondeo
+  aliases:
+  - Tondeo
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - tondeo
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/tondeo
+  blueprint_urls:
+  - https://theblueprint.ru/career/37047
+  contacts:
+    emails:
+    - e.zheldubovskaya@davines.ru
+    phones: []
+  hiring:
+  - role: Бренд-менеджер
+    published_at: '2025-10-21'
+    source_url: https://theblueprint.ru/career/37047
+    source_page_url: https://theblueprint.ru/career/brand/tondeo
+    source_feed_kind: brand
+    source_feed_key: tondeo
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Бренд-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Бренд-менеджер.'
+- name: VASSA&Co
+  aliases:
+  - VASSA&Co
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - vassaco
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/vassaco
+  blueprint_urls:
+  - https://theblueprint.ru/career/36951
+  - https://theblueprint.ru/career/29201
+  contacts:
+    emails:
+    - smm@vassatrend.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-10-14'
+    source_url: https://theblueprint.ru/career/36951
+    source_page_url: https://theblueprint.ru/career/brand/vassaco
+    source_feed_kind: brand
+    source_feed_key: vassaco
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: NAOS
+  aliases:
+  - NAOS
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - naos
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/naos
+  blueprint_urls:
+  - https://theblueprint.ru/career/36410
+  - https://theblueprint.ru/career/31885
+  - https://theblueprint.ru/career/29725
+  contacts:
+    emails:
+    - hr@ru.naos.com
+    phones: []
+  hiring:
+  - role: Менеджер по PR и работе с лидерами мнений
+    published_at: '2025-09-04'
+    source_url: https://theblueprint.ru/career/36410
+    source_page_url: https://theblueprint.ru/career/brand/naos
+    source_feed_kind: brand
+    source_feed_key: naos
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по PR и работе с лидерами мнений.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Менеджер по
+    PR и работе с лидерами мнений.'
+- name: SENECA
+  aliases:
+  - SENECA
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - seneca
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/seneca
+  blueprint_urls:
+  - https://theblueprint.ru/career/36259
+  contacts:
+    emails:
+    - i.shemyakina@senecapeople.ru
+    phones: []
+  hiring:
+  - role: Бренд-менеджер
+    published_at: '2025-08-26'
+    source_url: https://theblueprint.ru/career/36259
+    source_page_url: https://theblueprint.ru/career/brand/seneca
+    source_feed_kind: brand
+    source_feed_key: seneca
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Бренд-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Бренд-менеджер.'
+- name: ABC Coffee Roasters
+  aliases:
+  - ABC Coffee Roasters
+  entity_type: prospect
+  segment: D
+  sector: horeca / coffee / casual dining
+  priority: medium
+  industry: horeca / coffee / casual dining
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - abccoffeeroasters
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/abccoffeeroasters
+  blueprint_urls:
+  - https://theblueprint.ru/career/37694
+  - https://theblueprint.ru/career/36131
+  - https://theblueprint.ru/career/35741
+  - https://theblueprint.ru/career/35709
+  - https://theblueprint.ru/career/32241
+  contacts:
+    emails:
+    - sofia.g@abc-roasters.com
+    - lizadzhoni@gmail.com
+    phones: []
+  hiring:
+  - role: Бренд-менеджер
+    published_at: '2025-08-14'
+    source_url: https://theblueprint.ru/career/36131
+    source_page_url: https://theblueprint.ru/career/brand/abccoffeeroasters
+    source_feed_kind: brand
+    source_feed_key: abccoffeeroasters
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Бренд-менеджер.'
+  nsx_fit: 2
+  note: 'HoReCa brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Бренд-менеджер.'
+- name: Магнит AdTech
+  aliases:
+  - Магнит AdTech
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: medium
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - magnitadtech
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/magnitadtech
+  blueprint_urls:
+  - https://theblueprint.ru/career/35774
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: Ведущий менеджер по маркетингу
+    published_at: '2025-07-16'
+    source_url: https://theblueprint.ru/career/35774
+    source_page_url: https://theblueprint.ru/career/brand/magnitadtech
+    source_feed_kind: brand
+    source_feed_key: magnitadtech
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Ведущий менеджер по маркетингу.'
+  nsx_fit: 2
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Ведущий менеджер
+    по маркетингу.'
+- name: Sela
+  aliases:
+  - Sela
+  - Бренд sela
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - sela
+  - brendsela
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/sela
+  - https://theblueprint.ru/career/brand/brendsela
+  blueprint_urls:
+  - https://theblueprint.ru/career/35450
+  - https://theblueprint.ru/career/34048
+  - https://theblueprint.ru/career/34027
+  - https://theblueprint.ru/career/33991
+  - https://theblueprint.ru/career/30177
+  - https://theblueprint.ru/career/30148
+  - https://theblueprint.ru/career/27978
+  - https://theblueprint.ru/career/27654
+  contacts:
+    emails:
+    - budanovaaa@melonfashion.com
+    - bobinaea@melonfashion.com
+    phones: []
+  hiring:
+  - role: PR и Influence-менеджер
+    published_at: '2025-06-20'
+    source_url: https://theblueprint.ru/career/35450
+    source_page_url: https://theblueprint.ru/career/brand/sela
+    source_feed_kind: brand
+    source_feed_key: sela
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR и Influence-менеджер.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: PR и Influence-менеджер.'
+- name: BLCV
+  aliases:
+  - BLCV
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - blcv
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/blcv
+  blueprint_urls:
+  - https://theblueprint.ru/career/35447
+  - https://theblueprint.ru/career/35399
+  - https://theblueprint.ru/career/32787
+  - https://theblueprint.ru/career/30811
+  contacts:
+    emails:
+    - marketing@blcv.ru
+    - career@blcv.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-06-19'
+    source_url: https://theblueprint.ru/career/35447
+    source_page_url: https://theblueprint.ru/career/brand/blcv
+    source_feed_kind: brand
+    source_feed_key: blcv
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Bosco di Ciliegi
+  aliases:
+  - Bosco di Ciliegi
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - boscodiciliegi
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/boscodiciliegi
+  blueprint_urls:
+  - https://theblueprint.ru/career/38275
+  - https://theblueprint.ru/career/37494
+  - https://theblueprint.ru/career/36306
+  - https://theblueprint.ru/career/32908
+  - https://theblueprint.ru/career/28638
+  - https://theblueprint.ru/career/25597
+  - https://theblueprint.ru/career/23285
+  - https://theblueprint.ru/career/22954
+  - https://theblueprint.ru/career/22183
+  - https://theblueprint.ru/career/21923
+  contacts:
+    emails:
+    - plugatar@bosco.ru
+    - hr@boscovesna.ru
+    phones:
+    - '20172018'
+  hiring:
+  - role: Менеджер по маркетинговым коммуникациям
+    published_at: '2026-02-04'
+    source_url: https://theblueprint.ru/career/38275
+    source_page_url: https://theblueprint.ru/career/brand/boscodiciliegi
+    source_feed_kind: brand
+    source_feed_key: boscodiciliegi
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по маркетинговым коммуникациям.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Менеджер по
+    маркетинговым коммуникациям.'
+- name: Way of living/WoL
+  aliases:
+  - Way of living/WoL
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - wayoflivingwol
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/wayoflivingwol
+  blueprint_urls:
+  - https://theblueprint.ru/career/34529
+  - https://theblueprint.ru/career/34395
+  - https://theblueprint.ru/career/34394
+  - https://theblueprint.ru/career/34308
+  - https://theblueprint.ru/career/33879
+  - https://theblueprint.ru/career/33920
+  contacts:
+    emails:
+    - hr@wolmagazine.com
+    phones: []
+  hiring:
+  - role: Бренд-менеджер
+    published_at: '2026-01-30'
+    source_url: https://theblueprint.ru/career/34308
+    source_page_url: https://theblueprint.ru/career/brand/wayoflivingwol
+    source_feed_kind: brand
+    source_feed_key: wayoflivingwol
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Бренд-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Бренд-менеджер.'
+- name: WoL
+  aliases:
+  - WoL
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - wayoflivingwol
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/wayoflivingwol
+  blueprint_urls:
+  - https://theblueprint.ru/career/38220
+  - https://theblueprint.ru/career/38221
+  - https://theblueprint.ru/career/37099
+  - https://theblueprint.ru/career/37718
+  contacts:
+    emails:
+    - hr@wolmagazine.com
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2026-01-14'
+    source_url: https://theblueprint.ru/career/38220
+    source_page_url: https://theblueprint.ru/career/brand/wayoflivingwol
+    source_feed_kind: brand
+    source_feed_key: wayoflivingwol
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: «Самокат»
+  aliases:
+  - «Самокат»
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - samokat
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/samokat
+  blueprint_urls:
+  - https://theblueprint.ru/career/37939
+  - https://theblueprint.ru/career/37659
+  - https://theblueprint.ru/career/37145
+  - https://theblueprint.ru/career/35824
+  - https://theblueprint.ru/career/31314
+  - https://theblueprint.ru/career/28574
+  - https://theblueprint.ru/career/28486
+  - https://theblueprint.ru/career/28460
+  - https://theblueprint.ru/career/28395
+  - https://theblueprint.ru/career/27837
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: Старший SMM-менеджер
+    published_at: '2025-12-09'
+    source_url: https://theblueprint.ru/career/37659
+    source_page_url: https://theblueprint.ru/career/brand/samokat
+    source_feed_kind: brand
+    source_feed_key: samokat
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Старший SMM-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Старший SMM-менеджер.'
+- name: Kits
+  aliases:
+  - Kits
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - kits
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/kits
+  blueprint_urls:
+  - https://theblueprint.ru/career/37213
+  contacts:
+    emails: []
+    phones:
+    - '+79151712010'
+  hiring:
+  - role: Руководитель SMM-отдела
+    published_at: '2025-11-01'
+    source_url: https://theblueprint.ru/career/37213
+    source_page_url: https://theblueprint.ru/career/brand/kits
+    source_feed_kind: brand
+    source_feed_key: kits
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель SMM-отдела.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель
+    SMM-отдела.'
+- name: Книжный сервис «Кион Строки»
+  aliases:
+  - Книжный сервис «Кион Строки»
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: medium
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - knizhnyjserviskionstroki
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/knizhnyjserviskionstroki
+  blueprint_urls:
+  - https://theblueprint.ru/career/37778
+  contacts:
+    emails:
+    - lvshuksh@mts.ru
+    phones: []
+  hiring:
+  - role: PR-менеджер
+    published_at: '2025-12-17'
+    source_url: https://theblueprint.ru/career/37778
+    source_page_url: https://theblueprint.ru/career/brand/knizhnyjserviskionstroki
+    source_feed_kind: brand
+    source_feed_key: knizhnyjserviskionstroki
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-менеджер.'
+  nsx_fit: 2
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: PR-менеджер.'
+- name: RMixed
+  aliases:
+  - RMixed
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - fashionkompaniyarmixed
+  - rmixed
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/fashionkompaniyarmixed
+  - https://theblueprint.ru/career/brand/rmixed
+  blueprint_urls:
+  - https://theblueprint.ru/career/27980
+  - https://theblueprint.ru/career/37365
+  - https://theblueprint.ru/career/30079
+  contacts:
+    emails:
+    - victoriaka@rmixed.ru
+    - olgagav@rmixed.ru
+    phones: []
+  hiring:
+  - role: Менеджер по маркетинговым коммуникациям
+    published_at: '2025-11-14'
+    source_url: https://theblueprint.ru/career/37365
+    source_page_url: https://theblueprint.ru/career/brand/rmixed
+    source_feed_kind: brand
+    source_feed_key: rmixed
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по маркетинговым коммуникациям.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Менеджер по маркетинговым коммуникациям.'
+- name: «Сбер»
+  aliases:
+  - «Сбер»
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: medium
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - sber
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/sber
+  blueprint_urls:
+  - https://theblueprint.ru/career/38928
+  - https://theblueprint.ru/career/38198
+  - https://theblueprint.ru/career/37593
+  - https://theblueprint.ru/career/37416
+  - https://theblueprint.ru/career/36986
+  - https://theblueprint.ru/career/36650
+  - https://theblueprint.ru/career/36021
+  - https://theblueprint.ru/career/35089
+  - https://theblueprint.ru/career/34714
+  - https://theblueprint.ru/career/33570
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: Руководитель PR-направления
+    published_at: '2025-10-16'
+    source_url: https://theblueprint.ru/career/36986
+    source_page_url: https://theblueprint.ru/career/brand/sber
+    source_feed_kind: brand
+    source_feed_key: sber
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель PR-направления.'
+  nsx_fit: 2
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель PR-направления.'
+- name: Loom by Rodina
+  aliases:
+  - Loom by Rodina
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - loombyrodina
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/loombyrodina
+  blueprint_urls:
+  - https://theblueprint.ru/career/36288
+  - https://theblueprint.ru/career/35243
+  - https://theblueprint.ru/career/35918
+  - https://theblueprint.ru/career/35244
+  contacts:
+    emails:
+    - info@loom.moscow
+    - svetlana@loom.moscow
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-08-27'
+    source_url: https://theblueprint.ru/career/35243
+    source_page_url: https://theblueprint.ru/career/brand/loombyrodina
+    source_feed_kind: brand
+    source_feed_key: loombyrodina
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Volga Dream
+  aliases:
+  - Volga Dream
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - volgadream
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/volgadream
+  blueprint_urls:
+  - https://theblueprint.ru/career/38615
+  - https://theblueprint.ru/career/35545
+  - https://theblueprint.ru/career/35047
+  - https://theblueprint.ru/career/34606
+  - https://theblueprint.ru/career/34568
+  - https://theblueprint.ru/career/30652
+  contacts:
+    emails:
+    - a.surnina@volgadream.com
+    - d@volgadream.com
+    phones: []
+  hiring:
+  - role: Менеджер по маркетингу и коммуникациям
+    published_at: '2026-02-27'
+    source_url: https://theblueprint.ru/career/38615
+    source_page_url: https://theblueprint.ru/career/brand/volgadream
+    source_feed_kind: brand
+    source_feed_key: volgadream
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по маркетингу и коммуникациям.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Менеджер по
+    маркетингу и коммуникациям.'
+- name: Parure Atelier
+  aliases:
+  - Parure Atelier
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - parureatelier
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/parureatelier
+  blueprint_urls:
+  - https://theblueprint.ru/career/36577
+  - https://theblueprint.ru/career/34015
+  - https://theblueprint.ru/career/25664
+  contacts:
+    emails:
+    - hr@parure-at.ru
+    phones: []
+  hiring:
+  - role: Контент-продюсер
+    published_at: '2025-09-16'
+    source_url: https://theblueprint.ru/career/36577
+    source_page_url: https://theblueprint.ru/career/brand/parureatelier
+    source_feed_kind: brand
+    source_feed_key: parureatelier
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Контент-продюсер. Creative content signals: Контент-продюсер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Контент-продюсер.
+    Creative content signals: Контент-продюсер.'
+- name: Poison Drop
+  aliases:
+  - Poison Drop
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - poisondrop
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/poisondrop
+  blueprint_urls:
+  - https://theblueprint.ru/career/38506
+  - https://theblueprint.ru/career/38012
+  - https://theblueprint.ru/career/37414
+  - https://theblueprint.ru/career/36261
+  - https://theblueprint.ru/career/35057
+  - https://theblueprint.ru/career/34883
+  - https://theblueprint.ru/career/34631
+  - https://theblueprint.ru/career/34244
+  - https://theblueprint.ru/career/34235
+  - https://theblueprint.ru/career/33289
+  contacts:
+    emails:
+    - avita@poisondrop.ru
+    - isaeva@poisondrop.ru
+    - rechkalova@poisondrop.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2026-01-14'
+    source_url: https://theblueprint.ru/career/38012
+    source_page_url: https://theblueprint.ru/career/brand/poisondrop
+    source_feed_kind: brand
+    source_feed_key: poisondrop
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Rendez-Vous
+  aliases:
+  - Rendez-Vous
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - rendezvous
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/rendezvous
+  blueprint_urls:
+  - https://theblueprint.ru/career/39012
+  - https://theblueprint.ru/career/38678
+  - https://theblueprint.ru/career/38067
+  - https://theblueprint.ru/career/37941
+  - https://theblueprint.ru/career/32513
+  contacts:
+    emails: []
+    phones:
+    - '89055603438'
+  hiring:
+  - role: Старший PR-менеджер
+    published_at: '2026-03-04'
+    source_url: https://theblueprint.ru/career/39012
+    source_page_url: https://theblueprint.ru/career/brand/rendezvous
+    source_feed_kind: brand
+    source_feed_key: rendezvous
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Старший PR-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Старший PR-менеджер.'
+- name: Belle YOU
+  aliases:
+  - Belle YOU
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - belleyou
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/belleyou
+  blueprint_urls:
+  - https://theblueprint.ru/career/39109
+  - https://theblueprint.ru/career/37381
+  - https://theblueprint.ru/career/35272
+  - https://theblueprint.ru/career/34738
+  - https://theblueprint.ru/career/34537
+  - https://theblueprint.ru/career/34464
+  - https://theblueprint.ru/career/34463
+  - https://theblueprint.ru/career/34378
+  - https://theblueprint.ru/career/34291
+  - https://theblueprint.ru/career/33940
+  contacts:
+    emails:
+    - e.podshivalova@belleyou.com
+    - a.gubanova@belleyou.com
+    - k.lysenko@belleyou.com
+    - d.strokov@belleyou.com
+    phones: []
+  hiring:
+  - role: PR&Influence менеджер
+    published_at: '2026-04-06'
+    source_url: https://theblueprint.ru/career/39109
+    source_page_url: https://theblueprint.ru/career/brand/belleyou
+    source_feed_kind: brand
+    source_feed_key: belleyou
+    marketing_signal: true
+  - role: Стажер в SMM-отдел
+    published_at: '2025-11-17'
+    source_url: https://theblueprint.ru/career/37381
+    source_page_url: https://theblueprint.ru/career/brand/belleyou
+    source_feed_kind: brand
+    source_feed_key: belleyou
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR&Influence менеджер, Стажер в SMM-отдел.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: PR&Influence менеджер, Стажер
+    в SMM-отдел.'
+- name: Aldo Coppola
+  aliases:
+  - Aldo Coppola
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - aldocoppola
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/aldocoppola
+  blueprint_urls:
+  - https://theblueprint.ru/career/38807
+  - https://theblueprint.ru/career/34809
+  - https://theblueprint.ru/career/34449
+  - https://theblueprint.ru/career/31898
+  - https://theblueprint.ru/career/27553
+  contacts:
+    emails:
+    - hr@aldocoppola.ru
+    - a.motylkova@aldocoppola.ru
+    phones: []
+  hiring:
+  - role: Менеджер по связям с общественностью и коммуникациям
+    published_at: '2026-03-16'
+    source_url: https://theblueprint.ru/career/38807
+    source_page_url: https://theblueprint.ru/career/brand/aldocoppola
+    source_feed_kind: brand
+    source_feed_key: aldocoppola
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по связям с общественностью и коммуникациям.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Менеджер по связям с общественностью
+    и коммуникациям.'
+- name: Studio 29
+  aliases:
+  - Studio 29
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - studio29
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/studio29
+  blueprint_urls:
+  - https://theblueprint.ru/career/38050
+  - https://theblueprint.ru/career/36906
+  - https://theblueprint.ru/career/33083
+  - https://theblueprint.ru/career/31471
+  - https://theblueprint.ru/career/31054
+  - https://theblueprint.ru/career/29373
+  - https://theblueprint.ru/career/28739
+  - https://theblueprint.ru/career/28307
+  - https://theblueprint.ru/career/27935
+  - https://theblueprint.ru/career/27884
+  contacts:
+    emails:
+    - hrgeneralist@studio-29.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2026-02-25'
+    source_url: https://theblueprint.ru/career/38050
+    source_page_url: https://theblueprint.ru/career/brand/studio29
+    source_feed_kind: brand
+    source_feed_key: studio29
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: Ekonika
+  aliases:
+  - Ekonika
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - ekonika
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/ekonika
+  blueprint_urls:
+  - https://theblueprint.ru/career/38492
+  - https://theblueprint.ru/career/38491
+  - https://theblueprint.ru/career/38093
+  - https://theblueprint.ru/career/37840
+  - https://theblueprint.ru/career/34832
+  - https://theblueprint.ru/career/36355
+  - https://theblueprint.ru/career/33764
+  - https://theblueprint.ru/career/33226
+  - https://theblueprint.ru/career/28844
+  - https://theblueprint.ru/career/28253
+  contacts:
+    emails:
+    - hr@ekonika.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2026-02-19'
+    source_url: https://theblueprint.ru/career/38492
+    source_page_url: https://theblueprint.ru/career/brand/ekonika
+    source_feed_kind: brand
+    source_feed_key: ekonika
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+- name: MIUZ Diamonds
+  aliases:
+  - MIUZ Diamonds
+  entity_type: prospect
+  segment: C
+  sector: jewelry / accessories
+  priority: medium
+  industry: jewelry / accessories
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - miuzdiamonds
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/miuzdiamonds
+  blueprint_urls:
+  - https://theblueprint.ru/career/35752
+  - https://theblueprint.ru/career/36378
+  - https://theblueprint.ru/career/29890
+  - https://theblueprint.ru/career/29859
+  - https://theblueprint.ru/career/27833
+  contacts:
+    emails:
+    - o.trunyan@miuz.ru
+    phones: []
+  hiring:
+  - role: Менеджер по маркетинговым коммуникациям и PR
+    published_at: '2025-09-23'
+    source_url: https://theblueprint.ru/career/35752
+    source_page_url: https://theblueprint.ru/career/brand/miuzdiamonds
+    source_feed_kind: brand
+    source_feed_key: miuzdiamonds
+    marketing_signal: true
+  - role: Менеджер по продвижению бренда в социальных сетях
+    published_at: '2025-07-14'
+    source_url: https://theblueprint.ru/career/36378
+    source_page_url: https://theblueprint.ru/career/brand/miuzdiamonds
+    source_feed_kind: brand
+    source_feed_key: miuzdiamonds
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по маркетинговым коммуникациям и PR, Менеджер по продвижению бренда
+    в социальных сетях.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Менеджер по маркетинговым коммуникациям
+    и PR, Менеджер по продвижению бренда в социальных сетях.'
+- name: Monochrome
+  aliases:
+  - Monochrome
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - monochrome
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/monochrome
+  blueprint_urls:
+  - https://theblueprint.ru/career/39099
+  - https://theblueprint.ru/career/38199
+  - https://theblueprint.ru/career/38200
+  - https://theblueprint.ru/career/38202
+  - https://theblueprint.ru/career/34201
+  - https://theblueprint.ru/career/33602
+  - https://theblueprint.ru/career/33359
+  contacts:
+    emails:
+    - hr@monochrome.ru
+    phones: []
+  hiring:
+  - role: Контент-креатор
+    published_at: '2026-02-02'
+    source_url: https://theblueprint.ru/career/38199
+    source_page_url: https://theblueprint.ru/career/brand/monochrome
+    source_feed_kind: brand
+    source_feed_key: monochrome
+    marketing_signal: true
+  - role: SMM-менеджер
+    published_at: '2026-01-30'
+    source_url: https://theblueprint.ru/career/38200
+    source_page_url: https://theblueprint.ru/career/brand/monochrome
+    source_feed_kind: brand
+    source_feed_key: monochrome
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Контент-креатор, SMM-менеджер. Creative content signals: Контент-креатор.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Контент-креатор, SMM-менеджер.
+    Creative content signals: Контент-креатор.'
+- name: Авиасейлс
+  aliases:
+  - Авиасейлс
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - aviasejls
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/aviasejls
+  blueprint_urls:
+  - https://theblueprint.ru/career/39183
+  - https://theblueprint.ru/career/38865
+  - https://theblueprint.ru/career/38677
+  - https://theblueprint.ru/career/38470
+  - https://theblueprint.ru/career/38161
+  - https://theblueprint.ru/career/37455
+  - https://theblueprint.ru/career/37744
+  - https://theblueprint.ru/career/37432
+  - https://theblueprint.ru/career/37371
+  - https://theblueprint.ru/career/37348
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2026-03-19'
+    source_url: https://theblueprint.ru/career/38865
+    source_page_url: https://theblueprint.ru/career/brand/aviasejls
+    source_feed_kind: brand
+    source_feed_key: aviasejls
+    marketing_signal: true
+  - role: Креативный маркетинг-менеджер
+    published_at: '2026-01-27'
+    source_url: https://theblueprint.ru/career/38161
+    source_page_url: https://theblueprint.ru/career/brand/aviasejls
+    source_feed_kind: brand
+    source_feed_key: aviasejls
+    marketing_signal: false
+  - role: Контент-редактор
+    published_at: '2025-12-15'
+    source_url: https://theblueprint.ru/career/37744
+    source_page_url: https://theblueprint.ru/career/brand/aviasejls
+    source_feed_kind: brand
+    source_feed_key: aviasejls
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер, Креативный маркетинг-менеджер, Контент-редактор. Creative
+    content signals: Креативный маркетинг-менеджер.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер,
+    Креативный маркетинг-менеджер, Контент-редактор. Creative content signals: Креативный маркетинг-менеджер.'
+- name: Linda de La
+  aliases:
+  - Linda de La
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: medium
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - lindadela
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/lindadela
+  blueprint_urls:
+  - https://theblueprint.ru/career/38244
+  - https://theblueprint.ru/career/38671
+  - https://theblueprint.ru/career/38176
+  - https://theblueprint.ru/career/37735
+  - https://theblueprint.ru/career/37517
+  - https://theblueprint.ru/career/37312
+  contacts:
+    emails:
+    - women@linda-de-la.com
+    - lindaism@yandex.ru
+    phones: []
+  hiring:
+  - role: Маркетолог
+    published_at: '2026-04-07'
+    source_url: https://theblueprint.ru/career/38244
+    source_page_url: https://theblueprint.ru/career/brand/lindadela
+    source_feed_kind: brand
+    source_feed_key: lindadela
+    marketing_signal: false
+  - role: Маркетолог
+    published_at: '2026-03-13'
+    source_url: https://theblueprint.ru/career/38671
+    source_page_url: https://theblueprint.ru/career/brand/lindadela
+    source_feed_kind: brand
+    source_feed_key: lindadela
+    marketing_signal: false
+  - role: PR-специалист
+    published_at: '2026-01-28'
+    source_url: https://theblueprint.ru/career/38176
+    source_page_url: https://theblueprint.ru/career/brand/lindadela
+    source_feed_kind: brand
+    source_feed_key: lindadela
+    marketing_signal: true
+  - role: PR-специалист
+    published_at: '2025-12-16'
+    source_url: https://theblueprint.ru/career/37735
+    source_page_url: https://theblueprint.ru/career/brand/lindadela
+    source_feed_kind: brand
+    source_feed_key: lindadela
+    marketing_signal: true
+  - role: PR-специалист
+    published_at: '2025-11-28'
+    source_url: https://theblueprint.ru/career/37517
+    source_page_url: https://theblueprint.ru/career/brand/lindadela
+    source_feed_kind: brand
+    source_feed_key: lindadela
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Маркетолог, Маркетолог, PR-специалист.'
+  nsx_fit: 2
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Маркетолог,
+    Маркетолог, PR-специалист.'
+- name: SHIKcosmetics, Natalya Shik
+  aliases:
+  - SHIKcosmetics, Natalya Shik
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - shikcosmeticsnatalyashik
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/shikcosmeticsnatalyashik
+  blueprint_urls:
+  - https://theblueprint.ru/career/38435
+  - https://theblueprint.ru/career/38032
+  - https://theblueprint.ru/career/37504
+  - https://theblueprint.ru/career/36610
+  - https://theblueprint.ru/career/36395
+  - https://theblueprint.ru/career/36396
+  - https://theblueprint.ru/career/35963
+  - https://theblueprint.ru/career/35707
+  - https://theblueprint.ru/career/34847
+  - https://theblueprint.ru/career/34447
+  contacts:
+    emails:
+    - suhareva.e@shikstore.ru
+    phones: []
+  hiring:
+  - role: SMM-специалист
+    published_at: '2026-01-15'
+    source_url: https://theblueprint.ru/career/38032
+    source_page_url: https://theblueprint.ru/career/brand/shikcosmeticsnatalyashik
+    source_feed_kind: brand
+    source_feed_key: shikcosmeticsnatalyashik
+    marketing_signal: true
+  - role: SMM-специалист
+    published_at: '2025-09-18'
+    source_url: https://theblueprint.ru/career/36610
+    source_page_url: https://theblueprint.ru/career/brand/shikcosmeticsnatalyashik
+    source_feed_kind: brand
+    source_feed_key: shikcosmeticsnatalyashik
+    marketing_signal: true
+  - role: Influence-менеджер
+    published_at: '2025-09-05'
+    source_url: https://theblueprint.ru/career/36395
+    source_page_url: https://theblueprint.ru/career/brand/shikcosmeticsnatalyashik
+    source_feed_kind: brand
+    source_feed_key: shikcosmeticsnatalyashik
+    marketing_signal: false
+  - role: Контент-мейкер
+    published_at: '2025-09-04'
+    source_url: https://theblueprint.ru/career/36396
+    source_page_url: https://theblueprint.ru/career/brand/shikcosmeticsnatalyashik
+    source_feed_kind: brand
+    source_feed_key: shikcosmeticsnatalyashik
+    marketing_signal: true
+  - role: Digital-маркетолог
+    published_at: '2025-08-04'
+    source_url: https://theblueprint.ru/career/35963
+    source_page_url: https://theblueprint.ru/career/brand/shikcosmeticsnatalyashik
+    source_feed_kind: brand
+    source_feed_key: shikcosmeticsnatalyashik
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-специалист, SMM-специалист, Influence-менеджер.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-специалист, SMM-специалист,
+    Influence-менеджер.'
+- name: ALL WE NEED
+  aliases:
+  - ALL WE NEED
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: medium
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - allweneed
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/allweneed
+  blueprint_urls:
+  - https://theblueprint.ru/career/38848
+  - https://theblueprint.ru/career/37883
+  - https://theblueprint.ru/career/37469
+  - https://theblueprint.ru/career/37435
+  - https://theblueprint.ru/career/37367
+  - https://theblueprint.ru/career/37068
+  - https://theblueprint.ru/career/36373
+  - https://theblueprint.ru/career/32540
+  - https://theblueprint.ru/career/27147
+  contacts:
+    emails:
+    - y.paulkina@allweneed.ru
+    - a.izotova@allweneed.ru
+    - s.zvyagina@allweneed.ru
+    phones:
+    - '+79917016110'
+  hiring:
+  - role: Контент-креатор
+    published_at: '2026-03-18'
+    source_url: https://theblueprint.ru/career/38848
+    source_page_url: https://theblueprint.ru/career/brand/allweneed
+    source_feed_kind: brand
+    source_feed_key: allweneed
+    marketing_signal: true
+  - role: SMM-менеджер
+    published_at: '2025-10-22'
+    source_url: https://theblueprint.ru/career/37883
+    source_page_url: https://theblueprint.ru/career/brand/allweneed
+    source_feed_kind: brand
+    source_feed_key: allweneed
+    marketing_signal: true
+  - role: PR и Influence менеджер
+    published_at: '2025-09-02'
+    source_url: https://theblueprint.ru/career/37469
+    source_page_url: https://theblueprint.ru/career/brand/allweneed
+    source_feed_kind: brand
+    source_feed_key: allweneed
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Контент-креатор, SMM-менеджер, PR и Influence менеджер. Creative content
+    signals: Контент-креатор.'
+  nsx_fit: 2
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Контент-креатор, SMM-менеджер,
+    PR и Influence менеджер. Creative content signals: Контент-креатор.'
+- name: Ushatava
+  aliases:
+  - Ушатава
+  - Ushatava
+  entity_type: prospect
+  segment: C
+  sector: fashion (premium casual)
+  priority: medium
+  industry: fashion (premium casual)
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - ushatava
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/ushatava
+  blueprint_urls:
+  - https://theblueprint.ru/career/39175
+  - https://theblueprint.ru/career/38811
+  - https://theblueprint.ru/career/38795
+  - https://theblueprint.ru/career/37895
+  - https://theblueprint.ru/career/36757
+  - https://theblueprint.ru/career/35868
+  - https://theblueprint.ru/career/35648
+  - https://theblueprint.ru/career/35394
+  - https://theblueprint.ru/career/35097
+  - https://theblueprint.ru/career/34436
+  contacts:
+    hr_landing: hr.ushatava.ru/developing_shoes
+    website: ushatava.ru
+    known_founders:
+    - Анастасия Ушатава
+    - Алёна Ушатава
+    emails: []
+    phones: []
+  hiring:
+  - role: Продукт-менеджер (обувь и аксессуары)
+    signal: expanding shoes/accessories line — capsule launch likely
+    url: https://www.hr.ushatava.ru/developing_shoes
+  - role: Ведущий дизайнер одежды
+    published_at: '2025-12-25'
+    source_url: https://theblueprint.ru/career/38795
+    source_page_url: https://theblueprint.ru/career/brand/ushatava
+    source_feed_kind: brand
+    source_feed_key: ushatava
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: ''
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Creative content signals: Ведущий дизайнер одежды.'
+  angle: Запуск новой категории (обувь) = нужны съёмки product + campaign. Их стиль = минималистичная режиссура, подходит
+    Danil/Georgiy.
+  entry_route: Instagram/Telegram сестёр Ушатавых → питч под обувной капсул.
+- name: Emka
+  aliases:
+  - Emka fashion
+  - Emka
+  - Бренд Emka
+  entity_type: prospect
+  segment: C
+  sector: fashion (womenswear, mass-premium)
+  priority: low
+  industry: fashion (womenswear, mass-premium)
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - emka
+  - brendemka
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/emka
+  - https://theblueprint.ru/career/brand/brendemka
+  blueprint_urls:
+  - https://theblueprint.ru/career/39044
+  - https://theblueprint.ru/career/39035
+  - https://theblueprint.ru/career/36216
+  - https://theblueprint.ru/career/27027
+  - https://theblueprint.ru/career/26214
+  - https://theblueprint.ru/career/27674
+  contacts:
+    website: emka-fashion.ru
+    new_pr_director: Прохор Шаляпин
+    emails:
+    - hrfactory@emkafashion.ru
+    phones: []
+  hiring:
+  - role: PR-менеджер (только что назначен)
+    hired_person: Прохор Шаляпин
+    signal: NEW PR HEAD — classic cold-email moment
+  marketing_signal: true
+  signal_reason: ''
+  nsx_fit: 3
+  note: DTC brand with current content/brand hiring signal.
+  angle: Новый PR-директор будет ставить свою повестку — ему нужен сильный визуал за первые 60 дней. Питч = сезонный имиджевый
+    ролик + 4 вертикала.
+  entry_route: Найти инсту Прохора Шаляпина (публичный человек), DM с поздравлением + кейс Dior/Hugo.
+- name: Befree
+  aliases:
+  - Bfr
+  - Befree
+  entity_type: prospect
+  segment: C
+  sector: fashion retail (mass market, RU leader per РБК rating)
+  priority: high
+  industry: fashion retail (mass market, RU leader per РБК rating)
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - befree
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/befree
+  blueprint_urls:
+  - https://theblueprint.ru/career/39242
+  - https://theblueprint.ru/career/38765
+  - https://theblueprint.ru/career/38585
+  - https://theblueprint.ru/career/33958
+  - https://theblueprint.ru/career/33262
+  - https://theblueprint.ru/career/32518
+  - https://theblueprint.ru/career/32500
+  - https://theblueprint.ru/career/31262
+  - https://theblueprint.ru/career/29369
+  contacts:
+    website: befree.ru
+    parent: Melon Fashion Group
+    emails:
+    - bunkovaar@melonfashion.com
+    - rubinovamzh@melonfashion.com
+    phones: []
+  hiring:
+  - role: Marketing Manager
+    hired_person: Евгений Лагутин
+    signal: NEW MARKETING MANAGER = strongest buy signal
+  - role: Дизайнер по принтам
+    published_at: '2026-04-14'
+    source_url: https://theblueprint.ru/career/39242
+    source_page_url: https://theblueprint.ru/career/brand/befree
+    source_feed_kind: brand
+    source_feed_key: befree
+    marketing_signal: false
+  - role: Стилист
+    published_at: '2026-02-26'
+    source_url: https://theblueprint.ru/career/38765
+    source_page_url: https://theblueprint.ru/career/brand/befree
+    source_feed_kind: brand
+    source_feed_key: befree
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: ''
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Creative content signals: Дизайнер по принтам, Стилист.'
+  angle: Лагутин — известный в индустрии, придёт с пулом агентств. Но он ценит 'что-то новое'. Питч = 'освежим ваш vertical
+    content, покажем альтернативу текущему production'.
+  entry_route: vc.ru/cossa.ru по 'Евгений Лагутин' → найти предыдущие интервью → персональный pitch.
+- name: Scandale Manière
+  aliases:
+  - Scandale Manière
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - scandalemanire
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/scandalemanire
+  blueprint_urls:
+  - https://theblueprint.ru/career/35919
+  - https://theblueprint.ru/career/33156
+  contacts:
+    emails:
+    - hr@scandalemaniere.com
+    phones: []
+  hiring:
+  - role: Руководитель SMM-направления
+    published_at: '2025-07-28'
+    source_url: https://theblueprint.ru/career/35919
+    source_page_url: https://theblueprint.ru/career/brand/scandalemanire
+    source_feed_kind: brand
+    source_feed_key: scandalemanire
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель SMM-направления.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель
+    SMM-направления.'
+- name: Botrois
+  aliases:
+  - Botrois
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - botrois
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/botrois
+  blueprint_urls:
+  - https://theblueprint.ru/career/35546
+  - https://theblueprint.ru/career/35502
+  - https://theblueprint.ru/career/35101
+  - https://theblueprint.ru/career/34117
+  - https://theblueprint.ru/career/34116
+  - https://theblueprint.ru/career/26137
+  contacts:
+    emails:
+    - ryazantseva@botrois.com
+    - pr@botrois.com
+    - info@botrois.com
+    phones: []
+  hiring:
+  - role: Директор по маркетингу
+    published_at: '2025-06-30'
+    source_url: https://theblueprint.ru/career/35546
+    source_page_url: https://theblueprint.ru/career/brand/botrois
+    source_feed_kind: brand
+    source_feed_key: botrois
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Директор по маркетингу.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Директор по
+    маркетингу.'
+- name: The Ayris
+  aliases:
+  - The Ayris
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - theayris
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/theayris
+  blueprint_urls:
+  - https://theblueprint.ru/career/34865
+  - https://theblueprint.ru/career/34270
+  contacts:
+    emails:
+    - hr@beautysleep.ru
+    - belyaeva.e@beautysleep.ru
+    phones: []
+  hiring:
+  - role: Бренд-директор
+    published_at: '2025-04-24'
+    source_url: https://theblueprint.ru/career/34865
+    source_page_url: https://theblueprint.ru/career/brand/theayris
+    source_feed_kind: brand
+    source_feed_key: theayris
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Бренд-директор.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Бренд-директор.'
+- name: Blar
+  aliases:
+  - Blar
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - blar
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/blar
+  blueprint_urls:
+  - https://theblueprint.ru/career/37674
+  - https://theblueprint.ru/career/37324
+  - https://theblueprint.ru/career/33520
+  - https://theblueprint.ru/career/33445
+  contacts:
+    emails:
+    - info@blarproject.com
+    phones: []
+  hiring:
+  - role: Директор по маркетингу
+    published_at: '2025-11-12'
+    source_url: https://theblueprint.ru/career/37674
+    source_page_url: https://theblueprint.ru/career/brand/blar
+    source_feed_kind: brand
+    source_feed_key: blar
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Директор по маркетингу.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Директор по
+    маркетингу.'
+- name: Kin
+  aliases:
+  - Kin
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - kin
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/kin
+  blueprint_urls:
+  - https://theblueprint.ru/career/37048
+  contacts:
+    emails:
+    - e.zheldubovskaya@davines.ru
+    phones: []
+  hiring:
+  - role: Директор по маркетингу
+    published_at: '2025-10-22'
+    source_url: https://theblueprint.ru/career/37048
+    source_page_url: https://theblueprint.ru/career/brand/kin
+    source_feed_kind: brand
+    source_feed_key: kin
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Директор по маркетингу.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Директор по
+    маркетингу.'
+- name: Nrav
+  aliases:
+  - Nrav
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - nrav
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/nrav
+  blueprint_urls:
+  - https://theblueprint.ru/career/39127
+  - https://theblueprint.ru/career/39126
+  - https://theblueprint.ru/career/38246
+  contacts:
+    emails:
+    - hr@nrav.me
+    phones: []
+  hiring:
+  - role: Руководитель команды маркетинга
+    published_at: '2026-02-02'
+    source_url: https://theblueprint.ru/career/38246
+    source_page_url: https://theblueprint.ru/career/brand/nrav
+    source_feed_kind: brand
+    source_feed_key: nrav
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель команды маркетинга.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель
+    команды маркетинга.'
+- name: AllTime
+  aliases:
+  - AllTime
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - alltime
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/alltime
+  blueprint_urls:
+  - https://theblueprint.ru/career/38119
+  contacts:
+    emails:
+    - job@alltime.ru
+    phones: []
+  hiring:
+  - role: Руководитель SMM-отдела
+    published_at: '2026-01-22'
+    source_url: https://theblueprint.ru/career/38119
+    source_page_url: https://theblueprint.ru/career/brand/alltime
+    source_feed_kind: brand
+    source_feed_key: alltime
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель SMM-отдела.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель
+    SMM-отдела.'
+- name: Leokid
+  aliases:
+  - Leokid
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - leokid
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/leokid
+  blueprint_urls:
+  - https://theblueprint.ru/career/38072
+  - https://theblueprint.ru/career/34251
+  - https://theblueprint.ru/career/34207
+  contacts:
+    emails:
+    - angelina@leokid.ru
+    phones: []
+  hiring:
+  - role: Директор по маркетингу
+    published_at: '2026-01-20'
+    source_url: https://theblueprint.ru/career/38072
+    source_page_url: https://theblueprint.ru/career/brand/leokid
+    source_feed_kind: brand
+    source_feed_key: leokid
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Директор по маркетингу.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Директор по
+    маркетингу.'
+- name: Sportmaster
+  aliases:
+  - Спортмастер
+  - «Спортмастер»
+  entity_type: prospect
+  segment: B
+  sector: sporting goods retail
+  priority: high
+  industry: sporting goods retail
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - sportmaster
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/sportmaster
+  blueprint_urls:
+  - https://theblueprint.ru/career/39102
+  - https://theblueprint.ru/career/37851
+  - https://theblueprint.ru/career/37734
+  - https://theblueprint.ru/career/37666
+  - https://theblueprint.ru/career/37449
+  - https://theblueprint.ru/career/37147
+  - https://theblueprint.ru/career/36648
+  - https://theblueprint.ru/career/36386
+  - https://theblueprint.ru/career/36114
+  - https://theblueprint.ru/career/29331
+  contacts:
+    career: job.sportmaster.ru
+    website: sportmaster.ru
+    emails: []
+    phones: []
+  hiring:
+  - role: Product Manager
+    signal: product manager ≠ marketing buyer, но "собирает коллекции" = продуктовые съёмки
+  - role: Бренд-менеджер
+    published_at: '2025-12-15'
+    source_url: https://theblueprint.ru/career/37734
+    source_page_url: https://theblueprint.ru/career/brand/sportmaster
+    source_feed_kind: brand
+    source_feed_key: sportmaster
+    marketing_signal: true
+  - role: Бренд-менеджер
+    published_at: '2025-09-22'
+    source_url: https://theblueprint.ru/career/36648
+    source_page_url: https://theblueprint.ru/career/brand/sportmaster
+    source_feed_kind: brand
+    source_feed_key: sportmaster
+    marketing_signal: true
+  - role: Ассистент дизайнера одежды для плавания
+    published_at: '2025-10-28'
+    source_url: https://theblueprint.ru/career/37147
+    source_page_url: https://theblueprint.ru/career/brand/sportmaster
+    source_feed_kind: brand
+    source_feed_key: sportmaster
+    marketing_signal: false
+  - role: Фотограф
+    published_at: '2025-12-09'
+    source_url: https://theblueprint.ru/career/37666
+    source_page_url: https://theblueprint.ru/career/brand/sportmaster
+    source_feed_kind: brand
+    source_feed_key: sportmaster
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Бренд-менеджер, Бренд-менеджер.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Бренд-менеджер,
+    Бренд-менеджер. Creative content signals: Фотограф, Ассистент дизайнера одежды для плавания.'
+  angle: Продакт-съёмки коллекций одежды/обуви — наша тема. AI-каталог-ролики могут быть оффером.
+  entry_route: job.sportmaster.ru → HR → контакт отдела маркетинга. Plus marketing@sportmaster.ru.
+- name: YuliaWave
+  aliases:
+  - YuliaWave
+  - Бренд YULIAWAVE
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: high
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - yuliawave
+  - brendyuliawave
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/yuliawave
+  - https://theblueprint.ru/career/brand/brendyuliawave
+  blueprint_urls:
+  - https://theblueprint.ru/career/37838
+  - https://theblueprint.ru/career/36494
+  - https://theblueprint.ru/career/36377
+  - https://theblueprint.ru/career/36177
+  - https://theblueprint.ru/career/33886
+  - https://theblueprint.ru/career/33431
+  - https://theblueprint.ru/career/32515
+  - https://theblueprint.ru/career/31125
+  - https://theblueprint.ru/career/30748
+  - https://theblueprint.ru/career/30382
+  - https://theblueprint.ru/career/23470
+  contacts:
+    emails:
+    - hrd@yuliawave.com
+    - creative.director@yuliawave.com
+    - art.director@yuliawave.com
+    - ceo@yuliawave.com
+    phones: []
+  hiring:
+  - role: PR-директор
+    published_at: '2025-12-22'
+    source_url: https://theblueprint.ru/career/37838
+    source_page_url: https://theblueprint.ru/career/brand/yuliawave
+    source_feed_kind: brand
+    source_feed_key: yuliawave
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-директор.'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: PR-директор.'
+- name: Finn Flare
+  aliases:
+  - Финн Флер
+  - Finn Flare
+  entity_type: prospect
+  segment: C
+  sector: fashion (mid-market apparel)
+  priority: high
+  industry: fashion (mid-market apparel)
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - finnflare
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/finnflare
+  blueprint_urls:
+  - https://theblueprint.ru/career/38809
+  - https://theblueprint.ru/career/34159
+  - https://theblueprint.ru/career/32702
+  - https://theblueprint.ru/career/32497
+  - https://theblueprint.ru/career/31693
+  - https://theblueprint.ru/career/31509
+  - https://theblueprint.ru/career/30451
+  - https://theblueprint.ru/career/30162
+  - https://theblueprint.ru/career/28756
+  contacts:
+    hr_email: chernovitskaya@finn-flare.ru
+    website: finn-flare.ru
+    office: Москва, Кожуховская
+    emails:
+    - chernovitskaya@finn-flare.ru
+    - gavrikova@finn-flare.ru
+    - ivanova.a@finn-flare.ru
+    - kadry@finn-flare.ru
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    signal: building in-house SMM = need external content production
+  - role: SMM-менеджер
+    published_at: '2026-03-16'
+    source_url: https://theblueprint.ru/career/38809
+    source_page_url: https://theblueprint.ru/career/brand/finnflare
+    source_feed_kind: brand
+    source_feed_key: finnflare
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер.'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер.'
+  angle: SMM-менеджер сам не снимет кампанию. NSX — готовый пакет 15-20 сек вертикалов для TG/VK. Чек 150-300к на ежемесячный
+    поток контента.
+  entry_route: Email chernovitskaya@ + сразу pr@, marketing@ finn-flare.ru (email pattern deduction).
+- name: Ozon
+  aliases:
+  - Озон
+  - Ozon
+  entity_type: prospect
+  segment: B
+  sector: e-commerce
+  priority: high
+  industry: e-commerce
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - ozon
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/ozon
+  blueprint_urls:
+  - https://theblueprint.ru/career/39078
+  - https://theblueprint.ru/career/38869
+  - https://theblueprint.ru/career/38727
+  - https://theblueprint.ru/career/38369
+  - https://theblueprint.ru/career/38023
+  - https://theblueprint.ru/career/37936
+  - https://theblueprint.ru/career/37905
+  - https://theblueprint.ru/career/37852
+  - https://theblueprint.ru/career/37785
+  - https://theblueprint.ru/career/37737
+  contacts:
+    website: ozon.ru
+    career: ozoncamp.pro, ozon.tech
+    emails: []
+    phones: []
+  hiring:
+  - role: Контент-маркетолог образовательных проектов
+    published_at: '2026-01-15'
+    source_url: https://theblueprint.ru/career/38023
+    source_page_url: https://theblueprint.ru/career/brand/ozon
+    source_feed_kind: brand
+    source_feed_key: ozon
+    marketing_signal: true
+  - role: Контент-маркетолог образовательных проектов
+    published_at: '2025-12-26'
+    source_url: https://theblueprint.ru/career/37905
+    source_page_url: https://theblueprint.ru/career/brand/ozon
+    source_feed_kind: brand
+    source_feed_key: ozon
+    marketing_signal: true
+  - role: Стажер-маркетолог
+    published_at: '2026-03-06'
+    source_url: https://theblueprint.ru/career/38727
+    source_page_url: https://theblueprint.ru/career/brand/ozon
+    source_feed_kind: brand
+    source_feed_key: ozon
+    marketing_signal: false
+  - role: Стажер в B2C промо-маркетинг
+    published_at: '2026-02-11'
+    source_url: https://theblueprint.ru/career/38369
+    source_page_url: https://theblueprint.ru/career/brand/ozon
+    source_feed_kind: brand
+    source_feed_key: ozon
+    marketing_signal: false
+  - role: Стажер в команду SMM и Influence-маркетинга
+    published_at: '2025-12-15'
+    source_url: https://theblueprint.ru/career/37737
+    source_page_url: https://theblueprint.ru/career/brand/ozon
+    source_feed_kind: brand
+    source_feed_key: ozon
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Стажер-маркетолог, Стажер в B2C промо-маркетинг, Контент-маркетолог образовательных
+    проектов.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Стажер-маркетолог,
+    Стажер в B2C промо-маркетинг, Контент-маркетолог образовательных проектов. Creative content signals: Стажер продуктовый
+    дизайнер.'
+  angle: Ozon делает большую часть in-house + с топ-агентствами. Чек NSX низковат для них, НО на их подрядчиков (марки-продавцы)
+    можно нацелиться через их event-листинг.
+  entry_route: Не холодить напрямую. Лучше через вендоров Ozon с нашим уровнем.
+- name: ADDA gems
+  aliases:
+  - ADDA gems
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: high
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - addagems
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/addagems
+  blueprint_urls:
+  - https://theblueprint.ru/career/37141
+  - https://theblueprint.ru/career/36861
+  - https://theblueprint.ru/career/36473
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-10-28'
+    source_url: https://theblueprint.ru/career/37141
+    source_page_url: https://theblueprint.ru/career/brand/addagems
+    source_feed_kind: brand
+    source_feed_key: addagems
+    marketing_signal: true
+  - role: Контент-директор
+    published_at: '2025-09-09'
+    source_url: https://theblueprint.ru/career/36861
+    source_page_url: https://theblueprint.ru/career/brand/addagems
+    source_feed_kind: brand
+    source_feed_key: addagems
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер, Контент-директор.'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер, Контент-директор.'
+- name: ARLIGENT
+  aliases:
+  - ARLIGENT
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: high
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - arligent
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/arligent
+  blueprint_urls:
+  - https://theblueprint.ru/career/36817
+  - https://theblueprint.ru/career/36687
+  - https://theblueprint.ru/career/35579
+  - https://theblueprint.ru/career/34854
+  - https://theblueprint.ru/career/35455
+  - https://theblueprint.ru/career/34923
+  - https://theblueprint.ru/career/34671
+  - https://theblueprint.ru/career/34466
+  - https://theblueprint.ru/career/34435
+  - https://theblueprint.ru/career/32595
+  contacts:
+    emails:
+    - marketing@arligent.com
+    - t.sales@arligent.com
+    phones: []
+  hiring:
+  - role: Директор по маркетингу
+    published_at: '2025-10-03'
+    source_url: https://theblueprint.ru/career/36817
+    source_page_url: https://theblueprint.ru/career/brand/arligent
+    source_feed_kind: brand
+    source_feed_key: arligent
+    marketing_signal: true
+  - role: Визуальный мерчандайзер
+    published_at: '2025-06-20'
+    source_url: https://theblueprint.ru/career/35455
+    source_page_url: https://theblueprint.ru/career/brand/arligent
+    source_feed_kind: brand
+    source_feed_key: arligent
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Директор по маркетингу. Creative content signals: Визуальный мерчандайзер.'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Директор по маркетингу. Creative
+    content signals: Визуальный мерчандайзер.'
+- name: RINK
+  aliases:
+  - RINK
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - rink
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/rink
+  blueprint_urls:
+  - https://theblueprint.ru/career/37719
+  - https://theblueprint.ru/career/37411
+  contacts:
+    emails:
+    - bitkova@rinkbeauty.com
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2025-12-12'
+    source_url: https://theblueprint.ru/career/37719
+    source_page_url: https://theblueprint.ru/career/brand/rink
+    source_feed_kind: brand
+    source_feed_key: rink
+    marketing_signal: true
+  - role: Директор по маркетингу
+    published_at: '2025-11-18'
+    source_url: https://theblueprint.ru/career/37411
+    source_page_url: https://theblueprint.ru/career/brand/rink
+    source_feed_kind: brand
+    source_feed_key: rink
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер, Директор по маркетингу.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер,
+    Директор по маркетингу.'
+- name: Бар «Ровесник»
+  aliases:
+  - Бар «Ровесник»
+  entity_type: prospect
+  segment: D
+  sector: horeca / restaurant group
+  priority: high
+  industry: horeca / restaurant group
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - bar-rovesnik
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/bar-rovesnik
+  blueprint_urls:
+  - https://theblueprint.ru/career/38754
+  - https://theblueprint.ru/career/38753
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: SMM-менеджер (Content&Sales Lead)
+    published_at: '2026-03-11'
+    source_url: https://theblueprint.ru/career/38754
+    source_page_url: https://theblueprint.ru/career/brand/bar-rovesnik
+    source_feed_kind: brand
+    source_feed_key: bar-rovesnik
+    marketing_signal: true
+  - role: SMM-менеджер (Trend&Meme Lead)
+    published_at: '2026-03-11'
+    source_url: https://theblueprint.ru/career/38753
+    source_page_url: https://theblueprint.ru/career/brand/bar-rovesnik
+    source_feed_kind: brand
+    source_feed_key: bar-rovesnik
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер (Content&Sales Lead), SMM-менеджер (Trend&Meme Lead).'
+  nsx_fit: 3
+  note: 'HoReCa brand with current marketing/content hiring signal. Fresh direct roles in last 365d: SMM-менеджер (Content&Sales
+    Lead), SMM-менеджер (Trend&Meme Lead).'
+- name: Don't Touch My Skin
+  aliases:
+  - DTMS
+  - DON’T TOUCH MY SKIN
+  entity_type: prospect
+  segment: C
+  sector: beauty / skincare
+  priority: high
+  industry: beauty / skincare
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - donttouchmyskin
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/donttouchmyskin
+  blueprint_urls:
+  - https://theblueprint.ru/career/38806
+  - https://theblueprint.ru/career/38518
+  - https://theblueprint.ru/career/37595
+  - https://theblueprint.ru/career/35231
+  - https://theblueprint.ru/career/34148
+  - https://theblueprint.ru/career/32306
+  - https://theblueprint.ru/career/30700
+  - https://theblueprint.ru/career/28213
+  - https://theblueprint.ru/career/27782
+  contacts:
+    recruiter_email: m.mitasova@fdroconsult.com
+    website: donttouchmyskin.ru
+    office: Москва, Панфиловская/Сокол
+    emails:
+    - m.mitasova@fdroconsult.com
+    - info@dtmskin.com
+    - cv@foamstore.ru
+    - igor.doubnov@dtmskin.com
+    phones: []
+  hiring:
+  - role: Руководитель отдела маркетинга
+    signal: hiring the TOP marketer = new strategy = new content
+  - role: Руководитель отдела маркетинга
+    published_at: '2026-03-16'
+    source_url: https://theblueprint.ru/career/38806
+    source_page_url: https://theblueprint.ru/career/brand/donttouchmyskin
+    source_feed_kind: brand
+    source_feed_key: donttouchmyskin
+    marketing_signal: true
+  - role: Младший специалист по маркетингу
+    published_at: '2026-02-19'
+    source_url: https://theblueprint.ru/career/38518
+    source_page_url: https://theblueprint.ru/career/brand/donttouchmyskin
+    source_feed_kind: brand
+    source_feed_key: donttouchmyskin
+    marketing_signal: true
+  - role: Графический дизайнер
+    published_at: '2025-12-03'
+    source_url: https://theblueprint.ru/career/37595
+    source_page_url: https://theblueprint.ru/career/brand/donttouchmyskin
+    source_feed_kind: brand
+    source_feed_key: donttouchmyskin
+    marketing_signal: true
+  - role: Графический дизайнер
+    published_at: '2025-06-02'
+    source_url: https://theblueprint.ru/career/35231
+    source_page_url: https://theblueprint.ru/career/brand/donttouchmyskin
+    source_feed_kind: brand
+    source_feed_key: donttouchmyskin
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель отдела маркетинга, Младший специалист по маркетингу.'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Руководитель отдела маркетинга,
+    Младший специалист по маркетингу. Creative content signals: Графический дизайнер, Графический дизайнер.'
+  angle: Skincare сейчас = короткие AI-ролики + ASMR-видео. Это наша сильная сторона. Плюс AI-музыка для бренда — у DTMS нет
+    саунд-идентичности.
+  entry_route: Через 2 месяца найти Ф.И.О. нового маркетинг-директора (vc.ru / Telegram), тогда — прямой cold-email.
+- name: Золотое Яблоко
+  aliases:
+  - Золотое Яблоко
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: high
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - zolotoeyabloko
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/zolotoeyabloko
+  blueprint_urls:
+  - https://theblueprint.ru/career/37929
+  - https://theblueprint.ru/career/37620
+  - https://theblueprint.ru/career/36964
+  - https://theblueprint.ru/career/36256
+  - https://theblueprint.ru/career/35468
+  - https://theblueprint.ru/career/35364
+  - https://theblueprint.ru/career/33692
+  - https://theblueprint.ru/career/33059
+  - https://theblueprint.ru/career/32605
+  - https://theblueprint.ru/career/29690
+  contacts:
+    emails:
+    - maltseva_k@goldapple.ru
+    - fedosova_e@goldapple.ru
+    - tereshchenkova_a@goldapple.ru
+    phones: []
+  hiring:
+  - role: SMM
+    published_at: '2025-12-29'
+    source_url: https://theblueprint.ru/career/37929
+    source_page_url: https://theblueprint.ru/career/brand/zolotoeyabloko
+    source_feed_kind: brand
+    source_feed_key: zolotoeyabloko
+    marketing_signal: true
+  - role: Контент-директор
+    published_at: '2025-12-05'
+    source_url: https://theblueprint.ru/career/37620
+    source_page_url: https://theblueprint.ru/career/brand/zolotoeyabloko
+    source_feed_kind: brand
+    source_feed_key: zolotoeyabloko
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM, Контент-директор.'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM, Контент-директор.'
+- name: VK
+  aliases:
+  - VK
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: high
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - vk
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/vk
+  blueprint_urls:
+  - https://theblueprint.ru/career/38843
+  - https://theblueprint.ru/career/38184
+  - https://theblueprint.ru/career/37627
+  - https://theblueprint.ru/career/36801
+  - https://theblueprint.ru/career/36175
+  - https://theblueprint.ru/career/36140
+  - https://theblueprint.ru/career/35814
+  - https://theblueprint.ru/career/35625
+  - https://theblueprint.ru/career/35452
+  - https://theblueprint.ru/career/35318
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: PR-менеджер для продвижения HR-бренда
+    published_at: '2025-08-14'
+    source_url: https://theblueprint.ru/career/36140
+    source_page_url: https://theblueprint.ru/career/brand/vk
+    source_feed_kind: brand
+    source_feed_key: vk
+    marketing_signal: true
+  - role: Ведущий менеджер по коммуникациям в продуктовый PR
+    published_at: '2025-06-19'
+    source_url: https://theblueprint.ru/career/35452
+    source_page_url: https://theblueprint.ru/career/brand/vk
+    source_feed_kind: brand
+    source_feed_key: vk
+    marketing_signal: true
+  - role: Старший event-маркетолог
+    published_at: '2025-06-06'
+    source_url: https://theblueprint.ru/career/35318
+    source_page_url: https://theblueprint.ru/career/brand/vk
+    source_feed_kind: brand
+    source_feed_key: vk
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-менеджер для продвижения HR-бренда, Ведущий менеджер по коммуникациям
+    в продуктовый PR, Старший event-маркетолог. Creative content signals: Старший event-маркетолог.'
+  nsx_fit: 3
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: PR-менеджер для
+    продвижения HR-бренда, Ведущий менеджер по коммуникациям в продуктовый PR, Старший event-маркетолог. Creative content
+    signals: Старший event-маркетолог.'
+- name: Lamoda
+  aliases:
+  - Ламода
+  - Lamoda
+  entity_type: prospect
+  segment: C
+  sector: fashion e-commerce
+  priority: high
+  industry: fashion e-commerce
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - lamoda
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/lamoda
+  blueprint_urls:
+  - https://theblueprint.ru/career/39231
+  - https://theblueprint.ru/career/39181
+  - https://theblueprint.ru/career/38885
+  - https://theblueprint.ru/career/38646
+  - https://theblueprint.ru/career/38132
+  - https://theblueprint.ru/career/38154
+  - https://theblueprint.ru/career/37870
+  - https://theblueprint.ru/career/37583
+  - https://theblueprint.ru/career/32579
+  - https://theblueprint.ru/career/37372
+  contacts:
+    website: lamoda.ru
+    career: job.lamoda.ru
+    emails:
+    - darya.sokolova@lamoda.ru
+    phones: []
+  hiring:
+  - role: Менеджер по digital маркетингу
+    published_at: '2025-12-23'
+    source_url: https://theblueprint.ru/career/38154
+    source_page_url: https://theblueprint.ru/career/brand/lamoda
+    source_feed_kind: brand
+    source_feed_key: lamoda
+    marketing_signal: false
+  - role: Дизайнер собственной торговой марки
+    published_at: '2026-04-10'
+    source_url: https://theblueprint.ru/career/39231
+    source_page_url: https://theblueprint.ru/career/brand/lamoda
+    source_feed_kind: brand
+    source_feed_key: lamoda
+    marketing_signal: true
+  - role: Event-менеджер
+    published_at: '2026-03-03'
+    source_url: https://theblueprint.ru/career/38885
+    source_page_url: https://theblueprint.ru/career/brand/lamoda
+    source_feed_kind: brand
+    source_feed_key: lamoda
+    marketing_signal: false
+  - role: SMM-дизайнер
+    published_at: '2025-12-03'
+    source_url: https://theblueprint.ru/career/37870
+    source_page_url: https://theblueprint.ru/career/brand/lamoda
+    source_feed_kind: brand
+    source_feed_key: lamoda
+    marketing_signal: true
+  - role: Продюсер проектов
+    published_at: '2025-11-20'
+    source_url: https://theblueprint.ru/career/37583
+    source_page_url: https://theblueprint.ru/career/brand/lamoda
+    source_feed_kind: brand
+    source_feed_key: lamoda
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Менеджер по digital маркетингу. Creative content signals: Event-менеджер,
+    Продюсер проектов.'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: Менеджер по digital маркетингу,
+    SMM-дизайнер. Creative content signals: Дизайнер собственной торговой марки, Event-менеджер.'
+  angle: СТМ требует отдельной визуальной идентичности. Питч = полный пакет (имиджевые + соцсеть-вертикалы) для запуска.
+  entry_route: job.lamoda.ru HR → запросить контакт бренд-директора СТМ. Параллельно pr@lamoda.ru, marketing@lamoda.ru.
+- name: Авито
+  aliases:
+  - Авито
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: high
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - avito
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/avito
+  blueprint_urls:
+  - https://theblueprint.ru/career/38895
+  - https://theblueprint.ru/career/38065
+  - https://theblueprint.ru/career/37998
+  - https://theblueprint.ru/career/37913
+  - https://theblueprint.ru/career/37867
+  - https://theblueprint.ru/career/37700
+  - https://theblueprint.ru/career/37451
+  - https://theblueprint.ru/career/37297
+  - https://theblueprint.ru/career/36851
+  - https://theblueprint.ru/career/36764
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: Старший менеджер по продуктовому маркетингу категории Fashion
+    published_at: '2025-12-23'
+    source_url: https://theblueprint.ru/career/37867
+    source_page_url: https://theblueprint.ru/career/brand/avito
+    source_feed_kind: brand
+    source_feed_key: avito
+    marketing_signal: false
+  - role: Руководитель направления внутренних коммуникаций
+    published_at: '2025-12-11'
+    source_url: https://theblueprint.ru/career/37700
+    source_page_url: https://theblueprint.ru/career/brand/avito
+    source_feed_kind: brand
+    source_feed_key: avito
+    marketing_signal: false
+  - role: Старший PR-специалист по HR-бренду
+    published_at: '2025-09-30'
+    source_url: https://theblueprint.ru/career/36764
+    source_page_url: https://theblueprint.ru/career/brand/avito
+    source_feed_kind: brand
+    source_feed_key: avito
+    marketing_signal: true
+  - role: Стажер в PR-команду
+    published_at: '2025-11-10'
+    source_url: https://theblueprint.ru/career/37297
+    source_page_url: https://theblueprint.ru/career/brand/avito
+    source_feed_kind: brand
+    source_feed_key: avito
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Старший менеджер по продуктовому маркетингу категории Fashion, Руководитель
+    направления внутренних коммуникаций, Стажер в PR-команду.'
+  nsx_fit: 3
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Старший менеджер
+    по продуктовому маркетингу категории Fashion, Руководитель направления внутренних коммуникаций, Стажер в PR-команду.'
+- name: Simple Group
+  aliases:
+  - Simple Group
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - simplegroup
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/simplegroup
+  blueprint_urls:
+  - https://theblueprint.ru/career/38647
+  - https://theblueprint.ru/career/38249
+  - https://theblueprint.ru/career/38225
+  - https://theblueprint.ru/career/38158
+  - https://theblueprint.ru/career/37934
+  - https://theblueprint.ru/career/37765
+  - https://theblueprint.ru/career/37715
+  - https://theblueprint.ru/career/37612
+  - https://theblueprint.ru/career/37487
+  - https://theblueprint.ru/career/37447
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: Руководитель группы контент-поддержки
+    published_at: '2026-03-03'
+    source_url: https://theblueprint.ru/career/38647
+    source_page_url: https://theblueprint.ru/career/brand/simplegroup
+    source_feed_kind: brand
+    source_feed_key: simplegroup
+    marketing_signal: true
+  - role: Руководитель PR-отдела
+    published_at: '2025-12-29'
+    source_url: https://theblueprint.ru/career/37934
+    source_page_url: https://theblueprint.ru/career/brand/simplegroup
+    source_feed_kind: brand
+    source_feed_key: simplegroup
+    marketing_signal: true
+  - role: Бренд-менеджер
+    published_at: '2025-12-16'
+    source_url: https://theblueprint.ru/career/37765
+    source_page_url: https://theblueprint.ru/career/brand/simplegroup
+    source_feed_kind: brand
+    source_feed_key: simplegroup
+    marketing_signal: true
+  - role: Ассистент отдела маркетинговых коммуникаций и PR
+    published_at: '2025-12-12'
+    source_url: https://theblueprint.ru/career/37715
+    source_page_url: https://theblueprint.ru/career/brand/simplegroup
+    source_feed_kind: brand
+    source_feed_key: simplegroup
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель группы контент-поддержки, Руководитель PR-отдела, Бренд-менеджер.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель
+    группы контент-поддержки, Руководитель PR-отдела, Бренд-менеджер.'
+- name: 2Mood
+  aliases:
+  - 2Mood
+  entity_type: prospect
+  segment: C
+  sector: fashion / beauty / lifestyle DTC
+  priority: high
+  industry: fashion / beauty / lifestyle DTC
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - 2mood
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/2mood
+  blueprint_urls:
+  - https://theblueprint.ru/career/38606
+  - https://theblueprint.ru/career/38605
+  - https://theblueprint.ru/career/37366
+  - https://theblueprint.ru/career/37309
+  - https://theblueprint.ru/career/37302
+  - https://theblueprint.ru/career/36662
+  - https://theblueprint.ru/career/36109
+  - https://theblueprint.ru/career/34502
+  - https://theblueprint.ru/career/32166
+  - https://theblueprint.ru/career/30375
+  contacts:
+    emails:
+    - p.moskalev@2mood.com
+    - r.lavrushkin@2mood.com
+    - hr@2mood.com
+    phones: []
+  hiring:
+  - role: SMM-менеджер
+    published_at: '2026-03-03'
+    source_url: https://theblueprint.ru/career/38606
+    source_page_url: https://theblueprint.ru/career/brand/2mood
+    source_feed_kind: brand
+    source_feed_key: 2mood
+    marketing_signal: true
+  - role: Руководитель отдела Influence & PR маркетинга.
+    published_at: '2026-03-02'
+    source_url: https://theblueprint.ru/career/38605
+    source_page_url: https://theblueprint.ru/career/brand/2mood
+    source_feed_kind: brand
+    source_feed_key: 2mood
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: SMM-менеджер, Руководитель отдела Influence & PR маркетинга..'
+  nsx_fit: 3
+  note: 'DTC brand with current content/brand hiring signal. Fresh direct roles in last 365d: SMM-менеджер, Руководитель отдела
+    Influence & PR маркетинга..'
+- name: «Технопарк»
+  aliases:
+  - «Технопарк»
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - tehnopark
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/tehnopark
+  blueprint_urls:
+  - https://theblueprint.ru/career/38849
+  - https://theblueprint.ru/career/38833
+  - https://theblueprint.ru/career/35728
+  - https://theblueprint.ru/career/34829
+  - https://theblueprint.ru/career/33492
+  - https://theblueprint.ru/career/33135
+  - https://theblueprint.ru/career/32407
+  - https://theblueprint.ru/career/26366
+  contacts:
+    emails:
+    - varvara.suhareva@technopark.ru
+    - darya.tyrina@technopark.ru
+    - mariya.kostuchenko@technopark.ru
+    phones: []
+  hiring:
+  - role: PR-менеджер
+    published_at: '2026-03-18'
+    source_url: https://theblueprint.ru/career/38849
+    source_page_url: https://theblueprint.ru/career/brand/tehnopark
+    source_feed_kind: brand
+    source_feed_key: tehnopark
+    marketing_signal: true
+  - role: Руководитель отдела маркетинговых коммуникаций
+    published_at: '2025-07-11'
+    source_url: https://theblueprint.ru/career/35728
+    source_page_url: https://theblueprint.ru/career/brand/tehnopark
+    source_feed_kind: brand
+    source_feed_key: tehnopark
+    marketing_signal: false
+  - role: Event-менеджер
+    published_at: '2025-04-22'
+    source_url: https://theblueprint.ru/career/34829
+    source_page_url: https://theblueprint.ru/career/brand/tehnopark
+    source_feed_kind: brand
+    source_feed_key: tehnopark
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: PR-менеджер, Руководитель отдела маркетинговых коммуникаций. Creative content
+    signals: Event-менеджер.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: PR-менеджер,
+    Руководитель отдела маркетинговых коммуникаций. Creative content signals: Event-менеджер.'
+- name: Oniverse
+  aliases:
+  - Oniverse
+  entity_type: prospect
+  segment: B
+  sector: consumer / retail / premium brand
+  priority: high
+  industry: consumer / retail / premium brand
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - oniverse
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/oniverse
+  blueprint_urls:
+  - https://theblueprint.ru/career/38691
+  - https://theblueprint.ru/career/36996
+  - https://theblueprint.ru/career/35007
+  contacts:
+    emails:
+    - julia.markushova@calzedonia.ru
+    - daria.ivanova@calzedonia.ru
+    phones:
+    - '+79254500471'
+  hiring:
+  - role: Старший PR-менеджер
+    published_at: '2026-03-05'
+    source_url: https://theblueprint.ru/career/36996
+    source_page_url: https://theblueprint.ru/career/brand/oniverse
+    source_feed_kind: brand
+    source_feed_key: oniverse
+    marketing_signal: true
+  - role: Специалист отдела трейд-маркетинга и event-отдела
+    published_at: '2025-10-16'
+    source_url: https://theblueprint.ru/career/35007
+    source_page_url: https://theblueprint.ru/career/brand/oniverse
+    source_feed_kind: brand
+    source_feed_key: oniverse
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Старший PR-менеджер, Специалист отдела трейд-маркетинга и event-отдела.
+    Creative content signals: Специалист отдела трейд-маркетинга и event-отдела.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Старший PR-менеджер,
+    Специалист отдела трейд-маркетинга и event-отдела. Creative content signals: Специалист отдела трейд-маркетинга и event-отдела.'
+- name: «Яндекс»
+  aliases:
+  - «Яндекс»
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: high
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - yandex
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/yandex
+  blueprint_urls:
+  - https://theblueprint.ru/career/39240
+  - https://theblueprint.ru/career/39133
+  - https://theblueprint.ru/career/39022
+  - https://theblueprint.ru/career/39013
+  - https://theblueprint.ru/career/38961
+  - https://theblueprint.ru/career/38926
+  - https://theblueprint.ru/career/38887
+  - https://theblueprint.ru/career/38774
+  - https://theblueprint.ru/career/38714
+  - https://theblueprint.ru/career/38653
+  contacts:
+    emails:
+    - intern@yandex-team.ru
+    phones: []
+  hiring:
+  - role: Руководитель службы контента
+    published_at: '2026-03-30'
+    source_url: https://theblueprint.ru/career/39133
+    source_page_url: https://theblueprint.ru/career/brand/yandex
+    source_feed_kind: brand
+    source_feed_key: yandex
+    marketing_signal: false
+  - role: SMM-менеджер
+    published_at: '2026-03-24'
+    source_url: https://theblueprint.ru/career/39013
+    source_page_url: https://theblueprint.ru/career/brand/yandex
+    source_feed_kind: brand
+    source_feed_key: yandex
+    marketing_signal: true
+  - role: Арт-директор
+    published_at: '2026-03-06'
+    source_url: https://theblueprint.ru/career/38887
+    source_page_url: https://theblueprint.ru/career/brand/yandex
+    source_feed_kind: brand
+    source_feed_key: yandex
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель службы контента, SMM-менеджер. Creative content signals: Арт-директор.'
+  nsx_fit: 3
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель службы
+    контента, SMM-менеджер. Creative content signals: Арт-директор.'
+- name: KION
+  aliases:
+  - МТС KION
+  - KION
+  entity_type: prospect
+  segment: E
+  sector: streaming / online cinema
+  priority: high
+  industry: streaming / online cinema
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - kion
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/kion
+  blueprint_urls:
+  - https://theblueprint.ru/career/37935
+  - https://theblueprint.ru/career/36091
+  - https://theblueprint.ru/career/30731
+  - https://theblueprint.ru/career/30703
+  - https://theblueprint.ru/career/29430
+  - https://theblueprint.ru/career/29031
+  contacts:
+    website: kion.ru
+    office: Москва, Петровский бульвар 12/3
+    parent: МТС
+    emails:
+    - lvshuksh@mts.ru
+    phones: []
+  hiring:
+  - role: Motion Designer
+    signal: they are building their own in-house motion team BUT motion ≠ full production
+  - role: Руководитель SMM-отдела
+    published_at: '2025-12-29'
+    source_url: https://theblueprint.ru/career/37935
+    source_page_url: https://theblueprint.ru/career/brand/kion
+    source_feed_kind: brand
+    source_feed_key: kion
+    marketing_signal: true
+  - role: Заместитель PR-директора
+    published_at: '2025-08-11'
+    source_url: https://theblueprint.ru/career/36091
+    source_page_url: https://theblueprint.ru/career/brand/kion
+    source_feed_kind: brand
+    source_feed_key: kion
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель SMM-отдела, Заместитель PR-директора.'
+  nsx_fit: 3
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель SMM-отдела,
+    Заместитель PR-директора.'
+  angle: Онлайн-кинотеатр = идеальный клиент на съёмку промо-роликов под их оригинальные сериалы. У Danil сильный VFX.
+  entry_route: 'Через МТС (родительская компания): job.mts.ru + прямой email на pr@kion.ru, partnership@kion.ru.'
+- name: MTС
+  aliases:
+  - МТС
+  - MTS
+  entity_type: prospect
+  segment: B
+  sector: telecom
+  priority: high
+  industry: telecom
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - mts
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/mts
+  blueprint_urls:
+  - https://theblueprint.ru/career/39228
+  - https://theblueprint.ru/career/39023
+  - https://theblueprint.ru/career/38953
+  - https://theblueprint.ru/career/38553
+  - https://theblueprint.ru/career/38247
+  - https://theblueprint.ru/career/38248
+  - https://theblueprint.ru/career/37940
+  - https://theblueprint.ru/career/37678
+  - https://theblueprint.ru/career/37661
+  - https://theblueprint.ru/career/37553
+  contacts:
+    career: job.mts.ru/vacancy/640831627232021831
+    website: mts.ru
+    emails:
+    - svkulnev@mtsretail.ru
+    phones: []
+  hiring:
+  - role: Руководитель в отдел событийного маркетинга
+    published_at: '2026-02-24'
+    source_url: https://theblueprint.ru/career/38247
+    source_page_url: https://theblueprint.ru/career/brand/mts
+    source_feed_kind: brand
+    source_feed_key: mts
+    marketing_signal: false
+  - role: Маркетинговый аналитик
+    published_at: '2026-02-03'
+    source_url: https://theblueprint.ru/career/37940
+    source_page_url: https://theblueprint.ru/career/brand/mts
+    source_feed_kind: brand
+    source_feed_key: mts
+    marketing_signal: false
+  - role: Дизайнер презентаций
+    published_at: '2026-04-14'
+    source_url: https://theblueprint.ru/career/39023
+    source_page_url: https://theblueprint.ru/career/brand/mts
+    source_feed_kind: brand
+    source_feed_key: mts
+    marketing_signal: false
+  - role: Коммуникационный дизайнер
+    published_at: '2026-02-05'
+    source_url: https://theblueprint.ru/career/38248
+    source_page_url: https://theblueprint.ru/career/brand/mts
+    source_feed_kind: brand
+    source_feed_key: mts
+    marketing_signal: false
+  - role: Дизайнер
+    published_at: '2025-12-10'
+    source_url: https://theblueprint.ru/career/39228
+    source_page_url: https://theblueprint.ru/career/brand/mts
+    source_feed_kind: brand
+    source_feed_key: mts
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель в отдел событийного маркетинга, Маркетинговый аналитик.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель
+    в отдел событийного маркетинга, Коммуникационный дизайнер, Маркетинговый аналитик. Creative content signals: Дизайнер
+    презентаций, Коммуникационный дизайнер.'
+  angle: МТС уже в портфолио NSX. Наличие MTS-кейса = дверь к другим брендам открыта, но сами МТС сейчас не обязательно покупают
+    (зависит от дивизиона). Надо узнать — это тот же дивизион, который с нами уже работал?
+  entry_route: Сначала — ре-энгейдж существующего контакта МТС. Прежде чем cold.
+- name: 2ГИС
+  aliases:
+  - 2ГИС
+  entity_type: prospect
+  segment: E
+  sector: tech / SaaS / digital
+  priority: high
+  industry: tech / SaaS / digital
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - 2gis
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/2gis
+  blueprint_urls:
+  - https://theblueprint.ru/career/37926
+  - https://theblueprint.ru/career/37647
+  - https://theblueprint.ru/career/37557
+  - https://theblueprint.ru/career/37393
+  - https://theblueprint.ru/career/37148
+  - https://theblueprint.ru/career/36928
+  - https://theblueprint.ru/career/36635
+  - https://theblueprint.ru/career/36556
+  - https://theblueprint.ru/career/36533
+  - https://theblueprint.ru/career/36144
+  contacts:
+    emails: []
+    phones: []
+  hiring:
+  - role: Руководитель CRM-маркетинга
+    published_at: '2025-12-29'
+    source_url: https://theblueprint.ru/career/37926
+    source_page_url: https://theblueprint.ru/career/brand/2gis
+    source_feed_kind: brand
+    source_feed_key: 2gis
+    marketing_signal: false
+  - role: HR-маркетолог
+    published_at: '2025-10-13'
+    source_url: https://theblueprint.ru/career/36928
+    source_page_url: https://theblueprint.ru/career/brand/2gis
+    source_feed_kind: brand
+    source_feed_key: 2gis
+    marketing_signal: false
+  - role: SMM-менеджер
+    published_at: '2025-09-15'
+    source_url: https://theblueprint.ru/career/36556
+    source_page_url: https://theblueprint.ru/career/brand/2gis
+    source_feed_kind: brand
+    source_feed_key: 2gis
+    marketing_signal: true
+  - role: Креативный продюсер
+    published_at: '2025-09-19'
+    source_url: https://theblueprint.ru/career/36635
+    source_page_url: https://theblueprint.ru/career/brand/2gis
+    source_feed_kind: brand
+    source_feed_key: 2gis
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: Руководитель CRM-маркетинга, HR-маркетолог, SMM-менеджер. Creative content
+    signals: Креативный продюсер.'
+  nsx_fit: 3
+  note: 'Tech/digital brand with current marketing/content hiring signal. Fresh direct roles in last 365d: Руководитель CRM-маркетинга,
+    HR-маркетолог, SMM-менеджер. Creative content signals: Креативный продюсер.'
+- name: Т-Банк
+  aliases:
+  - T-Bank
+  - Тинькофф
+  - Т-Банк
+  entity_type: prospect
+  segment: B
+  sector: fintech
+  priority: high
+  industry: fintech
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - tbank
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/tbank
+  blueprint_urls:
+  - https://theblueprint.ru/career/39255
+  - https://theblueprint.ru/career/39199
+  - https://theblueprint.ru/career/39180
+  - https://theblueprint.ru/career/38998
+  - https://theblueprint.ru/career/38996
+  - https://theblueprint.ru/career/38995
+  - https://theblueprint.ru/career/38924
+  - https://theblueprint.ru/career/38775
+  - https://theblueprint.ru/career/38607
+  - https://theblueprint.ru/career/38243
+  contacts:
+    website: tbank.ru
+    career: tbank.ru/career
+    fashion_vertical_apply: education.tbank.ru/start/pr-manager
+    office: Москва, Белорусская
+    emails: []
+    phones: []
+  hiring:
+  - role: IR PR-менеджер
+    published_at: '2026-04-15'
+    source_url: https://theblueprint.ru/career/39255
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: Старший категорийный маркетолог в направление «Мода»
+    published_at: '2026-04-10'
+    source_url: https://theblueprint.ru/career/38998
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: false
+  - role: Маркетолог
+    published_at: '2026-03-30'
+    source_url: https://theblueprint.ru/career/39180
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: false
+  - role: Стажер PR-специалист
+    published_at: '2026-04-10'
+    source_url: https://theblueprint.ru/career/39199
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  - role: Редактор
+    published_at: '2026-03-30'
+    source_url: https://theblueprint.ru/career/38996
+    source_page_url: https://theblueprint.ru/career/brand/tbank
+    source_feed_kind: brand
+    source_feed_key: tbank
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: IR PR-менеджер, Стажер PR-специалист, Старший категорийный маркетолог в
+    направление «Мода».'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: IR PR-менеджер,
+    Стажер PR-специалист, Старший категорийный маркетолог в направление «Мода». Creative content signals: Дизайнер.'
+  angle: Fashion-направление T-Bank = оно молодое, будут снимать много. NSX-портфолио Dior/Hugo — прямое попадание.
+  entry_route: Написать на PR-стажёрский адрес + копия на Алису Рудую (Telegram через vc.ru).
+- name: T2
+  aliases:
+  - Теле2
+  - T2
+  entity_type: prospect
+  segment: B
+  sector: telecom
+  priority: high
+  industry: telecom
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - t2
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/t2
+  blueprint_urls:
+  - https://theblueprint.ru/career/39238
+  - https://theblueprint.ru/career/38927
+  - https://theblueprint.ru/career/37933
+  - https://theblueprint.ru/career/37794
+  - https://theblueprint.ru/career/36944
+  - https://theblueprint.ru/career/36886
+  - https://theblueprint.ru/career/35804
+  - https://theblueprint.ru/career/34776
+  - https://theblueprint.ru/career/34152
+  - https://theblueprint.ru/career/33102
+  contacts:
+    website: t2.ru
+    career: msk.t2.ru/vacancy/4742
+    emails: []
+    phones: []
+  hiring:
+  - role: Marketing Manager & Brand Materials Quality Control
+    signal: building QC for brand materials = actively producing content = need producers
+  - role: менеджер по маркетингу и контролю качества бренд материалов
+    published_at: '2026-03-25'
+    source_url: https://theblueprint.ru/career/38927
+    source_page_url: https://theblueprint.ru/career/brand/t2
+    source_feed_kind: brand
+    source_feed_key: t2
+    marketing_signal: true
+  - role: Старший специалист по маркетинговым коммуникациям
+    published_at: '2025-12-30'
+    source_url: https://theblueprint.ru/career/37933
+    source_page_url: https://theblueprint.ru/career/brand/t2
+    source_feed_kind: brand
+    source_feed_key: t2
+    marketing_signal: false
+  - role: Менеджер по бренд-коммуникациям
+    published_at: '2025-12-18'
+    source_url: https://theblueprint.ru/career/37794
+    source_page_url: https://theblueprint.ru/career/brand/t2
+    source_feed_kind: brand
+    source_feed_key: t2
+    marketing_signal: true
+  - role: Стажировка в маркетинге
+    published_at: '2025-04-18'
+    source_url: https://theblueprint.ru/career/33102
+    source_page_url: https://theblueprint.ru/career/brand/t2
+    source_feed_kind: brand
+    source_feed_key: t2
+    marketing_signal: false
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: менеджер по маркетингу и контролю качества бренд материалов, Старший специалист
+    по маркетинговым коммуникациям, Менеджер по бренд-коммуникациям.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: менеджер по
+    маркетингу и контролю качества бренд материалов, Старший специалист по маркетинговым коммуникациям, Менеджер по бренд-коммуникациям.'
+  angle: Controls content quality, значит требовательны. Показать Dior/MTS/Honor = сразу в доверии.
+  entry_route: Apply-ссылка + mention 'from The Blueprint'. Параллельно marketing@t2.ru, pr@t2.ru.
+- name: Bork
+  aliases:
+  - Борк
+  - Bork
+  entity_type: prospect
+  segment: B
+  sector: premium appliances / lifestyle tech
+  priority: high
+  industry: premium appliances / lifestyle tech
+  source: theblueprint_career_brand_archive
+  blueprint_brand_slugs:
+  - bork
+  blueprint_brand_urls:
+  - https://theblueprint.ru/career/brand/bork
+  blueprint_urls:
+  - https://theblueprint.ru/career/39243
+  - https://theblueprint.ru/career/39057
+  - https://theblueprint.ru/career/38608
+  - https://theblueprint.ru/career/38379
+  - https://theblueprint.ru/career/38080
+  - https://theblueprint.ru/career/36784
+  - https://theblueprint.ru/career/36522
+  - https://theblueprint.ru/career/35556
+  - https://theblueprint.ru/career/35506
+  - https://theblueprint.ru/career/34029
+  contacts:
+    hr_email: Valeriya.Chernova@bork.com
+    website: bork.ru
+    office: Москва-Сити
+    emails:
+    - Valeriya.Chernova@bork.com
+    - valeriya.chernova@bork.ru
+    phones: []
+  hiring:
+  - role: CRM-маркетолог
+    published_at: '2025-10-01'
+    source_url: https://theblueprint.ru/career/36784
+    source_page_url: https://theblueprint.ru/career/brand/bork
+    source_feed_kind: brand
+    source_feed_key: bork
+    marketing_signal: true
+  - role: Бренд-менеджер
+    published_at: '2025-06-27'
+    source_url: https://theblueprint.ru/career/35556
+    source_page_url: https://theblueprint.ru/career/brand/bork
+    source_feed_kind: brand
+    source_feed_key: bork
+    marketing_signal: true
+  - role: SMM-менеджер
+    published_at: '2025-06-24'
+    source_url: https://theblueprint.ru/career/35506
+    source_page_url: https://theblueprint.ru/career/brand/bork
+    source_feed_kind: brand
+    source_feed_key: bork
+    marketing_signal: true
+  - role: Главный ретушер
+    published_at: '2026-04-15'
+    source_url: https://theblueprint.ru/career/39243
+    source_page_url: https://theblueprint.ru/career/brand/bork
+    source_feed_kind: brand
+    source_feed_key: bork
+    marketing_signal: true
+  - role: event-менеджер
+    published_at: '2026-01-20'
+    source_url: https://theblueprint.ru/career/38080
+    source_page_url: https://theblueprint.ru/career/brand/bork
+    source_feed_kind: brand
+    source_feed_key: bork
+    marketing_signal: true
+  marketing_signal: true
+  signal_reason: 'Fresh direct roles in last 365d: CRM-маркетолог, Бренд-менеджер, SMM-менеджер. Creative content signals:
+    event-менеджер.'
+  nsx_fit: 3
+  note: 'Strong consumer brand with current marketing/content hiring signal. Fresh direct roles in last 365d: CRM-маркетолог,
+    Бренд-менеджер, SMM-менеджер. Creative content signals: Главный ретушер, event-менеджер.'
+  angle: Bork = премиум-сегмент. Режиссёрский имиджевый ролик 1.5 мин — их стандарт. Кейсы Dior/Hugo убеждают.
+  entry_route: 'Emails: pr@bork.com, marketing@bork.com, press@bork.com (pattern deduction от Valeriya.Chernova@).'
