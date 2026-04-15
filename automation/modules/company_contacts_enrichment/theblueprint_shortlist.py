@@ -1,4 +1,4 @@
-"""Reduce The Blueprint archive into an outreach-ready hiring shortlist."""
+﻿"""Reduce The Blueprint archive into an outreach-ready hiring shortlist."""
 
 from __future__ import annotations
 
@@ -7,6 +7,8 @@ from pathlib import Path
 import re
 
 import yaml
+
+from .text_utils import load_yaml_utf8
 
 
 TARGET_SEGMENTS = ("B", "C", "D", "E")
@@ -928,7 +930,7 @@ def build_theblueprint_shortlist_payload(
 
     return {
         "generated_at": now.isoformat(),
-        "generated_from": "output/company_contacts_enrichment/theblueprint_career_brand_archive.yaml",
+        "generated_from": "artifacts/company_contacts_enrichment/theblueprint_career_brand_archive.yaml",
         "selection_rules": {
             "include_segments": list(TARGET_SEGMENTS),
             "freshness_window_days": freshness_days,
@@ -947,9 +949,7 @@ def build_theblueprint_shortlist_payload(
 
 
 def load_yaml_payload(path: Path) -> dict:
-    if not path.exists():
-        return {}
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return load_yaml_utf8(path)
 
 
 def write_theblueprint_shortlist(path: Path, payload: dict) -> None:
@@ -962,3 +962,4 @@ def write_theblueprint_shortlist(path: Path, payload: dict) -> None:
     ]
     body = yaml.safe_dump(payload, allow_unicode=True, sort_keys=False, width=120)
     path.write_text("\n".join(header) + body, encoding="utf-8")
+

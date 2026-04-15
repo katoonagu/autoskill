@@ -1,4 +1,4 @@
-"""Parse The Blueprint career archive into a reviewable YAML export.
+﻿"""Parse The Blueprint career archive into a reviewable YAML export.
 
 Usage:
     python scripts/run_theblueprint_career_parser.py
@@ -14,7 +14,9 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve()
+while not (PROJECT_ROOT / "automation").exists() and PROJECT_ROOT.parent != PROJECT_ROOT:
+    PROJECT_ROOT = PROJECT_ROOT.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from automation.modules.company_contacts_enrichment.sources.theblueprint_career import (
@@ -23,6 +25,7 @@ from automation.modules.company_contacts_enrichment.sources.theblueprint_career 
     build_blueprint_career_export,
     write_blueprint_career_export,
 )
+from automation.modules.company_contacts_enrichment.text_utils import configure_utf8_console
 from automation.modules.company_contacts_enrichment.theblueprint_shortlist import (
     build_theblueprint_shortlist_payload,
     load_yaml_payload,
@@ -31,6 +34,7 @@ from automation.modules.company_contacts_enrichment.theblueprint_shortlist impor
 
 
 def main() -> None:
+    configure_utf8_console()
     parser = argparse.ArgumentParser(description="Parse The Blueprint career archive")
     parser.add_argument(
         "--mode",
@@ -73,7 +77,7 @@ def main() -> None:
         if args.limit:
             page_ids = page_ids[: max(args.limit, 0)]
         payload = build_blueprint_career_export(page_ids)
-        output_file = args.output_file or "output/company_contacts_enrichment/theblueprint_career_seed_pages.yaml"
+        output_file = args.output_file or "artifacts/company_contacts_enrichment/theblueprint_career_seed_pages.yaml"
         summary = [
             f"Parsed seed pages: {len(page_ids)}",
             f"Listings: {payload['listing_count']}",
@@ -86,7 +90,7 @@ def main() -> None:
             brand_limit=args.brand_limit,
             max_workers=max(args.max_workers, 1),
         )
-        output_file = args.output_file or "output/company_contacts_enrichment/theblueprint_career_brand_archive.yaml"
+        output_file = args.output_file or "artifacts/company_contacts_enrichment/theblueprint_career_brand_archive.yaml"
         summary = [
             f"Brand catalog count: {payload['brand_catalog_count']}",
             f"Brands crawled: {payload['brands_crawled_count']}",
@@ -118,3 +122,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+

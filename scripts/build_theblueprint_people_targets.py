@@ -1,4 +1,4 @@
-"""Build stage-2 people targets and report from The Blueprint shortlist."""
+﻿"""Build stage-2 people targets and report from The Blueprint shortlist."""
 
 from __future__ import annotations
 
@@ -7,9 +7,12 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve()
+while not (PROJECT_ROOT / "automation").exists() and PROJECT_ROOT.parent != PROJECT_ROOT:
+    PROJECT_ROOT = PROJECT_ROOT.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from automation.modules.company_contacts_enrichment.text_utils import configure_utf8_console
 from automation.modules.company_contacts_enrichment.theblueprint_people_targets import (
     build_theblueprint_people_targets_payload,
     load_yaml_payload,
@@ -19,6 +22,7 @@ from automation.modules.company_contacts_enrichment.theblueprint_people_targets 
 
 
 def main() -> None:
+    configure_utf8_console()
     parser = argparse.ArgumentParser(description="Build outreach-ready people targets from The Blueprint shortlist")
     parser.add_argument(
         "--input-file",
@@ -29,13 +33,13 @@ def main() -> None:
     parser.add_argument(
         "--output-file",
         type=str,
-        default="output/company_contacts_enrichment/theblueprint_people_targets.yaml",
+        default="artifacts/company_contacts_enrichment/theblueprint_people_targets.yaml",
         help="Where to write the machine-readable people targets YAML",
     )
     parser.add_argument(
         "--report-file",
         type=str,
-        default="output/company_contacts_enrichment/theblueprint_people_targets_report.md",
+        default="artifacts/company_contacts_enrichment/theblueprint_people_targets_report.md",
         help="Where to write the human-readable report",
     )
     parser.add_argument(
@@ -66,3 +70,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+

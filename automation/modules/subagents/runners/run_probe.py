@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import asyncio
-from pathlib import Path
 import sys
+from pathlib import Path
 
 import yaml
 
@@ -11,24 +11,16 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from automation.modules.subagents.recipe import load_subagent_specs, run_subagent_probe
+from automation.paths import resolve_repo_path
 
 
 def load_job_config() -> dict:
     job_path = PROJECT_ROOT / "automation" / "modules" / "subagents" / "job.yaml"
     return yaml.safe_load(job_path.read_text(encoding="utf-8"))
-
-
-def resolve_project_path(raw_path: str) -> Path:
-    path = Path(raw_path)
-    if path.is_absolute():
-        return path
-    return PROJECT_ROOT / path
-
-
 def normalize_job_paths(job: dict) -> dict:
-    job["state"]["state_dir"] = str(resolve_project_path(job["state"]["state_dir"]))
+    job["state"]["state_dir"] = str(resolve_repo_path(PROJECT_ROOT, job["state"]["state_dir"]))
     for key, raw_path in list(job.get("outputs", {}).items()):
-        job["outputs"][key] = str(resolve_project_path(raw_path))
+        job["outputs"][key] = str(resolve_repo_path(PROJECT_ROOT, raw_path))
     return job
 
 

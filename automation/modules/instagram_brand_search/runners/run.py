@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import asyncio
-from pathlib import Path
 import sys
+from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[4]
 if str(PROJECT_ROOT) not in sys.path:
@@ -15,27 +15,23 @@ from automation.adspower import AdsPowerClient
 from automation.artifacts import setup_run_artifacts
 from automation.browser import connect_profile
 from automation.config import AdsPowerSettings
-from automation.modules.instagram_brand_search.recipe import INSTAGRAM_HOME_URL, build_humanizer, run_instagram_brand_search
+from automation.modules.instagram_brand_search.recipe import (
+    INSTAGRAM_HOME_URL,
+    build_humanizer,
+    run_instagram_brand_search,
+)
 from automation.modules.instagram_brand_search.state import InstagramBrandSearchState
+from automation.paths import resolve_repo_path
 
 
 def load_job_config() -> dict:
     job_path = PROJECT_ROOT / "automation" / "modules" / "instagram_brand_search" / "job.yaml"
     return yaml.safe_load(job_path.read_text(encoding="utf-8"))
-
-
-def resolve_project_path(raw_path: str) -> Path:
-    path = Path(raw_path)
-    if path.is_absolute():
-        return path
-    return PROJECT_ROOT / path
-
-
 def normalize_job_paths(job: dict) -> dict:
-    job["state"]["state_file"] = str(resolve_project_path(job["state"]["state_file"]))
-    job["inputs"]["blogger_list_file"] = str(resolve_project_path(job["inputs"]["blogger_list_file"]))
+    job["state"]["state_file"] = str(resolve_repo_path(PROJECT_ROOT, job["state"]["state_file"]))
+    job["inputs"]["blogger_list_file"] = str(resolve_repo_path(PROJECT_ROOT, job["inputs"]["blogger_list_file"]))
     for key, raw_path in list(job.get("outputs", {}).items()):
-        job["outputs"][key] = str(resolve_project_path(raw_path))
+        job["outputs"][key] = str(resolve_repo_path(PROJECT_ROOT, raw_path))
     return job
 
 

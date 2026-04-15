@@ -1,0 +1,2694 @@
+# The Blueprint stage-3 route resolutions
+# Auto-generated person -> Instagram -> Telegram -> site -> contacts resolution pass.
+generated_at: '2026-04-15T16:33:23.326408+00:00'
+generated_from_shortlist: inputs/theblueprint_career_hiring.yaml
+summary:
+  companies_scanned: 81
+  resolved_person_route: 6
+  resolved_brand_route: 4
+  partial: 3
+  unresolved: 68
+  error: 0
+resolutions:
+- brand: 2Mood
+  segment: C
+  nsx_fit: 3
+  website: https://www.instagram.com/2moodstore/
+  status: resolved_person_route
+  route_confidence: high
+  candidate_names:
+  - Полина Подплетенная
+  - Кристина Хоронжук
+  person_resolutions:
+  - person_name: Полина Подплетенная
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://support.google.com/mail/answer/8494?hl=en&co=GENIE.Platform%3DDesktop
+    - https://support.google.com/mail/answer/8494?hl=en-GB&co=GENIE.Platform%3DDesktop
+    - https://support.google.com/mail/answer/56256?hl=en
+    - https://support.google.com/mail/?hl=en
+    - https://techcommunity.microsoft.com/discussions/windows11/windows-snipping-tool-tips-neat-lines--shapes-with-draw--hold/4399451
+  - person_name: Кристина Хоронжук
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://stackoverflow.com/questions/5163144/what-are-the-special-dollar-sign-shell-variables
+    - https://askubuntu.com/questions/678915/whats-the-difference-between-and-in-bash
+    - https://stackoverflow.com/questions/4510640/what-is-the-purpose-of-in-a-shell-command
+    - https://stackoverflow.com/questions/20449543/shell-equality-operators-eq
+    - https://www.google.ie/index.html
+  resolved_instagrams:
+  - https://www.instagram.com/pollyhey/
+  - https://www.instagram.com/khkris/
+  - https://www.instagram.com/2moodstore/
+  resolved_telegrams:
+  - https://t.me/twomoodstore
+  resolved_emails:
+  - pollyheywork@gmail.com
+  - khkristinaur@gmail.com
+  resolved_contact_urls:
+  - https://theblueprint.ru/career/brand/2mood
+  - https://theblueprint.ru/career/38606
+  - https://theblueprint.ru/career/38605
+  - https://theblueprint.ru/career/37366
+  - https://theblueprint.ru/career/37309
+  - https://theblueprint.ru/career/37302
+  - https://theblueprint.ru/career/36662
+  - https://theblueprint.ru/career/36109
+  - https://theblueprint.ru/career/34502
+  - https://theblueprint.ru/career/32166
+  site_named_contacts: []
+  proof_urls:
+  - https://www.instagram.com/pollyhey/?hl=en
+  - https://theblueprint.ru/career/brand/2mood
+  - https://www.instagram.com/khkris/
+  - https://t.me/twomoodstore
+  - https://www.instagram.com/2moodstore/
+  - https://support.google.com/mail/answer/8494?hl=en&co=GENIE.Platform%3DDesktop
+  - https://support.google.com/mail/answer/8494?hl=en-GB&co=GENIE.Platform%3DDesktop
+  - https://support.google.com/mail/answer/56256?hl=en
+  - https://support.google.com/mail/?hl=en
+  - https://techcommunity.microsoft.com/discussions/windows11/windows-snipping-tool-tips-neat-lines--shapes-with-draw--hold/4399451
+  - https://techcommunity.microsoft.com/discussions/windows11/how-to-take-a-scrolling-screenshot-on-windows-11-full-screen/4152593
+  - https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/how-to-screen-capture-windows-10-without-the-built-in-snipping-tool/4405171
+  search_queries_used:
+  - site:instagram.com "Полина Подплетенная" "2Mood"
+  - site:t.me "Полина Подплетенная" "2Mood"
+  - '"Полина Подплетенная" "2Mood" Instagram'
+  - '"Полина Подплетенная" "2Mood" Telegram'
+  - site:instagram.com "Кристина Хоронжук" "2Mood"
+  - site:t.me "Кристина Хоронжук" "2Mood"
+  - '"Кристина Хоронжук" "2Mood" Instagram'
+  - '"Кристина Хоронжук" "2Mood" Telegram'
+  - site:instagram.com "2Mood"
+  - site:t.me "2Mood"
+  - '"2Mood" официальный сайт'
+  resolution_notes: 'searched 2 candidate names; website checked: https://www.instagram.com/2moodstore/'
+- brand: 2ГИС
+  segment: E
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://help.2gis.ru/question/kak-ustanovit-2gis/pc
+  - https://help.2gis.ru/question/mobilnye-prilozheniya-2gis
+  - https://help.2gis.ru/question/offline-maps
+  - https://help.2gis.ru/
+  search_queries_used:
+  - site:instagram.com "2ГИС"
+  - site:t.me "2ГИС"
+  - '"2ГИС" официальный сайт'
+  resolution_notes: ''
+- brand: ABC Coffee Roasters
+  segment: D
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/tardis/bd/art/721779164
+  - https://www.zhihu.com/question/666766335?write
+  - https://zhidao.baidu.com/question/628934617077707532.html
+  - https://www.zhihu.com/question/23671661
+  search_queries_used:
+  - site:instagram.com "ABC Coffee Roasters"
+  - site:t.me "ABC Coffee Roasters"
+  - '"ABC Coffee Roasters" официальный сайт'
+  resolution_notes: ''
+- brand: ADDA gems
+  segment: C
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/394474626
+  - https://www.zhihu.com/question/640942435
+  - https://www.zhihu.com/question/447171926
+  - https://www.zhihu.com/question/551069774
+  search_queries_used:
+  - site:instagram.com "ADDA gems"
+  - site:t.me "ADDA gems"
+  - '"ADDA gems" официальный сайт'
+  resolution_notes: ''
+- brand: Aldo Coppola
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/55611436
+  - https://blog.adlo.es/
+  - https://www.zhihu.com/question/421637333
+  - https://www.zhihu.com/tardis/zm/art/627289093
+  search_queries_used:
+  - site:instagram.com "Aldo Coppola"
+  - site:t.me "Aldo Coppola"
+  - '"Aldo Coppola" официальный сайт'
+  resolution_notes: ''
+- brand: ALL WE NEED
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/1970125516334949500
+  - https://www.zhihu.com/question/612008359
+  - https://zhidao.baidu.com/question/253841685953276244.html
+  - https://www.zhihu.com/question/653842235?write
+  search_queries_used:
+  - site:instagram.com "ALL WE NEED"
+  - site:t.me "ALL WE NEED"
+  - '"ALL WE NEED" официальный сайт'
+  resolution_notes: ''
+- brand: AllTime
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://zhidao.baidu.com/question/1508282991737824979.html
+  - https://zhidao.baidu.com/question/1894441496619758108.html
+  - https://zhidao.baidu.com/question/537764723.html
+  - https://zhidao.baidu.com/question/1618794002185965547.html
+  search_queries_used:
+  - site:instagram.com "AllTime"
+  - site:t.me "AllTime"
+  - '"AllTime" официальный сайт'
+  resolution_notes: ''
+- brand: ARLIGENT
+  segment: C
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://meogo.meo.pt/
+  - https://tv.meo.pt/pt
+  - https://www.meo.pt/tv/meo-go/
+  - https://my.meo.pt/entrar
+  - https://www.google.de/
+  - https://www.google.com/
+  - https://search.google/intl/de-DE/
+  - https://de.wikipedia.org/wiki/Google
+  - https://github.com/chat4us/gpt-5
+  - https://github.com/chatanywhere/GPT_API_free
+  - https://cellphones.com.vn/sforum/cach-dung-chatgpt
+  - https://github.com/lencx/ChatGPT/releases
+  search_queries_used:
+  - site:instagram.com "ARLIGENT"
+  - site:t.me "ARLIGENT"
+  - '"ARLIGENT" официальный сайт'
+  resolution_notes: ''
+- brand: Befree
+  segment: C
+  nsx_fit: 3
+  website: https://befree.ru
+  status: resolved_brand_route
+  route_confidence: medium
+  candidate_names:
+  - Евгений Лагутин
+  person_resolutions:
+  - person_name: Евгений Лагутин
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://otvet.mail.ru/question/64897906
+    - https://otvet.mail.ru/question/241417322
+    - https://otvet.mail.ru/question/68745925
+    - https://otvet.mail.ru/question/236671480
+  resolved_instagrams: []
+  resolved_telegrams:
+  - https://t.me/befree_community
+  resolved_emails:
+  - info@befree.ru
+  - suppliers.befree@melonfashion.com
+  resolved_contact_urls:
+  - https://befree.ru/
+  - https://theblueprint.ru/career/brand/befree
+  - https://theblueprint.ru/career/39242
+  - https://theblueprint.ru/career/38765
+  - https://theblueprint.ru/career/38585
+  - https://theblueprint.ru/career/33958
+  - https://theblueprint.ru/career/33262
+  - https://theblueprint.ru/career/32518
+  - https://theblueprint.ru/career/32500
+  - https://theblueprint.ru/career/31262
+  site_named_contacts: []
+  proof_urls:
+  - https://theblueprint.ru/career/brand/befree
+  - https://theblueprint.ru/career/39242
+  - https://t.me/befree_community
+  - https://befree.ru/
+  - https://otvet.mail.ru/question/64897906
+  - https://otvet.mail.ru/question/241417322
+  - https://otvet.mail.ru/question/68745925
+  - https://otvet.mail.ru/question/236671480
+  - https://home.bt.com/
+  - https://email.bt.com/mail/
+  - https://www.bt.com/help/email
+  - https://my.bt.com/appsconsumeraccount/public/hubLogin.do
+  search_queries_used:
+  - site:instagram.com "Евгений Лагутин" "Befree"
+  - site:t.me "Евгений Лагутин" "Befree"
+  - '"Евгений Лагутин" "Befree" Instagram'
+  - '"Евгений Лагутин" "Befree" Telegram'
+  - site:instagram.com "Befree"
+  - site:t.me "Befree"
+  - '"Befree" официальный сайт'
+  resolution_notes: 'searched 1 candidate names; website checked: https://befree.ru'
+- brand: Belle YOU
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/283934014
+  - https://www.zhihu.com/tardis/zm/art/676692749
+  - https://www.zhihu.com/question/522339390
+  - https://www.zhihu.com/pin/1791113654629961729
+  search_queries_used:
+  - site:instagram.com "Belle YOU"
+  - site:t.me "Belle YOU"
+  - '"Belle YOU" официальный сайт'
+  resolution_notes: ''
+- brand: Blar
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://zhidao.baidu.com/question/143387586.html
+  - https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1436810469
+  - https://zhidao.baidu.com/question/529256365.html
+  - https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1338004948
+  search_queries_used:
+  - site:instagram.com "Blar"
+  - site:t.me "Blar"
+  - '"Blar" официальный сайт'
+  resolution_notes: ''
+- brand: BLCV
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://locator.glassdrive.it/emilia-romagna/piacenza/piacenza/glassdrive-piacenza
+  - https://italiarecensioni.com/emilia-romagna/glassdrive-piacenza-1088105
+  - https://firmania.it/piacenza/glassdrive-2379727
+  - https://www.autoyas.com/IT/Piacenza/421124994614967/Glassdrive-Italia
+  - https://www.netflix.com/gb/login
+  - https://www.netflix.com/gb/n/login
+  - https://help.netflix.com/en/node/311830241325668
+  - https://www.digitalcitizen.life/how-to-sign-into-netflix/
+  - https://www.skillandyou.com/fr
+  - https://www.skillandyou.com/fr/formations
+  - https://www.skillandyou.com/fr/qui-sommes-nous
+  - https://www.skillandyou.com/fr/alternance
+  search_queries_used:
+  - site:instagram.com "BLCV"
+  - site:t.me "BLCV"
+  - '"BLCV" официальный сайт'
+  resolution_notes: ''
+- brand: Bork
+  segment: B
+  nsx_fit: 3
+  website: https://bork.ru
+  status: resolved_brand_route
+  route_confidence: medium
+  candidate_names:
+  - Valeriya Chernova
+  person_resolutions:
+  - person_name: Valeriya Chernova
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://www.youtube.com/
+    - https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US
+    - https://support.google.com/youtube/?hl=nl
+    - https://apps.apple.com/nl/app/youtube/id544007664
+    - https://www.reddit.com/r/dhl/
+  resolved_instagrams:
+  - https://www.instagram.com/bork_com/
+  resolved_telegrams:
+  - https://t.me/bork_public
+  resolved_emails:
+  - valeriya.chernova@bork.com
+  resolved_contact_urls:
+  - https://theblueprint.ru/career/brand/bork
+  - https://theblueprint.ru/career/39243
+  - https://theblueprint.ru/career/39057
+  - https://theblueprint.ru/career/38608
+  - https://theblueprint.ru/career/38379
+  - https://theblueprint.ru/career/38080
+  - https://theblueprint.ru/career/36784
+  - https://theblueprint.ru/career/36522
+  - https://theblueprint.ru/career/35556
+  - https://theblueprint.ru/career/35506
+  site_named_contacts: []
+  proof_urls:
+  - https://theblueprint.ru/career/brand/bork
+  - https://theblueprint.ru/career/38080
+  - https://t.me/bork_public
+  - https://www.instagram.com/bork_com/
+  - https://www.youtube.com/
+  - https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US
+  - https://support.google.com/youtube/?hl=nl
+  - https://apps.apple.com/nl/app/youtube/id544007664
+  - https://www.reddit.com/r/dhl/
+  - https://www.reddit.com/r/dhl/comments/m5kth0/dhl_sucks/
+  - https://www.reddit.com/r/dhl/comments/utboyh/my_package_with_dhl_express_has_been_stuck_in/
+  - https://www.reddit.com/r/dhl/comments/w4rhis/dhl_parcel_map_tracking_this_got_me_excited/
+  search_queries_used:
+  - site:instagram.com "Valeriya Chernova" "Bork"
+  - site:t.me "Valeriya Chernova" "Bork"
+  - '"Valeriya Chernova" "Bork" Instagram'
+  - '"Valeriya Chernova" "Bork" Telegram'
+  - site:instagram.com "Bork"
+  - site:t.me "Bork"
+  - '"Bork" официальный сайт'
+  resolution_notes: 'searched 1 candidate names; website checked: https://bork.ru'
+- brand: Bosco di Ciliegi
+  segment: B
+  nsx_fit: 2
+  website: https://topick.hket.com/article/3491061/%E3%80%90%E5%BB%89%E6%94%BF%E7%8B%99%E6%93%8A%E3%80%91%E9%BB%83%E5%AE%97%E6%BE%A4%E8%A7%A3%E9%96%8B%E5%96%AE%E8%BA%AB%E5%A4%9A%E5%B9%B4%E5%8E%9F%E5%9B%A0%E3%80%80%E7%AD%8D%E7%9B%A4Bosco%EF%BC%9A%E5%9B%A0%E7%82%BA%E5%87%BA%E9%81%8E%E4%BA%8B
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://topick.hket.com
+  - https://topick.hket.com/article/3491061/%E3%80%90%E5%BB%89%E6%94%BF%E7%8B%99%E6%93%8A%E3%80%91%E9%BB%83%E5%AE%97%E6%BE%A4%E8%A7%A3%E9%96%8B%E5%96%AE%E8%BA%AB%E5%A4%9A%E5%B9%B4%E5%8E%9F%E5%9B%A0%E3%80%80%E7%AD%8D%E7%9B%A4Bosco%EF%BC%9A%E5%9B%A0%E7%82%BA%E5%87%BA%E9%81%8E%E4%BA%8B
+  - https://topick.hket.com/article/4059276/%E8%90%AC%E5%8D%83%E6%98%9F%E8%BC%9D%E9%A0%92%E7%8D%8E%E5%85%B8%E7%A6%AE2025%EF%B8%B1%E9%BB%83%E5%AE%97%E6%BE%A4%E6%88%90%E4%BB%8A%E5%B1%86%E8%A6%96%E5%B8%9D%E5%A4%A7%E7%86%B1%E7%8D%B2%E4%B8%80%E7%8F%AD%E8%80%81best%E5%8A%9B%E6%92%90%E3%80%80%E6%AD%90%E9%99%BD%E9%9C%87%E8%8F%AF%E3%80%8C%E8%AE%9A%E3%80%8DBosco%E3%80%8C%E8%A1%A3%E5%86%A0%E7%A6%BD%E7%8D%B8%E3%80%8D
+  site_named_contacts: []
+  proof_urls:
+  - https://topick.hket.com/article/3491061/%E3%80%90%E5%BB%89%E6%94%BF%E7%8B%99%E6%93%8A%E3%80%91%E9%BB%83%E5%AE%97%E6%BE%A4%E8%A7%A3%E9%96%8B%E5%96%AE%E8%BA%AB%E5%A4%9A%E5%B9%B4%E5%8E%9F%E5%9B%A0%E3%80%80%E7%AD%8D%E7%9B%A4Bosco%EF%BC%9A%E5%9B%A0%E7%82%BA%E5%87%BA%E9%81%8E%E4%BA%8B
+  - https://topick.hket.com/article/4059276/%E8%90%AC%E5%8D%83%E6%98%9F%E8%BC%9D%E9%A0%92%E7%8D%8E%E5%85%B8%E7%A6%AE2025%EF%B8%B1%E9%BB%83%E5%AE%97%E6%BE%A4%E6%88%90%E4%BB%8A%E5%B1%86%E8%A6%96%E5%B8%9D%E5%A4%A7%E7%86%B1%E7%8D%B2%E4%B8%80%E7%8F%AD%E8%80%81best%E5%8A%9B%E6%92%90%E3%80%80%E6%AD%90%E9%99%BD%E9%9C%87%E8%8F%AF%E3%80%8C%E8%AE%9A%E3%80%8DBosco%E3%80%8C%E8%A1%A3%E5%86%A0%E7%A6%BD%E7%8D%B8%E3%80%8D
+  - https://zhidao.baidu.com/question/578526953.html
+  - https://zhidao.baidu.com/question/2086862199156154668.html
+  - https://topick.hket.com
+  search_queries_used:
+  - site:instagram.com "Bosco di Ciliegi"
+  - site:t.me "Bosco di Ciliegi"
+  - '"Bosco di Ciliegi" официальный сайт'
+  resolution_notes: 'website checked: https://topick.hket.com/article/3491061/%E3%80%90%E5%BB%89%E6%94%BF%E7%8B%99%E6%93%8A%E3%80%91%E9%BB%83%E5%AE%97%E6%BE%A4%E8%A7%A3%E9%96%8B%E5%96%AE%E8%BA%AB%E5%A4%9A%E5%B9%B4%E5%8E%9F%E5%9B%A0%E3%80%80%E7%AD%8D%E7%9B%A4Bosco%EF%BC%9A%E5%9B%A0%E7%82%BA%E5%87%BA%E9%81%8E%E4%BA%8B'
+- brand: Botrois
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://web.whatsapp.com/
+  - https://login.libero.it/
+  - https://login.libero.it/lsc
+  - https://www.national-lottery.co.uk/
+  - https://www.national-lottery.co.uk/results
+  - https://www.national-lottery.co.uk/results/lotto/draw-details
+  - https://www.national-lottery.co.uk/games
+  search_queries_used:
+  - site:instagram.com "Botrois"
+  - site:t.me "Botrois"
+  - '"Botrois" официальный сайт'
+  resolution_notes: ''
+- brand: Cois
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://pt.m.wikipedia.org/wiki/Paran%C3%A1
+  - https://www.parana.pr.gov.br/
+  - https://m.brasilescola.uol.com.br/brasil/parana.htm
+  - https://www.viagensecaminhos.com/cidades-do-parana/
+  - https://www.royalmail.com/current-postage-prices
+  - https://postofficehours.co.uk/postage-rates
+  - https://www.bbc.co.uk/news/articles/c0mj4mkk94mo
+  - https://www.thepennypincher.co.uk/post/royalmail-stamp-price-increase
+  - https://www.skatteetaten.no/min-side/
+  - https://info.altinn.no/
+  - https://www.altinn.no/ui/Authentication/Index
+  - http://dinvirksomhet.no/skatteetaten-logg-inn/
+  search_queries_used:
+  - site:instagram.com "Cois"
+  - site:t.me "Cois"
+  - '"Cois" официальный сайт'
+  resolution_notes: ''
+- brand: Don't Touch My Skin
+  segment: C
+  nsx_fit: 3
+  website: https://donttouchmyskin.ru
+  status: resolved_person_route
+  route_confidence: high
+  candidate_names:
+  - Адэль Мифтахова
+  person_resolutions:
+  - person_name: Адэль Мифтахова
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://www.adp.com/resources/articles-and-insights/articles/w/what-is-hris.aspx
+    - https://www.forbes.com/advisor/business/software/hris-systems/
+    - https://factorialhr.com/blog/what-is-hris/
+    - https://www.aihr.com/blog/human-resources-information-system-hris/
+    - https://en-gb.facebook.com/
+  resolved_instagrams:
+  - https://www.instagram.com/adeliamft/
+  - https://www.instagram.com/dtmskin/
+  resolved_telegrams:
+  - https://t.me/donttouchmyface
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://dtmskin.com/
+  - https://theblueprint.ru/career/brand/donttouchmyskin
+  - https://theblueprint.ru/career/38806
+  - https://theblueprint.ru/career/38518
+  - https://theblueprint.ru/career/37595
+  - https://theblueprint.ru/career/35231
+  - https://theblueprint.ru/career/34148
+  - https://theblueprint.ru/career/32306
+  - https://theblueprint.ru/career/30700
+  - https://theblueprint.ru/career/28213
+  site_named_contacts: []
+  proof_urls:
+  - https://t.me/donttouchmyface
+  - https://www.instagram.com/p/B4KAFY8otyw/
+  - https://telegram.me/s/donttouchmyface?before=2227
+  - https://www.instagram.com/dtmskin/
+  - https://dtmskin.com/
+  - https://www.adp.com/resources/articles-and-insights/articles/w/what-is-hris.aspx
+  - https://www.forbes.com/advisor/business/software/hris-systems/
+  - https://factorialhr.com/blog/what-is-hris/
+  - https://www.aihr.com/blog/human-resources-information-system-hris/
+  - https://en-gb.facebook.com/
+  - https://www.facebook.com/
+  - https://apps.apple.com/gb/app/facebook/id284882215?uo=4
+  search_queries_used:
+  - site:instagram.com "Адэль Мифтахова" "Don't Touch My Skin"
+  - site:t.me "Адэль Мифтахова" "Don't Touch My Skin"
+  - '"Адэль Мифтахова" "Don''t Touch My Skin" Instagram'
+  - '"Адэль Мифтахова" "Don''t Touch My Skin" Telegram'
+  - site:instagram.com "Don't Touch My Skin"
+  - site:t.me "Don't Touch My Skin"
+  - '"Don''t Touch My Skin" официальный сайт'
+  resolution_notes: 'searched 1 candidate names; website checked: https://donttouchmyskin.ru'
+- brand: Ekonika
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://185.169.252.47/
+  - http://66.29.129.161/category/bokep-indo
+  - https://xhamster.com/search/bokep
+  - https://www.pornhub.com/video/search?search=bokep
+  - https://www.draugiem.lv/
+  - https://play.google.com/store/apps/details?id=com.draugiem2&hl=en-US
+  - https://apps.apple.com/lv/app/draugiem/id415310996
+  - https://lv.wikipedia.org/wiki/Draugiem.lv
+  - https://support.google.com/youtube/answer/3227660?hl=en&co=GENIE.Platform%3DAndroid
+  - https://support.google.com/youtube/answer/171664?hl=en
+  - https://www.zhihu.com/question/1903231775980913051
+  - https://support.google.com/youtube/answer/72851?hl=en&co=GENIE.Platform%3DDesktop
+  search_queries_used:
+  - site:instagram.com "Ekonika"
+  - site:t.me "Ekonika"
+  - '"Ekonika" официальный сайт'
+  resolution_notes: ''
+- brand: Emka
+  segment: C
+  nsx_fit: 3
+  website: https://emka-fashion.ru
+  status: resolved_person_route
+  route_confidence: high
+  candidate_names:
+  - Прохор Шаляпин
+  person_resolutions:
+  - person_name: Прохор Шаляпин
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://grok.com/
+    - https://x.ai/
+    - https://grok4.me/
+    - https://en.wikipedia.org/wiki/Grok_(chatbot)
+    - https://www.youtube.com/
+  resolved_instagrams:
+  - https://www.instagram.com/shalyapin_official/
+  resolved_telegrams:
+  - https://t.me/aChaliapin
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://emka-fashion.ru/
+  - https://theblueprint.ru/career/brand/emka
+  - https://theblueprint.ru/career/brand/brendemka
+  - https://theblueprint.ru/career/39044
+  - https://theblueprint.ru/career/39035
+  - https://theblueprint.ru/career/36216
+  - https://theblueprint.ru/career/27027
+  - https://theblueprint.ru/career/26214
+  - https://theblueprint.ru/career/27674
+  - https://emka-fashion.ru
+  site_named_contacts: []
+  proof_urls:
+  - https://theblueprint.ru/career/brand/emka
+  - https://www.instagram.com/reel/DWlRI6AiMRG/
+  - https://t.me/s/aChaliapin
+  - https://emka-fashion.ru/
+  - https://grok.com/
+  - https://x.ai/
+  - https://grok4.me/
+  - https://en.wikipedia.org/wiki/Grok_(chatbot)
+  - https://www.youtube.com/
+  - https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US
+  - https://apps.apple.com/pt/app/youtube/id544007664
+  - https://www.youtube.com/feed
+  search_queries_used:
+  - site:instagram.com "Прохор Шаляпин" "Emka"
+  - site:t.me "Прохор Шаляпин" "Emka"
+  - '"Прохор Шаляпин" "Emka" Instagram'
+  - '"Прохор Шаляпин" "Emka" Telegram'
+  - site:instagram.com "Emka"
+  - site:t.me "Emka"
+  - '"Emka" официальный сайт'
+  resolution_notes: 'searched 1 candidate names; website checked: https://emka-fashion.ru'
+- brand: F | ABLE
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/478355216
+  - https://www.zhihu.com/question/628219116
+  - https://www.zhihu.com/question/336009240
+  - https://www.zhihu.com/?lang=zh-Hant
+  search_queries_used:
+  - site:instagram.com "F | ABLE"
+  - site:t.me "F | ABLE"
+  - '"F | ABLE" официальный сайт'
+  resolution_notes: ''
+- brand: Finn Flare
+  segment: C
+  nsx_fit: 3
+  website: https://finn-flare.ru
+  status: resolved_brand_route
+  route_confidence: medium
+  candidate_names:
+  - Unknown marketing owner
+  person_resolutions:
+  - person_name: Unknown marketing owner
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://www.imdb.com/title/tt1401152/
+    - https://www.imdb.com/title/tt1401152/fullcredits/
+    - https://www.imdb.com/title/tt1401152/reviews/
+    - https://www.imdb.com/title/tt0450340/
+    - https://www.elevenforum.com/t/open-settings-in-windows-11.311/
+  resolved_instagrams:
+  - https://www.instagram.com/finn_flare_official/
+  resolved_telegrams:
+  - https://t.me/finnflareofficial
+  resolved_emails:
+  - chernovitskaya@finn-flare.ru
+  resolved_contact_urls:
+  - https://theblueprint.ru/career/brand/finnflare
+  - https://theblueprint.ru/career/38809
+  - https://theblueprint.ru/career/34159
+  - https://theblueprint.ru/career/32702
+  - https://theblueprint.ru/career/32497
+  - https://theblueprint.ru/career/31693
+  - https://theblueprint.ru/career/31509
+  - https://theblueprint.ru/career/30451
+  - https://theblueprint.ru/career/30162
+  - https://theblueprint.ru/career/28756
+  site_named_contacts: []
+  proof_urls:
+  - https://theblueprint.ru/career/brand/finnflare
+  - https://t.me/finnflareofficial
+  - https://www.instagram.com/finn_flare_official/
+  - https://www.imdb.com/title/tt1401152/
+  - https://www.imdb.com/title/tt1401152/fullcredits/
+  - https://www.imdb.com/title/tt1401152/reviews/
+  - https://www.imdb.com/title/tt0450340/
+  - https://www.elevenforum.com/t/open-settings-in-windows-11.311/
+  - https://support.google.com/accounts/answer/3118621?hl=en
+  - https://www.wikihow.com/Open-Windows-10-Settings
+  - https://www.windowscentral.com/microsoft/windows-11/how-to-open-the-settings-app-on-windows-11
+  - https://forum.arkivverket.no/topic/371840-forskjellen-finn-kilde-og-s%C3%B8k-i-skanna-materiale/
+  search_queries_used:
+  - site:instagram.com "Unknown marketing owner" "Finn Flare"
+  - site:t.me "Unknown marketing owner" "Finn Flare"
+  - '"Unknown marketing owner" "Finn Flare" Instagram'
+  - '"Unknown marketing owner" "Finn Flare" Telegram'
+  - site:instagram.com "Finn Flare"
+  - site:t.me "Finn Flare"
+  - '"Finn Flare" официальный сайт'
+  resolution_notes: 'searched 1 candidate names; website checked: https://finn-flare.ru'
+- brand: Imakebags
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://oshiete.goo.ne.jp/qa/4391647.html
+  - https://www.reddit.com/r/OutOfTheLoop/comments/wr1uyf/whats_going_on_with_wikipedia_asking_for/
+  - https://www.reddit.com/r/YouShouldKnow/comments/15jt8ef/ysk_its_free_to_download_the_entirety_of/
+  - https://www.reddit.com/r/wikipedia/comments/11nnbzx/i_maintain_a_list_of_500_of_my_favourite/
+  - https://www.reddit.com/r/wikipedia/comments/vd3p57/ive_been_blocked_for_a_year_on_wikipedia_for/
+  - https://www.myfonts.com/pages/whatthefont
+  - https://www.myfonts.com/fr/pages/whatthefont
+  - https://www.myfonts.com/pages/whatthefont-mobile
+  - https://www.myfonts.com/es/pages/whatthefont
+  search_queries_used:
+  - site:instagram.com "Imakebags"
+  - site:t.me "Imakebags"
+  - '"Imakebags" официальный сайт'
+  resolution_notes: ''
+- brand: Jenek
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://help.bestsecret.com/login?locale=us
+  - https://help.bestsecret.nl/login?locale=us
+  - https://help.bestsecret.ch/s/login/
+  - https://help.bestsecret.com/s/article/Come-sono-consegnati-i-prodotti-dei-Partner-BestSecret?language=it
+  - https://www.answers.com/natural-sciences/Time_zone_difference_from_ca_and_Hawaii
+  - https://www.answers.com/natural-sciences/What_time_zone_is_3_hours_behind_California
+  - https://www.answers.com/travel-destinations/What_time_zone_is_3_hours_ahead_California
+  - https://www.answers.com/natural-sciences/What_is_the_time_difference_between_Nevada_and_California
+  - https://www.calc-online.xyz/solved-math-exercises/what-is-2-plus-5
+  - https://fractioncalculator.pro/calc/What-is_2_plus_5
+  - https://www.calculatorsoup.com/calculators/math/basic.php
+  - https://calculeitor.com/2-plus-5
+  search_queries_used:
+  - site:instagram.com "Jenek"
+  - site:t.me "Jenek"
+  - '"Jenek" официальный сайт'
+  resolution_notes: ''
+- brand: Kin
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/433073843
+  - https://www.zhihu.com/question/2333411712/answers/updated
+  - https://www.zhihu.com/question/535130192
+  - https://www.zhihu.com/question/1916876481180710602
+  search_queries_used:
+  - site:instagram.com "Kin"
+  - site:t.me "Kin"
+  - '"Kin" официальный сайт'
+  resolution_notes: ''
+- brand: KION
+  segment: E
+  nsx_fit: 3
+  website: https://kion.ru
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://kion.ru
+  - https://www.kiongroup.com/en
+  - https://www.kiongroup.com/de
+  - https://www.kiongroup.com/en/About-us/KION-at-a-glance
+  - https://www.kiongroup.com/de/%C3%9Cber-uns/KION-im-%C3%9Cberblick
+  site_named_contacts: []
+  proof_urls:
+  - https://www.kiongroup.com/en/
+  - https://www.kiongroup.com/de/
+  - https://www.kiongroup.com/en/About-us/KION-at-a-glance/
+  - https://www.kiongroup.com/de/%C3%9Cber-uns/KION-im-%C3%9Cberblick/
+  - https://kion.ru
+  search_queries_used:
+  - site:instagram.com "KION"
+  - site:t.me "KION"
+  - '"KION" официальный сайт'
+  resolution_notes: 'website checked: https://kion.ru'
+- brand: Kits
+  segment: B
+  nsx_fit: 2
+  website: https://www.pesteam.it/forum/threads/mi67-kits-25-26-no-messaggi-no-richieste-indice-kit-pag-1.43472
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://www.pesteam.it
+  - https://www.pesteam.it/forum/threads/mi67-kits-25-26-no-messaggi-no-richieste-indice-kit-pag-1.43472
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/440612684
+  - https://www.pesteam.it/forum/threads/mi67-kits-25-26-no-messaggi-no-richieste-indice-kit-pag-1.43472/
+  - https://www.zhihu.com/question/442145339/answers/updated
+  - https://www.zhihu.com/question/29181795
+  - https://www.pesteam.it
+  search_queries_used:
+  - site:instagram.com "Kits"
+  - site:t.me "Kits"
+  - '"Kits" официальный сайт'
+  resolution_notes: 'website checked: https://www.pesteam.it/forum/threads/mi67-kits-25-26-no-messaggi-no-richieste-indice-kit-pag-1.43472'
+- brand: Lamoda
+  segment: C
+  nsx_fit: 3
+  website: https://lamoda.ru
+  status: resolved_brand_route
+  route_confidence: medium
+  candidate_names:
+  - Darya Sokolova
+  - сменился управляющий
+  person_resolutions:
+  - person_name: Darya Sokolova
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://dailythemedcrosswordanswers.com/asian-river-___-darya-daily-themed-crossword
+    - https://dailythemedcrosswordanswers.com/___-darya-river-in-central-asia-daily-themed-crossword/
+    - https://www.dailythemedcrosswordanswers.com/___-darya-river-the-river-to-the-aral-sea-daily-themed-crossword
+    - https://dailythemedcrosswordanswers.com/___-darya-asian-river-daily-themed-crossword
+  - person_name: сменился управляющий
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://webmail.aruba.it/
+    - https://www.lonelyplanetitalia.it/articoli/consigli-di-viaggio/cosa-vedere-in-un-viaggio-in-quebec
+    - https://www.voyagetips.com/it/cosa-vedere-in-quebec/
+    - https://www.tripadvisor.it/Attractions-g155033-Activities-Quebec_City_Quebec.html
+    - https://restgeo.com/it/attractions/canada/25-popular-quebec-attractions
+  resolved_instagrams:
+  - https://www.instagram.com/lamoda/
+  resolved_telegrams:
+  - https://t.me/lamoda_na_svyazi
+  resolved_emails:
+  - darya.sokolova@lamoda.ru
+  resolved_contact_urls:
+  - https://job.lamoda.ru/
+  - https://theblueprint.ru/career/brand/lamoda
+  - https://theblueprint.ru/career/39231
+  - https://theblueprint.ru/career/39181
+  - https://theblueprint.ru/career/38885
+  - https://theblueprint.ru/career/38646
+  - https://theblueprint.ru/career/38132
+  - https://theblueprint.ru/career/38154
+  - https://theblueprint.ru/career/37870
+  - https://theblueprint.ru/career/37583
+  site_named_contacts: []
+  proof_urls:
+  - https://theblueprint.ru/career/brand/lamoda
+  - https://t.me/lamoda_na_svyazi
+  - https://www.instagram.com/lamoda/
+  - https://job.lamoda.ru/
+  - https://dailythemedcrosswordanswers.com/asian-river-___-darya-daily-themed-crossword
+  - https://dailythemedcrosswordanswers.com/___-darya-river-in-central-asia-daily-themed-crossword/
+  - https://www.dailythemedcrosswordanswers.com/___-darya-river-the-river-to-the-aral-sea-daily-themed-crossword
+  - https://dailythemedcrosswordanswers.com/___-darya-asian-river-daily-themed-crossword
+  - https://webmail.aruba.it/
+  - https://www.lonelyplanetitalia.it/articoli/consigli-di-viaggio/cosa-vedere-in-un-viaggio-in-quebec
+  - https://www.voyagetips.com/it/cosa-vedere-in-quebec/
+  - https://www.tripadvisor.it/Attractions-g155033-Activities-Quebec_City_Quebec.html
+  search_queries_used:
+  - site:instagram.com "Darya Sokolova" "Lamoda"
+  - site:t.me "Darya Sokolova" "Lamoda"
+  - '"Darya Sokolova" "Lamoda" Instagram'
+  - '"Darya Sokolova" "Lamoda" Telegram'
+  - site:instagram.com "сменился управляющий" "Lamoda"
+  - site:t.me "сменился управляющий" "Lamoda"
+  - '"сменился управляющий" "Lamoda" Instagram'
+  - '"сменился управляющий" "Lamoda" Telegram'
+  - site:instagram.com "Lamoda"
+  - site:t.me "Lamoda"
+  - '"Lamoda" официальный сайт'
+  resolution_notes: 'searched 2 candidate names; website checked: https://lamoda.ru'
+- brand: Leokid
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://web.whatsapp.com/
+  - https://en.wikipedia.org/wiki/White-nosed_coati
+  - https://animalia.bio/white-nosed-coati
+  - https://www.londonzoo.org/whats-here/animals/white-nosed-coati
+  - https://www.theanimalfacts.com/mammals/white-nosed-coati/
+  - https://sunlogin.oray.com/
+  - https://sunlogin.oray.com/download
+  - https://sunlogin.oray.com/product/feat
+  - https://sunlogin.oray.com/download/linux?type=personal
+  search_queries_used:
+  - site:instagram.com "Leokid"
+  - site:t.me "Leokid"
+  - '"Leokid" официальный сайт'
+  resolution_notes: ''
+- brand: Linda de La
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/605594728
+  - https://www.zhihu.com/topic/20173020/intro
+  - https://zhidao.baidu.com/question/949930240734872212.html
+  - https://www.zhihu.com/question/558824740
+  search_queries_used:
+  - site:instagram.com "Linda de La"
+  - site:t.me "Linda de La"
+  - '"Linda de La" официальный сайт'
+  resolution_notes: ''
+- brand: Loom by Rodina
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/67579790
+  - https://www.zhihu.com/question/13079841390
+  - https://www.zhihu.com/question/561658886
+  - https://www.zhihu.com/question/384122666
+  search_queries_used:
+  - site:instagram.com "Loom by Rodina"
+  - site:t.me "Loom by Rodina"
+  - '"Loom by Rodina" официальный сайт'
+  resolution_notes: ''
+- brand: Miele
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/tardis/bd/art/661054783
+  - https://www.zhihu.com/tardis/zm/art/430796250
+  - https://www.zhihu.com/tardis/zm/art/376484331
+  - https://www.zhihu.com/tardis/bd/ans/3027325588
+  search_queries_used:
+  - site:instagram.com "Miele"
+  - site:t.me "Miele"
+  - '"Miele" официальный сайт'
+  resolution_notes: ''
+- brand: MIUZ Diamonds
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://help.wob.com/support/solutions/articles/75000057353-what-sort-of-books-do-world-of-books-sell-
+  - https://help.wob.com/support/home
+  - https://help.wob.com/support/solutions/articles/75000057356-old-rare-book-conditions
+  - https://help.wob.com/support/solutions/folders/75000012595
+  - https://maps.google.com/
+  - https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=es
+  - https://maps.google.es/maps?oe=UTF-8&hl=es
+  - https://maps.google.com/maps/dir/?entry=wc
+  - https://portal.act.gov.pt/Pages/Sinalizacao_seguranca.aspx
+  - https://extintorespvp.pt/comprar/sinaletica/sinaletica-perigo/sinaletica-perigos-varios-is0330/
+  - https://www.sinalux.eu/pt/catalogo/sinalux/perigo/sinalizacao-de-advertencia-de-perigos-varios/p-13-42/
+  - https://www.bomsinal.pt/sinal-de-perigo-perigos-varios-g0409/
+  search_queries_used:
+  - site:instagram.com "MIUZ Diamonds"
+  - site:t.me "MIUZ Diamonds"
+  - '"MIUZ Diamonds" официальный сайт'
+  resolution_notes: ''
+- brand: Monochrome
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://zhidao.baidu.com/question/1186662165743626219.html
+  - https://www.zhihu.com/question/1995226817871700223
+  - https://www.zhihu.com/question/682432495
+  - https://zhidao.baidu.com/question/1677974580993855107.html
+  search_queries_used:
+  - site:instagram.com "Monochrome"
+  - site:t.me "Monochrome"
+  - '"Monochrome" официальный сайт'
+  resolution_notes: ''
+- brand: MTС
+  segment: B
+  nsx_fit: 3
+  website: https://mts.ru
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://mts.ru
+  - https://mts.ru/about
+  site_named_contacts: []
+  proof_urls:
+  - https://www.youtube.com/?gl=GB&hl=en-GB
+  - https://www.youtube.com/
+  - https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US
+  - https://en.wikipedia.org/wiki/YouTube
+  - https://www.intermarche.com/
+  - https://www.intermarche.com/accueil/catalogues
+  - https://www.intermarche.com/enseigne/services/courses-en-ligne
+  - https://www.intermarche.com/enseigne/services/drive
+  - https://support.google.com/websearch/answer/1325808?hl=de&co=GENIE.Platform%3DDesktop
+  - https://support.google.com/accounts/answer/27442?hl=de&co=GENIE.Platform%3DDesktop
+  - https://support.google.com/websearch/answer/1325808?hl=de&co=GENIE.Platform%3DAndroid
+  - https://support.google.com/websearch/answer/1325808?hl=de&co=GENIE.Platform%3DiOS
+  search_queries_used:
+  - site:instagram.com "MTС"
+  - site:t.me "MTС"
+  - '"MTС" официальный сайт'
+  resolution_notes: 'website checked: https://mts.ru'
+- brand: NAOS
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/1963698332040929828
+  - https://www.zhihu.com/question/526374767
+  - https://www.zhihu.com/question/1961377526849967111
+  - https://www.zhihu.com/question/1938594125936064121
+  - https://www.cleancss.com/ru/router-default/192.168.1.1
+  - https://help-wifi.com/sovety-po-nastrojke/192-168-1-1-vxod-v-sistemu-routera-login-i-parol-admin/
+  - https://kod.ru/kak-zayti-v-nastroyki-routera
+  - https://hellowiki.ru/articles/kak-zayti-v-nastroyki-routera-rostelekom-poshagovo-i-bez-lishnih-deystviy
+  - https://mm-to-inches.appspot.com/0.1-mm-to-inches.html
+  - https://www.unitconverters.net/length/mm-to-inches.htm
+  - https://www.calculateme.com/length/millimeters/to-inches/0.1
+  - https://www.inchcalculator.com/convert/millimeter-to-inch/
+  search_queries_used:
+  - site:instagram.com "NAOS"
+  - site:t.me "NAOS"
+  - '"NAOS" официальный сайт'
+  resolution_notes: ''
+- brand: Nikasport
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://forum.vivaldi.net/topic/112404/whatsapp-web-logging-out-constantly
+  - https://forum.vivaldi.net/topic/98404/cent-browser
+  - https://forum.vivaldi.net/topic/76056/make-vivaldi-available-on-android-auto
+  - https://forum.vivaldi.net/topic/90807/non-stop-youtube-help
+  - https://www.seloger.com/recherche/achat/maison/auvergne-rhone-alpes/lyon-69000/ad08fr28808
+  - https://www.seloger.com/recherche/achat/maison/lyon-69000/lyon-5eme-arrondissement-69005/ad09fr21
+  - https://www.seloger.com/recherche/achat/maison/lyon-69000/lyon-4eme-arrondissement-69004/ad09fr20
+  - https://www.seloger.com/recherche/achat/maison/auvergne-rhone-alpes/sainte-foy-les-lyon-69110/ad08fr28887
+  - https://www.tiktok.com/en/
+  - https://www.tiktok.com/es-419/
+  - https://www.tiktok.com/login
+  - https://www.tiktok.com/signup
+  search_queries_used:
+  - site:instagram.com "Nikasport"
+  - site:t.me "Nikasport"
+  - '"Nikasport" официальный сайт'
+  resolution_notes: ''
+- brand: Nrav
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://chatgpt.com/
+  - https://openai.com/de-DE/index/chatgpt/
+  - https://chat.ch/
+  - https://de.wikipedia.org/wiki/ChatGPT
+  - https://www.chimnie.co.uk/uk/north-east-scotland/forfar/35-pitreuchie-place-b45745d5b40bd15c5bace103d339fe86
+  - https://www.purplebricks.co.uk/property-for-sale/3-bedroom-terraced-house-forfar-1341451
+  - https://www.rightmove.co.uk/house-prices/dd8/pitreuchie-place.html
+  - https://www.onthemarket.com/details/15125496/
+  - https://en.wikipedia.org/wiki/1980s%E2%80%931990s_Romanian_orphans_phenomenon
+  - https://www.rferl.org/a/romania-communist-orphanages-starvation-abuse/32711948.html
+  - https://ironcurtainproject.eu/en/stories/the-battle-of-ceausescus-children/
+  - https://borgenproject.org/the-history-of-romanian-orphanages/
+  search_queries_used:
+  - site:instagram.com "Nrav"
+  - site:t.me "Nrav"
+  - '"Nrav" официальный сайт'
+  resolution_notes: ''
+- brand: Omoikiri
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://mail.google.com/
+  - https://mail.google.com/mail
+  - https://translate.google.es/
+  - https://translate.google.es/m
+  - https://translate.google.es/details
+  - https://zhidao.baidu.com/question/354797230.html
+  - https://zhidao.baidu.com/question/360138610564288532.html
+  - https://zhidao.baidu.com/question/1925749466342084307.html
+  - https://zhidao.baidu.com/question/2279128058414338748.html
+  search_queries_used:
+  - site:instagram.com "Omoikiri"
+  - site:t.me "Omoikiri"
+  - '"Omoikiri" официальный сайт'
+  resolution_notes: ''
+- brand: Oniverse
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.flashscore.fr/
+  - https://www.flashscore.fr/tennis/
+  - https://www.flashscore.fr/football/europe/
+  - https://www.flashscore.fr/football/france/
+  - https://www.zhihu.com/question/7837132971
+  - https://www.zhihu.com/question/2024876426596291384
+  - https://www.zhihu.com/question/11279524682
+  - https://www.zhihu.com/question/1891065454153410526
+  - https://ge.xhamster.desi/
+  - https://www.pornohammer.com/
+  - https://tubepleasure.com/de/
+  - https://www.pornv.xxx/?hl=de
+  search_queries_used:
+  - site:instagram.com "Oniverse"
+  - site:t.me "Oniverse"
+  - '"Oniverse" официальный сайт'
+  resolution_notes: ''
+- brand: Ozon
+  segment: B
+  nsx_fit: 3
+  website: https://ozon.ru
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://www.byggahus.se/ozonrening-for-bra-for-att-vara-sant
+  - https://www.byggahus.se/bloggar/inlagg/test-luftrenare-4-av-20-avger-over-gransvardena-for-ozon
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/502588761
+  - https://www.zhihu.com/question/516859386
+  - https://www.byggahus.se/ozonrening-for-bra-for-att-vara-sant
+  - https://www.byggahus.se/bloggar/inlagg/test-luftrenare-4-av-20-avger-over-gransvardena-for-ozon
+  search_queries_used:
+  - site:instagram.com "Ozon"
+  - site:t.me "Ozon"
+  - '"Ozon" официальный сайт'
+  resolution_notes: 'website checked: https://ozon.ru'
+- brand: Parure Atelier
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.minecraft.net/tr-tr/free-trial
+  - https://yuppiy.com/tr/g/minecraft
+  - https://www.crazygames.com/tr/t/minecraft
+  - https://apps.microsoft.com/detail/9pj8266bhfwn?hl=tr-TR&gl=TR
+  - https://emojipedia.org/thumbs-up
+  - https://emojiguide.org/thumbs-up
+  - https://emojigraph.org/thumbs-up/
+  - https://emojiterra.com/thumbs-up/
+  - https://www.google.co.uk/
+  - https://www.google.com/intl/en-GB/account/about/
+  - https://en.wikipedia.org/wiki/Google
+  - https://www.gmail.com/mail/help/intl/en-US/about.html?__shortid__=1wZ9
+  search_queries_used:
+  - site:instagram.com "Parure Atelier"
+  - site:t.me "Parure Atelier"
+  - '"Parure Atelier" официальный сайт'
+  resolution_notes: ''
+- brand: Pitkina
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.youtube.com/watch?v=XEFZ30Cvdnc
+  - https://en.wikipedia.org/wiki/6-7_meme
+  - https://knowyourmeme.com/memes/67-kid
+  - https://www.dailymotion.com/video/x9q1yfs
+  - https://chatgpt.com/
+  - https://openai.com/de-DE/index/chatgpt/
+  - https://chat.ch/
+  - https://de.wikipedia.org/wiki/ChatGPT
+  - https://www.zhihu.com/question/1916203992091964465
+  - https://www.astrologyanswers.com/horoscopes/gemini-daily-horoscope/
+  - https://www.zhihu.com/question/2013286690031150734
+  - https://www.zhihu.com/question/1980596374903993722
+  search_queries_used:
+  - site:instagram.com "Pitkina"
+  - site:t.me "Pitkina"
+  - '"Pitkina" официальный сайт'
+  resolution_notes: ''
+- brand: Poison Drop
+  segment: C
+  nsx_fit: 2
+  website: https://www.zhihu.com/people/poison-3-23-16
+  status: partial
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails:
+  - jubao@zhihu.com
+  - bd@zhihu.com
+  - ad@zhihu.com
+  - agency@zhihu.com
+  resolved_contact_urls:
+  - https://www.zhihu.com
+  - https://www.zhihu.com/kontakty
+  - https://www.zhihu.com/contact
+  - https://www.zhihu.com/about
+  - https://www.zhihu.com/o-kompanii
+  - https://www.zhihu.com/press
+  - https://www.zhihu.com/press-center
+  - https://www.zhihu.com/presscenter
+  - https://www.zhihu.com/dlya-smi
+  - https://www.zhihu.com/for-media
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/315196013
+  - https://www.zhihu.com/people/poison-3-23-16
+  - https://www.zhihu.com/pin/1693292204410494976
+  - https://www.zhihu.com/topic/19928910/intro
+  - https://www.zhihu.com
+  - https://www.zhihu.com/kontakty
+  - https://www.zhihu.com/contact
+  - https://www.zhihu.com/about
+  - https://www.zhihu.com/o-kompanii
+  - https://www.zhihu.com/press
+  - https://www.zhihu.com/press-center
+  - https://www.zhihu.com/presscenter
+  search_queries_used:
+  - site:instagram.com "Poison Drop"
+  - site:t.me "Poison Drop"
+  - '"Poison Drop" официальный сайт'
+  resolution_notes: 'website checked: https://www.zhihu.com/people/poison-3-23-16'
+- brand: Prime Ride
+  segment: D
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names:
+  - Анна Зайцева (exp. Volga Dream)
+  person_resolutions:
+  - person_name: Анна Зайцева (exp. Volga Dream)
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://learn.microsoft.com/en-us/answers/questions/1286459/moving-local-excel-file-to-sharepoint-online-as-a
+    - https://www.thebricks.com/resources/guide-how-to-sync-excel-files-between-computers
+    - https://www.pcmag.com/picks/the-best-cloud-storage-and-file-sharing-services
+    - https://sos-click.com/step-by-step-guide-to-setting-up-cloud-sync-for-your-excel-files/
+    - https://login.yahoo.com/
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://learn.microsoft.com/en-us/answers/questions/1286459/moving-local-excel-file-to-sharepoint-online-as-a
+  - https://www.thebricks.com/resources/guide-how-to-sync-excel-files-between-computers
+  - https://www.pcmag.com/picks/the-best-cloud-storage-and-file-sharing-services
+  - https://sos-click.com/step-by-step-guide-to-setting-up-cloud-sync-for-your-excel-files/
+  - https://login.yahoo.com/
+  - https://uk.mail.yahoo.com/
+  - https://mail.yahoo.com/
+  - https://ph.mail.yahoo.com/
+  - https://aventureraimperfecta.com/2025/10/06/que-ver-y-hacer-en-el-parque-nacional-banff/
+  - https://www.tripadvisor.es/Attractions-g154911-Activities-Banff_Banff_National_Park_Alberta.html
+  - https://www.organizotuviaje.com/que-ver-en-parque-nacional-banff-canada/
+  - https://www.mochileandoporelmundo.com/que-ver-y-hacer-en-el-banff-national-park/
+  search_queries_used:
+  - site:instagram.com "Анна Зайцева (exp. Volga Dream)" "Prime Ride"
+  - site:t.me "Анна Зайцева (exp. Volga Dream)" "Prime Ride"
+  - '"Анна Зайцева (exp. Volga Dream)" "Prime Ride" Instagram'
+  - '"Анна Зайцева (exp. Volga Dream)" "Prime Ride" Telegram'
+  - site:instagram.com "Prime Ride"
+  - site:t.me "Prime Ride"
+  - '"Prime Ride" официальный сайт'
+  resolution_notes: searched 1 candidate names
+- brand: Pritch
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.ica.se/stammis/partnererbjudanden/resor-och-hotell/
+  - https://www.hotelsbysas.com/
+  - https://www.countrysidehotels.se/erbjudanden/erbjudande-till-dig-med-ica-kort/
+  - https://www.hotellpremien.se/
+  - https://www.google.co.uk/
+  - https://accounts.google.com/
+  - https://en.wikipedia.org/wiki/Google
+  - https://images.google.co.uk/
+  - https://knowledge.hubspot.com/tasks/task-reminders-and-daily-digest
+  - https://insidea.com/blog/hubspot/kb/how-to-set-up-task-notifications-and-reminders-in-hubspot/
+  - https://www.youtube.com/watch?v=ouq0Ihr_K2o
+  - https://knowledge.hubspot.com/tasks/create-tasks
+  search_queries_used:
+  - site:instagram.com "Pritch"
+  - site:t.me "Pritch"
+  - '"Pritch" официальный сайт'
+  resolution_notes: ''
+- brand: R4S
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://anime-sama.org/
+  - https://animes-sama.fr/
+  - https://anime-sama.fr/
+  - https://www.univers-otaku.com/anime-sama/
+  - https://www.google.com/streetview/
+  - https://maps.google.com/
+  - https://www.instantstreetview.com/
+  - https://support.google.com/maps/answer/3093484?hl=en&co=GENIE.Platform%3DDesktop
+  - https://en.wikipedia.org/wiki/Philippa_Langley
+  - https://philippalangley.co.uk/
+  - https://www.palatinate.org.uk/my-projects-were-always-about-finding-the-truth-philippa-langleys-life-in-history/
+  - https://revealingrichardiii.com/langley.html
+  search_queries_used:
+  - site:instagram.com "R4S"
+  - site:t.me "R4S"
+  - '"R4S" официальный сайт'
+  resolution_notes: ''
+- brand: Rendez-Vous
+  segment: B
+  nsx_fit: 2
+  website: https://sverigesradio.se/rendezvous
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://sverigesradio.se
+  - https://sverigesradio.se/rendezvous
+  - https://www.synonymer.se/sv-syn/rendezvous
+  - https://sv.bab.la/lexikon/engelsk-svensk/rendezvous
+  site_named_contacts: []
+  proof_urls:
+  - https://sverigesradio.se/rendezvous
+  - https://www.synonymer.se/sv-syn/rendezvous
+  - https://svenska.se/?activeTab=saol&q=rendezvous
+  - https://sv.bab.la/lexikon/engelsk-svensk/rendezvous
+  - https://www.youtube.com/
+  - https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US
+  - https://fr.wikipedia.org/wiki/YouTube
+  - https://apps.apple.com/fr/app/youtube-music/id1017492454
+  - https://sverigesradio.se
+  search_queries_used:
+  - site:instagram.com "Rendez-Vous"
+  - site:t.me "Rendez-Vous"
+  - '"Rendez-Vous" официальный сайт'
+  resolution_notes: 'website checked: https://sverigesradio.se/rendezvous'
+- brand: RINK
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://jingyan.baidu.com/article/ca2d939dad1a2faa6d31ce26.html
+  - https://jingyan.baidu.com/article/d3b74d643932d91f77e609cb.html
+  - https://jingyan.baidu.com/article/148a19217b75800c70c3b175.html
+  - https://jingyan.baidu.com/article/2d5afd69cb96b3c4a3e28e10.html
+  search_queries_used:
+  - site:instagram.com "RINK"
+  - site:t.me "RINK"
+  - '"RINK" официальный сайт'
+  resolution_notes: ''
+- brand: RMixed
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://classroom.google.com/h?hl=es
+  - https://www.educa2.madrid.org/educamadrid/?login=1
+  - https://alumnos.colegioestudiantes.edu.es/
+  - https://support.google.com/edu/classroom/answer/6072460?hl=es&co=GENIE.Platform%3DDesktop
+  - https://lexnet.justicia.es/
+  - https://lexnet.justicia.es/lexnetWeb/error_security/authentication_no_certificateXD
+  - https://lexnet.justicia.es/lexnetWeb/error_security/timeout
+  - https://lexnet.justicia.es/lexnetWeb/error_security/authentication_revoked
+  - https://www.hjh-office.fr/
+  - https://www.hjh-office.fr/chaises-de-bureau.html
+  - https://www.hjh-office.fr/lentreprise/contact
+  - https://www.hjh-office.fr/chaises-de-bureau/sieges-de-bureau.html
+  search_queries_used:
+  - site:instagram.com "RMixed"
+  - site:t.me "RMixed"
+  - '"RMixed" официальный сайт'
+  resolution_notes: ''
+- brand: Sanchy
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.gov.uk/rubbish-collection-day
+  - https://www.mygov.scot/bin-days
+  - https://www.falkirk.gov.uk/household-waste-and-recycling/garden-waste
+  - https://www.north-ayrshire.gov.uk/bins-litter-and-recycling/bin-collection-days
+  - https://www.tripzaza.com/pl/destinations/atrakcji-w-quebecu
+  - https://restgeo.com/pl/attractions/canada/25-popular-quebec-attractions
+  - https://tripates.com/pl/19-top-rated-tourist-attractions-in-qu%C3%A9bec
+  - https://www.filmowe-szlaki.pl/2025/05/16/quebec-najpiekniejsze-miasto-kanady-zabytki-zwiedzanie/
+  - https://investor.apple.com/investor-relations/default.aspx
+  - https://finance.yahoo.com/news/revisit-sap-stock-recent-5-101646160.html
+  - https://www.ebc.com/forex/sap-stock-price-in-focus-as-q-results-near
+  - https://www.zacks.com/stock/news/2791594/the-zacks-analyst-blog-highlights-sap-se-prologis-the-bank-of-new-york-mellon-and-united-security-bancshares
+  search_queries_used:
+  - site:instagram.com "Sanchy"
+  - site:t.me "Sanchy"
+  - '"Sanchy" официальный сайт'
+  resolution_notes: ''
+- brand: Scandale Manière
+  segment: B
+  nsx_fit: 3
+  website: https://www.nytimes.com/wirecutter/reviews/best-nonstick-pan
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://www.nytimes.com
+  - https://www.nytimes.com/wirecutter/reviews/best-nonstick-pan
+  - https://www.carrefour.es/folletos.e
+  - https://www.tiendeo.com/Folletos-Catalogos/carrefour
+  - https://www.ofertero.es/carrefour
+  - https://www.kimbino.es/carrefour/carrefour-folleto-desde-martes-07-04-2026-5015516
+  site_named_contacts: []
+  proof_urls:
+  - https://archiv.ub.uni-heidelberg.de/artdok/9806/1/Held_La_pintura_espanola_de_paisaje_en_el_siglo_XVIII_1993.pdf
+  - http://historiadeljardin.hdplus.es/wp-content/uploads/2021/09/TEMA-8.pdf
+  - https://www.bellasartes.gob.ar/coleccion/obra/2240/
+  - https://es.123rf.com/imagenes-de-archivo/paisaje_jardin_pintura_del_siglo_XVIII.html
+  - https://www.nytimes.com/wirecutter/reviews/best-nonstick-pan/
+  - https://www.rosenberryrooms.com/best-non-stick-pans-collection/
+  - https://www.talkofthehouse.com/best-non-stick-pan-collection/
+  - https://www.independent.co.uk/extras/indybest/house-garden/kitchen-accessories/best-nonstick-pan-sets-b2730059.html
+  - https://www.carrefour.es/folletos.e
+  - https://www.tiendeo.com/Folletos-Catalogos/carrefour
+  - https://www.ofertero.es/carrefour/
+  - https://www.kimbino.es/carrefour/carrefour-folleto-desde-martes-07-04-2026-5015516/
+  search_queries_used:
+  - site:instagram.com "Scandale Manière"
+  - site:t.me "Scandale Manière"
+  - '"Scandale Manière" официальный сайт'
+  resolution_notes: 'website checked: https://www.nytimes.com/wirecutter/reviews/best-nonstick-pan'
+- brand: Sela
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/2017378891103216019
+  - https://zhidao.baidu.com/question/950934719487250452.html
+  - https://www.zhihu.com/question/518660717
+  - https://www.zhihu.com/question/8931945237
+  - https://www.gemini.com/
+  - https://support.gemini.com/hc/en-us
+  - https://www.gemini.com/exchange
+  - https://www.gemini.com/about
+  - https://tv.nova.cz/sledujte-zive/1-nova
+  - https://tv.nova.cz/
+  - https://tv.nova.cz/sledujte-zive/5-nova-krimi
+  - https://tv.nova.cz/sledujte-zive/3-nova-action
+  search_queries_used:
+  - site:instagram.com "Sela"
+  - site:t.me "Sela"
+  - '"Sela" официальный сайт'
+  resolution_notes: ''
+- brand: SENECA
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.companyweb.be/fr/1008749124/mrn-corp
+  - https://trendstop.levif.be/fr/detail/1008749124/mrn-corp.aspx
+  - https://fr.kompass.com/c/mrn-corp/ben4289181/
+  - https://www.northdata.com/MRN%20Corp%C2%B7,%20Koekelberg/KBO%201008.749.124
+  - https://www.tierarztpraxis-hamm.de/
+  - https://www.tierarzt-onlineverzeichnis.de/tierarztpraxis/57577-hamm-sieg/dr-dominik-blaecker-und-michaela-assenmacher/4115/
+  - https://www.mein-tierarzt.org/tierarzt/hamm-sieg-/dr-dominik-blaecker-und-michaela-assenmacher-84528
+  - https://web2.cylex.de/firma-home/b-u-w-tierarzt-gmbh-9801549.html
+  - https://pt.fapcat.com/search/Download-film-bokep-tante-percakapan/
+  - https://go.porn/search/bokep-indo-tante-sange-sub/
+  - https://asianpinay.to/search/Bokep%20Tante%20desah%20jilbab%20
+  - https://xhamster2.com/search/www+bokep+tante+twiter+indo+stw+com
+  search_queries_used:
+  - site:instagram.com "SENECA"
+  - site:t.me "SENECA"
+  - '"SENECA" официальный сайт'
+  resolution_notes: ''
+- brand: SHIKcosmetics, Natalya Shik
+  segment: C
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.nirsoft.net/utils/shexview.html
+  - https://www.softportal.com/software-21163-classic-shell.html
+  - https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/
+  - https://remontka.pro/open-shell-menu/
+  - https://educamosclm.castillalamancha.es/
+  - https://educamosclm.castillalamancha.es/accesoeducamos/
+  - https://educamosclm.castillalamancha.es/s/home
+  - https://educamosclm.castillalamancha.es/familias/home
+  - https://support.google.com/googleplay/android-developer/answer/6112435?hl=en
+  - https://support.google.com/accounts/community?hl=en
+  - https://support.google.com/accounts/answer/19870?hl=en&co=GENIE.Platform%3DDesktop
+  - https://support.google.com/websearch/answer/179386?hl=en&co=GENIE.Platform=Android
+  search_queries_used:
+  - site:instagram.com "SHIKcosmetics, Natalya Shik"
+  - site:t.me "SHIKcosmetics, Natalya Shik"
+  - '"SHIKcosmetics, Natalya Shik" официальный сайт'
+  resolution_notes: ''
+- brand: Simple Group
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/tardis/zm/art/370351186
+  - https://zhidao.baidu.com/question/725271588026968285.html
+  - https://www.zhihu.com/question/1888737644927771806/answers/updated
+  - https://zhidao.baidu.com/question/528829094.html
+  search_queries_used:
+  - site:instagram.com "Simple Group"
+  - site:t.me "Simple Group"
+  - '"Simple Group" официальный сайт'
+  resolution_notes: ''
+- brand: Sportmaster
+  segment: B
+  nsx_fit: 3
+  website: https://sportmaster.ru
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://forumdacasa.com/discussion/39678/quanto-tempo-apos-a-escritura-ficam-os-imoveis-visiveis-no-site-das-financas/
+  - https://forumdacasa.com/discussion/100653/como-verificar-se-o-contrato-de-arrendamento-foi-registado-nas-financas-pelo-senhorio/
+  - https://forumdacasa.com/discussion/39678/2/quanto-tempo-apos-a-escritura-ficam-os-imoveis-visiveis-no-site-das-financas/
+  - https://forumdacasa.com/discussion/70328/registo-de-contrato-de-arrendamento-rural-no-portal-das-financas/
+  - https://www.hrw.org/topic/womens-rights/sexual-violence
+  - https://www.hrw.org/news/2024/04/22/iran-security-forces-rape-torture-detainees
+  - https://www.hrw.org/news/2025/10/30/france-redefines-rape-in-landmark-law
+  - https://www.hrw.org/news/2024/12/15/sudan-fighters-rape-women-and-girls-hold-sex-slaves
+  - https://music.yandex.ru/
+  - https://music.yandex.ru/landing/music_genres
+  - https://music.yandex.ru/download/
+  - https://music.yandex.com/mixes
+  search_queries_used:
+  - site:instagram.com "Sportmaster"
+  - site:t.me "Sportmaster"
+  - '"Sportmaster" официальный сайт'
+  resolution_notes: 'website checked: https://sportmaster.ru'
+- brand: Studio 29
+  segment: C
+  nsx_fit: 2
+  website: https://www.studio.se
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://www.studio.se
+  - https://www.studio.se/contact
+  - https://www.studio.se/press
+  - https://www.studio.se/studio/studio
+  - https://www.studio.se/forums
+  - https://www.studio.se/studio/nyheter
+  site_named_contacts: []
+  proof_urls:
+  - https://www.studio.se/
+  - https://www.studio.se/studio/studio/
+  - https://www.studio.se/forums
+  - https://www.studio.se/studio/nyheter/
+  - https://www.studio.se
+  - https://www.studio.se/contact
+  - https://www.studio.se/press
+  search_queries_used:
+  - site:instagram.com "Studio 29"
+  - site:t.me "Studio 29"
+  - '"Studio 29" официальный сайт'
+  resolution_notes: 'website checked: https://www.studio.se'
+- brand: T2
+  segment: B
+  nsx_fit: 3
+  website: https://t2.ru
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/666325231
+  - https://www.zhihu.com/question/309260410?sort=created
+  - https://www.zhihu.com/question/38567276
+  - https://www.zhihu.com/question/630521905
+  search_queries_used:
+  - site:instagram.com "T2"
+  - site:t.me "T2"
+  - '"T2" официальный сайт'
+  resolution_notes: 'website checked: https://t2.ru'
+- brand: The Ayris
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/15324818673
+  - https://www.zhihu.com/question/31864290
+  - https://www.zhihu.com/question/19589241?sort=created
+  - https://www.zhihu.com/tardis/bd/art/397207179
+  search_queries_used:
+  - site:instagram.com "The Ayris"
+  - site:t.me "The Ayris"
+  - '"The Ayris" официальный сайт'
+  resolution_notes: ''
+- brand: Tondeo
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.superprof.co.uk/
+  - https://www.superprof.com/
+  - https://www.superprof.ie/
+  - https://www.superprof.co.in/
+  - https://www.bestattung-glueck.at/
+  - https://www.bestattung-glueck.at/trauerfaelle.php
+  - https://www.bestattung-glueck.at/kontakt.php
+  - https://www.bestattung-glueck.at/team.php
+  - https://code.visualstudio.com/download
+  - https://visualstudio.microsoft.com/ru/downloads/
+  - http://vscode.dev/
+  - https://code.visualstudio.com/
+  search_queries_used:
+  - site:instagram.com "Tondeo"
+  - site:t.me "Tondeo"
+  - '"Tondeo" официальный сайт'
+  resolution_notes: ''
+- brand: Ushatava
+  segment: C
+  nsx_fit: 3
+  website: https://ushatava.ru
+  status: resolved_person_route
+  route_confidence: high
+  candidate_names:
+  - Анастасия Ушатава
+  - Алёна Ушатава
+  - Нино Шаматава
+  person_resolutions:
+  - person_name: Анастасия Ушатава
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://www.google.es/
+    - https://about.google/intl/es_ALL/
+    - https://es.wikipedia.org/wiki/Google
+    - https://www.google.com/?hl=gl-ES
+    - https://www.microsoft.com/en-us
+  - person_name: Алёна Ушатава
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://www.bizimmekan.com/
+    - https://www.bizimmekan.com/bizim-mekan-nedir.php
+    - https://www.bizimmekan.com/online-sohbet.php
+    - https://www.bizimmekan.com/kahramanmaras-sohbet.php
+    - https://support.microsoft.com/en-us/windows/how-to-get-help-in-windows-711b6492-0435-0038-8706-7c6b0feb200a
+  - person_name: Нино Шаматава
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://ejje.weblio.jp/content/enough
+    - https://ejje.weblio.jp/content/Enough+is+enough.
+    - https://ejje.weblio.jp/content/enough!
+    - https://ejje.weblio.jp/content/That's+enough
+    - https://europe.singer.com/sv-se
+  resolved_instagrams:
+  - https://www.instagram.com/ninoshenka/
+  resolved_telegrams:
+  - https://t.me/Ushatava_clientsbot
+  resolved_emails:
+  - photo@ushatava.com
+  resolved_contact_urls:
+  - https://en.ushatava.ru/about/contacts/
+  - https://theblueprint.ru/career/brand/ushatava
+  - https://theblueprint.ru/career/39175
+  - https://theblueprint.ru/career/38811
+  - https://theblueprint.ru/career/38795
+  - https://theblueprint.ru/career/37895
+  - https://theblueprint.ru/career/36757
+  - https://theblueprint.ru/career/35868
+  - https://theblueprint.ru/career/35648
+  - https://theblueprint.ru/career/35394
+  site_named_contacts: []
+  proof_urls:
+  - https://en.ushatava.ru/about/contacts/
+  - https://www.instagram.com/ninoshenka/
+  - https://t.me/Ushatava_clientsbot
+  - https://www.google.es/
+  - https://about.google/intl/es_ALL/
+  - https://es.wikipedia.org/wiki/Google
+  - https://www.google.com/?hl=gl-ES
+  - https://www.microsoft.com/en-us
+  - https://www.office.com/
+  - https://en.wikipedia.org/wiki/Microsoft
+  - https://account.microsoft.com/account
+  - https://www.youtube.com/
+  search_queries_used:
+  - site:instagram.com "Анастасия Ушатава" "Ushatava"
+  - site:t.me "Анастасия Ушатава" "Ushatava"
+  - '"Анастасия Ушатава" "Ushatava" Instagram'
+  - '"Анастасия Ушатава" "Ushatava" Telegram'
+  - site:instagram.com "Алёна Ушатава" "Ushatava"
+  - site:t.me "Алёна Ушатава" "Ushatava"
+  - '"Алёна Ушатава" "Ushatava" Instagram'
+  - '"Алёна Ушатава" "Ushatava" Telegram'
+  - site:instagram.com "Нино Шаматава" "Ushatava"
+  - site:t.me "Нино Шаматава" "Ushatava"
+  - '"Нино Шаматава" "Ushatava" Instagram'
+  - '"Нино Шаматава" "Ushatava" Telegram'
+  - site:instagram.com "Ushatava"
+  - site:t.me "Ushatava"
+  - '"Ushatava" официальный сайт'
+  resolution_notes: 'searched 3 candidate names; website checked: https://ushatava.ru'
+- brand: VASSA&Co
+  segment: B
+  nsx_fit: 2
+  website: https://sangelink.it.com/bocil-sd-diewe-sambil-nonton-bokep-buat-belajar-gaya-ngewe
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://sangelink.it.com
+  - https://sangelink.it.com/contacts
+  - https://sangelink.it.com/kontakty
+  - https://sangelink.it.com/contact
+  - https://sangelink.it.com/about
+  - https://sangelink.it.com/o-kompanii
+  - https://sangelink.it.com/press
+  - https://sangelink.it.com/press-center
+  - https://sangelink.it.com/press-centr
+  - https://sangelink.it.com/presscenter
+  site_named_contacts: []
+  proof_urls:
+  - https://sangelink.it.com/bocil-sd-diewe-sambil-nonton-bokep-buat-belajar-gaya-ngewe
+  - https://situsbokep.com.de/video/bokep-indo-bo-bocil-cewek-michat-rambut-pirang/
+  - https://sangelink.it.com/bocil-sd-habis-nonton-bokep-sange-malah-colmek-di-kamar-mandi
+  - https://sangelink.it.com/bokep-bocil-smp-minta-thr-malah-diajak-ngewe-di-hotel
+  - https://www.zhihu.com/question/267294342
+  - https://www.zhihu.com/question/1907773905692766754
+  - https://www.zhihu.com/question/1972140495577806389
+  - https://www.zhihu.com/question/444910062
+  - https://forums.commentcamarche.net/forum/affich-30718210-remettre-msn-canada-comme-page-d-accueil
+  - https://forums.commentcamarche.net/forum/affich-14453499-revenir-a-une-ancienne-version-de-msn
+  - https://forums.commentcamarche.net/forum/affich-1469454-msn-comment-changer-la-langue-de-msn
+  - https://forums.commentcamarche.net/forum/affich-4070173-revenir-a-l-ancienne-version-de-msn
+  search_queries_used:
+  - site:instagram.com "VASSA&Co"
+  - site:t.me "VASSA&Co"
+  - '"VASSA&Co" официальный сайт'
+  resolution_notes: 'website checked: https://sangelink.it.com/bocil-sd-diewe-sambil-nonton-bokep-buat-belajar-gaya-ngewe'
+- brand: vesnaskoro
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://zhidao.baidu.com/question/996369945136936939.html
+  - https://www.medscape.com/viewarticle/762323
+  - https://zhidao.baidu.com/question/2130225314194792867.html
+  - https://www.zhihu.com/question/2010295119278990371
+  - https://www.bing.com/images/create
+  - https://www.bing.com/new?icid=mscom_marcom_CPH3a_BingAI
+  - https://www.bing.com/new?icid=mscom_marcom_H1a_BingAI
+  - https://www.bing.com/copilot?cc=es&setlang=es
+  - https://yandex.com/
+  - https://online.yandex.com/search?text=%E4%BF%84%E7%BD%97%E6%96%AF%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8Eyandex&lr=21206
+  - http://online.yandex.com/search
+  - https://desktop.yandex.com/search/?text=yandex+search&lr=21414&msp=1
+  search_queries_used:
+  - site:instagram.com "vesnaskoro"
+  - site:t.me "vesnaskoro"
+  - '"vesnaskoro" официальный сайт'
+  resolution_notes: ''
+- brand: VK
+  segment: E
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/question/310514536/answers/updated
+  - https://www.zhihu.com/question/20058640/answers/updated
+  - https://www.zhihu.com/question/58579979
+  - https://www.zhihu.com/zvideo/1412160350489468928
+  search_queries_used:
+  - site:instagram.com "VK"
+  - site:t.me "VK"
+  - '"VK" официальный сайт'
+  resolution_notes: ''
+- brand: Volga Dream
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.zhihu.com/zvideo/1527308710124236800
+  - https://www.zhihu.com/pin/1932200093940978427
+  - https://zhidao.baidu.com/question/1444886401373234739.html
+  - https://www.zhihu.com/question/460322867
+  search_queries_used:
+  - site:instagram.com "Volga Dream"
+  - site:t.me "Volga Dream"
+  - '"Volga Dream" официальный сайт'
+  resolution_notes: ''
+- brand: Way of living/WoL
+  segment: B
+  nsx_fit: 2
+  website: http://www.waygroup.se
+  status: partial
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails:
+  - info@waygroup.se
+  resolved_contact_urls:
+  - http://www.waygroup.se
+  - http://www.waygroup.se/produkter
+  - http://www.waygroup.se/konsulttjanster
+  - http://www.waygroup.se/sa-lyckas-du-med-forandringsledning
+  site_named_contacts: []
+  proof_urls:
+  - http://www.waygroup.se/
+  - http://www.waygroup.se/produkter/
+  - http://www.waygroup.se/konsulttjanster/
+  - http://www.waygroup.se/sa-lyckas-du-med-forandringsledning/
+  - http://www.waygroup.se
+  search_queries_used:
+  - site:instagram.com "Way of living/WoL"
+  - site:t.me "Way of living/WoL"
+  - '"Way of living/WoL" официальный сайт'
+  resolution_notes: 'website checked: http://www.waygroup.se'
+- brand: WoL
+  segment: B
+  nsx_fit: 2
+  website: https://forums.commentcamarche.net/forum/affich-23579639-probleme-wake-on-lan-wol
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://forums.commentcamarche.net
+  - https://forums.commentcamarche.net/forum/affich-23579639-probleme-wake-on-lan-wol
+  site_named_contacts: []
+  proof_urls:
+  - https://service.oray.com/question/47288.html
+  - https://jingyan.baidu.com/article/7e44095376e0d02fc1e2ef72.html
+  - https://jingyan.baidu.com/article/cdddd41c438d1c12ca00e15a.html
+  - https://forums.commentcamarche.net/forum/affich-23579639-probleme-wake-on-lan-wol
+  - https://forums.commentcamarche.net
+  search_queries_used:
+  - site:instagram.com "WoL"
+  - site:t.me "WoL"
+  - '"WoL" официальный сайт'
+  resolution_notes: 'website checked: https://forums.commentcamarche.net/forum/affich-23579639-probleme-wake-on-lan-wol'
+- brand: YuliaWave
+  segment: C
+  nsx_fit: 3
+  website: https://yuliawave.com/contact/
+  status: resolved_person_route
+  route_confidence: high
+  candidate_names:
+  - Юлия Василевская
+  person_resolutions:
+  - person_name: Юлия Василевская
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e
+    - https://www.windowscentral.com/how-do-clean-install-windows-11
+    - https://www.digitaltrends.com/computing/how-to-install-windows-11/
+    - https://www.windowslatest.com/2026/04/01/download-windows-11-25h2-iso-offline-installer-and-always-save-a-copy/
+    - https://www.youtube.com/youtube
+  resolved_instagrams:
+  - https://www.instagram.com/yuliawave/
+  - https://www.instagram.com/yuliawave.brand/
+  resolved_telegrams:
+  - https://t.me/YULIAWAVE_BRAND
+  resolved_emails:
+  - ceo@yuliawave.com
+  resolved_contact_urls:
+  - https://yuliawave.com/contact/
+  - https://theblueprint.ru/career/brand/yuliawave
+  - https://theblueprint.ru/career/brand/brendyuliawave
+  - https://theblueprint.ru/career/37838
+  - https://theblueprint.ru/career/36494
+  - https://theblueprint.ru/career/36377
+  - https://theblueprint.ru/career/36177
+  - https://theblueprint.ru/career/33886
+  - https://theblueprint.ru/career/33431
+  - https://theblueprint.ru/career/32515
+  site_named_contacts: []
+  proof_urls:
+  - https://www.instagram.com/yuliawave/
+  - https://t.me/YULIAWAVE_BRAND
+  - https://theblueprint.ru/career/brand/yuliawave
+  - https://www.instagram.com/yuliawave.brand/
+  - https://yuliawave.com/contact/
+  - https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e
+  - https://www.windowscentral.com/how-do-clean-install-windows-11
+  - https://www.digitaltrends.com/computing/how-to-install-windows-11/
+  - https://www.windowslatest.com/2026/04/01/download-windows-11-25h2-iso-offline-installer-and-always-save-a-copy/
+  - https://www.youtube.com/youtube
+  - https://www.youtube.com/@__--_--_-----
+  - https://www.youtube.com/@trending
+  search_queries_used:
+  - site:instagram.com "Юлия Василевская" "YuliaWave"
+  - site:t.me "Юлия Василевская" "YuliaWave"
+  - '"Юлия Василевская" "YuliaWave" Instagram'
+  - '"Юлия Василевская" "YuliaWave" Telegram'
+  - site:instagram.com "YuliaWave"
+  - site:t.me "YuliaWave"
+  - '"YuliaWave" официальный сайт'
+  resolution_notes: 'searched 1 candidate names; website checked: https://yuliawave.com/contact/'
+- brand: «Кинопоиск»
+  segment: E
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.kinopoisk.ru/
+  - https://hd.kinopoisk.ru/
+  - https://play.google.com/store/apps/details?id=ru.kinopoisk&hl=en-US
+  - https://apps.apple.com/ru/app/%D0%BA%D0%B8%D0%BD%D0%BE%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B-%D0%B8-%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/id477718890
+  search_queries_used:
+  - site:instagram.com "«Кинопоиск»"
+  - site:t.me "«Кинопоиск»"
+  - '"«Кинопоиск»" официальный сайт'
+  resolution_notes: ''
+- brand: «Самокат»
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.microsoft.com/en-us
+  - https://www.office.com/
+  - https://en.wikipedia.org/wiki/Microsoft
+  - https://account.microsoft.com/account
+  - https://www.reddit.com/r/Piracy/comments/zrpxgr/is_yts_movies_still_working_what_is_the_real_link/
+  - https://www.reddit.com/r/torrents/comments/1cyz9c4/i_cant_access_yts_anymore_what_is_wrong/
+  - https://www.reddit.com/r/torrents/comments/1ah8sr4/is_ytsmx_safe/
+  - https://www.reddit.com/r/torrents/comments/1bwg549/are_yts_movie_torrents_ok_in_my_situation/
+  - https://criteriumcuptwente.nl/hengelo/
+  - https://hwvdetubanters.nl/rondevandevijver/
+  - https://www.1twente.nl/artikel/5961295/opnieuw-acht-criteriums-in-viro-criterium-cup-twente-2026
+  - https://www.viro-group.com/nl/nieuws/viro-criterium-cup-2025
+  search_queries_used:
+  - site:instagram.com "«Самокат»"
+  - site:t.me "«Самокат»"
+  - '"«Самокат»" официальный сайт'
+  resolution_notes: ''
+- brand: «Сбер»
+  segment: E
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.reddit.com/r/TheCivilService/comments/1d703sy/met_office/
+  - https://www.reddit.com/r/homeassistant/comments/1ai1kst/met_office_integration_in_20242/
+  - https://www.reddit.com/r/AskUK/comments/8mhdjr/why_are_bbc_and_met_office_weather_forecasts_so/
+  - https://www.reddit.com/r/AskUK/comments/14e92xo/what_is_the_most_accurate_weather_app/
+  - https://support.google.com/youtube/answer/3227660?hl=en&co=GENIE.Platform%3DAndroid
+  - https://support.google.com/youtube/answer/3227660?hl=ar&co=GENIE.Platform%3DAndroid
+  - https://www.zhihu.com/question/1903231775980913051
+  - https://support.google.com/youtube/answer/7548152?hl=de-de&co=GENIE.Platform%3DDesktop
+  - https://www.gov.uk/foreign-travel-advice/greece
+  - https://www.gov.uk/foreign-travel-advice/greece/entry-requirements
+  - https://www.gov.uk/foreign-travel-advice/greece/safety-and-security
+  - https://www.gov.uk/foreign-travel-advice/greece/health
+  search_queries_used:
+  - site:instagram.com "«Сбер»"
+  - site:t.me "«Сбер»"
+  - '"«Сбер»" официальный сайт'
+  resolution_notes: ''
+- brand: «Технопарк»
+  segment: B
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://insanelygoodrecipes.com/air-fryer-broccoli/
+  - https://www.bbc.co.uk/food/recipes/air_fryer_broccoli_with_88291
+  - https://airfryandeat.com/air-fryer-roasted-broccoli/
+  - https://spicecravings.com/air-fryer-broccoli
+  - https://kundoluk.edu.gov.kg/
+  - https://kundoluk.edu.kg/account/login
+  - https://kundoluk.kg/
+  - https://mugalim.edu.gov.kg/ru/login
+  - https://studentaid.gov/h/apply-for-aid/fafsa
+  - https://studentaid.gov/articles/fafsa-student-steps/
+  - https://studentaid.gov/fsa-id/sign-in/landing
+  - https://studentaid.gov/articles/things-you-need-for-fafsa/
+  search_queries_used:
+  - site:instagram.com "«Технопарк»"
+  - site:t.me "«Технопарк»"
+  - '"«Технопарк»" официальный сайт'
+  resolution_notes: ''
+- brand: «Яндекс»
+  segment: E
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://machbbs.com/erji/770011
+  - https://answers.microsoft.com/en-us/windowslive/forum/livemail-email-lost/unable-to-delete-messages-in-the-junk-folder-in/0e31e84c-8d03-4b97-90ac-4f97d7ad24ad
+  - https://machbbs.com/erji/431130
+  - https://www.machbbs.com/feng/65889?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc3NDI1NDExMiwiaWF0IjoxNzc0MjQ2OTEyLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzMmZtOGFraXRhbjRlazdycWMwMGJvczciLCJuYmYiOjE3NzQyNDY5MTIsInRzIjoxNzc0MjQ2OTEyMjIzNDE4fQ.W9Z9ZuvUL-vM8eipplEzOroXeVJv56a8KBgqNVmsX9I
+  search_queries_used:
+  - site:instagram.com "«Яндекс»"
+  - site:t.me "«Яндекс»"
+  - '"«Яндекс»" официальный сайт'
+  resolution_notes: ''
+- brand: Авиасейлс
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.aviasales.ru/
+  - https://www.aviasales.by/
+  - https://www.aviasales.com/
+  - https://airsales.ru/
+  search_queries_used:
+  - site:instagram.com "Авиасейлс"
+  - site:t.me "Авиасейлс"
+  - '"Авиасейлс" официальный сайт'
+  resolution_notes: ''
+- brand: Авито
+  segment: E
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.reddit.com/r/rusAskReddit/comments/1d8kf59/%D0%BA%D0%B0%D0%BA_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%83_%D0%BF%D1%80%D0%B8_%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B0%D0%B2%D0%B8%D1%82%D0%BE/
+  - https://www.reddit.com/r/AITAH/
+  - https://www.reddit.com/r/russian/comments/1bjxu3o/what_the_hell_is_%D1%87%D0%B5%D0%BA%D0%BD%D0%B8_%D0%BC%D0%B0%D1%82%D1%8C/
+  - https://www.reddit.com/r/FitGirlRepack/comments/17duca7/which_one_is_it/
+  search_queries_used:
+  - site:instagram.com "Авито"
+  - site:t.me "Авито"
+  - '"Авито" официальный сайт'
+  resolution_notes: ''
+- brand: Бани Малевича
+  segment: B
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://forum.lowyat.net/topic/5538738/all
+  - https://forum.lowyat.net/topic/5556449/all
+  - https://forum.lowyat.net/topic/5524806/all
+  - https://forum.lowyat.net/topic/5556445/all
+  - https://www.autotrader.co.uk/cars/used
+  - https://www.autotrader.co.uk/
+  - https://www.autotrader.co.uk/cars/uk/leicester
+  - https://www.autotrader.co.uk/cars/uk/uk
+  - https://www.housepricecrash.co.uk/forum/index.php?/topic/253236-homes-for-sale-at-five-year-high-says-zoopla-will-house-prices-fall/
+  - https://www.housepricecrash.co.uk/forum/index.php?/topic/256461-zoopla-its-a-buyers-market-after-a-deluge-of-homes-listed-for-sale-in-recent-weeks/
+  - https://www.housepricecrash.co.uk/forum/index.php?/topic/148725-zoopla-current-home-values/
+  - https://www.housepricecrash.co.uk/forum/index.php?/topic/251263-doom-and-gloom-from-zoopla-house-prices-to-fall-2-in-2024/
+  search_queries_used:
+  - site:instagram.com "Бани Малевича"
+  - site:t.me "Бани Малевича"
+  - '"Бани Малевича" официальный сайт'
+  resolution_notes: ''
+- brand: Бар «Ровесник»
+  segment: D
+  nsx_fit: 3
+  website: ''
+  status: resolved_person_route
+  route_confidence: high
+  candidate_names:
+  - Александр Мартынов
+  - HR / studio contact
+  person_resolutions:
+  - person_name: Александр Мартынов
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80
+    - https://www.astromeridian.ru/imya/aleksandr.html
+    - https://famiry.ru/database/names/aleksandr
+    - https://www.calend.ru/names/0/0/5/
+  - person_name: HR / studio contact
+    instagram_urls: []
+    telegram_urls: []
+    emails: []
+    proof_urls:
+    - https://www.zhihu.com/question/12490593786
+    - https://www.zhihu.com/question/29788274
+    - https://www.zhihu.com/question/474514219
+    - https://www.zhihu.com/question/2012922458819224399
+  resolved_instagrams:
+  - https://www.instagram.com/rovesnik.bar/
+  resolved_telegrams:
+  - https://t.me/HRp2pstudio
+  - https://t.me/rovesnikbar
+  resolved_emails: []
+  resolved_contact_urls:
+  - https://theblueprint.ru/career/brand/bar-rovesnik
+  - https://theblueprint.ru/career/38754
+  - https://theblueprint.ru/career/38753
+  - https://t.me/rovesnikbar
+  - https://www.instagram.com/rovesnik.bar/
+  - https://moskvichmag.ru/gorod/v-malom-gnedzdnikovskom-otkroetsya-bar-rovesnik-pryamo-u-ministerstva-kultury/
+  site_named_contacts: []
+  proof_urls:
+  - https://moskvichmag.ru/gorod/v-malom-gnedzdnikovskom-otkroetsya-bar-rovesnik-pryamo-u-ministerstva-kultury/
+  - https://theblueprint.ru/career/38754
+  - https://theblueprint.ru/career/brand/bar-rovesnik
+  - https://t.me/rovesnikbar
+  - https://www.instagram.com/rovesnik.bar/
+  - https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80
+  - https://www.astromeridian.ru/imya/aleksandr.html
+  - https://famiry.ru/database/names/aleksandr
+  - https://www.calend.ru/names/0/0/5/
+  - https://www.zhihu.com/question/12490593786
+  - https://www.zhihu.com/question/29788274
+  - https://www.zhihu.com/question/474514219
+  search_queries_used:
+  - site:instagram.com "Александр Мартынов" "Бар «Ровесник»"
+  - site:t.me "Александр Мартынов" "Бар «Ровесник»"
+  - '"Александр Мартынов" "Бар «Ровесник»" Instagram'
+  - '"Александр Мартынов" "Бар «Ровесник»" Telegram'
+  - site:instagram.com "HR / studio contact" "Бар «Ровесник»"
+  - site:t.me "HR / studio contact" "Бар «Ровесник»"
+  - '"HR / studio contact" "Бар «Ровесник»" Instagram'
+  - '"HR / studio contact" "Бар «Ровесник»" Telegram'
+  - site:instagram.com "Бар «Ровесник»"
+  - site:t.me "Бар «Ровесник»"
+  - '"Бар «Ровесник»" официальный сайт'
+  resolution_notes: searched 2 candidate names
+- brand: Золотое Яблоко
+  segment: C
+  nsx_fit: 3
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://goldapple.ru/
+  - https://goldapple.ru/offers
+  - https://goldapple.ru/novinki
+  - https://goldapple.ru/stockists
+  - https://web2.0calc.com/
+  - https://web2.0calc.com/formulary/
+  - https://web2.0calc.com/help/
+  - https://web2.0calc.com/formulary/math
+  search_queries_used:
+  - site:instagram.com "Золотое Яблоко"
+  - site:t.me "Золотое Яблоко"
+  - '"Золотое Яблоко" официальный сайт'
+  resolution_notes: ''
+- brand: Книжный сервис «Кион Строки»
+  segment: E
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://www.ibm.com/support/pages/default-sst-profiles-default-passwords-are-expired-after-ptf-upgrade
+  - https://github.com/sstsimulator/sst-downloads/releases
+  - https://www.eham.net/reviews/view-product?id=102
+  - https://www.ibm.com/docs/en/i/7.1.0?topic=procedure-substring-built-in-function
+  - https://www.routard.com/fr/guide/asie/japon
+  - https://www.routard.com/fr/guide/top/asie/japon
+  - https://www.routard.com/fr/guide/a/carte-d-identite/asie/japon
+  - https://www.routard.com/voyage/voyage-japon
+  - https://www.pornhub.com/
+  - https://www.pornhub.xxx/
+  - https://pornhub000.com/
+  - https://pornhub.run/categories/
+  search_queries_used:
+  - site:instagram.com "Книжный сервис «Кион Строки»"
+  - site:t.me "Книжный сервис «Кион Строки»"
+  - '"Книжный сервис «Кион Строки»" официальный сайт'
+  resolution_notes: ''
+- brand: Магнит AdTech
+  segment: E
+  nsx_fit: 2
+  website: ''
+  status: unresolved
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails: []
+  resolved_contact_urls: []
+  site_named_contacts: []
+  proof_urls:
+  - https://magnit.ru/
+  - https://www.magnit.com/ru/
+  - https://yandex.ru/maps/10745/orehovo-zuevo/chain/magnit/35471869327/
+  - https://shop-magnit.ru/adresa/
+  search_queries_used:
+  - site:instagram.com "Магнит AdTech"
+  - site:t.me "Магнит AdTech"
+  - '"Магнит AdTech" официальный сайт'
+  resolution_notes: ''
+- brand: Т-Банк
+  segment: B
+  nsx_fit: 3
+  website: https://tbank.ru
+  status: partial
+  route_confidence: low
+  candidate_names: []
+  person_resolutions: []
+  resolved_instagrams: []
+  resolved_telegrams: []
+  resolved_emails:
+  - credit@tbank.ru
+  - deposit@tbank.ru
+  - travel@tbank.ru
+  - invest@tbank.ru
+  - invest.responses@tbank.ru
+  - business.welcome@tbank.ru
+  - advert@tbank.ru
+  - info-partners@tbank.ru
+  resolved_contact_urls:
+  - https://tbank.ru
+  - https://tbank.ru/contacts
+  - https://tbank.ru/about
+  - https://tbank.ru/partners
+  - https://www.tbank.ru
+  - https://bankiros.ru/bank/tcs
+  site_named_contacts: []
+  proof_urls:
+  - https://www.tbank.ru/
+  - https://www.tinkoff.ru/auth/login/
+  - https://ru.wikipedia.org/wiki/%D0%A2-%D0%91%D0%B0%D0%BD%D0%BA
+  - https://bankiros.ru/bank/tcs
+  - https://russian.stackexchange.com/questions/1552/why-does-italic-%D1%82-look-like-m
+  - https://www.zhihu.com/question/286452467
+  - https://www.juraforum.de/forum/t/generalvollmacht.759233/
+  - https://www.zhihu.com/question/413933899
+  - https://tbank.ru
+  - https://tbank.ru/contacts
+  - https://tbank.ru/about
+  - https://tbank.ru/partners
+  search_queries_used:
+  - site:instagram.com "Т-Банк"
+  - site:t.me "Т-Банк"
+  - '"Т-Банк" официальный сайт'
+  resolution_notes: 'website checked: https://tbank.ru'

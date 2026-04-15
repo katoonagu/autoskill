@@ -8,6 +8,8 @@ from typing import Any
 
 import yaml
 
+from .text_utils import load_yaml_utf8
+
 SEGMENT_WEIGHTS = {
     "C": 35,
     "D": 33,
@@ -847,9 +849,7 @@ def build_theblueprint_people_targets_payload(shortlist_payload: dict, *, top_n:
 
 
 def load_yaml_payload(path: Path) -> dict:
-    if not path.exists():
-        return {}
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return load_yaml_utf8(path)
 
 
 def write_people_targets_yaml(path: Path, payload: dict) -> None:

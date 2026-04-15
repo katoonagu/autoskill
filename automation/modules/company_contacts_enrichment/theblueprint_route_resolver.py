@@ -13,6 +13,7 @@ import yaml
 
 from .sources.corporate_site import crawl_corporate_site
 from .sources.people_search import search_decision_makers
+from .text_utils import load_yaml_utf8
 from .web_research import (
     domain_from_url,
     extract_emails_from_text,
@@ -68,6 +69,16 @@ def _unique_strings(values: list[Any]) -> list[str]:
     return result
 
 
+def _brand_tokens(values: list[str]) -> list[str]:
+    tokens: list[str] = []
+    for value in values:
+        normalized = re.sub(r"[^0-9a-zа-яё]+", " ", str(value or "").casefold())
+        for token in normalized.split():
+            if len(token) >= 2:
+                tokens.append(token)
+    return _unique_strings(tokens)
+
+
 def _extract_instagrams(text: str) -> list[str]:
     return _unique_strings(match.group(0).rstrip("/,.;)") for match in INSTAGRAM_URL_RE.finditer(text or ""))
 
@@ -92,6 +103,19 @@ def _extract_person_names_from_company(company: dict) -> list[str]:
         if len(value) >= 4:
             cleaned.append(value)
     return _unique_strings(cleaned)
+
+
+def _is_trusted_website(candidate: str, aliases: list[str]) -> bool:
+    domain = domain_from_url(candidate)
+    if not domain:
+        return False
+    if any(noise in domain for noise in NOISE_DOMAINS):
+        return False
+    haystack = f"{domain} {urllib.parse.urlparse(candidate).path}".casefold()
+    tokens = _brand_tokens(aliases)
+    if not tokens:
+        return False
+    return any(token in haystack for token in tokens)
 
 
 def _preferred_website(company: dict) -> str:
@@ -176,7 +200,7 @@ def _search_brand_socials(company_name: str, aliases: list[str]) -> dict:
             brand_telegrams.extend(extract_telegrams_from_text(f"{url} {snippet}"))
             for candidate in _extract_urls(f"{url} {snippet}"):
                 domain = domain_from_url(candidate)
-                if domain and not any(host in domain for host in SOCIAL_HOSTS) and not any(noise in domain for noise in NOISE_DOMAINS):
+                if domain and not any(host in domain for host in SOCIAL_HOSTS) and _is_trusted_website(candidate, aliases):
                     websites.append(candidate)
 
     return {
@@ -188,21 +212,72 @@ def _search_brand_socials(company_name: str, aliases: list[str]) -> dict:
     }
 
 
-def resolve_company_routes(company: dict) -> dict:
+def _seed_brand_map(seed_payload: dict | None) -> dict[str, dict]:
+    seed_payload = seed_payload or {}
+    result: dict[str, dict] = {}
+    for item in list(seed_payload.get("targets") or []):
+        if not isinstance(item, dict):
+            continue
+        key = _normalize_brand_key(item.get("brand") or "")
+        if key:
+            result[key] = item
+    return result
+
+
+def resolve_company_routes(company: dict, *, seed_target: dict | None = None) -> dict:
     company_name = str(company.get("name") or "").strip()
     aliases = _unique_strings([company_name, *list(company.get("aliases") or [])])
     website = _preferred_website(company)
     candidate_names = _extract_person_names_from_company(company)
+    seed_target = seed_target or {}
+
+    for person in list(seed_target.get("person_candidates") or []):
+        if isinstance(person, dict) and person.get("name"):
+            candidate_names.append(person.get("name"))
+
+    seed_instagrams = []
+    seed_telegrams = []
+    seed_emails = []
+    seed_brand_instagrams = []
+    seed_brand_telegrams = []
+    seed_proof_urls = []
+    seed_contact_urls = []
+
+    for person in list(seed_target.get("person_candidates") or []):
+        if not isinstance(person, dict):
+            continue
+        seed_instagrams.extend(_listify(person.get("instagram_url")))
+        seed_telegrams.extend(_listify(person.get("telegram_url")))
+        seed_emails.extend(_listify(person.get("email")))
+        seed_proof_urls.extend(_listify(person.get("proof_urls")))
+    for route in list(seed_target.get("public_routes") or []):
+        if not isinstance(route, dict):
+            continue
+        url = str(route.get("url") or "")
+        seed_proof_urls.append(url)
+        if "instagram.com" in url:
+            seed_brand_instagrams.append(url)
+        elif "t.me/" in url or "telegram.me/" in url:
+            seed_brand_telegrams.append(url)
+        elif _is_trusted_website(url, aliases):
+            seed_contact_urls.append(url)
+            if not website:
+                website = url
+
+    seed_contact_urls.extend(_listify(seed_target.get("proof_urls")))
+    for url in list(seed_contact_urls):
+        if not website and _is_trusted_website(str(url), aliases):
+            website = str(url)
 
     people_result = search_decision_makers(company_name, aliases=aliases, use_firecrawl=False)
     candidate_names.extend(person.full_name for person in people_result.decision_makers if person.full_name)
     candidate_names = _unique_strings(candidate_names)
 
     person_resolutions: list[dict] = []
-    person_instagrams: list[str] = []
-    person_telegrams: list[str] = []
-    person_emails: list[str] = []
-    proof_urls: list[str] = []
+    person_instagrams: list[str] = list(seed_instagrams)
+    person_telegrams: list[str] = list(seed_telegrams)
+    person_emails: list[str] = list(seed_emails)
+    proof_urls: list[str] = list(seed_proof_urls)
     search_queries_used: list[str] = []
 
     for person_name in candidate_names[:4]:
@@ -228,8 +303,7 @@ def resolve_company_routes(company: dict) -> dict:
 
     if not website:
         for candidate in brand_socials["website_candidates"]:
-            domain = domain_from_url(candidate)
-            if domain and not any(noise in domain for noise in NOISE_DOMAINS):
+            if _is_trusted_website(candidate, aliases):
                 website = candidate
                 break
 
@@ -243,8 +317,8 @@ def resolve_company_routes(company: dict) -> dict:
         _unique_strings(person_instagrams),
         _unique_strings([*person_telegrams, *site_telegrams]),
         all_named_emails,
-        brand_socials["brand_instagrams"],
-        brand_socials["brand_telegrams"],
+        _unique_strings([*seed_brand_instagrams, *brand_socials["brand_instagrams"]]),
+        _unique_strings([*seed_brand_telegrams, *brand_socials["brand_telegrams"]]),
     )
 
     resolution_notes = []
@@ -266,10 +340,10 @@ def resolve_company_routes(company: dict) -> dict:
         "route_confidence": confidence,
         "candidate_names": candidate_names[:4],
         "person_resolutions": person_resolutions,
-        "resolved_instagrams": _unique_strings([*person_instagrams, *brand_socials["brand_instagrams"]]),
-        "resolved_telegrams": _unique_strings([*person_telegrams, *brand_socials["brand_telegrams"], *site_telegrams]),
+        "resolved_instagrams": _unique_strings([*person_instagrams, *seed_brand_instagrams, *brand_socials["brand_instagrams"]]),
+        "resolved_telegrams": _unique_strings([*person_telegrams, *seed_brand_telegrams, *brand_socials["brand_telegrams"], *site_telegrams]),
         "resolved_emails": all_named_emails[:8],
-        "resolved_contact_urls": _unique_strings(site_contact_urls + brand_socials["website_candidates"])[:10],
+        "resolved_contact_urls": _unique_strings([*seed_contact_urls, *site_contact_urls, *brand_socials["website_candidates"]])[:10],
         "site_named_contacts": [
             {
                 "full_name": person.full_name,
@@ -285,8 +359,15 @@ def resolve_company_routes(company: dict) -> dict:
     }
 
 
-def build_theblueprint_route_resolutions(shortlist_payload: dict, *, max_workers: int = 6, unresolved_only: bool = False) -> dict:
+def build_theblueprint_route_resolutions(
+    shortlist_payload: dict,
+    *,
+    seed_payload: dict | None = None,
+    max_workers: int = 6,
+    unresolved_only: bool = False,
+) -> dict:
     companies = list(shortlist_payload.get("companies") or [])
+    seed_brand_map = _seed_brand_map(seed_payload)
     if unresolved_only:
         companies = [
             company for company in companies
@@ -297,7 +378,14 @@ def build_theblueprint_route_resolutions(shortlist_payload: dict, *, max_workers
 
     resolutions: list[dict] = []
     with ThreadPoolExecutor(max_workers=max(max_workers, 1)) as executor:
-        futures = {executor.submit(resolve_company_routes, company): company for company in companies}
+        futures = {
+            executor.submit(
+                resolve_company_routes,
+                company,
+                seed_target=seed_brand_map.get(_normalize_brand_key(company.get("name") or "")),
+            ): company
+            for company in companies
+        }
         for future in as_completed(futures):
             try:
                 resolutions.append(future.result())
@@ -337,9 +425,7 @@ def build_theblueprint_route_resolutions(shortlist_payload: dict, *, max_workers
 
 
 def load_yaml_payload(path: Path) -> dict:
-    if not path.exists():
-        return {}
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return load_yaml_utf8(path)
 
 
 def write_route_resolutions_yaml(path: Path, payload: dict) -> None:
