@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoskill"
+version = "0.1.0"
+description = "Local outreach automation and company research workflows"
+requires-python = ">=3.9"
+dependencies = [
+  "playwright>=1.58,<2",
+  "PyYAML>=6.0.3,<7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<9",
+  "ruff>=0.11,<0.12",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["automation*"]
+exclude = [
+  "archive*",
+  "artifacts*",
+  "runtime*",
+  "inputs*",
+  "output*",
+  "knowledge*",
+  "brand_research_farida_shirinova*",
+  "tests*",
+]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 120
+extend-exclude = [
+  "archive",
+  "artifacts",
+  "runtime",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*.py" = ["E402"]
+"scripts/**/*.py" = ["E402"]
+"automation/modules/instagram_brand_search/runners/run.py" = ["E402"]
+"automation/modules/subagents/runners/run_probe.py" = ["E402"]
