@@ -8,6 +8,7 @@ Top-level entrypoints are intentionally limited to the main operational commands
 - `run_theblueprint_career_parser.py`
 - `build_theblueprint_people_targets.py`
 - `build_theblueprint_master_report.py`
+- `run_agent_canvas.py`
 
 Secondary scripts are grouped by purpose:
 
