@@ -107,6 +107,123 @@ async def _move_mouse_to_locator(page, locator) -> None:
     await page.mouse.move(target_x, target_y, steps=10)
 
 
+async def _first_visible_locator(locator):
+    count = await locator.count()
+    for index in range(count):
+        candidate = locator.nth(index)
+        try:
+            if await candidate.is_visible():
+                return candidate
+        except Exception:
+            continue
+    return None
+
+
+async def _viewport_size(page) -> tuple[float, float]:
+    width, height = await page.evaluate("() => [window.innerWidth, window.innerHeight]")
+    return float(width), float(height)
+
+
+async def _right_side_visible_locator(page, selector: str, *, min_right_ratio: float = 0.55):
+    viewport_width, _ = await _viewport_size(page)
+    locator = page.locator(selector)
+    count = await locator.count()
+    best = None
+    best_y = -1.0
+    for index in range(count):
+        candidate = locator.nth(index)
+        try:
+            if not await candidate.is_visible():
+                continue
+            box = await candidate.bounding_box()
+        except Exception:
+            continue
+        if not box:
+            continue
+        if float(box["x"]) < viewport_width * min_right_ratio:
+            continue
+        if float(box["y"]) >= best_y:
+            best = candidate
+            best_y = float(box["y"])
+    return best
+
+
+async def _find_profile_message_button(page):
+    pattern = re.compile(r"^\s*Message\s*$", re.I)
+    selectors = [
+        "header button:visible, header div[role='button']:visible, header a:visible",
+        "main header button:visible, main header div[role='button']:visible, main header a:visible",
+        "main button:visible, main div[role='button']:visible, main a:visible",
+    ]
+    for selector in selectors:
+        candidate = await _first_visible_locator(page.locator(selector).filter(has_text=pattern))
+        if candidate is not None:
+            return candidate
+    raise RuntimeError("Visible Instagram profile Message button not found")
+
+
+def _exact_popup_composer_selector() -> str:
+    return (
+        "div[role='textbox'][contenteditable='true'][aria-label='Message'][aria-placeholder='Message...'][aria-describedby='Message'], "
+        "div[role='textbox'][contenteditable='true'][aria-label='Сообщение'][aria-placeholder='Сообщение...'][aria-describedby='Сообщение']"
+    )
+
+
+async def _wait_for_popup_composer(page, timeout_ms: int = 15000):
+    deadline = time.monotonic() + (timeout_ms / 1000)
+    exact_selector = _exact_popup_composer_selector()
+    fallback_selector = _composer_selector()
+    while time.monotonic() < deadline:
+        await _dismiss_common_popups(page)
+        composer = await _right_side_visible_locator(page, exact_selector)
+        if composer is None:
+            composer = await _right_side_visible_locator(page, fallback_selector)
+        if composer is not None:
+            return composer
+        await page.wait_for_timeout(750)
+    raise RuntimeError("Instagram popup composer did not appear on the right side")
+
+
+async def _wait_for_popup_send_button(page, timeout_ms: int = 10000):
+    deadline = time.monotonic() + (timeout_ms / 1000)
+    pattern = re.compile(r"^\s*Send\s*$", re.I)
+    while time.monotonic() < deadline:
+        locator = page.locator("button:visible, div[role='button']:visible").filter(has_text=pattern)
+        candidate = await _right_side_visible_locator(page, "button:visible, div[role='button']:visible")
+        if candidate is not None:
+            try:
+                text = str(await candidate.inner_text()).strip()
+            except Exception:
+                text = ""
+            if pattern.match(text):
+                return candidate
+        visible = await _first_visible_locator(locator)
+        if visible is not None:
+            return visible
+        await page.wait_for_timeout(500)
+    return None
+
+
+async def _wait_for_sent_text(page, message: str, timeout_ms: int = 10000) -> bool:
+    deadline = time.monotonic() + (timeout_ms / 1000)
+    viewport_width, _ = await _viewport_size(page)
+    while time.monotonic() < deadline:
+        locator = page.get_by_text(message, exact=True)
+        count = await locator.count()
+        for index in range(count):
+            candidate = locator.nth(index)
+            try:
+                if not await candidate.is_visible():
+                    continue
+                box = await candidate.bounding_box()
+            except Exception:
+                continue
+            if box and float(box["x"]) >= viewport_width * 0.55:
+                return True
+        await page.wait_for_timeout(500)
+    return False
+
+
 def build_test_dm_message() -> str:
     return (
         "Здравствуйте! Я представляю Farida Shirinova. "
@@ -135,7 +252,10 @@ async def _wait_for_dm_composer(page, timeout_ms: int = 30000) -> None:
         "div[role='textbox'][contenteditable='true'][aria-label='Сообщение'], "
         "div[role='textbox'][contenteditable='true'][aria-describedby='Message'], "
         "div[role='textbox'][contenteditable='true'][aria-describedby='Сообщение'], "
-        "div[role='textbox'][contenteditable='true']"
+        "div[role='textbox'][contenteditable='true'], "
+        "textarea[placeholder='Message...'], "
+        "textarea[aria-label='Message'], "
+        "textarea"
     )
     deadline = time.monotonic() + (timeout_ms / 1000)
     while time.monotonic() < deadline:
@@ -145,10 +265,45 @@ async def _wait_for_dm_composer(page, timeout_ms: int = 30000) -> None:
     raise RuntimeError("Instagram DM composer did not appear after opening the thread")
 
 
+def _composer_selector() -> str:
+    return (
+        "div[role='textbox'][contenteditable='true'][aria-placeholder='Message...'], "
+        "div[role='textbox'][contenteditable='true'][aria-placeholder='РЎРѕРѕР±С‰РµРЅРёРµ...'], "
+        "div[role='textbox'][contenteditable='true'][aria-label='Message'], "
+        "div[role='textbox'][contenteditable='true'][aria-label='РЎРѕРѕР±С‰РµРЅРёРµ'], "
+        "div[role='textbox'][contenteditable='true'][aria-describedby='Message'], "
+        "div[role='textbox'][contenteditable='true'][aria-describedby='РЎРѕРѕР±С‰РµРЅРёРµ'], "
+        "div[role='textbox'][contenteditable='true'], "
+        "textarea[placeholder='Message...'], "
+        "textarea[aria-label='Message'], "
+        "textarea"
+    )
+
+
+def _composer_locator(page):
+    return page.locator(_composer_selector()).first
+
+
 async def _focus_dm_composer(page) -> None:
     focused = await page.evaluate(
         """
         () => {
+          const textarea = Array.from(document.querySelectorAll("textarea")).find((el) => {
+            const label = (el.getAttribute('aria-label') || '').toLowerCase();
+            const placeholder = (el.getAttribute('placeholder') || '').toLowerCase();
+            return (
+              label.includes('message') ||
+              label.includes('сообщение') ||
+              placeholder.includes('message') ||
+              placeholder.includes('сообщение')
+            );
+          }) || document.querySelector("textarea");
+          if (textarea) {
+            textarea.focus();
+            textarea.selectionStart = textarea.value.length;
+            textarea.selectionEnd = textarea.value.length;
+            return true;
+          }
           const candidates = Array.from(document.querySelectorAll("div[role='textbox'][contenteditable='true']"));
           const target = candidates.find((el) => {
             const label = (el.getAttribute('aria-label') || '').toLowerCase();
@@ -185,6 +340,16 @@ async def _extract_thread_snapshot(page) -> dict:
     return await page.evaluate(
         """
         () => {
+          const textarea = Array.from(document.querySelectorAll("textarea")).find((el) => {
+            const label = (el.getAttribute('aria-label') || '').toLowerCase();
+            const placeholder = (el.getAttribute('placeholder') || '').toLowerCase();
+            return (
+              label.includes('message') ||
+              label.includes('сообщение') ||
+              placeholder.includes('message') ||
+              placeholder.includes('сообщение')
+            );
+          }) || document.querySelector("textarea");
           const composer = Array.from(document.querySelectorAll("div[role='textbox'][contenteditable='true']")).find((el) => {
             const label = (el.getAttribute('aria-label') || '').toLowerCase();
             const placeholder = (el.getAttribute('aria-placeholder') || '').toLowerCase();
@@ -198,8 +363,9 @@ async def _extract_thread_snapshot(page) -> dict:
               described.includes('сообщение')
             );
           });
-          let root = composer;
-          let best = composer;
+          const base = composer || textarea;
+          let root = base;
+          let best = base;
           while (root && root.parentElement) {
             root = root.parentElement;
             const rect = root.getBoundingClientRect();
@@ -208,8 +374,8 @@ async def _extract_thread_snapshot(page) -> dict:
               break;
             }
           }
-          const text = (best?.innerText || composer?.innerText || "").trim();
-          const visibleTextboxes = Array.from(document.querySelectorAll("div[role='textbox'][contenteditable='true']")).length;
+          const text = (best?.innerText || composer?.innerText || textarea?.value || "").trim();
+          const visibleTextboxes = Array.from(document.querySelectorAll("div[role='textbox'][contenteditable='true'], textarea")).length;
           return { text, visibleTextboxes };
         }
         """
@@ -380,6 +546,82 @@ async def _send_in_open_thread(page, *, message: str, logger, after_shot: Path |
         await capture_screenshot(page, after_shot, logger)
 
 
+async def _send_in_open_thread_popup(page, *, message: str, logger, after_shot: Path | None = None) -> None:
+    logger.info("Waiting for Instagram DM composer")
+    await _wait_for_dm_composer(page, timeout_ms=30000)
+    await _focus_dm_composer(page)
+    composer = _composer_locator(page)
+    await _move_mouse_to_locator(page, composer)
+    await _human_pause(page, 150, 120)
+    await composer.click(timeout=10000)
+    await _human_pause(page, 180, 120)
+    tag_name = await composer.evaluate("(node) => node.tagName.toLowerCase()")
+    if tag_name == "textarea":
+        await composer.fill(message, timeout=10000)
+    else:
+        typing_delay_ms = 300 if _DM_SETTINGS is None else _DM_SETTINGS.typing_delay_ms
+        await page.keyboard.type(message, delay=typing_delay_ms)
+    await _human_pause(page, 280, 160)
+    send_button = page.get_by_role("button", name=re.compile(r"^(Send|РћС‚РїСЂР°РІРёС‚СЊ)$", re.I)).first
+    if await send_button.count() > 0:
+        await _move_mouse_to_locator(page, send_button)
+        await _human_pause(page, 140, 100)
+        await send_button.click(timeout=10000)
+    else:
+        await page.keyboard.press("Enter")
+    await _human_pause(page, 1400, 500)
+    if after_shot is not None:
+        await capture_screenshot(page, after_shot, logger)
+
+
+async def _open_profile_popup_thread(page, *, target_url: str, handle: str, logger, open_shot: Path | None = None) -> None:
+    await page.goto(target_url, wait_until="domcontentloaded", timeout=60000)
+    try:
+        await page.wait_for_load_state("networkidle", timeout=10000)
+    except PlaywrightTimeoutError:
+        logger.info("Instagram profile did not reach networkidle")
+    await _dismiss_common_popups(page)
+    logger.info("Opening Instagram profile popup thread for @%s", handle or target_url)
+    message_button = await _find_profile_message_button(page)
+    await _human_pause(page, 350, 180)
+    await _move_mouse_to_locator(page, message_button)
+    await _human_pause(page, 180, 120)
+    await message_button.click(timeout=20000)
+    await _human_pause(page, 2800, 900)
+    await _wait_for_popup_composer(page, timeout_ms=15000)
+    if open_shot is not None:
+        await capture_screenshot(page, open_shot, logger)
+    await _dismiss_common_popups(page)
+
+
+async def _send_via_profile_popup(page, *, message: str, logger, after_shot: Path | None = None) -> None:
+    logger.info("Waiting for Instagram right-side popup composer")
+    composer = await _wait_for_popup_composer(page, timeout_ms=15000)
+    await _move_mouse_to_locator(page, composer)
+    await _human_pause(page, 150, 120)
+    await composer.click(timeout=10000)
+    await _human_pause(page, 180, 120)
+    tag_name = await composer.evaluate("(node) => node.tagName.toLowerCase()")
+    if tag_name == "textarea":
+        await composer.fill(message, timeout=10000)
+    else:
+        typing_delay_ms = 300 if _DM_SETTINGS is None else _DM_SETTINGS.typing_delay_ms
+        await page.keyboard.type(message, delay=typing_delay_ms)
+    await _human_pause(page, 280, 160)
+    send_button = await _wait_for_popup_send_button(page, timeout_ms=10000)
+    if send_button is not None:
+        await _move_mouse_to_locator(page, send_button)
+        await _human_pause(page, 140, 100)
+        await send_button.click(timeout=10000)
+    else:
+        await page.keyboard.press("Enter")
+    await _human_pause(page, 1400, 500)
+    if not await _wait_for_sent_text(page, message, timeout_ms=10000):
+        raise RuntimeError("Instagram popup send was not confirmed in the thread")
+    if after_shot is not None:
+        await capture_screenshot(page, after_shot, logger)
+
+
 def _record_send(project_root: Path, *, handle: str, target_url: str, profile_no: str, message: str, artifacts) -> dict:
     payload = {
         "target_url": target_url,
@@ -417,14 +659,14 @@ async def send_instagram_dm_message(
     )
     try:
         await capture_screenshot(page, artifacts.screenshots_dir / "before_send.png", logger)
-        await _open_dm_thread(
+        await _open_profile_popup_thread(
             page,
             target_url=normalized_url,
             handle=handle,
             logger=logger,
             open_shot=artifacts.screenshots_dir / "after_open_thread.png",
         )
-        await _send_in_open_thread(
+        await _send_via_profile_popup(
             page,
             message=message,
             logger=logger,
@@ -559,8 +801,8 @@ async def run_instagram_dm_cycle(
                 except PlaywrightTimeoutError:
                     logger.info("Instagram profile did not reach networkidle")
                 await capture_screenshot(page, before_shot, logger)
-                await _open_dm_thread(page, target_url=target_url, handle=handle, logger=logger, open_shot=after_open_shot)
-                await _send_in_open_thread(page, message=default_message, logger=logger, after_shot=after_send_shot)
+                await _open_profile_popup_thread(page, target_url=target_url, handle=handle, logger=logger, open_shot=after_open_shot)
+                await _send_via_profile_popup(page, message=default_message, logger=logger, after_shot=after_send_shot)
                 payload = {
                     "target_url": target_url,
                     "handle": handle,
